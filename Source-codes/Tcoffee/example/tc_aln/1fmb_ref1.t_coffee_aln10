@@ -1,0 +1,25 @@
+
+SAGA FORMAT
+alignement  1fmb_ref1.t_coffee_aln10 nseq=4 len=105
+T_COFFEE ALIGNMENT
+CPU TIME:4460
+
+
+
+1fmb      vtynlekrpttivlindtplnvlldtgadtsvlttahynrlkyrgrkyqg
+7upjB     pqfslwkrpvvtayiegqpvevlldtgaddsivagiel------gnnysp
+pol_sivcz pqitlwqrplipvkvegqlcealldtgaddtvieriql------qglwkp
+POL_SIVMK pqfslwrrpvvtahiegqpvevlldtgaddsivtgiel------gphytp
+
+1fmb      tgiggvggnvetfstp-vtikkkgrhiktrmlvadipvtilgrdilqdlg
+7upjB     kivggiggfintleyknveievlnkkvratimtgdtpinifgrniltalg
+pol_sivcz kmiggiggfikvkqfdnvhieiegrkvvgtvlvgptpvniigrniltqlg
+POL_SIVMK kivggiggfintkeyknveievlgkrikrtimtgdtpinifgrnlltalg
+
+1fmb      aklvl
+7upjB     mslnl
+pol_sivcz ctlv-
+POL_SIVMK mslnl
+
+
+

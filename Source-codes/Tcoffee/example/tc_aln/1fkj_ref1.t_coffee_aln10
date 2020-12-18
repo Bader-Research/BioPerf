@@ -1,0 +1,28 @@
+
+SAGA FORMAT
+alignement  1fkj_ref1.t_coffee_aln10 nseq=5 len=115
+T_COFFEE ALIGNMENT
+CPU TIME:7360
+
+
+
+fkba_ecoli glvyqvveag-kgeapkdsdtvvvnykgtlid-gkefdnsytrg------
+fkb2_yeast ikrip-vedc-lika-mpgdkvkvhytgsllesgtvfdssysrg------
+fkbb_ecoli glqfrvinqg-egaipartdrvrvhytgklid-gtvfdssvarg------
+fkb3_bovin ----svlkkgdktnfpkkgdvvhcwytgtlqd-gtvfdtniqtsskkkkn
+mip_chltr  -lqyrvvkeg-tgrvlsgkptallhytgsfid-gkvfdsseknk------
+
+fkba_ecoli -eplsfrld-g-vipgwteglknikkggkiklvippelaygkagvp-g-i
+fkb2_yeast -spiafelgvgrvikgwdqgvagmcvgekrklqipsslaygergvp-gvi
+fkbb_ecoli -epaefpvn-g-vipgwiealtlmpvgskweltipqelaygergag-asi
+fkb3_bovin akplsfkvgigkvirgwdealltmskgekarleiepewaygkkgqpdaki
+mip_chltr  -epillplt--kvipgfsqgmqgmkegevrvlyihpdlaygtag----ql
+
+fkba_ecoli ppnstlvfdvelldv
+fkb2_yeast ppsadlvfdvelvdv
+fkbb_ecoli ppfstlvfevellei
+fkb3_bovin ppnaklifevelvdi
+mip_chltr  ppnsllifevklie-
+
+
+

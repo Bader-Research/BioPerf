@@ -1,0 +1,23 @@
+#!/bin/bash 
+source $HOME/.bioperf
+if [ -z $SIMDIR ]; then       
+echo $'\n'
+echo It appears that you have not installed sim-outorder executable. 
+echo Download and install the simplesim package "http://www.simplescalar.com/agreement.php3?simplesim-3v0d.tgz" 
+echo sim-outorder is part of this package
+echo Set the environment variable SIMDIR to the directory containing sim-outorder
+echo $'\n'
+exit
+fi
+if [ -e $SIMDIR/sim-outorder ] 
+then  echo ""
+else
+echo $'\n'  
+echo There is no file named sim-outorder in $SIMDIR
+echo Please check for sim-outorder again in $SIMDIR
+echo $'\n'
+exit
+fi
+$SIMDIR/sim-outorder $BIOPERF/Alpha-Binaries/Clustalw/clustalw -infile=$BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA
+mv $BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA.aln $BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA.dnd $BIOPERF/Outputs/Clustalw/
+echo The output has been stored as 1a02J_1hjbA.dnd and 1a02J_1hjbA.aln in $BIOPERF/Outputs/Clustalw

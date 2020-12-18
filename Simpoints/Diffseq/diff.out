@@ -1,0 +1,64 @@
+Using these options:
+  Number of k-means iterations:       100
+  Low-dimensional projection:         15
+  Number of k-means clusters:         28
+  Early threshold:                    0
+  Random seed for k-means init:       3
+  Type of k-means initialization:     3
+  Random seed for projection:         1
+  File to load projected data:        ../output//diff.projData
+  File to save labels:                ../output//diff.labels
+  File to save weights:               ../output//diff.weights
+  File to save simpoints:             ../output//diff.simpoints
+  Input data files to process:
+
+Loaded data from projected data file '../output//diff.projData' (size: 1069x15)
+  Initialized k-means centers using furthest-first: 28 centers
+iteration 0
+count: 64	2	2	1	2	1	13	5	3	5	6	1	13	3	1	2	2	10	1	1	247	27	34	573	2	31	14	3	
+iteration 1
+count: 65	2	2	2	2	1	21	4	3	5	9	1	16	3	1	2	4	16	1	1	248	21	32	562	2	26	14	3	
+iteration 2
+count: 65	2	2	3	2	1	29	4	3	5	16	1	17	3	1	2	5	18	1	1	248	19	31	546	2	25	14	3	
+iteration 3
+count: 65	2	2	3	2	1	35	4	3	5	115	1	17	3	1	2	6	21	1	1	248	19	31	429	2	33	14	3	
+iteration 4
+count: 65	2	2	3	2	1	33	4	3	5	171	1	17	3	1	2	5	23	1	1	248	19	31	370	2	37	14	3	
+iteration 5
+count: 65	2	2	3	2	1	31	4	3	5	171	1	17	3	1	2	5	24	1	1	248	19	31	366	2	42	14	3	
+iteration 6
+count: 65	2	2	3	2	1	29	4	3	5	171	1	17	3	1	2	5	25	1	1	248	19	31	359	2	50	14	3	
+iteration 7
+count: 65	2	2	3	2	1	29	4	3	5	171	1	17	3	1	2	5	26	1	1	248	19	31	346	2	62	14	3	
+iteration 8
+count: 65	2	2	3	2	1	29	4	3	5	171	1	17	3	1	2	5	27	1	1	248	19	31	317	2	90	14	3	
+iteration 9
+count: 65	2	2	3	2	1	30	4	3	5	171	1	17	3	1	2	5	27	1	1	248	19	31	288	2	118	14	3	
+iteration 10
+count: 65	2	2	3	2	1	30	4	3	5	171	1	17	3	1	2	5	28	1	1	248	19	31	272	2	133	14	3	
+iteration 11
+count: 65	2	2	3	2	1	30	4	3	5	172	1	17	3	1	2	5	28	1	1	248	19	31	261	2	143	14	3	
+iteration 12
+count: 65	2	2	3	2	1	30	4	3	5	172	1	17	3	1	2	5	28	1	1	248	19	31	255	2	149	14	3	
+iteration 13
+count: 65	2	2	3	2	1	30	4	3	5	172	1	17	3	1	2	5	28	1	1	248	19	31	247	2	157	14	3	
+iteration 14
+count: 65	2	2	3	2	1	30	4	3	5	172	1	17	3	1	2	5	28	1	1	248	19	31	241	2	163	14	3	
+iteration 15
+count: 65	2	2	3	2	1	30	4	3	5	172	1	17	3	1	2	5	28	1	1	248	19	31	236	2	168	14	3	
+iteration 16
+count: 65	2	2	3	2	1	30	4	3	5	172	1	17	3	1	2	5	28	1	1	248	19	31	228	2	176	14	3	
+iteration 17
+count: 65	2	2	3	2	1	30	4	3	5	172	1	17	3	1	2	5	28	1	1	248	19	31	221	2	183	14	3	
+iteration 18
+count: 65	2	2	3	2	1	30	4	3	5	171	1	17	3	1	2	5	28	1	1	248	19	31	217	2	188	14	3	
+iteration 19
+count: 65	2	2	3	2	1	30	4	3	5	171	1	17	3	1	2	5	28	1	1	248	19	31	217	2	188	14	3	
+  BIC score: 36913.5
+  Distortion: 5.33598
+  Distortions/cluster: 0.815018 0.0146831 0.0294312 0.0538102 0.0121313 0 0.435169 0.0285023 0.0233578 0.295421 0.795643 0 0.116386 0.0179271 0 0.0474491 0.0903584 0.492787 0 0 0.429815 0.222752 0.197919 0.307871 0.0368933 0.823838 0.0130993 0.0357225 
+  Variance: 0.00512582
+  Variances/cluster: 0.0127347 0.0146831 0.0294312 0.0269051 0.0121313 0 0.0150058 0.00950077 0.0116789 0.0738552 0.00468025 0 0.0072741 0.00896353 0 0.0474491 0.0225896 0.0182514 0 0 0.00174014 0.0123751 0.0065973 0.00142533 0.0368933 0.00440555 0.00100764 0.0178612 
+  Saving simpoints to file '../output//diff.simpoints'
+  Saving labels and distance from center of each input point to file '../output//diff.labels'
+  Saving weights of each cluster to file '../output//diff.weights'

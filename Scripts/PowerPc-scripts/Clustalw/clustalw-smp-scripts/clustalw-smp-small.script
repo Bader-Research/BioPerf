@@ -1,0 +1,14 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/PowerPc-Binaries/Clustalw
+if [ -z $THREADS ] ; then
+echo Set the number of threads by environment variable THREADS
+export THREADS=1
+echo Running with default  = 1 thread
+else 
+echo Running with $THREADS threads
+fi
+./clustalw-smp -infile=$BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA
+
+mv $BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA.aln $BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA.dnd  $BIOPERF/Outputs/Clustalw/
+echo The output has been stored as 1a02J_1hjbA.aln and 1a02J_1hjbA.dnd in $BIOPERF/Outputs/Clustalw

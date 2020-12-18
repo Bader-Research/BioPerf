@@ -1,0 +1,124 @@
+The BioPerf suite contains codes from 10 highly popular bioinformatics packages
+ and covers the major fields of study in computational biology such as sequence
+ comparison, phylogenetic reconstruction, protein structure prediction, and 
+sequence homology & gene finding. We demonstrate the use of BioPerf by 
+providing simulation points of pre-compiled Alpha binaries and with a 
+performance study on IBM Power using IBM Mambo simulations cross-compared with 
+Apple G5 executions.
+
+The BioPerf suite (available from www.bioperf.org) includes benchmark source 
+code, input datasets of various sizes, and information for compiling and using 
+the benchmarks. Our benchmark suite includes parallel codes where available.
+
+
+******************************************************************************************************
+Installation of BioPerf
+*******************************************************************************************************
+# Unzip BioPerf.zip. BioPerf.zip on unzipping contains 2 files: BioPerf-codes.tar.gz and install-BioPerf.sh. 
+install-BioPerf.sh is the script which installs BioPerf on the user machine.
+# Run install-BioPerf.sh. The user is prompted for the directory for the installation of BioPerf -- the default directory 
+of BioPerf is $HOME/BioPerf, else the user input is taken.
+# The script then gunzips and untars the BioPerf-codes.tar.gz into the BioPerf installation directory: BioPerf-codes.tar.gz 
+is the complete package of BioPerf consisting of source codes, pre-compiled executables, installation, compiling and running 
+scripts, and the input datasets of varying sizes for each of the codes.
+# On successful installation, the installation directory of BioPerf is written to install-directory /.bioperf which then exports 
+the environment variable $BIOPERF. Every script used for running executables of BioPerf sources this file $BIOPERF /.bioperf, g
+oes to the appropriate subdirectory of $BIOPERF, and then runs the executables. If this file is moved or the installation directory 
+is moved or renamed, the script will fail to run asking the user to edit the .bioperf file.
+
+
+******************************************************************************************************
+BioPerf directory structure
+******************************************************************************************************
+#  The installation directory of BioPerf contain the following directories:
+# Binaries: Directory containing pre-compiled x86, PowerPC and Alpha binaries -- these binaries are contained in 
+separate sub-directories, Alpha-binaries, x86-binaries (Linux) and PowerPC-binaries (Mac OS). x86 and the PowerPC binaries 
+are included for all the executables, while Alpha binaries are not fully included for all the codes. The 
+subdirectories for each of the platform further have directories for each of the packages.
+
+# Inputs: Directory containing all the inputs for each of the executables. There are sub-directories for each of the packages, 
+the inputs for each executable are further categorized into class-A, class-B and class-C based on the sizes of the inputs. Some 
+of the input directories have only one class of input, in which case there are no further subdirectories. The larger databases 
+Swissprot (71MB), NR (1.46 GB) and Pfam (633 MB) are not included in the Inputs directory and have to be separately downloaded. 
+Incase an attempt is made to run a script for a executable which uses any of these databases, the scripts will look for the 
+databases on the host machine in a directory represented by the environment variable $DATABASES. The databases can be downloaded 
+from www.bioperf.org website; if the databases are not found, the script will fail. If the databases are downloaded, then the 
+user needs to set an environment variable $DATABASES to the directory where these databases have been downloaded. The run script 
+will then be able to run.
+
+# Outputs: All the scripts in BioPerf are set up to store their output in this directory. The Outputs directory itself has 
+sub-directories by the name of each of the packages.
+
+# Scripts: This directory as it's name implies, contains all the scripts used in BioPerf except the use-bioperf.sh which is the 
+wrapper for all these scripts. It has further subdirectories that includes the scripts for running each of the codes for small, 
+medium and large datasets, scripts for compiling each of the codes , running the BioPerf suite and installing BioPerf on your 
+architecture incase your architecture's binaries are not part of the BioPerf package. The script has separate subdirectories for 
+each of the tasks, but the naming itself is fairly intuitive.
+
+# Simpoints: This directory contains the simulation points using the Simpoint methodology to simulate the representative workload 
+execution phases.
+
+# Source-codes: This directory contains the source-codes for each of the codes in BioPerf. The directory structure is same with 
+sub-directories for every package, and further with the executable for the packages having more than one executable.
+
+The following scripts are included in BioPerf in the root installation directory:
+
+# use-bioperf.sh -- The wrapper for scripts install-codes.sh, display-versions.sh and run-bioperf.sh and CleanOutputs.sh. These 
+scripts are explained below. This script is basically the script for doing all the supported tasks of BioPerf except installation.
+
+# install-BioPerf.sh -- installs the BioPerf into the directory specified by the user (explained in INSTALLATION section).
+
+# install-codes.sh -- compiles the codes for your architecture. Incase your architecture is not x86 with Linux OS, PowerPC with 
+Mac OS or Alpha, you can use this script to compile the codes. This script picks up the makefiles of the source codes from the 
+Source-codes directory, tries to do a make for each of the codes and installs the compiled codes into a subdirectory called 
+$HOSTNAME/Binaries It will also create $HOSTNAME-Scripts subdirectory inside the directory Scripts, which can then be used to 
+run the newly compiled executables. Incase the codes cannot be compiled on your architecture, the script will output an error 
+message telling the user which code failed to compile.
+
+# display-versions.sh -- This script outputs the versions of all the installed codes in BioPerf.
+
+# run-bioperf.sh -- This script is the basic run script for BioPerf. Its working is explained below in a separate section. 
+
+
+******************************************************************************************************
+How to use BioPerf 
+******************************************************************************************************
+#  On successful installation, run the script use-bioperf.sh located in the main directory of BioPerf suite to run all the 
+supported tasks in BioPerf.
+
+The following choices are available:
+
+# Run BioPerf [R]
+# Install BioPerf on the user architecture [I]
+# Clean Outputs in the user's $BIOPERF/Outputs [C]
+# Display versions of all installed codes [D]
+
+# Run BioPerf: If the user selects the option [R], the BioPerf suite is run through the script 
+$BIOPERF/Scripts/Run-scripts/run-bioperf.sh. The script prompts the user for choosing either the platform -- if the platform is x86, 
+ppc or alpha, it then gives two modes of running BioPerf: either the user can run all the codes one-by-one, or the user can choose 
+codes which would be run. The user can then add packages to be run, with a prompt for every package. Incase a package is selected to 
+be run, all the executables inside the package are run. After the packages have been selected for running (either all of them if the 
+user chooses the first option or adds the packages one-by-one), the user is prompted for the size of the input datasets which it would 
+like to run for. The size of the input that is selected, all the codes are run for the same input dataset for e.g. if the user selects 
+class-C, all the packages selected for running are run for class-C input dataset. As explained above, some of the larger databases are 
+not included in the BioPerf package to reduce the size of the package as much as possible. If the user selects packages with input sizes 
+(class-C) which require these databases, and the databases are not installed or the $DATABASES environment variable is not set to the 
+appropriate directory, the user is notified, and is then given the choice to run BioPerf without the particular package, or abort the 
+whole running. When BioPerf is subsequently run, it outputs time of running for each executable and also the complete execution time 
+for running the suite with the selected packages.
+
+# Install BioPerf on the user architecture: If the user selects the option [I], user architecture's binaries are compiled and installed 
+through the script $BIOPERF/Scripts/Run-scripts/install-bioperf.sh. All the codes are attempted to be compiled, and the script fails 
+incase any of the codes fails to compile. The script also tries to first delete the previous installation if detected before trying to 
+proceed with the new installation. This is done because the scripts' first step is to make 2 directories -- $HOSTNAME-Binaries and 
+$HOSTNAME-scripts inside the Binaries and the Scripts directory of the BioPerf package respectively. In case of successful compilations 
+for each of the packages, the same sub-directory structure is maintained as in the x86 and the PowerPc sub-directories also. This allows 
+the main run-bioperf.sh to use these executables just as they use x86 and the PowerPC executables.
+
+# Clean Outputs: If the user selects the option [C], the outputs in $BIOPERF/Outputs are deleted through the script $
+BIOPERF/Scripts/Run-Scripts/CleanOutputs.sh. All the scripts in BioPerf store the outputs generated in running the executables in the 
+Outputs directory, which has sub-directories for each of the packages also. This increases the size of the Outputs directory, and 
+hence the script deletes all the outputs previously generated.
+
+# Display Versions: If the user selects the option [D], the versions of all the software in the BioPerf suite are displayed through 
+the script $BIOPERF/Scripts/Run-scripts/display-versions.sh 

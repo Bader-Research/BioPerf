@@ -1,0 +1,82 @@
+
+SAGA FORMAT
+alignement  2cba_ref5.t_coffee_aln10 nseq=8 len=368
+T_COFFEE ALIGNMENT
+CPU TIME:78860
+
+
+
+cah2_human ngpehwhkdf-piak-gerqspvdidtht-a----ky----dps---lkp
+cah4_rat   sgpeqwtg----dck-knqqspinivtsk-t----kl----nps---ltp
+cah6_human ldeahwpqhy-pacg-gqrqspinlqrtk-v----ry----nps---lkg
+cahp_mouse -gve-wglvf-pdan-geyqspinlnsre-a----ry----dps---lld
+cah_dunsa  vgfd-wtggvcvntg-tskqspinietdslaeeserlgtaddtsrlalkg
+cah2_chlre egkd-gagnp-wvcktgrkqspinvpqyh-v----ld----gkg---ski
+ptpg_mouse ygpehwvtss-vscg-gshqspidildhh-a----rv----gde---yqe
+cahh_varv  --------------m-sqqlspinietkk-a----is----nar---lkp
+
+cah2_human -----lsvs---yd-qa--t-slrilnnghafnvef------------dd
+cah4_rat   -----ftfv--gyd-qk--k-kwevknnqhsvemsl------------ge
+cah6_human -----lnmt-g-yetqa--g-efpmvnnghtvqigl------------ps
+cahp_mouse -----vrls-pnyv-vc--r-dcevtndghtiqvil------------ks
+cah_dunsa  -----llss-s-yq--lt---sevainleqdmqfsf----------napd
+cah2_chlre atglqtqwsypdlm-sn-gs-svqvinnghtiqvqwtydyaghatiaip-
+ptpg_mouse -----lqld-g-fd-nes-snktwmkntgktvaill------------kd
+cahh_varv  -----lnih---yn-es--k-pttiqntgklvrinf------------kg
+
+cah2_human sqd---ka---vlkggpld-g--tyr--liqfhfhwgsld--gqgsehtv
+cah4_rat   --d----i---yifggdlp-t--qyk--aiqlhlhwsees--nkgsehsi
+cah6_human --t----m---rmtvad-g-i--vyi--aqqmhfhwggasseisgsehtv
+cahp_mouse ------ks---vlsggplpqgq-efe--lyevrfhwgren--qrgsehtv
+cah_dunsa  -ed---lp---qltiggvv-ht--fk--pvqihfh--h-----fasehai
+cah2_chlre amrnqsnrivdvlemrpnd-asdrvtavptqfhfh--------stsehll
+ptpg_mouse --d----y---fvsgaglp-g--rfk--aekvefhwghsng-sagsehsv
+cahh_varv  --g----y----lsggflp-n--eyv--lsslhiywgked--dygsnhli
+
+cah2_human dkkkyaaelhlvhwntk-ygdfgkavqqpdglavlgiflkvgsa--kpgl
+cah4_rat   dgkhfamemhvvhkkmttgdkvqdsdsk-dkiavlafmvevgne-vnegf
+cah6_human dgirhvieihivhyn-skyktydiaqdapdglavlaafvevknypentyy
+cahp_mouse nfkafpmelhlihwnstlfgsideavgkphgiaiialfvqigke--hvgl
+cah_dunsa  dgqlypleahmvmasqn-dgs--------dqlavigimykygee--dpfl
+cah2_chlre agkifplelhivhkvt---dkleackgg--cfsvtgilfqldngpdnell
+ptpg_mouse ngrrfpvemqiffynpddfdsfqtaisenriigamaiffqvspr-dnsal
+cahh_varv  dvykysgeinlvhwnkkkyssyeeakkhddgliiisiflqvsdh-knvyf
+
+cah2_human qkvvdvldsiktkg-ksadftn---fdprgllpesl---dywtypgsltt
+cah4_rat   qplvealsrlskpf-tnstvse---sclqdmlpekkklsayfryqgsltt
+cah6_human snfishlanikypg-qrttltg---ldvqdmlprnl--qhyytyhgsltt
+cahp_mouse kavteilqdiqykg-ksktipc---fnpntllpdpl-lrdywvyegslti
+cah_dunsa  krlqetaqsngeagdknvelnsfsinvardllpesd--ltyygydgsltt
+cah2_chlre epifanmptregtf-tnlpag--ttiklgellpsdr---dyvtyegsltt
+ptpg_mouse dpiihglkgvvhhe-ketfldp---filrdllpasl--gsyyrytgsltt
+cahh_varv  qkivnqldsirtan-tsapfds--vfyldnllpskl---dyfkylgttin
+
+cah2_human ppllecvtwivlkepisvsseqvlkfrklnfngeg---ep----------
+cah4_rat   pgcdetviwtvfeepikihkdqflefskkly-ydq---eq----------
+cah6_human ppctenvhwfvladfvklsrtqvwklensl---l-----d---hr-----
+cahp_mouse ppcsegvtwilfrypltisqmqieefrrlrthvkg---ve---lv-----
+cah_dunsa  pgcdervkwhvfkeartvsvaqlkvfsevtl-aa---------hp-----
+cah2_chlre ppcsegllwhvmtqpqrisfgqwnryrlavgekecnstetdaahadaghh
+ptpg_mouse ppcseivewivfrrpvpisyhqleafysift-teq---qd---hv-----
+cahh_varv  h--sadavwiifptpinihsdqlskfrtlls-ls-----n---he-----
+
+cah2_human ------------------e----e--l--------------------mvd
+cah4_rat   ------------------k----l--n--------------------mkd
+cah6_human --------------n---k----t-----------------------ihn
+cahp_mouse --------------eg--c----d-gi--------------------lgd
+cah_dunsa  ------------------e------at--------------------vtn
+cah2_chlre hhhhrrllhnhahleevpaatsepkhyfrrvmeetenpdaytcttvafgq
+ptpg_mouse --------------ks-------v-ey--------------------lrn
+cahh_varv  --------------g---k----p-hy--------------------ite
+
+cah2_human nwrpaqplkn-rqikasf
+cah4_rat   nvrplqplgn-rqvfrsh
+cah6_human dyrrtqplkh-rvvesnf
+cahp_mouse nfrptqplsd-rviraaf
+cah_dunsa  n-rviqplng-rkv----
+cah2_chlre nfrnaqyang-rtikla-
+ptpg_mouse nfrpqqalnd-rvvsks-
+cahh_varv  nyrnpyklnddtevyys-
+
+
+

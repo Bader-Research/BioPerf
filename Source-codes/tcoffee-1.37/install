@@ -1,0 +1,10 @@
+
+cd t_coffee_source
+make clean
+make -i CC=cc USER_BIN=../bin/ all
+cd ..
+cd ./lalign
+make clean
+make -i CC=cc USER_BIN=../bin/ all
+cd ..
+./bin/test.pl

@@ -1,0 +1,19 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Clustalw
+if [ -z $THREADS ] ; then                                                                                   
+echo Set the number of threads by environment variable THREADS                                              
+export THREADS=1                                                                                            
+echo Running with default  = 1 thread                                                                       
+else                                                                                                        
+echo Running with $THREADS threads                                                                          
+fi                                                                                                          
+./clustalw-smp -infile=$BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA
+mv $BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA.aln $BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA.dnd  $BIOPERF/Outputs/Clustalw/
+echo The output has been stored as 1a02J_1hjbA.aln and 1a02J_1hjbA.dnd in $BIOPERF/Outputs/Clustalw
+./clustalw-smp -infile=$BIOPERF/Inputs/Clustalw/class-B/1290.seq
+mv $BIOPERF/Inputs/Clustalw/class-B/1290.aln $BIOPERF/Inputs/Clustalw/class-B/1290.dnd  $BIOPERF/Outputs/Clustalw/
+echo The output has been stored as 1290.dnd and 1290.aln in $BIOPERF/Outputs/Clustalw
+./clustalw-smp -batch -infile=$BIOPERF/Inputs/Clustalw/class-C/6000.seq
+mv $BIOPERF/Inputs/Clustalw/class-C/6000.aln $BIOPERF/Inputs/Clustalw/class-C/6000.dnd  $BIOPERF/Outputs/Clustalw/
+echo The output has been stored as 6000.dnd and 6000.aln in $BIOPERF/Outputs/Clustalw 

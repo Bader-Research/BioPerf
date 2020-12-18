@@ -1,0 +1,64 @@
+
+SAGA FORMAT
+alignement  1ubi_ref2.t_coffee_aln10 nseq=17 len=113
+T_COFFEE ALIGNMENT
+CPU TIME:320658
+
+
+
+1awd       ----ykvtlkt-p-sg-eetiecped-tyildaaeea-gld-l-pyscra
+fer1_anasp ----fkvtlin-eaegtkheievpdd-eyildaaeeq-gyd-l-pfscra
+fer1_cyaca ----ykiqlvn-qkegvdvtincpgd-qyildaaeeq-gvd-l-pyscra
+fer1_equar ----yktvlkt-p-sg-eftldvpeg-ttildaaeea-gyd-l-pfscra
+fer_medsa  ----ykvklvt-p-eg-tqefecpdd-vyildhaeee-giv-l-pyscra
+fer2_equte ----ykvtlkt-p-dg-ditfdvepg-erlidiasek--ad-l-plscqa
+ferv_anava ----yqvrlin-kkraiditipvden-ttildaaeqq-die-l-pfscqs
+fer2_synp6 ----yqveviy-qg--qsqtftadsd-qsvldsaqaa-gvd-l-pasclt
+dmpp_psepu ----ynvtie--p-tg-e-vievedg-qtilqaalrq-gvw-l-pfacgh
+memc_metca ----htitavt-e-dgeslrfecrsd-edvitaalrq-nif-l-msscre
+rfbi_salty ---m-shiikifp-s--niefsgred-esildaalsa-gih-l-ehscka
+xylz_psepu ----hkvatdf-e-dgvtrfidantg-etvadaayrq-gin-l-pldcrd
+ascd_yerps ---slnvklh--p-sg--iiftsdgt-stildaalds-nih-i-eysckd
+yfae_ecoli ---marvtl--ri-tg-tq-llcqdehpsllaalesh-nva-v-eyqcre
+1guaB      ----ntirvfl-p-nkqrtvvnvrng-mslhdclmkalkvrglqpec---
+2pia       arentpftvrlsr-sg--tsfeipan-rsilevlrda-nvr-v-pssces
+1alo       ---miqkvit---vngieqnlfvdae-allsdvlrqqlgltgv-kvgceq
+
+1awd       gacsscagkvesgevdqsdqs-f--ld---daqmgkgfvltcvayptsdv
+fer1_anasp gacstcagklvsgtvdqsdqs-f--ld---ddqieagyvltcvayptsdv
+fer1_cyaca gacstcagklvkgsvdqsdqs-f--ld---eeqinngfiltcvayptsdc
+fer1_equar gacssclgkvvsgsvdesegs-f--ld---dgqmeegfvltciaipesdl
+fer_medsa  gscsscagkvaagevnqsdgs-f--ld---ddqieegwvltcvayaksdv
+fer2_equte gacstclgkivsgtvdqsegs-f--ld---deqieqgyvltciaipesdv
+ferv_anava gscsscvakvvegevdqseqv-f--ld---eeqmakgfivlcvsyprsdc
+fer2_synp6 gvcttcaarilsgevdqpdam-g--vg---pepakqgytllcvayprsdl
+dmpp_psepu gtcatckvqvvegevdigeaspf-alm---dierderkvlaccaiplsdl
+memc_metca ggcatckalcsegdydlkgcs-vqalp---peeeeeglvllcrtypktdl
+rfbi_salty gdcgicesdllagevvdskgn-i--fg-----qgdk--iltccckpktal
+xylz_psepu gacgackcfaesgryslgeey-i--edalseaeaeqgyvltcqmraesdc
+ascd_yerps gtcgsckailisgevdsaent-f--lt---eedvakgailtccskaksdi
+yfae_ecoli gycgscrtrlvagqvdwiaep-l--a------fiqpgeilpcccrakgdi
+1guaB      -----cav---------------fr---llhehkgkkarldwntdaasli
+2pia       gtcgscktalcsgeadhrdmv-l--rd---dekgt--qimvcvsraksae
+1alo       gqcgacsv-ildgkvvracvt-k--m-----krvadgaqitt---ieg--
+
+1awd       --tilthqeaaly
+fer1_anasp --viqthkeedl-
+fer1_cyaca --viqthqeeal-
+fer1_equar --viethkeeel-
+fer_medsa  --tiethkeeel-
+fer2_equte --viethkedel-
+ferv_anava --tirthqepyl-
+fer2_synp6 --kiethkedel-
+dmpp_psepu --vieadvda---
+memc_metca --eielpythcr-
+rfbi_salty --elnahffpel-
+xylz_psepu --virvpaasdv-
+ascd_yerps --eldvnyypel-
+yfae_ecoli --eiem-------
+1guaB      geelqvdfl----
+2pia       --lvldl------
+1alo       --vgq--------
+
+
+

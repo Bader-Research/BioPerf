@@ -1,0 +1,54 @@
+1 INSTALLATION
+
+A-QUICK INSTALLATION
+
+1-decompress distribution.tar.z
+	uncompress distribution.tar.Z
+
+2-untar distribution.tar
+	tar -xvf distribution.tar
+
+3-This will create the distribution directory with the following structure:
+		distribution/bin
+		distribution/doc/t_coffee_doc.ps, t_coffee_doc.pdf, t_coffee_paper.tar in pdf
+		
+		distribution/t_coffee_source
+		distribution/lalign
+		distribution/example
+		distribution/html
+
+4-Install ClustalW (check before if it is not already installed). You can obtain ClustalW from the EBI Web server (www.ebi.ac.uk) or from the LBM in Strasbourg.
+
+5-Indicate the address and the name of ClustalW on your system:
+	-either edit the file define_header.h, in the section PROGRAM PATH
+			
+#define CLUSTALW_4_TCOFFEE "path/name_of_clustalw"
+	
+-or set the global variable CLUSTALW_4_TCOFFEE to "path/name_of_clustalw":
+			
+setenv CLUSTALW_4_TCOFFEE "path/name_of_clustalw"
+
+Note: to be permanent, this last change must be set in your loging file.
+
+6-go into the main directory and type:
+	./install
+
+7-add the bin folder to your path, for instance:
+set path = ($path . <address of the t_coffee bin folder>) 
+
+Note This must be added to your loging file. An alternative is to move all the binary files into your own bin.
+
+
+8-Go into example/test and run:
+
+ 	t_coffee -in fast_pair test.pep
+
+9- The command 
+
+diff test.aln reference_test.aln
+
+These two files must only indicate a difference for the CPU time.
+
+Note: for 8 to work correctly, the new bins must have been added to your
+path (Step 5).
+

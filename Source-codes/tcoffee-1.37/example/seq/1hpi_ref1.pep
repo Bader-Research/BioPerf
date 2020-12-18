@@ -1,0 +1,12 @@
+>1hpi
+erlseddpaaqaleyrhdassvqhpayeegqtclncllytdasaqdwgpc
+svfpgklvsangwctawvar
+>1hip
+navaadnataialkynqdatkservaaarpglppeeqhcadcqfmqadaa
+gatdewkgcqlfpgklinvngwcaswtlkag
+>2hipA
+praedghahdyvneaadasghpryqegqlcencafwgeavqdgwgrcthp
+dfdevlvkaegwcsvyapas
+>hpis_rhoge
+apvdeknpqavalgyvsdaakadkakykqfvagshcgncalfqgkatdav
+ggcplfagkqvankgwcsawak

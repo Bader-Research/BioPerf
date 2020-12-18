@@ -1,0 +1,4 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Source-codes/Clustalw
+make

@@ -1,0 +1,484 @@
+
+
+       PREDATOR: Protein secondary structure prediction	from a single sequence
+			       or a set	of sequences
+
+			     Version 2.1, February 1997
+
+		      Dmitrij Frishman (1) & Patrick Argos (2)
+
+		(1) Munich Information Center for Protein Sequences
+		       Max-Planck-Institute for	Biochemistry
+		       Am Klopferspitz 18a, 82152 Martinsried
+				      Germany
+			    FRISHMAN@MIPS.BIOCHEM.MPG.DE
+
+		     (2) European Molecular Biology Laboratory
+			 Postfach 102209, Meyerhofstrasse 1
+				  69012	Heidelberg
+				      Germany
+			      ARGOS@EMBL-HEIDELBERG.DE
+
+
+
+				      CONTENTS
+
+
+	1.  About the method..............................................
+
+	2.  Copyright notice..............................................
+
+	3.  Availability..................................................
+
+	4.  Installation..................................................
+
+	5.  Input.........................................................
+
+	6.  Using PREDATOR................................................
+
+	7.  Output........................................................
+
+	8.  Practical considerations......................................
+
+	9.  Bug	reports	and user feedback.................................
+
+       10.  References....................................................
+
+
+
+
+       1.  About the method
+
+
+       PREDATOR	[1,2] is a secondary structure prediction program.  It	takes
+       as  input  a single protein sequence to be predicted and	can optimally
+       use a set of unaligned sequences	as additional information to  predict
+       the  query  sequence.  The mean prediction accuracy of PREDATOR is 68%
+       for a single sequence and 75% for a set of related sequences. PREDATOR
+       does  not  use  multiple	 sequence  alignment.  Instead,	 it relies on
+       careful pairwise	local alignments of the	sequences in the set with the
+       query   sequence	to  be predicted. If you supply	a set of sequences in
+       the form	of a  multiple alignment  in  CLUSTAL or  MSF	format,	  the
+       sequences will be used but as unaligned.
+
+       Below follow the	abstracts of the papers	describing the method.
+
+       Prediction from a single	sequence [1]:
+
+       "Existing approaches to protein secondary  structure  prediction	 from
+       the  amino  acid	 sequence usually rely on statistics of	local residue
+       interactions within a sliding  window  and  the secondary   structural
+       state  of the central residue. The practically achieved accuracy	limit
+       of such single residue and single sequence prediction methods is	about
+       65% in three structural states (a-helix,	b-strand, and coil).  Further
+       improvement  in the  prediction	quality	   is  likely	to    require
+       exploitation   of   various   aspects   of  three-dimensional  protein
+       architecture. Here we make such an attempt  and present	an   accurate
+       algorithm  for  secondary structure prediction based on recognition of
+       potentially hydrogen-bonded residues in the amino acid  sequence.  The
+       unique	feature	of our approach	involves data-base derived statistics
+       on residue type occurrences  in different  classes  of  b-bridges   to
+       delineate  interacting  b-strands.   The	a-helical structures are also
+       recognized on the basis of amino	acid occurrences  in  hydrogen-bonded
+       pairs   (i,i+4).	The  algorithm has a prediction	accuracy 68% in	three
+       structural states on only a  single  protein  sequence, and  has	  the
+       potential  to  be improved by 5-7% if homologous	aligned	sequences are
+       also considered".
+
+       Prediction from a set of	sequences [2]:
+
+       "In this	work we	present	an accurate  secondary structure   prediction
+       procedure  for a	query sequence with related sequences. The most	novel
+       aspect of our approach is its reliance on pairwise alignments  of  the
+       related sequences rather	than utilization of a multiple alignment. The
+       residue-by-residue accuracy of the method is 75%	in  three  structural
+       states  after  jack-knife  tests.  The  gain  in	 prediction  accuracy
+       compared	to the existing	techniques (which are near 72%)	 is  achieved
+       by  better  secondary  structure	propensities for individual sequences
+       which  account  for  long-range effects,	 utilization  of   homologous
+       information   in	the  from  of  carefully  selected pairwise alignment
+       fragments, and reliance on a much larger	collection of protein primary
+       structures.  The	 method	 is  especially	 appropriate  for large-scale
+       sequence	analysis efforts,  such	 as  genome  characterization,	where
+       precise	and   significant  multiple  alignments	are  not available or
+       achievable".
+
+
+
+
+       2.  Copyright notice
+
+
+
+       All rights are  reserved	 for  the  whole  or  part  of the   program.
+       Permission    to	  use,	copy,  and   modify  this  software  and  its
+       documentation is	granted	for academic use provided that:
+
+	 i.  this copyright notice appears in all copies of the	software  and
+	     related documentation;
+
+	ii.  references	 given	below  [1,2]   must   be   cited    in	  any
+	     publication of scientific results based in	part or	completely on
+	     the use of	the program; and
+
+       iii.  bugs will be reported to the authors.
+
+       The use of the  software	 in  commercial	 activities  is	 not  allowed
+       without prior permission	from the authors.
+
+       WARNING:	PREDATOR is provided "as-is"  and  without  warranty  of  any
+       kind,  express, implied or otherwise, including without limitation any
+       warranty	of merchantability or fitness for a particular purpose.	In no
+       event will the authors be liable	for any	special, incidental, indirect
+       or consequential	damages	 of  any  kind,	 or  any  damages  whatsoever
+       resulting  from loss of data or profits,	whether	or not advised of the
+       possibility of damage, and on any theory	of liability, arising out  of
+       or in connection	with the use or	performance of this software.
+
+
+
+       3.  Availability
+
+
+       PREDATOR	exists for UNIX	and  DOS.  Documentation,   data   files  and
+       source  code  are  available  by	 anonymous  FTP	  from	ftp.ebi.ac.uk
+       (directories				 /pub/software/unix/predator,
+       /pub/software/dos/predator).  A	DOS  executable	 is  also  available.
+       Protein sequences  can be submitted for secondary structure prediction
+       either		to	    WWW		URL	     http://www.embl-
+       heidelberg.de/predator/predator_info.html  or  through electronic mail
+       to predator@embl-heidelberg.de. A mail message containing HELP in  the
+       first line will be answered with	appropriate instructions.
+
+
+
+       4.  Installation
+
+
+       The program is supplied with  two  database  files  -  stride.dat  and
+       dssp.dat	  -  which  contain  propensity	tables,	 secondary structural
+       assignments and thresholds for two assignment methods - STRIDE [3] and
+       DSSP  [4].  One of these	files is read by the program every time	it is
+       started.	The environment	variable PRE_DIR has to	contain	the  name  of
+       the directory in	which the files	are located. For example, if you work
+       under UNIX in csh, you will have	to include the following statement in
+       your .cshrc file:
+
+	      setenv PRE_DIR	     /your/directory/with/these/files
+
+       In DOS, your autoexec.bat file has to contain the following statement:
+
+		 set PRE_DIR=disk:\your\directory\with\these\files
+
+       If the variable PRE_DIR is not set, PREDATOR will look for  the	files
+       stride.dat   and	dssp.dat   in  the  current  directory.	 You can also
+       explicitly specify the location of the database file using the  option
+       -b (see below).
+
+
+       5.  Input
+
+
+       PREDATOR	takes as input a sequence  file	 in  FASTA,  MSF  or  CLUSTAL
+       format	containing  one	or  many  protein  sequences. By default, the
+       prediction will be made for the first sequence in the set. This can be
+       changed	using  the  options  -i	or -a (see below). Fasta format	looks
+       like this:
+
+       > One line description of the first sequence (the first word  will  be
+       used as sequence	id)
+       HGFSADSAREYPLKSASDSDA
+       ERYTARWFDSGHKLNXMMS
+       > One line description of the second sequence
+       RYTSGFHAWQWDMNKLBNSSS
+       etc
+
+       The ability to read MSF and CLUSTAL formats is added for	 convenience.
+       The actual multiple alignment will not be used.
+
+
+
+       6.  Using PREDATOR
+
+
+       The only	required parameter for PREDATOR	 is  the  name of  the	 file
+       containing  a  protein sequence or a set	of sequences in	FASTA, MSF or
+       CLUSTAL format. By default PREDATOR writes to standard  output;	i.e.,
+       your  screen.  On systems that allow to redirect	output,	you can	do so
+       to create a disk	file. Help is available	if  you	 just  type  PREDATOR
+       without parameters. The following options are accepted.
+
+       General options
+
+       -fFilename     write output to the  file	 "Filename"  rather  than  to
+		      stdout.
+
+       -l	      long output form,	in which every output  line  contains
+		      residue	number,	three-letter residue name, one-letter
+		      residue name, predicted secondary	structural state  and
+		      reliability  estimate.  If  a  STRIDE or DSSP secondary
+		      structure	assignment has been read (options -x and  -y,
+		      see  below), the known assignment	will also be shown in
+		      the output for comparison. By default the	short  output
+		      form is used.
+
+       -o	      output sequence(s) and die
+
+       -h	      indicate progress	by dots	and output  other  additional
+		      information if available.
+
+
+       Selection of sequences to predict
+
+       -a	      make prediction for All sequences	in the input file
+
+       -iSeqId	      make prediction for the sequence SeqId
+
+       By default prediction is	made for the first sequence in the set
+
+       Prediction options
+
+       -s	      perform  single  sequence	 prediction.	Ignore	other
+		      sequences	in the set.
+
+       -r	      preserve the original alignment in the CLUSTAL  or  MSF
+		      file (do not unalign) /*Not implemented yet!*/
+
+       -u	      Do not copy assignment directly from the PDB   database
+		      if   query   sequence  is	found in PDB. By default, the
+		      known conformation of 7-residue segments will  be	 used
+		      if   they	are  identical to a 7-residue fragment in the
+		      query sequence.
+
+       -d	      use DSSP target assignment  (default  is STRIDE).	  The
+		      predictions    made   with   DSSP	 and   STRIDE  target
+		      assignments   are	  optimized    to    reproduce	these
+		      assignments as well as possible.
+
+       -bFilename     use database file	FileName
+
+       Comparison with the known assignment (for testing):
+
+       -xFileName     read STRIDE file
+
+       -yFileName     read DSSP	file
+
+       -zChain	      PDB Chain	(must be specified if option  -x  or  -y  are
+		      used)
+
+       Additional functions:
+
+       -nPercentId    find a subset of sequences with no more than  PercentId
+		      identity between any pair	of sequences (quick and	dirty
+		      algorithm)
+
+       All options are case- and position-insensitive. Sequence	names (option
+       -i) are case sensitive.
+
+       Examples:
+
+	 1.  Predict secondary structure for the single	sequence globin.seq
+
+				   predator  globin.seq
+
+	 2.  Predict secondary structure  for the  first  sequence   in	  the
+	     multiple sequence file globins.seq
+
+				  predator  globins.seq
+
+	 3.  Predict  secondary	 structure  of the  first  sequence  in	  the
+	     multiple	alignment  file	globins.aln.  Create  long output and
+	     write it in the file globins.pred
+
+			  predator -l globins.aln -fglobins.pred
+
+	 4.  Predict secondary structure of the	sequence  glob_ecoli  in  the
+	     multiple alignment	file globins.aln
+
+			    predator globins.aln -iGLOB_ECOLI
+
+	 5.  Read sequence from	 the  file  5ruba.seq, make  prediction	  and
+	     compare   it  with	the known assignment for the chain A from the
+	     file 5rub.str.
+
+			    predator 5ruba.seq -x5rub.str -za
+
+       NOTE: chain " " must be specified as "-"; e.g. -z-
+
+
+
+       7.  Output
+
+
+       Short output form:
+
+       Secondary structure states of amino acids are indicated by the letters
+       "H" (helix), "E"	(extended or sheet), and "_" (coil).
+
+       Long output form:
+
+       Secondary structure states of amino acids are indicated by letters "H"
+       or   "h"	(helix),  "E"  or  "e" (extended), and "C" or "c" (coil). The
+       prediction is shown in lower case except	for those residues for	which
+       the assignment was directly copied from the PDB database. This feature
+       is added	so that	you can	distinguish between the	predictions  actually
+       made by PREDATOR	and those taken	from known structures.
+
+       The  prediction is  contained  in  the records  beginning   with	  the
+       identifier PRED in the first columns. For each amino acid site of your
+       sequence,  residue  number,  three-  and	  one-letter   residue	code,
+       prediction,  reliability	 estimate,  and	 the  number of	residues from
+       related sequences  projected  onto  this	 residue  through  the	local
+       alignment  procedure are	shown in subsequent columns. Additionally, if
+       the STRIDE or DSSP assignments have been	read using the options -x  or
+       -y  (and	 -z), the last column of the PREDATOR output will contain the
+       actual  secondary  structural  assignment  for  your  sequence  if  it
+       corresponds  exactly  to	 the  one  in  the  STRIDE  or DSSP file (for
+       comparison). If the known assignment is not available,  i.e.,  if  you
+       did not use the -x or -y	options, question signs	will be	output.
+
+       Both output forms:
+
+       If option -h has	been used, PREDATOR will show  progress	 by  printing
+       dots  on	 the  standard output. If your sequence	has related sequences
+       with known 3D structure,	PDB identifiers	of these  sequences  will  be
+       printed.
+
+
+
+       8.  Practical considerations
+
+
+
+	 1.  For long sequences	and large sequence sets	PREDATOR can be	slow.
+	     It	 is recommended	to use the option -h to	monitor	its progress.
+	     Note that some of the sequence identifiers	  will	 be   skipped
+	     if	 there	are  no	significant local alignments between them and
+	     the query sequence. On the	other  hand,   some   sequences	  can
+	     appear more than once if there are	several	local alignments.  If
+	     you need a	prediction for only one	sequence in the	 set,  do not
+	     use   the	 -a  option  as	 it  may  significantly	slow down the
+	     computation. In this case PREDATOR	will calculate full secondary
+	     structure	propensities  for all sequence in the set rather than
+	     just for selected pieces significantly aligned  with  the	query
+	     sequence.	 On the	other hand, if you really need	a  prediction
+	     for  all sequences, it is more  time-efficient  to	 use  the  -a
+	     option rather than	running	PREDATOR on each sequence in the  set
+	     at	 a  time since	in this	 case  all  propensities  have	to be
+	     calculated	anyway.
+
+	 2.  If	some sequences in the set  have	 no  fragments	significantly
+	     related  to  the  query  sequence,	they will not be used for the
+	     prediction.  Thus,	 it  is	 NOT  a	 problem  to  have  unrelated
+	     sequences in your sequence	set.
+
+	 3.  The quality of the	prediction depends dramatically	on the number
+	     of	  sequences   in the  set.  The	more sequence information you
+	     provide, the better results  you  will  get.  Therefore,  it  is
+	     strongly recommended to perform a sensitive sequence search with
+	     your sequence against the largest sequence	database available to
+	     extract  as  many related sequences as you	can. For example, the
+	     FASTA program with	ktuple=1  gives	 good  results.	 The  largest
+	     collections  of  protein  sequences  (about  160000 entries) are
+	     currently	TREMBL	and  GENPEPT.	The   following	  steps	  are
+	     recommended.  a)  Run   a	 database   search  with  your single
+	     sequence against a	large sequence database. b) Make the  set  of
+	     sequences	extracted  as  a result	of the	database search	 non-
+	     redundant such  that  no  two  sequences  share  more  than  95%
+	     sequence identity (e.g., predator -n95 filename).	c) Merge your
+	     search  sequence	with  the  resulting  non-redundant  set.  d)
+	     Perform  secondary	 structure  prediction.	  You can submit your
+	     sequence for prediction  to  the  WWW  or	e-mail	server	 (see
+	     availability)  where  all these steps will	be done	automatically
+	     for you.
+
+	 4.  If	 the  -l  option  is  specified,  PREDATOR  will  output  the
+	     reliability     index    for    each   residue   predicted.   In
+	     general,  reliability  values   higher   then    0.8    indicate
+	     sequence	sites  predicted  at   about  90%  accuracy.  If  the
+	     prediction	reliability for	a  given  residue  equals  zero,   it
+	     does    not    mean    that    the	 prediction   is   completely
+	     unreliable.  It means that	there was insufficient statistics  to
+	     derive  the  reliability  for  the	 set  of  secondary structure
+	     propensities associated with this residue;	i.e., the reliability
+	     is	 unknown. Less	than  10%  of  residues	generally do not have
+	     a	reliability  estimate.	Sequence  fragments   with   atypical
+	     composition   (e.g.,   "asfasfasfasfasaf"	 )   will    have  no
+	     reliability estimate as well as short  proteins  (less  then  50
+	     amino acids) where	statistics are scarce.
+
+	 5.  If	your sequence has a closely related  protein  with  known  3D
+	     structure,	the secondary structure	prediction of every 7-residue
+	     fragment in your sequence identical with the PDB  sequence	 will
+	     be	   substituted	  by	the    known	tertiary   structural
+	     assignments.  PREDATOR currently relies on	a database of 556 PDB
+	     chains   with pairwise  identity  no  higher  than	 30%.  Please
+	     note that no additional filtering	of  the	 prediction  is	 made
+	     after   this   such  that	 it   can   contain,   for  instance,
+	     helices  of length	one.  Related PDB structures will be reported
+	     if	  the	option	-h  was	specified. To avoid this substitution
+	     (for example for testing),	use the	option -u.
+
+
+
+       9.  Bug reports and user	feedback
+
+
+       Please  send  your  suggestions,	 questions   and   bug	reports	   to
+       FRISHMAN@MIPS.BIOCHEM.MPG.DE.   Send   your  contact  address  to  get
+       information on updates and new features.
+
+
+       10.  References
+
+	 1.  Frishman, D. & Argos, P. (1996) Incorporation  of	long-distance
+	     interactions  into	 a  secondary structure	prediction algorithm.
+	     Protein Engineering,  9, 133-142.
+
+	 2.  Frishman,	D.  &  Argos,  P.  (1997)  75%	accuracy  in  protein
+	     secondary structure prediction.  Proteins,	 27, 329-335.
+
+	 3.  Frishman,D	& Argos,P. (1995) Knowledge-based secondary structure
+	     assignment.   Proteins:  structure,  function  and	genetics, 23,
+	     566-579.
+
+	 4.  Kabsch,W. & Sander,C. (1983)  Dictionary  of  protein  secondary
+	     structure:	    pattern    recognition   of	hydrogen-bonded	  and
+	     geometrical features. Biopolymers,	22: 2577-2637.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				       - i -
+
+
+
+

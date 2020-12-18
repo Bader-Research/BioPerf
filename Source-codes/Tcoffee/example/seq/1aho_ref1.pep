@@ -1,0 +1,15 @@
+>scxa_buteu
+vrdgyiaddkdcayfcgrnaycdeeckkgaesgkcwyagqygnacwcykl
+pdwvpikqkvsgkcn
+>scx1_titse
+kdgypveydncayicwnydnaycdklckdkkadsgycywvhilcycyglp
+dseptktngkcksgkk
+>scx6_titse
+regypadskgckitcfltaagycntectlkkgssgycawpacycyglpes
+vkiwtsetnkc
+>scx1_cenno
+kdgylvdakgckkncyklgkndycnrecrmkhrggsygycygfgcycegl
+sdstptwplpnktcsgk
+>six2_leiqu
+dgyirkrdgcklsclfgnegcnkecksyggsygycwtwglacwceglpde
+ktwksetntcg

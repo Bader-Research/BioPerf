@@ -1,0 +1,12 @@
+filename             predator_2.1.tar.gz
+update               20.02.97
+version              2.1
+size                 370 k
+compressed           TAR, GZIP
+ASCII conversion     full source code (UNIX,DOS), documentation, executable (DOS only)
+author               Frishman, D. and Argos, P.
+description          75% accuracy in protein secondary structure prediction
+literature           Proteins,  27, 329-335.
+source code          C
+sw requirements      ANSI C compiler or GNU C compiler
+hw requirements      Extensively tested on DEC Alpha, SGI, Sun, PC. Must work on all UNIX platforms.

@@ -1,0 +1,52 @@
+
+SAGA FORMAT
+alignement  1ezm_ref1.t_coffee_aln10 nseq=5 len=321
+T_COFFEE ALIGNMENT
+CPU TIME:28198
+
+
+
+NPRE_BACCL -----gvlgdqkyinttyssyygyyylqdntrgsg--iftydgrnrt-vl
+NPRE_BACCE --tgkgvlgdtkslnttlsg--ssyylqdntrgat--iftydaknrs-tl
+NPRE_BACAM tgtgttlkgktvslnisses--gkyvlrdlskptgtqiitydlqnreynl
+NPRE_PAEPO -atgkgvlgdsksftttasg--ssyqlkdttrgng--ivtytasnrq-si
+NPRE_BACBR -atgkgvlgdtkqfettkqg--stymlkdttrgkg--ietytannrt-sl
+
+NPRE_BACCL pgslwadgdnqffasydaaavdahyyagvvydyyknvhgrlsydgsnaai
+NPRE_BACCE pgtlwadadnvfnaaydaaavdahyyagktydyykatfnrnsindagapl
+NPRE_BACAM pgtlvssttnqfttssqraavdahynlgkvydyfyqkfnrnsydnkggki
+NPRE_PAEPO pgtlltdadnvwn---dpagvdahayaaktydyykskfgrnsidgrglql
+NPRE_BACBR pgtlmtdsdnywt---dgaavdahahaqktydyfrnvhnrnsydgngavi
+
+NPRE_BACCL rstvhygrgynnafwngsqmvygdgd--gqtflpfsggidvvghelthav
+NPRE_BACCE kstvhygsnynnafwngsqmvygdgd--gvtftslsggidvighelthav
+NPRE_BACAM vssvhygsrynnaawigdqmiygdgd--gsffsplsgsmdvtahemthgv
+NPRE_PAEPO rstvhygsrynnafwngsqmtygdgdgdgstfiafsgdpdvvghelthgv
+NPRE_BACBR rstvhystrynnafwngsqmvygdgd--gttflplsggldvvahelthav
+
+NPRE_BACCL tdytaglvyqnesgaineamsdifgtlvefyanrnpdweigediytpgva
+NPRE_BACCE tenssnliyqnesgalneaisdifgtlvefydnrnpdweigediytpgka
+NPRE_BACAM tqetanlnyenqpgalnesfsdvfg-----yfndtedwdigeditv---s
+NPRE_PAEPO teytsnleyygesgalneafsdvigndiq-----rknwlvgddiytpnic
+NPRE_BACBR tertaglvyqnesgalnesmsdifgamvd-----nddwlmgediytpgrs
+
+NPRE_BACCL gdalrsmsdpakygdpdhysk--ry--tgtqdnggvhtnsgiinkaayll
+NPRE_BACCE gdalrsmsdptkygdpdhysk--ry--tgssdnggvhtnsgiinkqayll
+NPRE_BACAM qpalrslsnptkygqpdnfknyknlpntdagdyggvhtnsgipnkaayn-
+NPRE_PAEPO gdalrsmsnptlydqphhysn--ly--kgssdnggvhtnsgiinkayyll
+NPRE_BACBR gdalrslqdpaaygdpdhysk--ry--tgsqdnggvhtnsginnkaayll
+
+NPRE_BACCL sqggvhygvsvtgigrdkmgkifyralvyyltptsnfsqlraacvqaaad
+NPRE_BACCE anggthygvtvtgigkdklgaiyyrantqyftqsttfsqaragavqaaad
+NPRE_BACAM ---------titkigvnkaeqiyyraltvyltpsstfkdakaaliqsard
+NPRE_PAEPO aqggtfhgvtvngigrdaavqiyysaftnyltsssdfsnaraaviqaakd
+NPRE_BACBR aeggthygvrvngigrtdtakiyyhalthyltpysnfsamrraavlsatd
+
+NPRE_BACCL lygstsqevnsvkqafnavgv
+NPRE_BACCE lygansaevaavkqsfsavgv
+NPRE_BACAM lyg--sqdaasveaawnavgl
+NPRE_PAEPO lygansaeataaaksfdavg-
+NPRE_BACBR lfgansrqvqavnaaydavgv
+
+
+

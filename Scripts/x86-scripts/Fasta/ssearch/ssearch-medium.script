@@ -1,0 +1,5 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Fasta
+./ssearch34_t -a -b 20 -q -O $BIOPERF/Outputs/Fasta/mediumoutput $BIOPERF/Inputs/Fasta/ssearch/class-B/NC_003903.fna $BIOPERF/Inputs/Fasta/ssearch/class-B/NC_005824.fna
+echo The output has been stored as mediumoutput in $BIOPERF/Outputs/Fasta

@@ -1,0 +1,328 @@
+<html>
+<head>
+<title>
+T-Coffee: A Consistency Based Multiple Alignmnent Method Multiple Alignments (Notredame,Higgins, Heringa)
+</title>
+</head>
+
+<STYLE>
+<!-- 		@page { size: 21.59cm 27.85cm; margin-right: 3.18cm; margin-top: 2.54cm; margin-bottom: 2.54cm } 		H1 { margin-bottom: 0.11cm; font-family: "Arial", sans-serif; font-size: 18pt; widows: 0; orphans: 0 } 		H2 { margin-bottom: 0.11cm; font-family: "Arial", sans-serif; font-size: 14pt; font-style: italic; widows: 0; orphans: 0 } 		H3 {margin-left: 0.25cm; margin-top: 0cm; margin-bottom: 0cm; font-family: "Times New Roman", serif; font-size: 12pt; font-weight: medium; text-align: justify; widows: 0; orphans: 0 } 		H4 { margin-left: 0.5cm; margin-bottom: 0.11cm; font-family: "Arial", sans-serif; widows: 0; orphans: 0 } H5 {font-family: "Arial", sans-serif; widows: 0; orphans: 0 	-->
+</STYLE>
+<FORM enctype="multipart/form-data" method="POST" ACTION="t_coffee4html.cgi">
+<INPUT NAME="simple" TYPE="HIDDEN" VALUE="yes">
+<INPUT NAME="Title"  TYPE="HIDDEN" VALUE="T-Coffee Multiple Alignments (Notredame, Higgins,Heringa)">
+<INPUT NAME="Cmd"    TYPE="HIDDEN" VALUE="T-Coffee">
+<INPUT NAME="-maxnseq"    TYPE="HIDDEN" VALUE="30">
+<INPUT NAME="-maxlen"    TYPE="HIDDEN" VALUE="400">
+</head>
+
+<!---TITLE--->
+<body bgcolor=#FFFFFF>
+<table bgcolor="#FFFFFF" border="8" cellpadding="8" align=center width=60%>
+<tr>
+   <td align=center>
+   <h1><a href="http://mathbio.nimr.mrc.ac.uk/~cnotred/">T-Coffee</h1></a>
+   <h2> A Tool For Multiple Sequence Alignments</h2>
+   <h4>Notredame, Higgins, Heringa</h4>
+   </td>
+</tr>
+</table>
+
+<h4></h4>
+
+<h4 align=left font=12>T-Coffee will combine together
+   several alignments. By default, T-Coffee will generate the 20 best local
+   alignments (lalign) and the best global alignment for each pair of
+   sequences. It will then combine all this information into one multiple
+   sequence alignment. If you request it
+   (<a href="#Methods">Methods</a>), T-Coffee can also generate and combine
+   several multiple alignments using the most common methods (prrp, pima,
+   dialign...), or use your own multiple sequence alignmnents (<a
+   href="#Data Input">Data Input</a>).</h4>
+
+<!--Start of the sumbmission form table--->
+<table bgcolor="#EEEEFF" border="8" cellspacing="8"
+cellpadding="8"align=center width=95%>
+
+<!---HELP--->
+<tr>
+   <td align=center>
+   <h2 align=left font=12>For a default utilisation, simply paste or upload your
+   sequences in the box 1 on Data Input and press the run button <font
+   color=red> (Limit: 20 sequences 300 residues)</font></h2>
+   <table border=2 bgcolor=#AE7777 align=center width=25% >
+	 <tr><td> <INPUT TYPE="reset" VALUE="Reset"></td><td><INPUT TYPE="submit"
+	 VALUE="Run T-Coffee"></tr></td>
+   </table>	 
+   </td>
+</tr>
+   
+<!---INPUT OF THE EXPERIENCE NAME--->
+<tr>
+    
+   <td>
+   <h1 align=center>Labelling</h1>
+   <table border=0 cellpading=0 >
+        <H4>
+        <tr>
+	   <td>Type in the name of your alignment</td>
+	   <td><INPUT TYPE="text" VALUE="t_coffee" NAME="run_name"></td>
+	</tr>
+	<tr>
+	    <td> <font color=red>Your e-mail</font></td>
+            <td><INPUT TYPE="text" VALUE="" NAME="e-mail"></td>
+	</tr>
+	<tr>
+	    <td> Results</h4></td>
+	    <td> 
+		   <SELECT NAME="result_mode">
+		   <OPTION SELECTED VALUE="online"> ON LINE </OPTION>
+		   <OPTION VALUE="mail"> BY EMAIL</OPTION>
+		   </SELECT>
+	     </td>
+	</tr>
+	</H4>
+   </table>
+   </td>
+</tr>
+<!---INPUT OF THE DATA--->
+<tr>
+    <td>
+        <h1 align=center><a name="Data Input"></a><a href="t_coffee_doc.html#FORMATS">Data Input</a><h1>
+	<h2 align=left ><a href="t_coffee_doc.html#A Sequences">Sequences</a>, 
+	<a href="t_coffee_doc.html#B ALignments">Alignments </a> or 
+<a href="t_coffee_doc.html#C Libraries"> Libraries</a></h2>
+	<h2 align=left >In each field, input<a href="t_coffee_doc.html#-in"> either</a> a set of sequences, a
+	multiple alignment or a library. All the fields do not need to be to be filled.</h2>
+	
+	<table bgcolor="white" border="1" cellpadding="1" align=left width=80%>
+	<tr>
+	    <td align=center bgcolor=#EAEAAE><H4>1</H4></td>
+            <td align=center><H4>input a File Name <INPUT TYPE="file"
+	NAME="-in"><SPACE SIZE=15> or Paste <TEXTAREA NAME = "data" ROWS =1 COLS = 50></TEXTAREA></H4></td>
+	</tr>
+	<tr> 
+            <td align=center bgcolor=#EAEAAE><H4>2</H4></td>
+	    <td align=center><H4>input a file Name <INPUT TYPE="file"  NAME="-in"><SPACE SIZE=15>
+ or Paste <TEXTAREA NAME = "data" ROWS =1 COLS = 50></TEXTAREA></H4></td>
+	</tr>
+	<tr> 
+            <td align=center bgcolor=#EAEAAE><H4>3</H4></td>
+	    <td align=center><H4>input a file Name <INPUT TYPE="file" NAME="-in"><SPACE SIZE=15>
+ or Paste <TEXTAREA NAME = "data" ROWS =1 COLS = 50></TEXTAREA></H4></td>
+	</tr>
+	<tr> 
+            <td align=center bgcolor=#EAEAAE><H4>4</H4></td>
+	    <td align=center><H4>input a file Name <INPUT TYPE="file" NAME="-in"><SPACE SIZE=15>
+ or Paste <TEXTAREA NAME = "data" ROWS =1 COLS = 50></TEXTAREA></H4></td>
+	</tr>
+	<tr> 
+            <td align=center bgcolor=#EAEAAE><H4>5</H4></td>
+	    <td align=center><H4>input a file Name <INPUT TYPE="file"  NAME="-in"><SPACE SIZE=15>
+ or Paste <TEXTAREA NAME = "data" ROWS =1 COLS = 50></TEXTAREA></H4></td>
+	</tr>
+	</table>
+     </td>
+</tr>
+<!---OUTPUT OF THE DATA--->
+<tr>
+    <td> <h1 align=center>Data Output</h1>
+	 <h2 align=left> Check the<a href="t_coffee_doc.html#-output"> format</a> you wish to produce </h2>
+	 <table bgcolor=white border="1" cellpadding="1" align="left" width=80%>
+	     <tr>
+	         <td rowspan=2 bgcolor=#EAEAAE ><H4>Alignment Format</H4></td>
+		 <td><H4><INPUT TYPE="checkbox" NAME="-output" VALUE="msf_aln">msf</H4></td>
+		 <td><H4><INPUT TYPE="checkbox" CHECKED NAME="-output" VALUE="clustalw" >clustalw</H4></td>
+		 <td><H4><INPUT TYPE="checkbox" NAME="-output" VALUE="fasta_aln">fasta</H4></td>
+	     </tr>
+	     <tr>
+ 
+		 <td><H4><INPUT TYPE="checkbox" CHECKED NAME="-output" value="score_html"> color (html)</H4></td>
+		 <td><H4><INPUT TYPE="checkbox" NAME="-output" VALUE="score_ps"> color (ps)</H4></td>
+		 <td><H4><INPUT TYPE="checkbox" NAME="-output" VALUE="score_pdf"> color (pdf)</H4></td>
+	     </tr>
+	 </table>
+     </td>
+</tr> 
+<!---CHOICE OF THE METHODS--->
+<tr>
+    <td> 
+       <h1 align=center><a name="Methods">Methods</a></h1>
+       <h2 align=left> Check the methods you wish to use </h2>
+       <table bgcolor=white border="1" cellpadding="1" align="left" width=80%>
+	   <tr>
+		<td bgcolor=#EAEAAE ><H4><a href="t_coffee_doc.html#-matrix"> Substitution Matrix</a></H4></td>
+		<td>
+		<SELECT NAME="-in">
+		<OPTION SELECTED VALUE="">-no matrix-</OPTION>
+		<OPTION VALUE="blosum62mt"> BLOSUM 62 </OPTION>
+		<OPTION VALUE="pam250mt"> PAM 250</OPTION>
+		<OPTION VALUE="idmat"> identity </OPTION>
+		</SELECT>
+		</td>
+		<td align=center colspan=2><font color=red> WARNING: if you select a
+		 matrix, NO OTHER method will be used </font></td> 
+	   <tr>
+		<td bgcolor=#EAEAAE rowspan=2 ><H4><a href="t_coffee_doc.html#Existing Methods"> Pairwise Methods</a></H4></td>
+		<td><h4><INPUT TYPE="checkbox" CHECKED NAME="-in"
+		 value="lalign_id_pair"><a href="t_coffee_doc.html#lalign_pair"> lalign</a>(pair)</H4></td>
+		<td><h4><INPUT TYPE="checkbox"  NAME="-in"
+		 value="clustalw_pair"><a href="t_coffee_doc.html#clustalw_pair"> clustalw</a>(pair)</H4></td>
+		<td><h4><INPUT TYPE="checkbox" CHECKED NAME="-in"
+		 value="fast_pair"><a href="t_coffee_doc.html#fast_pair"> fast</a>(pair)</H4></td>
+            </tr>
+	    <tr>
+		<td><h4><INPUT TYPE="checkbox" NAME="-in"
+		 value="cfast_pair"><a href="t_coffee_doc.html#cfast_pair"> checked fast</a>(pair)</H4></td> 
+		 <td><h4>&nbsp;</td>	
+		<td><h4>&nbsp;</td>	 
+	   </tr>
+	   <tr>
+		<td bgcolor=#EAEAAE rowspan=2 ><H4><a href="t_coffee_doc.html#Existing Methods"> Multiple Aln Methods</a></H4></td>
+		<td><h4><INPUT TYPE="checkbox" NAME="-in"
+		 value="clustalw_aln"><a href="t_coffee_doc.html#clustalw_aln"> clustalw</a></H4></td>
+		<td><h4><INPUT TYPE="checkbox" NAME="-in"
+		 value="prrp_aln"><a href="t_coffee_doc.html#clustalw_aln"> prrp</a></H4></td>
+		 <!---
+		<td><h4><INPUT TYPE="checkbox" NAME="-in"
+		 value="dialign_aln"><a href="t_coffee_doc.html#clustalw_aln"> dialign</a></H4></td> 
+	   </tr>
+	   <tr>
+		<td><h4><INPUT TYPE="checkbox" NAME="-in"
+		 value="dca_aln"><a href="t_coffee_doc.html#clustalw_aln"> dca</a></H4></td>
+		<td><h4><INPUT TYPE="checkbox" NAME="-in"
+		 value="pima_aln"><a href="t_coffee_doc.html#clustalw_aln">
+		 pima</a></H4></td>
+		 --->
+		<td><h4>&nbsp;</td>	   
+	   </tr>
+      </table>
+    </td>
+</tr>
+
+
+<!---PARAMETERS--->    
+<tr>
+   <td>
+       <h1 align=center>Extended Parameters</h1>
+       <table bgcolor=white border="1" cellpadding="1" align="left" width=80%>
+	  <tr>
+		<td rowspan=3  bgcolor=#EAEAAE ><H4>Multiple Aln</H4></td>
+		<td><h4 align=center><a href="t_coffee_doc.html#-gapopen"> gapopen</a></h4><h4 align=center> <INPUT align=right TYPE="text" VALUE="0" NAME="-gapopen" size=4></h4></td>
+		<td><h4 align=center><a href="t_coffee_doc.html#-gapext"> gapext</a></h4><h4 align=center><INPUT align=right TYPE="text" VALUE="0" NAME="-gapext"  size=4></h4></td>
+		<td><h4 align=center><a href="t_coffee_doc.html#-cosmetic_penalty"> cosmetic penalty</a></h4><h4 align=center><INPUT TYPE="text" VALUE="-100" NAME="-cosmetic_penalty" size=4></h4></td>		
+	  </tr>
+	  <tr>	
+		<td><h4 align=center><a href="t_coffee_doc.html#-tg_mode"> terminal gap</a>
+			<SELECT NAME="-tg_mode"></h4><h4 align=center>
+			<OPTION          VALUE="0">gapopen and gapext</OPTION>
+			<OPTION SELECTED VALUE="1">gapopen only</OPTION>
+			<OPTION          VALUE="2">no penalty</OPTION>
+			</SELECT>
+			</H4>
+		</td>
+		<td><h4 align=center><a href="t_coffee_doc.html#-dp_mode"> dp mode</a></h4><h4 align=center>
+			<SELECT NAME="-dp_mode">
+			<OPTION           VALUE="gotoh_">gotoh_pair_wise</OPTION>
+			<OPTION           VALUE="myers_miller_pair_wise">myers_miller_pair_wise</OPTION>
+			<OPTION		  VALUE="fasta_pair_wise">fasta_pair_wise</OPTION>
+			<OPTION  SELECTED VALUE="cfasta_pair_wise">cfasta_pair_wise</OPTION>
+			</SELECT>
+			</H4>
+		</td>
+		<td><h4 align=center><a href="t_coffee_doc.html#-do_normalise"> normalise</a></h4><h4 align=center>
+		<INPUT align=right TYPE="text" VALUE="1000"
+		NAME="-do_normalise" size=4></h4>
+		</td>		
+	   </tr>
+	   <tr>
+		<td><h4 align=center><a  href="t_coffee_doc.html#-usetree"> your tree</a></h4><h4 align=center><INPUT TYPE="file" NAME="-usetree"></h4></td>
+		<td><h4 align=center><a  href="t_coffee_doc.html#-tree_mode"> tree
+		computation</a></h4><h4 align=center>
+		        <SELECT NAME="-tree_mode">
+			<OPTION		 VALUE="slow">slow</OPTION>
+			<OPTION SELECTED VALUE="fast">fast</OPTION>
+			<OPTION		 VALUE="slow">very_fast</OPTION>
+			</SELECT>
+			</H4>
+		</td>
+		<td>&nbsp;</td>
+	   </tr>			
+	   <tr>	
+	        <td rowspan=2  bgcolor=#EAEAAE ><H4>Fasta_pair_wise</H4></td>	
+		<td><h4 align=center><a href="t_coffee_doc.html#-ktuple"> ktuple</a></h4><h4 align=center>
+			<SELECT NAME="-ktuple">
+			<OPTION SELECTED VALUE="1">1</OPTION>
+			<OPTION          VALUE="2">2</OPTION>
+			<OPTION          VALUE="3">3</OPTION>
+			<OPTION          VALUE="4">4</OPTION>
+			</SELECT>
+			</H4>
+		</td>	  
+		<td><h4 align=center><a href="t_coffee_doc.html#-ndiag"> ndiag</a> </h4><h4 align=center><INPUT align=right TYPE="text"	VALUE="0" NAME="-ndiag" size=4></h4></td>
+		<td><h4 align=center><a href="t_coffee_doc.html#-diag_mode"> diag evaluation</a></h4><h4 align=center>
+			<SELECT NAME="-diag_mode">
+			<OPTION SELECTED VALUE="0">complete diag</OPTION>
+			<OPTION          VALUE="1">best segment</OPTION>
+			</SELECT>
+			</H4>
+		</td>
+            </tr>
+	    <tr>
+	       <td><h4 align=center><a href="t_coffee_doc.html#-sim_matrix"> similarity matrix</a></h4><h4 align=center>
+			<SELECT NAME="-sim_matrix">
+			<OPTION SELECTED VALUE="vasiliky">vasiliky</OPTION>
+			<OPTION          VALUE="clustalw_col">clustalw_col</OPTION>
+			<OPTION          VALUE="clustalw_dot">clustalw_dot</OPTION>
+			<OPTION          VALUE="idmat">idmat</OPTION>
+			</SELECT>
+			</H4>
+		</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>		
+	    </tr> 
+	    <tr>
+		<td bgcolor=#EAEAAE ><H4>Output</H4></td>
+		<td><h4 align=center><a href="t_coffee_doc.html#-outorder"> output order</a></h4><h4 align=center>
+			<SELECT NAME="-outorder">
+			<OPTION SELECTED VALUE="aligned">aligned</OPTION>
+			<OPTION		 VALUE="input">input</OPTION>
+			</SELECT>
+			</h4>
+		</td>
+		<td><h4 align=center ><a href="t_coffee_doc.html#-seqnos"> Residue Number</a></h4><h4 align=center>
+			<SELECT NAME="-seqnos">
+			<OPTION SELECTED VALUE="off">off</OPTION>
+			<OPTION		 VALUE="on">on</OPTION>
+			</SELECT>
+			</h4>
+		</td>
+		<td><h4 align=center ><a href="t_coffee_doc.html#-case"> Case</a></h4><h4 align=center>
+			<SELECT NAME="-case">
+			<OPTION SELECTED VALUE="upper">upper</OPTION>
+			<OPTION		 VALUE="lower">lower</OPTION>
+			</SELECT>
+			</h4>
+		</td>
+	    </tr>
+        </table>
+    </td>    
+</tr>
+<!---RUN II--->
+<tr>
+   <td align=center>
+   <table border=2 bgcolor=#AE7777 align=center width=25% >
+	 <tr><td> <INPUT TYPE="reset" VALUE="Reset"></td><td><INPUT TYPE="submit"
+	 VALUE="Run T-Coffee"></tr></td>
+   </table>	 
+   </td>
+</tr>
+<!---END OF THE FORM--->  
+</table>
+<!---COPYRIGHT--->
+<h2>This page was produced by Cedric Notredame
+(<a href="mailto:Cedric.notredame@europe.com">Cedric.notredame@europe.com</a>)</h2>
+<h2>Please do not hesitate to send me any feed back you may feel appropriate</h2>
+<!--END-->
+
+

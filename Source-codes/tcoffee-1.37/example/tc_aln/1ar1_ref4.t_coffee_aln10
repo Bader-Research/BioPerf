@@ -1,0 +1,154 @@
+
+SAGA FORMAT
+alignement  1ar1_ref4.t_coffee_aln10 nseq=15 len=407
+T_COFFEE ALIGNMENT
+CPU TIME:464200
+
+
+
+hv54_mouse --------------------------------------------------
+kv5c_mouse --------------------------------------------------
+kv1h_human --------------------------------------------------
+kv5i_mouse --------------------------------------------------
+hv51_mouse --------------------------------------------------
+hv14_mouse --------------------------------------------------
+kv2b_mouse --------------------------------------------------
+hv1g_human --------------------------------------------------
+hv1c_human --------------------------------------------------
+kv5a_human --------------------------------------------------
+cox1_albtu --------------------------------------------------
+hv1f_human --------------------------------------------------
+cox2_cyaca igfqdpatpimegivnlhhdiiffliiiiifvswilfrtlflfnsktnpv
+cox1_halha --------------------------------------------------
+cox1_emeni --------------------------------------------------
+
+hv54_mouse --------------------------------------------------
+kv5c_mouse --------------------------------------------------
+kv1h_human --------------------------------------------------
+kv5i_mouse --------------------------------------------------
+hv51_mouse --------------------------------------------------
+hv14_mouse --------------------------------------------------
+kv2b_mouse --------------------------------------------------
+hv1g_human --------------------------------------------------
+hv1c_human --------------------------------------------------
+kv5a_human --------------------------------------------------
+cox1_albtu --------------------------------------------------
+hv1f_human --------------------------------------------------
+cox2_cyaca aynfshgtfiellwtltpslvligiavpsfallysideiidpaitikavg
+cox1_halha --------------------------------------------------
+cox1_emeni --------------------------------------------------
+
+hv54_mouse --------------------------------------------------
+kv5c_mouse --------------------------------------------------
+kv1h_human --------------------------------------------------
+kv5i_mouse --------------------------------------------------
+hv51_mouse --------------------------------------------------
+hv14_mouse --------------------------------------------------
+kv2b_mouse --------------------------------------------------
+hv1g_human --------------------------------------------------
+hv1c_human --------------------------------------------------
+kv5a_human --------------------------------------------------
+cox1_albtu --------------------------------------------------
+hv1f_human --------------------------------------------------
+cox2_cyaca rqwywsyeysdyvneeneflafhsyilpeedlelgqfrllevdnriiipv
+cox1_halha --------------------------------------------------
+cox1_emeni --------------------------------------------------
+
+hv54_mouse -------------------------------------------g---fft
+kv5c_mouse -------------------------------------------g---fft
+kv1h_human -------------------------------------------------t
+kv5i_mouse ------------------------------------------------mm
+hv51_mouse -------------------------------------------g---gls
+hv14_mouse -----------------------------------------------yvn
+kv2b_mouse ------------------------------------------------wt
+hv1g_human --------------------------------------------------
+hv1c_human ------------------------------------------------wy
+kv5a_human --------------------------------------------------
+cox1_albtu --------------------------------------------------
+hv1f_human --------------------------------------------------
+cox2_cyaca nthiriivtgadvihswavpslgvkcdaipgrlnqisffikregiyywwt
+cox1_halha -----------------------------------------------lwk
+cox1_emeni ------------------------------------------------ls
+
+hv54_mouse rwf-mstnhkdigvlylftaglaglisvtltvymrme--lqhpgv-qy-m
+kv5c_mouse rwf-mstnhkdigvlylftgglvglisvaftvymrme--lmapgv-qf-m
+kv1h_human gwr-rstnhkdigtlylifaiiagvigaamslairae--lmypgv-eyfh
+kv5i_mouse kwf-mstnhknigilyiilalwsgmlgssmsliirme--lsspgs-w-is
+hv51_mouse vwl-essnhkdigtlyflfglwsgmvgtslslvirle--lakpgl-l-lg
+hv14_mouse rwm-fstnakdiamtyllfglvsgmigsvfsfmirme--tsapgs-q-ft
+kv2b_mouse dyftfcvdhkvigiqylvtsflfffiggsfaeamrte--latpsp-d-fv
+hv1g_human -wl-ttvdhkkiaimyliagtlffvkagvmalfmriq--lmypem-n-fl
+hv1c_human dyftfnvdhkvigiqylvtafifyligglmavamrte--latads-d-fl
+kv5a_human -yl-ttvdhkkiahlylisggfffllgglealfiriq--lakpnn-d-fl
+cox1_albtu --l-ttvdhkkiglmytataffafalagvfsllirtq--lavpnn-q-fl
+hv1f_human ----lsvshkmigmcyllvailcgflgyiyslfirle--lsiigc-g-vl
+cox2_cyaca ryv-fsqdakviaiqysltasaiglvalvlswlmrlq--lgfpgtfs-fi
+cox1_halha ewl-tsvdhkrlgimyiivaivmllrgfadaimmrsqqalasageag-fl
+cox1_emeni rwl-fstnhkdigtlylifgawagmvgtamsviirae--laqpgs-l-ln
+
+hv54_mouse clegmr----------lvadaaaectpnahlwnvvvtyhgilmmffvvip
+kv5c_mouse caehlesglvkgffqslwpsavenctpnghlwnvmitghgilmmffvvip
+kv1h_human ---------------------------nthlynvfvtshgvimiffmvmp
+kv5i_mouse ---------------------------ndqiyntivtshaflmiffmvmp
+hv51_mouse ---------------------------sgqlynsvitahailmiffmvmp
+hv14_mouse ----------s---------------gngqlynvaisahgmtmifffiip
+kv2b_mouse ---------------------------qpemynqlmtlhgtimiflwivp
+hv1g_human ---------------------------sgqtfnefitmhgtimlflaatp
+hv1c_human ---------------------------dpnlynafltnhgtimiflwvvp
+kv5a_human ---------------------------vgglynevltmhgttmiflaamp
+cox1_albtu ---------------------------tgeqynqiltlhgatmlfffiiq
+hv1f_human ----------f---------------gdyqyynvlvtthglvmvfafimp
+cox2_cyaca ---------------------------danqylqfitmhgmimviyllta
+cox1_halha ---------------------------pphhydqiftahgvimiffvamp
+cox1_emeni ---------------------------ddqiynvvvtahalvmiffmvmp
+
+hv54_mouse alfggfgnyfmplhigapdmafprlnnlsywlyvcgvslaiasllspggs
+kv5c_mouse alfggfgnyfmplhigapdmafprmnnlsywlyvagtslavaslfapggn
+kv1h_human amiggfgnwflplmigapdmafprmnnisfwllpasfglllmstfvegep
+kv5i_mouse fliggfgnwliplmlgspdmafprmnnisfwllppslfmlllsnlfyp--
+hv51_mouse tmiggfgnwmlplmlgapdmsfprlnnlsfwllptamflildacfvdm--
+hv14_mouse alfgafgnylvptmmgapdvayprvnnftfwltppatmtllisaltee--
+kv2b_mouse ag-aafanyliplmvgtedmafprlnavafwltppggillissffv-ga-
+hv1g_human llf-afmnyviplqigardvafpfvnalgfwifffgglllslswff-gg-
+hv1c_human aaiggfgnylvplmigardmafprlnalafwlnppagalllasflf-gg-
+kv5a_human lvf-afmnavvplqigardvafpflnalgfwmfffgglflncswfl-gg-
+cox1_albtu agltgfgnfvvplmlgardvalprvnafsywaflgaivlalmsyffpgg-
+hv1f_human vmmgglvnyfvpvlsgfpdmvfprlnnmsfwmfmggfgalvsglltee--
+cox2_cyaca lflggfgnyliplmvgardmvfpyvnmlsywvyllavlvlasaffvpggp
+cox1_halha fvig-lmnlvvplqigardvafpflnnlsfwftvvgvilvnvslgv-ge-
+cox1_emeni imiggfgnwliplmigapdmafprmnnmsfwlippsfilllasagves--
+
+hv54_mouse dqpgagvgwvlypplstt--eag--yamdlaifavhvsgatsilgainii
+kv5c_mouse gqlgsgigwvlypplsts--esg--ystdlaifavhlsgassilgainmi
+kv1h_human gangagagwtmyvplss-sghpg--pavdlaifslhiagassilgainfi
+kv5i_mouse ---spgtgwtvypplsaylyhss--psvdfaifslhmsgissimgslnlm
+hv51_mouse ---gcgtswtvypplst-mghpg--gsvdlaifslhcagvssilgainfm
+hv14_mouse ---gpgggwtvypptssitshsg--paidtailslqltgisstlgsvnlm
+kv2b_mouse ----pqagwtsypplslls--gk--wgeelwilslllvgtssilgainfv
+hv1g_human ---gpdagwtayvplssrdy-gg--lgidfyvlglqvsgigtlisainfl
+hv1c_human ----aqagwtsypplstit--at--taqsmwilaiilvgtssilgsvnfi
+kv5a_human ---apdagwtsyaslsldsk-ah--hgidfytlglqisgfgtimgainfl
+cox1_albtu ---apsvgwtfyypfsaqs---e--sgvdfylaailllgfssllgnanfv
+hv1f_human ---gmgigwtmyptlicvdfhss--lacdftvfavhllgvssilnsinll
+cox2_cyaca ----tgagwtlyppqailsgtpgqdwgivlmlsslilfiigftmgglnyv
+cox1_halha ---faqtgwlaypplsgieyspg--vgvdywiwslqlsgigttltginff
+cox1_emeni ---gagtgwtiypplssniahag--gsvdlaifslhlagassilasinfi
+
+hv54_mouse ttflnmr
+kv5c_mouse ttflnmr
+kv1h_human ttilnmr
+kv5i_mouse vtimmmk
+hv51_mouse tttknlr
+hv14_mouse atminmr
+kv2b_mouse ttilkmr
+hv1g_human vtivnmr
+hv1c_human vtiwkmk
+kv5a_human vtiinmr
+cox1_albtu atiynlr
+hv1f_human gtlfccr
+cox2_cyaca vtvlqar
+cox1_halha vtilkmr
+cox1_emeni ttiinmr
+
+
+

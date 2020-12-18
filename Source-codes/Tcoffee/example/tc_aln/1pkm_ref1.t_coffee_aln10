@@ -1,0 +1,60 @@
+
+SAGA FORMAT
+alignement  1pkm_ref1.t_coffee_aln10 nseq=4 len=464
+T_COFFEE ALIGNMENT
+CPU TIME:27600
+
+
+
+kpy1_yeast valrkaglnivrmnfshgsyeyhksvidnarkseelypgrplaialdtkg
+kpyk_lacla aalieeganvfrfnfshgdhpeqgarmatvhraeeia-ghkvgflldtkg
+kpyk_haein ekiiaaganvvrmnfshgtpddhigraervrsiakkl-gktvailgdlqg
+kpyk_mycge kaiiksgvsvirlnfshgtheeqqvrikivrdvakam-nipvsimldtng
+
+kpy1_yeast peirtgtttndv-dypippnhemifttddkyakacddkimyvd--yknit
+kpyk_lacla pemrtelftdgadsisvvtgdkfrvatkqglkstpelialnvgg-ladif
+kpyk_haein pkirvstfkdg--kiflnvgdkfildaelpkgegtqesvg-ld--yktlp
+kpyk_mycge peirivetk--keglkitkdseviintmskmiasdnfavsdasgkyqnmv
+
+kpy1_yeast kvisagriiyvddgvlsfqvlevvdk--dtlkvkalnagkicshkgvnlp
+kpyk_lacla ddveigqtiliddgklglslt-gkdatraefeveaqndgvigkqkgvnip
+kpyk_haein qdvvpgdilllddgrvqlkvl-stdg--akvftevtvggplsnnkginkl
+kpyk_mycge ndvnigqkilvddgkltlvvr-vtdkqhnqvicvakndhtvftkkrlnlp
+
+kpy1_yeast gtdvdlpalsekdkedlrfgvk--ngvhmvfasfirtandvltirevlge
+kpyk_lacla ntkipfpalaerddadirfglspgqginfiaisfvrtandvkevrricee
+kpyk_haein ggglsadaltekdkadiitaar--igvdflavsfprssadlnyarelaqq
+kpyk_mycge naqysipflsekdlkdidfgls--qgidyiaasfvntvadikqlrdylkl
+
+kpy1_yeast qgkd-vkiivkienqqgvnn---fdeilkvtdgvmvargdlgieipapev
+kpyk_lacla tgpnhvqllakienqqgien---ldeiieaadgimiargdmgievpfemv
+kpyk_haein agln-akivakveraetvndeaamddiilasdvimvargdlgveigdpel
+kpyk_mycge knagsvkiiakiesnhalnn---idkiikasdgimvargdlgleipyyqv
+
+kpy1_yeast lavqkkliaksnlagkpvicatqmlesmtynprptraevsdvgnaildga
+kpyk_lacla pvyqkliiskvnkagkivvtatnmlesmtynpratrseisdvfnavidgt
+kpyk_haein vgvqkklirrsrqlnravitatqmmesmisnpmptraevmdvanavldgt
+kpyk_mycge pywqrymikacrffnkrsitatqmldslekniqptraevtdvyfavdrgn
+
+kpy1_yeast dcvmlsgetakgnypinavttmaetaviaeqaiaylpnydd-mrnctpk-
+kpyk_lacla datmlsgesangkypresvrtmatvnknaqtmlkeygrl---hper-yd-
+kpyk_haein davmlsaetaagqypsetvaamasvclgaekmpsinv--sr-hrmd-ke-
+kpyk_mycge datmlsgetasglyplnavavmqkidkqsetffdyqynvnyylknstaks
+
+kpy1_yeast -p-ts-ttetvaasavaa---v-feqkakaiivlstsgttprlvskyrpn
+kpyk_lacla -k-st-vtevvaasvkna---a-eamdvklivaltesgntarliskhrpd
+kpyk_haein -f-et-ieesvamsamya---anhkmgvaaivtlsstgrtpllmsrissg
+kpyk_mycge rfwhnvvnlpltkktvpkrklvnsafkydfivyptnninriyalsnarla
+
+kpy1_yeast cpiilvtrcpraarfshlyrgvfpfvfekepvsdwtddvearinfgieka
+kpyk_lacla adilaitfdekverglminwgvipmmtekpa-s--t---ddmfevaekva
+kpyk_haein lpifalsrnqetlnlcalyrgvtpiyhgees-r--t---eagakaapqsl
+kpyk_mycge aaviiltnnkrvytghgvdygifcylidknp-n--q---ltkaelielaw
+
+kpy1_yeast kefgilkk-gdtyv
+kpyk_lacla lasglvea-gdnii
+kpyk_haein kekgylst-gdlvl
+kpyk_mycge kainhyqaygdlek
+
+
+

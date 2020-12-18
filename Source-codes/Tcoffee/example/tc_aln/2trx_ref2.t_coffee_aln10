@@ -1,0 +1,76 @@
+
+SAGA FORMAT
+alignement  2trx_ref2.t_coffee_aln10 nseq=21 len=116
+T_COFFEE ALIGNMENT
+CPU TIME:578440
+
+
+
+1thx       aeqpvlvyfwaswcgpcqlmsplinlaantysdrlkvvklei--dpnp--
+thio_thife sskpvlvdfwaewcgpckmiapileeiadeyadrlrvakfni--denp--
+thio_strcl sekpvlvdfwaewcgpcrqiapsleait-ehggqieivklni--dqnp--
+thio_rhoru adgpnxvdfwaewcgpcrqxapaleelatalgdkvtvakini--denp--
+thio_myctu snkpvlvdfwatwcgpckmvapvleeiateratdltvakldv--dtnp--
+thio_gripa srqpvlvdfwapwcgpcrmiastideiahdykdklkvvkvnt--dqnp--
+thio_rhosh sdvpvvvdfwaewcgpcrqigpaleelskeyagkvkivkvnv--denp--
+thio_aliac gdkpvlvdfwaawcgpcrmmapvleefaeahadkvtvaklnv--denp--
+thio_strau sdkpvlvhfegpwcgpckmvapvldeianeyegkvkvakvnt--denp--
+thio_haein sdipilldfwapwcgpckmiapvldelapefagkvkivkmnv--ddnq--
+thi2_corne aetpvlvdfwagwcapckaiapvleelsneyagkvkivkvdv--tsce--
+thio_bacsu segvvladfwapwcgpckmiapvleeldqemgdklkivkidv--denq--
+thim_pea   setpvlvdfwapwcgpcrmiapiidelakeyagkikcyklnt--desp--
+thih_syny3 spkpvlvdfyatwcgpcqmmapileqvgshlrqqiqvvkidt--dkyp--
+thio_chlps atglvlidffaewcgpckmltpvlesleaevss-vligkvni--ddhp--
+thih_arath sktlvvvdftaswcgpcrfiapffadlakklpn-vlflkvdt--delk--
+er60_mouse saglmlveffapwcghckrlapeyeaaatrlk-ivplakvdc--tant--
+txla_synp7 ndrpmllefyadwctscqamagriaalkqdysdrldfvmlni--dndkwl
+1kte       iqpgkvvvfikptcpfcrktqellsqlpfk-egllefvditatsdtneiq
+1grx       --mqt-vifgrsgcpysvrakdlaeklsnerd-dfqyqyvdi--raeg--
+2trcP      kvttivvniyedgvrgcdalnssleclaaeyp-mvkfckira--s-nt--
+
+1thx       ttvkky-k------vegvpalrlvkg-eqild--st-egvisk---dkll
+thio_thife ntppqy-a------irgiptlllfka-gklea--tk-vgalsk---aqlt
+thio_strcl ataaky-g------vmsiptlnvyqg-gevvk--ti-vgakpk---aall
+thio_rhoru qtpsky-g------vrgiptlmifkd-gqvaa--tk-igalpk---tklf
+thio_myctu etarnf-q------vvsiptlilfkd-gqpvk--ri-vgakgk---aall
+thio_gripa tiatey-g------irsiptvmifin-gkkvd--tv-vgavpk---ltll
+thio_rhosh espaml-g------vrgipalflfkn-gqvvs--nk-vgaapk---aala
+thio_aliac ettsqf-g------imsiptlilfkg-grpvk--ql-igyqpk---eqle
+thio_strau qlasqy-g------vrsiptrlmfkg-gevaa--nm-vgaapk---trla
+thio_haein atpaqf-g------vrsiptlllikn-gqvva--tq-vgalpk---tqla
+thi2_corne dtavky-n------irnipallmfkd-gevva--qq-vgaapr---skla
+thio_bacsu etagky-g------vmsiptllvlkd-gevve--ts-vgfkpk---ealq
+thim_pea   ntatky-g------irsiptvlffkn-gerkd--sv-igavpk---atls
+thih_syny3 aiatqy-q------iqslptlvlfkq-gqpvh--rm-egvqqa---aqli
+thio_chlps apaeqy-g------vssiptlilfkd-gkevd--rv-vglkdk---dsli
+thih_arath svasdw-a------iqamptfmflke-gkild--kv-vgak-k---delq
+er60_mouse ntcnky-g------vsgyptlkifra-geeag--ay-dgprta---dgiv
+txla_synp7 pevldy-n------vdgipqfvylngqgqpqg--is-igelpr---svla
+1kte       dylqqltg------artvprvfigk-e--ciggctdlesmhkr---gell
+1grx       itkedl-qqkagkpvetvpqifv--d-qq------h-igg--y---tdfa
+2trcP      gagdrf-s------sdvlptllvykg-gelis--nf-isvaeqfaedffa
+
+1thx       sfldthln--------
+thio_thife afldsql---------
+thio_strcl rxldpflgk-------
+thio_rhoru ewveasv---------
+thio_myctu relsdvv---------
+thio_gripa ntlqkhl---------
+thio_rhosh twiasal---------
+thio_aliac aqladvl---------
+thio_strau afldasl---------
+thio_haein nfinqhi---------
+thi2_corne afidqni---------
+thio_bacsu elvnkhl---------
+thim_pea   ekvekyi---------
+thih_syny3 qqlqvfv---------
+thio_chlps rlinqh----------
+thih_arath stiakhl---------
+er60_mouse shlkkq----------
+txla_synp7 anldalv---------
+1kte       trlqqvg---------
+1grx       awvkenlda-------
+2trcP      advesflneygllper
+
+
+

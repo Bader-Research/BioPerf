@@ -1,0 +1,5 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Hmmer
+./hmmsearch $BIOPERF/Inputs/Hmmer/hmmsearch/globin.hmm $BIOPERF/Inputs/Hmmer/hmmsearch/Artemia.fa  > $BIOPERF/Outputs/Hmmer/hmmsearch-output
+echo The output has been stored as hmmpsearch-output in $BIOPERF/Outputs/Hmmer

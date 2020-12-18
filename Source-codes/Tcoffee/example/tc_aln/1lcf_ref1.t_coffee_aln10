@@ -1,0 +1,115 @@
+
+SAGA FORMAT
+alignement  1lcf_ref1.t_coffee_aln10 nseq=6 len=749
+T_COFFEE ALIGNMENT
+CPU TIME:163820
+
+
+
+1lcf       -grrrsvqwcavsnpeatkcfqwqrnmrkv---rgppvsclkrdspiqci
+trfe_rabit ----ktvrwcavndheaskcanfrdsmkkvlpedgpriicvkkasyldci
+trf2_salsa ------vkwcvkseqelrkchdlaakv--------aefscvrkdgsfeci
+trfe_xenla --kekqvrwcvksnselkkckdlvdtckn----keiklscveksntdecs
+trfm_human -----evrwcatsdpeqhkcgnmseafreagi--qpsllcvrgtsadhcv
+1aov       appkttvrwctissaeekkcnslkdhmqq----ervtlscvqkatyldci
+
+1lcf       qaiaenradavtldggfiyeaglapyklrpvaaevygterqprthyyava
+trfe_rabit kaiaaheadavtldaglvheagltpnnlkpvvaefygskenpktfyyava
+trf2_salsa qaikggeadaitldggdiytagltnyglqpiiaedyge--dsdtcyyava
+trfe_xenla taiqedhadaicvdggdvykgslqpynlkpimaenygshtetdtcyyava
+trfm_human qliaaqeadaitldggaiyeag-kehglkpvvgevydqevg--tsyyava
+1aov       kaisnneadaisldggqvfeaglapyklkpiaaevyersggsttsyyava
+
+1lcf       vvkkggsfqlnelqglkschtglrrtagwnvpigtlrpf--lnwtgpp-e
+trfe_rabit lvkkgsnfqlnelqgkkschtglgrsagwnipigllycd----lpepr-k
+trf2_salsa vakkgtafgfktlrgkkschtglgksagwnipigtlvtesqirwagiedr
+trfe_xenla vvkksskftfdelkdkkschtgigktagwniiiglllerkllkwagpdse
+trfm_human vvrrsshvtidtlkgvkschtginrtvgwnvpvgylvesgrlsvmgcd--
+1aov       vvkkgtdfmikdlrgktschtglgrsagwnipigtlihrediewegiesg
+
+1lcf       pieaavarffsascvpgadkgqfp-nlcrlcagtg--enkcafssqepyf
+trfe_rabit plekavasffsgscvpcadgadfp-qlcqlcpg-------cgcssvqpyf
+trf2_salsa pvesavsdffnascapgatmgs---klcqlckgd------csrshkepyy
+trfe_xenla twrnavskffkascvpgake-p---klsqlcagik--ehkcsrsnnepyy
+trfm_human -vlkavsdyfggscvpgagetsyseslcrlcrgdssgegvcdkspleryy
+1aov       iseqavakffsascvpgatieq---klcrqckgda--ktkclr--ngpys
+
+1lcf       sysgafkclkdgagdvafirestvfedl-----sdeae---rdeyellcp
+trfe_rabit gysgafkclkdglgdvafvkqetifenl-----pskde---rdqyellcl
+trf2_salsa dyagafqclkdgagdvafikplavpaa----------e---kasyellck
+trfe_xenla nyagafkclqddqgdvafvkqstvpee----------f---hkdyellcp
+trfm_human dysgafrclaegagdvafvkhstvlentdgktlpswgqallsqdfellcr
+1aov       gysgafqclkdgkgdvafvkhttvqena-----p--ee---kdeyellcl
+
+1lcf       dntrkpvdkfkdchlarvpshavvarsvngkedaiwnllrqaqekfgkdk
+trfe_rabit dntrkpvdeyeqchlarvpshavvarsvdgkedliwellnqaqehfgkdk
+trf2_salsa dgtrasidsyktchlarvpahavvsrkdpelanriynklvav--------
+trfe_xenla dntrksikeykncnlakvpahavltrgrddkskdiieflqeaq------k
+trfm_human dgsradvtewrqchlarvpahavvvra-dtdgglifrllnegqrlfsheg
+1aov       dgsrqpvdsyktcnwarvaahavvard-dskiddiwsflgmqayslgvdt
+
+1lcf       spkfqlfgsps-g---qkdllfkdsaigfsrvppridsglylgsgyftai
+trfe_rabit sgdfqlfssph-----gknllfkdsaygffkvpprmdanlylgyeyvtav
+trf2_salsa -kdfnlfssdgya---aknlmfkdsaqklvqlptttdsflylgaeymsti
+trfe_xenla tqecklfsspv-w---grdlifkdsavsliplpssmdsflflgadyfqci
+trfm_human s-sfqmfsseayg---qkdllfkdstselvpiatqt-yeawlgheylham
+1aov       tsdfhlfgppgkkdpvlkdllfkdsaimlkrvpelmdsqlylgfeyysai
+
+1lcf       qnlrks--eeevaarrarvvwcavgeqelrkcnqwsgls-----e--gsv
+trfe_rabit rnlregicpdplqdeckavkwcalshherlkcdewsvts-----g--gli
+trf2_salsa rslkks--qat-gassraikwcavghaekgkcdtwtinsf---adgeski
+trfe_xenla qalkegv-keddsaaqvkvrwctqskaektkcddwttis-----g--gai
+trfm_human kgllcd--pnrlp---pylrwcvlstpeiqkcgdmavafrrqrlk--pei
+1aov       qslrkd--qltvgprenkiqwcavgkdekskcdrwsvvs-----n--gev
+
+1lcf       tcssasttedcialvlkgeadamsldggyvytagkc-glvpvlaenyksq
+trfe_rabit ecesaetpedciakimngeadamsldggyvyiagqc-glvpvlaenyes-
+trf2_salsa scqdaptveecikkimrkeadaiavdggevytagkc-glvpvmveqyda-
+trfe_xenla ecteastaeecivqilkgdadavtldggymytaglc-glvpvmgeyydq-
+trfm_human qcvsakspqhcmeriqaeqvdavtlsgediytagkkyglvpaagehyape
+1aov       ectilddnkdcivkitkgeadaisldggfvytagvc-glvpvvgesyede
+
+1lcf       qssdpdpncvdr--pve-gylavavvrrsdt--sltwnsvkgkkschtav
+trfe_rabit td------ckka--pee-gylsvavvkks-n-pdinwnnlegkkschtav
+trf2_salsa dl------csap-geas-syyavavakkg-s--gltwktlkgkrschtgl
+trfe_xenla ddltp---cqrscsqakgvyyavaivkkg-t--qvswsnlrgvktchtav
+trfm_human dss-------n-------syyvvavvrrd-sshaftldelrgkrschagf
+1aov       tq------cskdeeq-payyfavavvkks-s--aitwnnlqgkkschtav
+
+1lcf       drtagwnipmgllfn----qtgsckf----deyfsqscapgsd-pr--sn
+trfe_rabit drtagwnipmgllyn----rinhcrf----deffrqgcapgsq-kn--ss
+trf2_salsa grtagwnipmglihq----etndcdf----tkyfskgcapgse-vg--sp
+trfe_xenla grtagwnipvglits----etancdf----asyvgescapgsd-vk--sn
+trfm_human gspagwdvpvgaliqrgfirpkdcdvltavseffnascvpvnnpknypss
+1aov       grtagwnipmglihn----ktgscdf----ddyfsegcapgsp-pn--sr
+
+1lcf       lcalcigdeqg----enkcvpnsneryygytgafrclaenagdvafvkdv
+trfe_rabit lcelcigp--------svcapnnregyygytgafrclve-kgdvafvksq
+trf2_salsa fcaqckgsgkarggdedrckarseeqyygytgafrclvedagdvafikht
+trfe_xenla lcalcigdpeklserekkcspsaseayygysgafrclve-kgqvgfakht
+trfm_human lcalcvgdeqg----rnkcvgnsqeryygyrgafrclvenagdvafvrht
+1aov       lcklcqgsgen---llekcvasshekyygytgalrclve-qgdvafikhs
+
+1lcf       tvlqntdgnnneawakdlkladfallcldgkrkpvtearschlamapnha
+trfe_rabit tvlqntggrnsepwakdlkeedfellcldgtrkpvseahnchlakapnha
+trf2_salsa ivpestdg-ngpdwakdlkssdfellcqdgttqpvtkfsechlakvpaha
+trfe_xenla tvfentdgknpagwakdlksedfellcpdgsrapvtdykrcnlaevpaha
+trfm_human tvfdntnghnsepwaaelrsedyellcpngaraevsqfaacnlaqippha
+1aov       tvgenvsgsnkddwakgltrddfellctngkraktmdyktchlakvptha
+
+1lcf       vvsrmdkve-rlkqvllhqqakfgrngsdcpdkfclfqset---knllfn
+trfe_rabit vvsrkdkaa-cvkqklldlqveygntvadcsskfcmfhskt---kdllfr
+trf2_salsa vitrpetrg-dvvsillelqakfgssgsd--ssfrmfqssv--eknllfk
+trfe_xenla vvtlpdkre-qvakivvnqqslygrkgfq-kdifqmfqstg--gkdllfk
+trfm_human vmvrpdtniftvyglldkaqdlfgddhn--kngfkmfdssnyhgqdllfk
+1aov       vvarpekan-kirellegqeklfglhgte-kerfmmfqsqt---kdllfk
+
+1lcf       dnteclarlhgkttyekylgpqyvagitnlkkcs--tsplleaceflrk
+trfe_rabit ddtkclvdlrgkntyekylgadyikavsnlrkcs--tsrlleactfhk-
+trf2_salsa dstkclqeipkgtkyqdflgkeymiamqslrkcsdstsdlekactfhs-
+trfe_xenla dstqclleipskttmqeflgdkyhtavtslnkcs--tsrllaactf---
+trfm_human datvravpvgekttyrgwlgldyvaalegmss---------qqcs----
+1aov       altkclvklrqgitykeflgdeyyasvaslntcn--psdllqvctfled
+
+
+

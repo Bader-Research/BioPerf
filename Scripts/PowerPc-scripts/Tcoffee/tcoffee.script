@@ -1,0 +1,14 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/PowerPc-Binaries/Tcoffee/
+export CLUSTALW_4_TCOFFEE=$BIOPERF/Binaries/PowerPc-Binaries/Clustalw/clustalw
+export LALIGN_4_TCOFFEE=$BIOPERF/Binaries/PowerPc-Binaries/Tcoffee/lalign2list
+./t_coffee $BIOPERF/Inputs/Tcoffee/class-A/1amk_ref1.pep
+mv *.aln *.dnd $BIOPERF/Outputs/Tcoffee/
+echo The output has been stored as *.aln and *.dnd in /Outputs/Tcoffee
+./t_coffee $BIOPERF/Inputs/Tcoffee/class-B/2scuA_1drw
+mv *.aln *.dnd $BIOPERF/Outputs/Tcoffee/
+echo The output has been stored as *.aln and *.dnd in /Outputs/Tcoffee
+./t_coffee $BIOPERF/Inputs/Tcoffee/class-C/1yge_1byt
+mv *.aln *.dnd $BIOPERF/Outputs/Tcoffee/
+echo The output has been stored as *.aln and *.dnd in /Outputs/Tcoffee

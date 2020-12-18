@@ -1,0 +1,52 @@
+Using these options:
+  Number of k-means iterations:       100
+  Low-dimensional projection:         15
+  Number of k-means clusters:         18
+  Early threshold:                    0
+  Random seed for k-means init:       4
+  Type of k-means initialization:     4
+  Random seed for projection:         1
+  File to load projected data:        ../output//clustalw.projData
+  File to save labels:                ../output//clustalw.labels
+  File to save weights:               ../output//clustalw.weights
+  File to save simpoints:             ../output//clustalw.simpoints
+  Input data files to process:
+
+Loaded data from projected data file '../output//clustalw.projData' (size: 922x15)
+  Initialized k-means centers using furthest-first: 18 centers
+iteration 0
+count: 152	8	6	1	1	5	85	156	3	16	40	7	37	37	7	25	322	14	
+iteration 1
+count: 173	8	5	1	1	9	68	132	4	14	48	10	44	129	7	27	226	16	
+iteration 2
+count: 166	8	5	1	1	11	62	105	6	14	49	11	46	175	7	33	204	18	
+iteration 3
+count: 159	8	5	1	1	11	58	97	7	13	49	11	47	187	9	37	202	20	
+iteration 4
+count: 153	8	5	1	1	11	55	95	10	14	49	11	46	188	10	41	202	22	
+iteration 5
+count: 146	8	5	1	1	11	50	97	16	14	48	11	48	190	11	43	197	25	
+iteration 6
+count: 136	8	5	1	1	11	47	94	27	14	46	11	50	189	12	48	195	27	
+iteration 7
+count: 134	8	5	1	1	14	44	98	36	14	45	11	53	184	12	47	187	28	
+iteration 8
+count: 135	8	5	1	1	15	43	96	42	14	44	11	54	181	12	52	179	29	
+iteration 9
+count: 138	8	5	1	1	15	41	99	44	14	44	11	56	175	13	54	175	28	
+iteration 10
+count: 143	8	5	1	1	15	41	99	44	14	44	11	54	175	14	54	170	29	
+iteration 11
+count: 146	8	5	1	1	15	41	99	45	13	44	11	52	174	14	54	167	32	
+iteration 12
+count: 147	8	6	1	1	15	41	99	45	13	44	11	52	173	14	54	167	31	
+iteration 13
+count: 147	8	6	1	1	15	41	99	45	13	44	11	52	173	14	54	167	31	
+  BIC score: 43970.4
+  Distortion: 0.821365
+  Distortions/cluster: 0.0800611 0.000362473 0.0109492 0 0 0.0284601 0.0597873 0.0675987 0.087336 0.0183967 0.0724224 0.0174042 0.0605101 0.095905 0.0332722 0.0486717 0.0940071 0.0462214 
+  Variance: 0.00090859
+  Variances/cluster: 0.000548364 5.17819e-05 0.00218984 0 0 0.00203286 0.00149468 0.000689782 0.00198491 0.00153306 0.00168424 0.00174042 0.00118647 0.000557587 0.0025594 0.000918334 0.000566308 0.00154071 
+  Saving simpoints to file '../output//clustalw.simpoints'
+  Saving labels and distance from center of each input point to file '../output//clustalw.labels'
+  Saving weights of each cluster to file '../output//clustalw.weights'

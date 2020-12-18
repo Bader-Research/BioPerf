@@ -1,0 +1,130 @@
+
+SAGA FORMAT
+alignement  1taq_ref1.t_coffee_aln10 nseq=5 len=957
+T_COFFEE ALIGNMENT
+CPU TIME:160218
+
+
+
+dpo1_thefl ----pkgrvllvdghhlayrtffalk--glt----tsrgepvqavygfak
+dpo1_myctu ----akptlmlldgnslafrafyalaepnfk----trgglttnavygfta
+dpo1_bacca -----kkklvlidgssvayraffalp--llh----ndkgihtnavygftm
+dpo1_strpn -----kkklllidgssvafraffalq--qldyrfknaaglhtnaiygfql
+DPO1_ECOLI mvqipqnplilvdgssylyrayhafp--plt----nsageptgamygvln
+
+dpo1_thefl sllkalke-dgdvvvvvfdarapt----------------pedfprqlal
+dpo1_myctu mlinllrdeatphiaaafd-rsst----------------pdefagqidi
+dpo1_bacca mlnkilaeeetphmlvafdarqqt----------------ppelseqfpl
+dpo1_strpn mlshllervesphilvafdarakt----------------pdefreqfpf
+DPO1_ECOLI mlrslimqykpthaavvfdakgktfrdelfehykshrppmpddlraqiep
+
+dpo1_thefl ikelvdllglvrlevpgfeaddvlatlakraekegyevriltadrdlyql
+dpo1_myctu tkevlgalgitvlsepgfeaddliatlatqaenegyrvlvvtgdrdalql
+dpo1_bacca lrellrayripayelenyeaddiigtlaaraeqegfevkvisgdrdltql
+dpo1_strpn irelldhmgirhyelaqyeaddiigtldklaeqdgfditivsgdkdliql
+DPO1_ECOLI lhamvkamglpllavsgveaddvigtlareaekagrpvlistgdkdmaql
+
+dpo1_thefl lseriailhpeg-yl-----itpawlyekyglrpeqwvdyralagdpsdn
+dpo1_myctu vsddvtvlyrkg-vspeltrftpeavvekygltprqypdfaalrgdpsdn
+dpo1_bacca asphvtvditkg-itdikepytpeavrekygltpeqivdlkglmgdksdn
+dpo1_strpn tdehtvveskkg-viaefeaftpdylmeemgltpaqfidlkalmgdksdn
+DPO1_ECOLI vtpnitlintmtnti-----lgpeevvnkygvppeliidflalmgdssdn
+
+dpo1_thefl ipgvkgigektaqrlirewgslenlfqhldqvkp-------slreklqag
+dpo1_myctu lpgipgvgektaakwiaeygslrslvdnvdavrg------k-vgdalran
+dpo1_bacca ipgvpgigektavkllrqfgtvenvlasideikg------kelketlrqh
+dpo1_strpn ipgvtkvgektgiklllehgslegiyenidgmkt------ksmkenlind
+DPO1_ECOLI ipgvpgvgektaqallqglggldtlyaepekiaglsfrgaktmaakleqn
+
+dpo1_thefl mealalsrklsqvhtdlplevdfgr--rrtpnleglraflerlefgsllh
+dpo1_myctu lasvvrnreltdlvrdvplatpqdtlrlqpwdrdhihrlfddlefrvldr
+dpo1_bacca remallskklaairrdapvelsldiadyqgedrekvvalfkelgfqsfle
+dpo1_strpn keqaflsktlatidtkapiaigledvylsgpdvenlgkfydemgfkqlkq
+DPO1_ECOLI kevaylsyqlatiktdveleltceqlevqqpaaeellglfkkyefkrwta
+
+dpo1_thefl efgl------l---eg--pk----aa-----------------eeapwpp
+dpo1_myctu rlfd--tlaaa---gg--pe----vdegf---------d-vrgalapgtv
+dpo1_bacca kmes--pssee---ek--pl----akmaf------------t--ladrvt
+dpo1_strpn alnm--ssadv---eg----------ldf------------t-ivadqis
+DPO1_ECOLI dveagkwlqakgakpaakpqetsvadeapevtatvisydnyvtildeetl
+
+dpo1_thefl pegaflg-------f-sfsrpe-p-mwaella--laga-weg--rl-hr-
+dpo1_myctu rqwlaehagdgrragltgvvgthlphggdatamavaaadgeg--ayldt-
+dpo1_bacca eemladka-----al-vvvveeny-hdapivg--iavvnehgr-ffler-
+dpo1_strpn qdmlsees-----ifhfelfgeny-htdnlvg--faw--scgd-q-lya-
+DPO1_ECOLI kawiaklekapvfaf-dtetdsldnisanlvglsfai--epgvaayipva
+
+dpo1_thefl -------aq-dp------lrglr-dlkgvrgilakdlavl-al-regldl
+dpo1_myctu ---altpdd-daa----laawla-dptakpkalheakaavhdlagrgwtl
+dpo1_bacca ---petala-dpq----fvawlg-detkkksmfdskraav-alwkkgiel
+dpo1_strpn t--dkellq-dpi----lfkdfl-ektslrv-ydfkkvkv-llqrfgvdl
+DPO1_ECOLI hdyldapdqisreralellkplledekalkvgqnlkydrg-ilanygiel
+
+dpo1_thefl f-peddpmllaylldpsnt---t---pegvarry-ggewteda-------
+dpo1_myctu egvtsdtalaaylvrpgqsfrtlddlslrylre------lraetpqqqql
+dpo1_bacca cvgsfdlllaaylldpaqg---vddvaaakmkqy-eavrpdeaavygkga
+dpo1_strpn aqpafdirlakyllstve-----deniatiasly-gqtlvddetfygkgv
+DPO1_ECOLI rgiafdtmlesyilnsvagr---hdm-dslaerwlkhktitfeeiagkgk
+
+dpo1_thefl --------gerallaerlfqt----------lke-rlkgeerllwlyeev
+dpo1_myctu sllddddrtdaeti-qttilraravidlad-aldaelar-dstiallgem
+dpo1_bacca ----kravpdepvlaehlvrkaaaiwaler-pfd-elrrneqdlrllvel
+dpo1_strpn y---kkaiperekflehlacklavlvetep-ile-klsengqllellydm
+DPO1_ECOLI nqltfnqialeeag-ryaaedadvtlqlhlkmwp-dlqkhkgplnvfeni
+
+dpo1_thefl ekplsrvlarmeatgvrldvaylqalsleveaevrqleeevfrlaghpfn
+dpo1_myctu elpvqrvlakmesagiavdlpmltelqsqfgdqirdaaeaaygvigkqin
+dpo1_bacca eqplssilaemefagvkvdtkrleqmgeelaeqlrtveqriyelagqefn
+dpo1_strpn eqplafvlakmeiagivvkketllemqaenelviekltqeiyelageefn
+DPO1_ECOLI emplvpvlsrierngvkidpkvlhnhseeltlrlaelekkaheiageefn
+
+dpo1_thefl lnsrdqlervlfdelglp--aigktektgkrstsaavlealrea--hpiv
+dpo1_myctu lgspkqlqvvlfdelgmp--ktkrt-ktg-yttdadalqslfktdghpfl
+dpo1_bacca inspkqlgvilfeklqlp--vlkks-ktg-ystsadvleklapy--heiv
+dpo1_strpn vnspkqlgvllfeklglpleytkkt-ktg-ystavdvlerlapi--apiv
+DPO1_ECOLI lsstkqlqtilfekqgik--plkkt-pggapstseevleelald--yplp
+
+dpo1_thefl dril-qyreltklkntyidplpalvhpktgrlhtrfnqtatatgrlsssd
+dpo1_myctu qhll-ahrdvtrlkvt-vdgllqavaad-grihttfnqtiaatgrlsste
+dpo1_bacca enilhqyrqlgklqstyiegllkvvrpdtkkvhtifnqaltqtgrlsste
+dpo1_strpn kkil-dyrqiakiqstyviglqdwiladg-kihtryvqdltqtgrlssvd
+DPO1_ECOLI kvil-eyrglaklkstytdklplminpktgrvhtsyhqavtatgrlsstd
+
+dpo1_thefl pnlqnipvrtplgqrirrafva-eegwvlvvldysqielrvlahlsgden
+dpo1_myctu pnlqnipirtdagrrirdafvvgdgyealmtadysqiemrimahlsgdeg
+dpo1_bacca pnlqnipirleegrkirqafvpssedwlifaadysqielrvlahiaeddn
+dpo1_strpn pnlqniparleqgrlirkafvpweedsvllssdysqielrvlahiskdeh
+DPO1_ECOLI pnlqnipvrneegrrirqafia-pedyvivsadysqielrimahlsrdkg
+
+dpo1_thefl lirvfqegrdihtqtaswmfgvs-pegvdplmrraaktinfgvlygmsah
+dpo1_myctu lieafntgedlhsfvasrafgvp-idevtgelrrrvkamsyglayglsay
+dpo1_bacca lmeafrrdldihtktamdifqvs-edevtpnmrrqakavnfgivygisdy
+dpo1_strpn likafqegadihtstamrvfgieprdnvtandrrnakavnfgvvygisdf
+DPO1_ECOLI lltafaegkdihrataaevfglp-letvtseqrrsakainfgliygmsaf
+
+dpo1_thefl rlsgelsipyeeavafieryfqsypkvrawiegtleegrrrgyvetlfgr
+dpo1_myctu glsqqlkisteeaneqmdayfarfggvrdylravverarkdgytstvlgr
+dpo1_bacca glaqnlnisrkeaaefieryfesfpgvkrymenivqeakqkgyvttllhr
+dpo1_strpn glsnnlgisrkeakayidtyferfpgiknymdevvreardkgyvetlfkr
+DPO1_ECOLI glarqlniprkeaqkymdlyferypgvleymertraqakeqgyvetldgr
+
+dpo1_thefl rryvpdlnarvksvreaaermafnmpvqgtaadlmklamvrlfprlqe--
+dpo1_myctu rrylpeldssnrqvreaaeraalnapiqgsaadiikvamiqvdkalnaqe
+dpo1_bacca rrylpditsrnfnvrsfaermamntpiqgsaadiikkamidlnarlkere
+dpo1_strpn rrelpdinsrnfnirgfaeatainspiqgsaadilkiamiqldkalvagy
+DPO1_ECOLI rlylpdikssngarraaaeraainapmqgtaadiikramiavdawlqaeq
+
+dpo1_thefl lgarmllqvhdelvleapkdraervaalakevmegvwplqvplevevglg
+dpo1_myctu lasrmllqvhdellfeiapgerervealvrdkmggaypldvplevsvgyg
+dpo1_bacca lqarlllqvhdelileapkeemerlcrlvpevmeqavtlrvplkvdyhyg
+dpo1_strpn qgtkmllqvhdeivlevpkselvemkklvkqtmeeaiqlsvpliadeneg
+DPO1_ECOLI prvrmimqvhdelvfevhkddvdavakqihqlmenctrldvpllvevgsg
+
+dpo1_thefl edwlsak
+dpo1_myctu rswdaa-
+dpo1_bacca stwydak
+dpo1_strpn atwyeak
+DPO1_ECOLI enwdqah
+
+
+

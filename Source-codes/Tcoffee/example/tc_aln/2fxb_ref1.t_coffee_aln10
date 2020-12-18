@@ -1,0 +1,22 @@
+
+SAGA FORMAT
+alignement  2fxb_ref1.t_coffee_aln10 nseq=5 len=65
+T_COFFEE ALIGNMENT
+CPU TIME:5358
+
+
+
+1clf      aykiadscvsc--gacasecpvnaisqgdsifvidadtcidc-g-----n
+1fca      ayvineacisc--gacepecpvdaisqggsryvidadtcidc-g-----a
+1blu      almitdecinc--dvcepecpngaisqgdetyviepslctecvghyetsq
+FER_BACSC ayvitepcigtkdascvevcpvdcihegedqyyidpdvcidc-g-----a
+FER_BUTME aykitdeciac--gscadqcpveaiseg-siyeidealctdc-g-----a
+
+1clf      canvcpvgapvqe--
+1fca      cagvcpvdapvqa--
+1blu      cvevcpvdciikdps
+FER_BACSC ceavcpvsaiyhedf
+FER_BUTME cadqcpveaivped-
+
+
+

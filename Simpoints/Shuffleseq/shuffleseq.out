@@ -1,0 +1,60 @@
+Using these options:
+  Number of k-means iterations:       100
+  Low-dimensional projection:         15
+  Number of k-means clusters:         25
+  Early threshold:                    0
+  Random seed for k-means init:       5
+  Type of k-means initialization:     5
+  Random seed for projection:         1
+  File to load projected data:        ../output//shuffleseq.projData
+  File to save labels:                ../output//shuffleseq.labels
+  File to save weights:               ../output//shuffleseq.weights
+  File to save simpoints:             ../output//shuffleseq.simpoints
+  Input data files to process:
+
+Loaded data from projected data file '../output//shuffleseq.projData' (size: 1035x15)
+  Initialized k-means centers using furthest-first: 25 centers
+iteration 0
+count: 124	1	1	1	19	13	11	527	10	50	6	15	4	4	15	51	7	19	9	1	17	12	20	65	33	
+iteration 1
+count: 105	1	1	1	24	19	12	505	10	29	7	14	7	6	15	67	7	18	11	2	30	12	23	63	46	
+iteration 2
+count: 93	1	1	1	21	20	13	478	9	25	7	15	7	6	15	92	6	19	10	2	42	18	23	64	47	
+iteration 3
+count: 90	1	1	1	18	21	13	452	8	24	7	13	7	6	18	118	6	20	10	2	45	22	24	62	46	
+iteration 4
+count: 85	1	1	1	16	22	13	437	8	24	7	13	7	6	19	133	6	20	10	2	50	25	24	60	45	
+iteration 5
+count: 84	1	1	1	15	22	13	432	8	27	7	13	7	6	24	138	6	20	10	2	48	26	24	58	42	
+iteration 6
+count: 82	1	1	1	15	22	13	428	8	28	7	13	7	6	32	142	6	20	10	2	44	26	24	56	41	
+iteration 7
+count: 79	1	1	1	15	22	13	427	8	27	7	13	7	6	38	142	6	20	10	2	43	27	24	54	42	
+iteration 8
+count: 74	1	1	1	15	21	13	424	8	29	7	13	8	6	43	143	6	20	10	2	45	26	24	54	41	
+iteration 9
+count: 71	1	1	1	15	21	13	418	8	31	7	13	8	6	45	149	6	20	10	2	48	26	24	51	40	
+iteration 10
+count: 66	1	1	1	15	20	13	412	8	32	7	13	8	5	44	155	6	20	10	2	54	26	24	52	40	
+iteration 11
+count: 62	1	1	1	15	20	13	410	8	32	7	13	8	5	44	157	6	20	10	2	58	27	24	52	39	
+iteration 12
+count: 61	1	1	1	15	20	13	408	8	32	7	13	8	5	44	159	6	20	10	2	60	27	24	51	39	
+iteration 13
+count: 63	1	1	1	15	20	13	407	8	32	7	13	8	5	44	160	6	20	10	2	61	27	24	48	39	
+iteration 14
+count: 62	1	1	1	15	20	13	406	8	32	7	13	8	5	44	161	6	20	10	2	62	27	24	48	39	
+iteration 15
+count: 62	1	1	1	15	20	13	405	8	32	7	13	8	5	44	162	6	20	10	2	62	27	24	48	39	
+iteration 16
+count: 62	1	1	1	15	20	13	404	8	32	7	13	8	5	44	163	6	20	10	2	62	27	24	48	39	
+iteration 17
+count: 62	1	1	1	15	20	13	404	8	32	7	13	8	5	44	163	6	20	10	2	62	27	24	48	39	
+  BIC score: 79600.3
+  Distortion: 0.0182543
+  Distortions/cluster: 0.000994743 0 0 0 0.000331206 0.000789948 0.000646533 0.00113756 0.000154492 0.00103021 0.000185003 0.000924942 0.000605523 0.000248807 0.00276971 0.00126218 0.000606805 0.000646098 0.000445917 0.000148977 0.0010886 0.00074662 0.00131868 0.00104896 0.00112281 
+  Variance: 1.80736e-05
+  Variances/cluster: 1.63073e-05 0 0 0 2.36576e-05 4.15762e-05 5.38777e-05 2.82273e-06 2.20703e-05 3.32326e-05 3.08339e-05 7.70785e-05 8.65033e-05 6.22017e-05 6.44119e-05 7.79126e-06 0.000121361 3.40052e-05 4.95463e-05 0.000148977 1.78459e-05 2.87162e-05 5.73337e-05 2.23182e-05 2.95478e-05 
+  Saving simpoints to file '../output//shuffleseq.simpoints'
+  Saving labels and distance from center of each input point to file '../output//shuffleseq.labels'
+  Saving weights of each cluster to file '../output//shuffleseq.weights'

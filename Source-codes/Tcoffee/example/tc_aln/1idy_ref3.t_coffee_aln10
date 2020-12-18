@@ -1,0 +1,66 @@
+
+SAGA FORMAT
+alignement  1idy_ref3.t_coffee_aln10 nseq=27 len=79
+T_COFFEE ALIGNMENT
+CPU TIME:1140298
+
+
+
+1idy       me---vkktswteeedrilyq------------ahkrlgnrwaeiakllp
+mybp_maize ad---vkrgniskeeediiik------------lhatlgnrwsliashlp
+myb3_maize -d---lkrgnftadeddlivk------------lhsllgnkwsliaarlp
+gl1_arath  -n---vnkgnfteqeedliir------------lhkllgnrwsliakrvp
+myb3_horvu -d---lkrgcfsqqeedhiva------------lhqilgnrwsqiashlp
+myb2_phypa -d---lkrgifseaeenlild------------lhatlgnrwsriaaqlp
+1hstA      ------shptysemiaaaira------------eksrggssrqsiqkyik
+h1d_strpu  ------shpkysdmiasales------------lkekkgssrqailkyvk
+h1b_strpu  ------ahpsssemvlaaita------------lkerggssaqairkyie
+h1_tigca   ------thpptsvmvmaaika------------lkerngsslpaikkyia
+h1l_myttr  -------kpstlsmivaaita------------mknrkgssvqairkyil
+h1_echcr   ------ahppvidmitaaiaa------------qkerrgssvakiqsyia
+h11_caeel  ------ahppyintikeaikq------------lkdrkgaskqailkfis
+h1a_pladu  ------ahppvatmvvtailg------------lkerkgssmvaikkyia
+h11_arath  ------shptyeemikdaivt------------lkertgssqyaiqkfie
+h1_dicdi   ------nhptyqvmistaiah------------ykdrtgssqpaiikyie
+1aoy       -----mrssakqeelvkafkallkeekfssqge-----------ivaalq
+ARGR_STRCL --------marhrriv----dilnrqpvrsqsq-----------laklla
+G3273713   enlnpvtrtarqalil----qildkqkvtsqvq-----------lselll
+AHRC_BACSU -----mnkgqrhikir----eiitsneietqde-----------lvdmlk
+ARGR_BACST -----mnkgqrhikir----eiimsndietqde-----------lvdrlr
+ARGR_STRPN -----mrkrdrhqlik----kmiteeklstqke-----------iqdrle
+ARGR_MYCTU gpevaanragrqariv----ailssaqvrsqne-----------laalla
+1jhgA      tp---derealgtr-vriieell-rgem-sqrelknelgagiatit----
+TRPR_HAEIN ta---derdavglr-lqivsqli-dknm-pqreiqqnlntsaatit----
+G3328572   sf---serkdvasr-yhiirall-egel-tqreiaekygvsiaqit----
+1tc3C      -------r---gsa-------ls-dter-aqldvmkllnvslhemsrkis
+
+1idy       g--r-t-dn------aiknhwnstmrrkv
+mybp_maize g--r-t-dn------eiknywnshlsrq-
+myb3_maize g--r-t-dn------eiknywnthvrrk-
+gl1_arath  g--r-t-dn------qvknywnthlskk-
+myb3_horvu g--r-t-dn------eiknfwnscikkk-
+myb2_phypa g--r-t-dn------eiknywntrlkkr-
+1hstA      shyk-vghn---adlqiklsirrllaagv
+h1d_strpu  anft-vgdna---nvhikqalkrgvtsgq
+h1b_strpu  knyt-vd--ikkqaifikralitgvekgt
+h1_tigca   anyk-vd--vvknahfikkalkslvekkk
+h1l_myttr  annkgin--tshlgsamklafakglksgv
+h1_echcr   akyr-cd--inalnphirralknqvksga
+h11_caeel  qnyk-lgdnviqinahhrqalkrgv----
+h1a_pladu  anyr-vd--varlapfirkfir----ka-
+h11_arath  ekrk-elpp--tfrkllllnlkrlvasgk
+h1_dicdi   anyn-vapd--tfktqlklalkrlvakgt
+1aoy       eq--gf-dninq--skvsrmltkfgavrt
+ARGR_STRCL dn--gl--svtq--atlsrdldelgavki
+G3273713   de--gi--ditq--atlsrdldelgarkv
+AHRC_BACSU qd--gy--kvtq--atvsrdikelhlvkv
+ARGR_BACST ea--gf--nvtq--atvsrdikemqlvkv
+ARGR_STRPN ah--nv--cvtq--ttlsrdlreigltkv
+ARGR_MYCTU ae--gi--evtq--atlsrdleelgavkl
+1jhgA      ---rg--sn------slkaa--pv-----
+TRPR_HAEIN ---rg--sn------miktm--dp-----
+G3328572   ---rg--sn------alkgl--dp-----
+1tc3C      ---rs--rh------cirvylkdpvsygt
+
+
+

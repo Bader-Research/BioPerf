@@ -1,0 +1,28 @@
+
+SAGA FORMAT
+alignement  1plc_ref1.t_coffee_aln10 nseq=5 len=102
+T_COFFEE ALIGNMENT
+CPU TIME:7820
+
+
+
+plas_horvu -d-vllganggvlvfepndfsvkagetitfknnagyphnvvfdedavpsg
+plas_chlre ---vklgadsgalefvpktltiksgetvnfvnnagfphnivfdedaipsg
+plas_anava ---vklgsdkgllvfepakltikpgdtveflnnkvpphnvvfdaalnpak
+plas_proho vq-ikmgtdkyaplyepkalsisagdtvefvmnkvgphnvifdk--vpag
+azup_achcy vhmlnkgkd-gamvfepaslkvapgdtvtfiptdk-ghnvetikgmipdg
+
+plas_horvu vd--vskisqeeyltapgetfsvtlt--vp-gtygfycephagagmvgkv
+plas_chlre vn--adaisrddylnapgetysvklt--aa-geygyycephqgagmvgki
+plas_anava sadlakslshkqllmspgqststtfpadapageytfycephrgagmvgki
+plas_proho es--apalsntklriapgsfysvtlg--tp-gtysfyctphrgagmvgti
+azup_achcy ----aeafksk-----inenykvtft--ap-gvygvkctphygmgmvgvv
+
+plas_horvu tv
+plas_chlre iv
+plas_anava tv
+plas_proho tv
+azup_achcy ev
+
+
+

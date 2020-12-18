@@ -1,0 +1,6 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd ~/backup-Bioinformatics/fasta3.0
+./ssearch34_t -a -b 20 -q -O ~/backup-Bioinformatics/fasta3.0/Output/1absearch ~/backup-Bioinformatics/Inputs/fasta-input/small/1abseq.pep ~/backup-Bioinformatics/Inputs/fasta-input/small/1aboA_ref1.pep
+./ssearch34_t -a -b 20 -q -O ~/backup-Bioinformatics/fasta3.0/Output/NCsearch ~/backup-Bioinformatics/Inputs/fasta-input/medium/NC_003062.fna ~/backup-Bioinformatics/Inputs/fasta-input/medium/NC_003304.fna
+./ssearch34_t -a -b 20 -q -O ~/backup-Bioinformatics/fasta3.0/Output/NCsearch2 ~/backup-Bioinformatics/Inputs/fasta-input/large/NC_003155.fna ~/backup-Bioinformatics/Inputs/fasta-input/large/NC_004463.fna

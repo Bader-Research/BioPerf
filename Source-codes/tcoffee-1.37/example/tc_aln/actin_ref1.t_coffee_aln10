@@ -1,0 +1,64 @@
+
+SAGA FORMAT
+alignement  actin_ref1.t_coffee_aln10 nseq=5 len=415
+T_COFFEE ALIGNMENT
+CPU TIME:33558
+
+
+
+act2_dauca ma--dg--gediqplvcdngtgmvkagfagddapravfpsivvgrprhtg
+act_eupcr  ms--ee--enakeaivvdngsgvvkagfagenqpcsvfps-vvakpktkq
+arp1_p_car me-fnd--vltnqpicidngsgvikagfagedqpksffps-yvgrpkhlk
+arp1_s_cer mdqlsdsyalynqpvvidngsgiikagfsgeerpkaleyc-lvgntkydk
+arp2_c_ele md--sq----grkvivvdngtgfvkcgyagtnfpahifps-mvgrpivrs
+
+act2_dauca vm-vg-mgqkdayvgdeaqskrgiltlkypiehgivsnwddmekishhtf
+act_eupcr  vi-vggagnkdcfvgderqqkrgvctlsypiksgmikdwdgmqkiwdytf
+arp1_p_car im-ag-aiegdifignkaqelrgllkikypiehgivvdwddmeriwqfiy
+arp1_s_cer vm-le-glqgdtfignnaqklrgllklrypikhgvvedwdsmeliwsyvl
+arp2_c_ele tqrvgnieikdlmvgeecsqlrqmldinypmdngivrnwddmahvwdhtf
+
+act2_dauca yne-lrva-peehpvllteaplnpkanrekmtqimfetfnvpamyvlsrl
+act_eupcr  yne-lrie-tenhpvllteaplnpkqnrenmcrimfeeydfpsmyiq--i
+arp1_p_car tee-lktv-seehpvllteaplnprtnrdqaaqvffetfnvpalfts--i
+arp1_s_cer nev-lqlqnigehplliteapmnplknreqmaqvlfetfdvsalyvs--n
+arp2_c_ele gpekldid-pkeckllltepplnpnsnrekmfqvmfeqygfnsiyva--v
+
+act2_dauca rsclslyasgrttgivldsgdgvshtvpiyegyalphailrldlagrdlt
+act_eupcr  qavlslysagrttgivvdsgdgvthvvpifegyqiphaiekillagrdlt
+arp1_p_car qavlslyasgrttgvvldsgdgvthavpiyegfampsairridiagrdvt
+arp1_s_cer pavlslyasgrttgcvvdcgegycstvpiydgfalpasmmrmdiggadit
+arp2_c_ele qavltlyaqglltgvvvdsgdgvthicpvyegfalhhltrrldiagrdit
+
+act2_dauca dglmkilter-gymftttatgmsy--mkeklayvalvmskswrl------
+act_eupcr  dymcrilkdd-dyhfettaeketvrdikeklcyvaddyeaelkk------
+arp1_p_car eylqlllrks-gtifhtsaekeivriikekcsyvtldprkeekewinasi
+arp1_s_cer eqlqfqlrksagvslfsssereivrtmkekvcylaknikkeeekylq---
+arp2_c_ele kyliklllqr-gynfnhsadfetvrqmkeklcyiaydveqeerl------
+
+act2_dauca prar-llveknyelpdgqvitigavrgsgcpevlfqpsmigmesagihet
+act_eupcr  ageg-geleesyalpdgrplkistqr-fqcpeflfqpdlggrecksvhql
+arp1_p_car sggkdytkeeefklpdgnvlrlgaer-frapeilfdpeiigseysgihqv
+arp1_s_cer -gtqd--listfklpdgrcievgndr-yrapeilfspqiiglgydglsdm
+arp2_c_ele alet-tvlsqqytlpdgrvirlgger-feapeilfqphlinvekaglsel
+
+act2_dauca tynsimkcdvdirkdlygnivlsggstmfpgscyasmskeital------
+act_eupcr  tydsimtcdldvrkdlyaniilsggttmfpg-lgerlykemkdl------
+arp1_p_car vvdaisrvdldlrkslfgnivlsggstltrg-fgdrllseirrl------
+arp1_s_cer cmqsiwkvdldlrkpllssiilsggtttlkg-fgdrmlwdleal------
+arp2_c_ele lfgciqasdidtrldfykhivlsggttmypg-lpsrlekelkqlyldrvl
+
+act2_dauca -----apssmkikvvapperkysvwiggsilaslst--fqqmwiskgeyd
+act_eupcr  -----apqtmkvkviaspdrkyavwrggstlaklst--fagmwvtkedya
+arp1_p_car -----avkdvkikifapperkystwiggsilaslst--frkmwvsaeeyq
+arp1_s_cer -----tkgtskikiiapserkyttwiggsiltglst--fqrlwtkksdwl
+arp2_c_ele hgntdafqkfkirieappsrkhmvflggavlanlmkdrdqdfwvskkeye
+
+act2_dauca esgpsivhrkc-f--
+act_eupcr  efgesivhrkc-i--
+arp1_p_car ed-pdiihrks-i--
+arp1_s_cer ed-strvysnl-m--
+arp2_c_ele eggiarcmaklgika
+
+
+

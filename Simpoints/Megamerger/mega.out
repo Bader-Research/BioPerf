@@ -1,0 +1,74 @@
+Using these options:
+  Number of k-means iterations:       100
+  Low-dimensional projection:         15
+  Number of k-means clusters:         26
+  Early threshold:                    0
+  Random seed for k-means init:       3
+  Type of k-means initialization:     3
+  Random seed for projection:         1
+  File to load projected data:        ../output//mega.projData
+  File to save labels:                ../output//mega.labels
+  File to save weights:               ../output//mega.weights
+  File to save simpoints:             ../output//mega.simpoints
+  Input data files to process:
+
+Loaded data from projected data file '../output//mega.projData' (size: 1069x15)
+  Initialized k-means centers using furthest-first: 26 centers
+iteration 0
+count: 91	2	1	5	3	1	8	5	6	1	4	1	2	3	9	2	247	12	20	596	9	5	28	3	4	1	
+iteration 1
+count: 61	2	1	8	3	1	11	5	6	1	4	1	2	3	72	2	246	31	31	524	12	7	26	3	5	1	
+iteration 2
+count: 31	2	1	8	3	1	13	5	7	1	4	1	2	3	166	2	246	45	47	422	18	7	25	3	5	1	
+iteration 3
+count: 19	2	1	7	3	1	13	5	8	1	4	1	2	3	168	2	246	50	53	411	23	11	26	3	5	1	
+iteration 4
+count: 21	2	1	8	3	1	13	5	8	1	4	1	2	3	168	2	246	51	50	407	26	11	26	3	5	1	
+iteration 5
+count: 24	2	1	8	3	1	13	5	8	1	4	1	2	3	168	2	246	51	47	401	32	11	26	3	5	1	
+iteration 6
+count: 32	2	1	8	3	1	13	5	8	1	4	1	2	3	168	2	246	52	38	393	39	12	26	3	5	1	
+iteration 7
+count: 47	2	1	8	3	1	13	5	8	1	4	1	2	3	165	2	246	53	22	383	52	12	26	3	5	1	
+iteration 8
+count: 49	2	1	8	3	1	13	5	8	1	4	1	2	3	165	2	246	53	20	371	64	12	26	3	5	1	
+iteration 9
+count: 50	2	1	10	3	1	13	5	8	1	4	1	2	3	165	2	246	53	19	362	71	12	26	3	5	1	
+iteration 10
+count: 51	2	1	12	3	1	13	5	8	1	4	1	2	3	165	2	246	53	18	355	76	12	26	3	5	1	
+iteration 11
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	165	2	246	53	17	348	84	12	25	3	5	1	
+iteration 12
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	165	2	246	53	17	341	91	12	25	3	5	1	
+iteration 13
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	336	97	12	25	3	5	1	
+iteration 14
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	326	107	12	25	3	5	1	
+iteration 15
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	310	123	12	25	3	5	1	
+iteration 16
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	289	144	12	25	3	5	1	
+iteration 17
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	274	159	12	25	3	5	1	
+iteration 18
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	258	175	12	25	3	5	1	
+iteration 19
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	244	188	13	25	3	5	1	
+iteration 20
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	234	197	14	25	3	5	1	
+iteration 21
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	231	199	15	25	3	5	1	
+iteration 22
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	232	197	16	25	3	5	1	
+iteration 23
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	233	196	16	25	3	5	1	
+iteration 24
+count: 52	2	1	12	3	1	13	5	8	1	4	1	2	3	164	2	246	53	17	233	196	16	25	3	5	1	
+  BIC score: 35288.2
+  Distortion: 6.67628
+  Distortions/cluster: 0.403626 0.00542478 0 0.316927 0.123177 0 0.257636 0.0794055 0.267688 0 0.0787399 0 0.0436715 0.0909535 0.714565 0.0110365 0.260344 0.816247 0.0515892 0.417311 1.53897 0.457182 0.626404 0.0115599 0.103828 0 
+  Variance: 0.00640104
+  Variances/cluster: 0.00791423 0.00542478 0 0.0288116 0.0615884 0 0.0214696 0.0198514 0.0382412 0 0.0262466 0 0.0436715 0.0454768 0.00438383 0.0110365 0.00106263 0.0156971 0.00322432 0.00179876 0.00789213 0.0304788 0.0261002 0.00577995 0.025957 0 
+  Saving simpoints to file '../output//mega.simpoints'
+  Saving labels and distance from center of each input point to file '../output//mega.labels'
+  Saving weights of each cluster to file '../output//mega.weights'

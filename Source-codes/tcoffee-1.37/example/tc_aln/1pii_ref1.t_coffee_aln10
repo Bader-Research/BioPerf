@@ -1,0 +1,40 @@
+
+SAGA FORMAT
+alignement  1pii_ref1.t_coffee_aln10 nseq=4 len=280
+T_COFFEE ALIGNMENT
+CPU TIME:12680
+
+
+
+TRPC_METTH sil-qeiirsrkleiknlsrkkpleelrdeltsldepls-ftdaltgnrv
+TRPC_PHYPR nil-eeiaaqrrldva-aakqvvstddlakkiehtesvyg----------
+TRPC_HALVO nasgdelapdvraile-aarerpggetrvsvdarsfpea-vaeteaagrv
+TRPC_ACICA til-gkivdrkheela-drlkqrnlkdveqwvkeappvrgfaqslrskrp
+
+TRPC_METTH sliceykraspssgrt-ygrglhemmevyr-egadavsvitenryfhgsi
+TRPC_PHYPR -------palp---vlerlnapaeqvqayanagasmisvltepkwfkgsl
+TRPC_HALVO pviaevkptspttegvred-dpvelaremvaggatalsvltepehfggsa
+TRPC_ACICA gviaeikkaspskgvirvdfnpaeiaqqyeqagaaclsvltdvdffqgad
+
+TRPC_METTH eflreasey-g----ip-llmkdfvvdeyqiyqarasgassvliitgvfp
+TRPC_PHYPR ddmmearevvegmsqrpailrkdfiidvyqllearaygadcvllivtlls
+TRPC_HALVO eslrrireavd----vp-vlrkdfimneaqldvvqs---dlvlliarfvg
+TRPC_ACICA eniaiarqhcs----lp-alrkdflidpynvvearalqadcillivacls
+
+TRPC_METTH --dlesgietcrelsmeplvechsaidiyraieagae-ligvnnrnletl
+TRPC_PHYPR keqlielidathnlgmcalvevnsvqeldialaakar-ligvnnrdlrtf
+TRPC_HALVO -edlpalveaardrgfqplvevhtreeltaalaagad-ivginnrdlgkl
+TRPC_ACICA dqqleemsktafeydldvlvevhdeqeleralklseqcllgvnnrnlktf
+
+TRPC_METTH evdlertralaplvpd--------elllvsesgvmgpedaeilagcgada
+TRPC_PHYPR kvdmnttarvadairerglslgrdgvalfalsgirshtdvvkyekcgarg
+TRPC_HALVO evdlgtfeelapeape--------dvllvaesgvqtvddarrmreagada
+TRPC_ACICA dvdlntslrlkklldp--------srllvtesgiatpqdvqlmqehdihs
+
+TRPC_METTH lligtslmlasdprelldeimaavksckpg
+TRPC_PHYPR ilvgeylmksgd--i--attv---kdl---
+TRPC_HALVO llvgtaimd-gdvrqnt-etl---------
+TRPC_ACICA flvgesfmkqpr--p--dqaf---------
+
+
+

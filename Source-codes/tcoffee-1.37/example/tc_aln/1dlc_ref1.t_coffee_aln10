@@ -1,0 +1,75 @@
+
+SAGA FORMAT
+alignement  1dlc_ref1.t_coffee_aln10 nseq=4 len=637
+T_COFFEE ALIGNMENT
+CPU TIME:48600
+
+
+
+cr70_bacto tvkdavgtgisvvgqilgvvgvpfagalts---fyqsflnaiwps-dad-
+cryx_bactk -sastvqtginiagrilgvlgvpfagqlas---fysflvgelwpr-grd-
+crys_bacta --eerletgntvadislglinflysn-fvpgggfivglleliwgfigps-
+crys_bacti -----vstalkvagailkfvnpp-agtvlt---vlsavlpilwpt-ntpt
+
+cr70_bacto p---wkafmaqvevlidkkieeyakskalaelqglqnnfedyvnaldswk
+cryx_bactk q---weiflehveqlinqqitenarntalarlqglgdsfrayqqsledwl
+crys_bacta q---wdiflaqieqlisqrieefarnqaisrleglsnlykvyvrafsdwe
+crys_bacti pervwndfmtntgnlidqtvtayvrtdanakmtvvkdyldqyttkfntwk
+
+cr70_bacto kapvnlrsrrsqdrirelfsqaeshfrnsmpsfa-vskfevlflptyaqa
+cryx_bactk enrdd-artr--svlytqyialeldflnamplfa-irnqevpllmvyaqa
+crys_bacta kdptn-palr--eemriqfndmnsalitaiplfr-vqnyevallsvyvqa
+crys_bacti repnn-qsyr--tavitqfnltsaklretavyfsnlvgyellllpiyaqv
+
+cr70_bacto anthllllkdaqvfgeewgyssediaefyqrqlkltqqytdhcvnwynvg
+cryx_bactk anlhllllrdaslfgsefgltsqeiqryyerqvertrdysdycvewyntg
+crys_bacta anlhlsilrdvsvfgerwgydtatinnrysdltslihvytnhcvdtynqg
+crys_bacti anfnlllirdglinaqewslarsrgdqlyntmvqytkeyiahsitwynkg
+
+cr70_bacto lnslrgstydawvkfnrfrremtltvldlivlfpfydvrlyskg--vkte
+cryx_bactk lnslrgtnaaswvrynqfrrdltlgvldlvalfpsydtrtypin--tsaq
+crys_bacta lrrlegrflsdwivynrfrrqltisvldivaffpnydirtypiq--tatq
+crys_bacti ldvlrnksngqwitfndykremtiqvldilalfasydprrypadkidntk
+
+cr70_bacto ltrdiftdpi-ftln---alqey---gptfssiens-irkphlfdylrgi
+cryx_bactk ltrevytdaigatgvnmasmnwynnnapsfsaieaaairsphlldfleql
+crys_bacta ltrevyldlp-finenlspaasy----ptfsaaesaiirsphlvdflnsf
+crys_bacti lskteftrei-ytalvesp---s---sksiaaleaaltrdvhlftwlkrv
+
+cr70_bacto efhtrlrpgysgkdsfnywsgnyvetrpsigsndt--itspfygdksiep
+cryx_bactk tifsas-srwsntrhmtywrghtiqsrpigggln---tsthgatntsinp
+crys_bacta tiytds-----lar-yaywgghlvnsfrtgtttnlirsplygregnterp
+crys_bacti dfwtntiyqdlrflsankigfsytnss------amqesgiygssgfgsn-
+
+cr70_bacto iqklsfdgqkvyrtiantdiaafp-dgkiyfgvtkvdfsqyddqknet--
+cryx_bactk vtl-rfasrdvyrtesyagvllwgiylepihgvptvrfnftnpqn-isd-
+crys_bacta vtitaspsvpifrtlsyitgldns---npvagiegvef-----qn-tis-
+crys_bacti lthqiqlnsnvykt-sitdtss-p-snr----vtkmdfyki--dg-tlas
+
+cr70_bacto ----stqtydskryngylgaqdsidqlppettdeplekayshqlnyaecf
+cryx_bactk ---rgtanysqpyespglqlkdsetelppetterpnyesyshrlshig-i
+crys_bacta ---r--siy---rksgpi---dsfselppqdasvspaigyshrlchat-f
+crys_bacti ynsnitptpeglr------ttffgfstnentpnqptvndythilsyiktd
+
+cr70_bacto lmq--drrgtipfftwthrsvdffntidaekitqlpvvkayalssgasii
+cryx_bactk ilq--s-rvnvpvyswthrsadrtntigpnritqipmvkaselpqgttvv
+crys_bacta lerisgpriagtvfswthrsasptnevspsritqipwvkahtlasgasvi
+crys_bacti vid--y-nsnrvsfawthkivdpnnqiytdaitqvpavksnflnatakvi
+
+cr70_bacto egpgftggnllflkessnsi-akfkvtlnsaal---lqryrvriryastt
+cryx_bactk rgpgftggdilr-rtntggf-gpirvtvn-gpl---tqryrigfryastv
+crys_bacta kgpgftggdilt-rnsmgel-gtlrvtft-grl---pqsyyirfryasva
+crys_bacti kgpghtggdlva-ltsngtlsgrmeiqcktsifndptrsyglriryaans
+
+cr70_bacto ----nlrlfvq-nsn-ndflv-iyinktmni-dgdltyqtfdfat-sns-
+cryx_bactk ----dfdffvs-rgg-ttvnn-frflrtmns-gdelkygnfvrra-ftt-
+crys_bacta ----nrsgtfr-ysq-ppsyg-isfpktmda-gepltsrsfahtt-lft-
+crys_bacti pivlnvsyvlqgvsrgttistestfsrpnniiptdlkyeefrykdpfdai
+
+cr70_bacto -nmgfsgdtndfiigaesf--vsnekiyidkiefipv
+cryx_bactk -pftftqiqdiirtsiqgl--sgngevyidkieiipv
+crys_bacta -pitfsraqeefdlyiq----s---gvyidriefipv
+crys_bacti vpmrlssnq-litiaiqplnmtsnnqviidrieiipi
+
+
+

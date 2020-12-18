@@ -1,0 +1,18 @@
+Version 0.9 was the first public release of GRAPPA.
+Version 1.0 improved input data handling, allowing, for instance,
+  the use of taxon names with spaces in them.
+Version 1.01 corrected an error in the constraint tree generation
+  and improved the behavior of I/O under Windows.
+Version 1.02 corrected the Nexus format printing of trees to use the
+  proper distance method. Also improved error messages for reading
+  the input file.
+Several never-released versions introduced the EDE distance correction
+  (version 1.1, now option -e), a tighter circular bound (version 1.2,
+  now option -m), a different search ordering (layered search, version 1.3,
+  now option -l), true inversion medians (version 1.4, now options in the
+  choice of median solver), and a limited branch-and-bound elimination of
+  low-level subtrees (version 1.5, now option -a).
+Version 1.6 releases all of the additions and improvements of versions
+  1.1 through 1.5.  All changes made by Jijun Tang, with inversion median
+  codes contributed by Alberto Caprara and by Adam Siepel.
+

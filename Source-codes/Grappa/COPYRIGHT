@@ -1,0 +1,87 @@
+/*
+ * GRAPPA:
+ * Genome Rearrangements Analysis under Parsimony and other Phylogenetic Algorithms
+ *
+ * Copyright (C) 2000-2001  The University of New Mexico and
+ *                          The University of Texas at Austin
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307,
+ * USA.
+ * 
+ * Authors:
+ *
+ *     David A. Bader
+ *     Electrical and Computer Engineering Department
+ *     University of New Mexico
+ *     Albuquerque, NM 87131
+ *     +1.505.277.6724
+ *     <dbader@eece.unm.edu>
+ *     http://www.eece.unm.edu/~dbader
+ *
+ *     Bernard M.E. Moret
+ *     Department of Computer Science
+ *     University of New Mexico
+ *     Albuquerque, NM 87131
+ *     +1.505.277.5699
+ *     <moret@cs.unm.edu>
+ *     http://www.cs.unm.edu/~moret
+ *
+ *     Tandy Warnow
+ *     Department of Computer Sciences
+ *     University of Texas, Austin
+ *     Austin, TX 78712
+ *     +1.512.471.9724 
+ *     <tandy@cs.utexas.edu>
+ *     http://www.cs.utexas.edu/users/tandy/
+ *      
+ *     Stacia K Wyman
+ *     Department of Computer Sciences
+ *     University of Texas, Austin
+ *     Austin, TX 78712
+ *     +1.512.232.7432
+ *     <stacia@cs.utexas.edu>
+ *     http://www.cs.utexas.edu/users/stacia
+ *
+ *     Mi Yan
+ *     Electrical and Computer Engineering Department
+ *     University of New Mexico
+ *     Albuquerque, NM 87131
+ *     +1.505.277.6185
+ *     <miyan@unm.edu>
+ *     http://www.ahpcc.unm.edu/~miyan/
+ *
+ *     Jijun Tang
+ *     Department of Computer Science
+ *     University of New Mexico
+ *     Albuquerque, NM 87131
+ *     <jtang@cs.unm.edu>
+ *     http://www.compbio.unm.edu/Jijun_Tang.html
+ *
+ *     Adam Siepel
+ *     Department of Computer Science
+ *     University of California at Santa Cruz
+ *     1156 High St., Santa Cruz, CA 95064
+ *     acs@cse.ucsc.edu
+ *     http://www.cs.unm.edu/~acs/
+ *
+ *     Alberto Caprara
+ *     DEIS, Universita di Bologna
+ *     Viale Risorgimento, 2
+ *     I-40136 Bologna, Italy
+ *     + 39 051 2093029
+ *     <acaprara@deis.unibo.it>
+ *     http://www.or.deis.unibo.it/caprara.html
+ *
+ */

@@ -1,0 +1,33 @@
+
+============== Method 1 ==============================
+If you are using a web browser to download the file,
+the URL for Glimmer 2.02 is:
+
+ftp://ftp.tigr.org/private/Glimmer2.02_xiarenri/glimmer202.tar.gz
+
+============== Method 2 ===============================
+If you are using ftp, please go to ftp.tigr.org, where you should
+login as anonymous and use your email address as the password.
+The ftp session should look like the following:
+
+% ftp ftp.tigr.org
+Name (ftp.tigr.org:yourname): anonymous
+331 Guest login ok, send your complete e-mail address as password.
+Password:
+
+ftp> cd private/Glimmer2.02_xiarenri/
+250 CWD command successful.
+ftp> bin
+ftp> get glimmer202.tar.gz
+ftp> bye  
+
+To extract the files, run gunzip and tar -xf as follows:
+% gunzip glimmer202.tar.gz
+% tar -xf glimmer202.tar
+
+If you have difficulty downloading the software or data following the
+instructions listed above, please contact (Eddy Arnold) eaarnold@tigr.org.  If
+you have questions about the data or on how to use the software,
+please contact Dr. Arthur Delcher (delcher@cs.loyola.edu).
+
+

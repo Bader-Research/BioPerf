@@ -1,0 +1,58 @@
+
+SAGA FORMAT
+alignement  kinase1_ref5.t_coffee_aln10 nseq=5 len=383
+T_COFFEE ALIGNMENT
+CPU TIME:27560
+
+
+
+trkb_human --sqlkpdtfvqhikrhnivlkrelgegafgkvflaecy-----------
+q24327     kksahiyeql--alprsglseliqigrgefgdvfvgklkatlvtspsdkd
+kpro_maize t-snfrrysyr-elvkatrkfkvelgrgesgtvykgvle-----------
+kraf_drome rdaksseenw--nilaeeiligprigsgsfgtvyrahwh-----------
+insr_human pcsvyvpdew--evsrekitllrelgqgsfgmvyegnar-----------
+
+trkb_human -----------------------------------------nl-cpeqd-
+q24327     adtekqhsnsengsggsgsgsttlstlnekrrsktsmddieeikeeeqeq
+kpro_maize -----------------------------------------------dd-
+kraf_drome -----------------------------------------g-----p--
+insr_human -----------------------------------------di-ikgea-
+
+trkb_human ------kilvavktlk-d-asdnarkdfhreaelltnlqhehivkfygvc
+q24327     hnqsgleqlvlvkaln-kvkdeqacqefrrqldllraishkgvvrlfglc
+kpro_maize -------rhvavkkle-nvrq--gkevfqaelsvigrinhmnlvriwgfc
+kraf_drome ---------vpvktlnvktpspaqlqafknevamlkktrhcnillfmg-c
+insr_human ------etrvavktvn-esaslrerieflneasvmkgftchhvvrllgvv
+
+trkb_human vegdplimvfeymkhgdlnkflrahgpdavlmaegn-ppteltqsqmlhi
+q24327     rekdphymvleytdwgdlkqfllatagkvntatagsssppplttsqvlav
+kpro_maize segshrllvseyvengslanilfseggnilldweg-----------rfni
+kraf_drome vskpslaivtqwcegsslyk----h---v-hvse-----tkfklntlidi
+insr_human skgqptlvvmelmahgdlksylrslrpeae-nnpgr-pp-p-tlqemiqm
+
+trkb_human aqqiaagmvylasqh---fvhrdlatrnclvgenllvkigdfgmsrdvys
+q24327     ayqiargmdaiyrar---fthrdlatrncvissefivkvsypalckdkys
+kpro_maize algvakglaylhheclewvihcdvkpenilldqafepkitdfglvkllnr
+kraf_drome grqvaqgmdylhakn---iihrdlksnniflhedlsvkigdfglataktr
+insr_human aaeiadgmaylnakk---fvhrdlaarncmvahdftvkigdfgmtrdiye
+
+trkb_human tdyyrvgghtmlpirwmppesimyr---kfttesdvwslgvvlweiftyg
+q24327     reyhk-hrntllpirwlapeciqed---eyttksdifaygvvvwelfnqa
+kpro_maize ggstqnvshvrgtlgyiapewvssl---pitakvdvysygvvllelltg-
+kraf_drome wsgekqanqptgsilwmapevirmqelnpysfqsdvyafgivmyellae-
+insr_human tdyyrkggkgllpvrwmapeslkdg---vfttssdmwsfgvvlweitsla
+
+trkb_human -kqpwyqlsnneviecitqgrvlq-rprtcpqe------vyelmlgcwqr
+q24327     tklpheeltneqvvqrsqagslewsvaeatpds------lreillscwvs
+kpro_maize -trvselvggtdevhsmlrklvrm-lsa-----kle-gee-qswidgyld
+kraf_drome -clpyghisnkdqilfmvgrgll--rpdmsqvrsdarrhskrlaedciky
+insr_human -eqpyqglsneqvlkfvmdggyld-qpdncper------vtdlmrmcwqf
+
+trkb_human ephmrkn-ikgihtllqnlak-aspvyldilg-
+q24327     npkerps-fsqlgaalskamq-sae-k------
+kpro_maize sklnrpvnyvqartliklavs-clee-drskr-
+kraf_drome tpkdrpl-frpllnmlenmlr-tlp-kihrsas
+insr_human npkmrpt-fleivnllkddlhpsfp-evsffh-
+
+
+

@@ -1,0 +1,40 @@
+
+SAGA FORMAT
+alignement  1gdoA_ref1.t_coffee_aln10 nseq=4 len=286
+T_COFFEE ALIGNMENT
+CPU TIME:11318
+
+
+
+GLMS_BACSU cgivgyi--gql----dakeillkglekleyrgydsagiavaneqg---i
+PUR1_VIGAC cgvvgiy--gdp----easrlcslalhalqhrgqegagivavhdnl---f
+PUR1_RAT   cgvfgciasgdwptqldvphvitlglvglqhrgqesagivtsdgssvpkf
+1ecfA      cgivgia--gvm----pvnqsiydaltvlqhrgqdaagiitidannc--f
+
+GLMS_BACSU hvfkekgriadlr-evvdanve-akagightrwathgepsylnahph--q
+PUR1_VIGAC hqvngvglvsdvfneaklselp-gscaighvrystaghsklvnvqpfvag
+PUR1_RAT   rvhkgmglvnhvftednlkklyvsnlgightryattgkcelencqpfvve
+1ecfA      rlrkanglvsdvfearhmqrlq-gnmgighvryptagsssaseaqpfyvn
+
+GLMS_BACSU salgrftlvhngvienyvqlkqeylqd-v-elksdtdtevvvqvieqf--
+PUR1_VIGAC yrfgsvavahngnfvnyrslrakledng-sifnttsdtevvlhliats--
+PUR1_RAT   tlhgkiavahngelvnaarlrkkllrh-giglstssdsemitqllayt--
+1ecfA      spyg-itlahngnltnahelrkklfeekrrhinttsdseillnifaseld
+
+GLMS_BACSU --vnggleteeafrk---t---ltllkgsyaialfdndn---retifvak
+PUR1_VIGAC --khrpfllr--------vvdacenlkgayslvflted-k--lvavrd-f
+PUR1_RAT   --ppq--eqddtpdwvariknl---mkeapaayslvimhrdviyavrdpy
+1ecfA      nfrhypleadnifaaiaatnrl---irgayacvamiighg--mvafrdpn
+
+GLMS_BACSU nkspllvgl----gd-t------f---n-vvasdamamlqvtneyv-elm
+PUR1_VIGAC gfrplvmgr----rk-----n----ga-vvfasetcaldlidatyerevn
+PUR1_RAT   gnrplcigrlmpvsdindkekkssetegwvvssescsflsigarychevk
+1ecfA      girplvlgk----rdi-d-enr---te-ymvasesvaldtlgfdflrdva
+
+GLMS_BACSU dkemvivtddqvviknldgdvitrasyiael-----
+PUR1_VIGAC pgevvvvdht--g---------iqslclvthqepkq
+PUR1_RAT   pgeiveisrh--g---------vrtldiiprsngdp
+1ecfA      pgeaiyitee--g------qlftrqcadnpvsnpc-
+
+
+

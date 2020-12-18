@@ -1,0 +1,5 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/PowerPc-Binaries/Glimmer
+./glimmer2 $BIOPERF/Inputs/Glimmer/class-A/NC_004061.fna  $BIOPERF/Binaries/PowerPc-Binaries/Glimmer/glimmer.icm > $BIOPERF/Outputs/Glimmer/glimmer-classA.output
+echo The output has been stored as glimmer-classA.output in $BIOPERF/Outputs/Glimmer

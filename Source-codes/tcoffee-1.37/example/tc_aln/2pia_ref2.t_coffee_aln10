@@ -1,0 +1,162 @@
+
+SAGA FORMAT
+alignement  2pia_ref2.t_coffee_aln10 nseq=18 len=370
+T_COFFEE ALIGNMENT
+CPU TIME:1053978
+
+
+
+1ndh       paitlenp-dik-yplrlidkevvnhdt--rrfrfalpspehilglpvgq
+nia_volca  p-lvvlnp-rqk-vklplierielnrnt--rifrfglpspqhriglpvgk
+nia_cicin  pkeiaptr-rek-ipcklisktsvshdv--rlfrfalpspdqvlglpvgk
+NIA1_MAIZE p--alsnp-rek-ihcrlvgkkelsrdv--rlfrfslpspdqvlglpigk
+nia7_horvu -avalanp-rek-vrcrlvdkksmshnv--rlfrfalpspdqklglpvgk
+nia_phyin  -tdvalkg-rtk-vpivlisrevvshda--rifkfalpakdlrlglpign
+nc5r_yeast p---vldpkrndfqsfplvektilthnt--smykfglphaddvlglpigq
+nia_emeni  prptfltp-kaw-tkatltkktsvssdt--hiftlslehpsqalglptgq
+nia_lepmc  lrptflds-rtw-skallssktkvswdt--rifrfkldhasqtlglptgq
+nia_aspng  pratflqs-ksw-tkatlvkrtdvswdt--riftfqlqhdkqtlglpigq
+mcr1_yeast ----fkgd-dkw-idlpiskieeeshdt--rrftfklptedsemglvlas
+nia_fusox  ----flqa-ktw-skaildkktsispdt--kifsfklnheaqkiglptgq
+nia_neucr  ----flqs-ktw-nsailtfkesvspdt--kifhfalshpaqsiglpvgq
+nia_ustma  ----fldp-kkw-ratrlgeqanhspda--rifrfalgsedqelglpwpa
+nia_beaba  ----flqp-kyw-skailetktdvssds--kifsfrldhaaqsiglptgq
+1fnc       tv-nkfkpktpy-vgrcllntkitgddapgetwhmvfsheg-eipyregq
+2pia       pq-----e-dgf-lrlkiaskekiardi--wsfeltdpqgaplppfeaga
+1fdr       ---------adw-vtgkvtkvqnwt-d---alfsltvh--apvlpftagq
+
+1ndh       hiylsar----idg-nlvirpytpvssd----ddkgfvdlvikvyfkd--
+nia_volca  hvftyat----ing-envmraytpisgd----eelgrldmlikvyfan--
+nia_cicin  hvfvcat----idd-klcmraytptsti----devgyfellvkiyfkg--
+NIA1_MAIZE hifvcas----ieg-klcmraytptsmv----deighfdllvkvyfkn--
+nia7_horvu hvyvcas----tgg-klcmraytptssv----eevghvellikiyfkd--
+nia_phyin  hvflyak----ing-ktavraytpissen--dedrgfvsflikvyfag--
+nc5r_yeast hivikan----ing-kditrsytptsldg---dtkgnfellvksy-----
+nia_emeni  hlmlktpdpkssss-gsiirsytpisp-s---dqlgmvdilikiyae---
+nia_lepmc  hlmirlrdp--vtr-eaiirsytpisq-i---seqgfcdvlikiyad---
+nia_aspng  hlmikvadp--tsk-eaiirsytpisd-t---nqegtmdllvkiyfd---
+mcr1_yeast alfakfvtp---kg-snvvrpytpvsd-l---sqkghfqlvvkhy-----
+nia_fusox  hlmmrlrdp--atr-eaiirsytpysd-g---sdcgrldilikiyyd---
+nia_neucr  hlmmrlpdp--akptesiiraytpisdgt---lergtlrvlvkiyya---
+nia_ustma  alrlslekrrtgea-emvqraytpysg-n---tqrgfldilikvyfpsda
+nia_beaba  hllvrlrdp--atr-eaviraytplse-t---hakgqldilikiyrd---
+1fnc       svgv-ipdgedkngkphklrlysiassalgdfgdaksvslcvkrliyt--
+2pia       nltvavp-----ng-s--rrtyslcnd-s---qernryviavk--r--d-
+1fdr       ftklgle----idg-ervqraysyvnsp----dnp---d--lefylv---
+
+1ndh       ---thpk--fpaggkmsqylesmkigd-----tiefrgpngllvyqgkgk
+nia_volca  ---ehpa--fpdggkmsqhfeslrigd-----tvefkgplghfvydgrgs
+nia_cicin  ---vepk--fpngglmsqhlesmelgs-----sieikgplghieymgrgt
+NIA1_MAIZE ---ehpk--fpngglmtqyldslpvgs-----yidvkgplghveytgrgs
+nia7_horvu ---edpk--fpagglmsqyldalplga-----pvdikgpvghieyagrga
+nia_phyin  ---dnpv--hpegglfsqyldglhlgq-----qiqikgplghftyygdgn
+nc5r_yeast ----------pt-gnvskmigelkigd-----siqikgprgnyhye-rn-
+nia_emeni  ----tps--ip-ggkmttaldtlplgs-----vieckgptgrfeyldrgr
+nia_lepmc  ----apg--re-ggkmtkaldsipcgh-----wvdmkgpigkfeylgkgv
+nia_aspng  ----tpt--vk-ggkmtmaleklalgs-----eidckgptgrfeylgngk
+mcr1_yeast ----------e-ggkmtshlfglkpnd-----tvsfkgpimkwkwqpn--
+nia_fusox  ----tpq--rk-ggvmtqaldalpigh-----wvdfkgptgkfvyhgngl
+nia_neucr  ----sptedik-ggqmtqaldalalgk-----avefkgpvgkfvyqgrgv
+nia_ustma  aatsapa--fe-ggkmtmllekidvsspsddltielkgplgsftylgqqq
+nia_beaba  ----vpg--qp-ggkmtqaldsiplgh-----fvdikgpvgkfeylgkgh
+1fnc       ---ndag--etikgvcsnflcdlkpga-----evkltgpvgkemlmpk--
+2pia       ----sng---r-ggsis-fiddtsegd-----avevslprnefpld----
+1fdr       ----t----vpd-gklsprlaalkpgd-----evqvvseaagffvld---
+
+1ndh       fairpd-kksspviktvksvgmiaggtgitpmlqviraimkd------pd
+nia_volca  ytlngklhkh------athmsfvaggtgitpcyavikaalrd------pe
+nia_cicin  fsvhgk-qkf------arklamfaggtgitpdlssdasylkd------pe
+NIA1_MAIZE fvingk-qrh------asrlamicggsgitpmyqiiqavlrdq-----pe
+nia7_horvu ftvgge-rrf------arrlamvaggtgitpvyqviqavlrdq-----pd
+nia_phyin  fslett-nfh------aykfgfvaggtgitpvyqvmrailed------ak
+nc5r_yeast c---------------rshlgmiaggtgiapmyqimkaiamd------ph
+nia_emeni  vlisgk-erf------vksfvmicggtgitpvfqvlravmqd------eq
+nia_lepmc  csingn-err------vrsmkmicggsgitpiyqvlrailqd------sa
+nia_aspng  ilvsgk-erh------vssfkmicggtgitpifqvlravmqd------kq
+mcr1_yeast ---------q------fksitllgagtginplyqlahhiven------pn
+nia_fusox  ctinek-err------vrrfimvcggsgitpirqvlravidn------pk
+nia_neucr  csvngr-erk------vkrfvmvcggsgvtpiyqvaeavavd------dq
+nia_ustma  irwkpasacs------lrklamiaggsgitpiwstlkaiadevldasnps
+nia_beaba  ctvsgt-srh------vrrfvmicagsgvtpifqvlravtsd------aq
+1fnc       -------dpn------a-tiimlgtgtgiapfrsflwkmffe------kh
+2pia       --------kr------aksfilvaggigitpmlsmarqlrae------gl
+1fdr       -----e-vph------cetlwmlatgtaigpylsilr-lgkd------ld
+
+1ndh       ----dhtvch----llfanqtekdillrpeleelrneh-s--arfklwyt
+nia_volca  ----dktqis----lvfannteedillreeldelannh-p--drfhlwht
+nia_cicin  ----ddtemy----vvyanrteddillreeldawadky-s--drvkvwyv
+NIA1_MAIZE ----dhtemh----lvyanrteddillrdeldrwaaey-p--drlkvwyv
+nia7_horvu ----dttemh----lvyanrteddmllreeidrwaaan-p--arlkvwyv
+nia_phyin  ----dqtkva----liycvrsqrdlllrkeletlqklr-p--gqcrifyt
+nc5r_yeast ----dttkvs----lvfgnvheedillkkelealvamk-p--sqfkivyy
+nia_emeni  ----detkcv----mldgnrleedillkneldefeala-gkkekckivht
+nia_lepmc  ----dsthct----vlngnrleedilcredldrfaeen-g--erctlvht
+nia_aspng  ----dptscv----vldgnrqeedilcradldayeald-s--kkckvvht
+mcr1_yeast ----dktkvn----llygnktpqdillrkeldalkeky-p--dkfnvtyf
+nia_fusox  ----dttpcl----vfngnrsvndilcmeeleeleaan-p--srcrvvna
+nia_neucr  ----dgtecl----vldgnrvegdilmkseldelverakp-mgrcrvkyt
+nia_ustma  spaldpiqiw----ivygnrteqdilireeldalsrl-k---gnlkvwhv
+nia_beaba  ----dgtecl----vldgnrcekdilcreeldamvara-p--arttllhk
+1fnc       ----ddykfnglawlflgvptsssllykeefekmkeka-p--dnfrldfa
+2pia       ----rs--fr----lyyltrdpegtaffdeltsdewrs-----dvkihhd
+1fdr       ----rfknlv----lvhaaryaadlsylplmqelekry-e--gklriqtv
+
+1ndh       vdrap---------e-awdysq-gfvneemir----dhlp--p--pe---
+nia_volca  vsqtn---s-----s-dwkfst-grvtlemfk----qhlf--a--cs--g
+nia_cicin  vaksi---r-----e-gwkyse-gfitedimr----ehvp--e--vs---
+NIA1_MAIZE idqvk---r--pe-e-gwkysv-gfvteavlr----ehvp--e--gg---
+nia7_horvu vskvg---r--pe-d-aweygv-grvdeqvlr----ehlp--l--gg--d
+nia_phyin  lsdmelldrndpivr-gwaygk-srlnfamvk----niig--s------d
+nc5r_yeast ldspd---r-----e-dwtggv-gyitkdvik----ehlp--a--at--m
+nia_emeni  ltkgs---------e-swtgrr-grideelir----qhagtp-------d
+nia_lepmc  ltqaa---------e-gwtgrr-grigeellk----efcg-t-------e
+nia_aspng  ltkap---------d-swtgrr-grisedllk----eha-ip-------d
+mcr1_yeast vddkq------dd-q-dfdgei-sfiskdfiq----ehvpgp-------k
+nia_fusox  lsnpp---------p-ewnglk-gfvnqalvp----eymdlpk--as-ge
+nia_neucr  lsrpg---------a-eweglr-grldktmle----revg--e--gd-lr
+nia_ustma  lsnct------peneanwsmgr-gislpmslgapatnhrq--scfggdel
+nia_beaba  lsrpd---------a-swcglr-grmdkeyle----ehiggfr--ks--d
+1fnc       vsreq---t---n----ekgek-myiqtrmaq----yavelwem-lk--k
+2pia       h--------gd--------ptk-afdfwsvfe----ksk-----------
+1fdr       vsret---a---a-g-sltgripaliesgele----stiglpm--n---k
+
+1ndh       eeplvlmcgpppmiqyacl-------p--------nlervghp-------
+nia_volca  peclalmcgppamlehccv-------p--------flesmgys-------
+nia_cicin  edtlalacgpppmiqfain-------p--------nlekmgyd-------
+NIA1_MAIZE ddtlalacgpppmiqfais-------p--------nlekmkyd-------
+nia7_horvu getlalvcgppamlectvr-------p--------glekmgyd-------
+nia_phyin  aed-vcmcgpegmieyack-------p--------allklnyd-------
+nc5r_yeast dnvqilicgppamva-svr-------r--------stvdlgfrrs---kp
+nia_emeni  retmvlvcgpeamek-ask-------k--------illslgwk-------
+nia_lepmc  edglvlvcgpegler-svk-------g--------llsgmawr-------
+nia_aspng  gksmvlicgpeamek-sar-------k--------illeqgwa-------
+mcr1_yeast esthlfvcgpppfmn-aysg-ekks-pkdqgeligilnnlgys-------
+nia_fusox  gdelllvcgpppmvk-ave-------a--------sflgmgfk-------
+nia_neucr  getmvllcgpegmqn-mvr-------e--------vlkgmgwk-------
+nia_ustma  edtlalvcgpppmek-avs-------d--------glnelgwd-------
+nia_beaba  gremvlvcgpaalee-tvr-------s--------vlvemawk-------
+1fnc       dntyvymcglkgmek-gid-------d--------imvslaaaegidwi-
+2pia       paqhvyccgpqalmd-tvr-------d--------m-tgh-wp-------
+1fdr       etshvmlcgnpqmvr-dtqqllketrq--------mtkhlrrrp-----g
+
+1ndh       --kercfa-----------f
+nia_volca  --keqmih------------
+nia_cicin  --iknsllv-----------
+NIA1_MAIZE --mansfvv----------f
+nia7_horvu --ldkdclv-----------
+nia_phyin  --lktqttv----------f
+nc5r_yeast lskmedqvf----------v
+nia_emeni  --een-lhy-----------
+nia_lepmc  --ddd-vif-----------
+nia_aspng  --esd-lhf-----------
+mcr1_yeast --kdq--vf----------k
+nia_fusox  --sdd-fvf-----------
+nia_neucr  --ded-vlv-----------
+nia_ustma  --lqr-cvv-----------
+nia_beaba  --ped-mlf-----------
+1fnc       --eyk-rqlkkaeqwnvevy
+2pia       --sgt-vhf--e----s--f
+1fdr       -hmt-aehy----------w
+
+
+

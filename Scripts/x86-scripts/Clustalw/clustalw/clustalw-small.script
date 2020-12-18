@@ -1,0 +1,6 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Clustalw
+./clustalw -batch -infile=$BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA
+mv $BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA.aln $BIOPERF/Inputs/Clustalw/class-A/1a02J_1hjbA.dnd  $BIOPERF/Outputs/Clustalw/
+echo The output has been stored as 1a2J_1hjbA.dnd and 1a2J_1hjbA.aln has been stored in $BIOPERF/Outputs/Clustalw

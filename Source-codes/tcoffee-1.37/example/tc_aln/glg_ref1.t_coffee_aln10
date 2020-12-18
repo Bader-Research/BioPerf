@@ -1,0 +1,76 @@
+
+SAGA FORMAT
+alignement  glg_ref1.t_coffee_aln10 nseq=5 len=514
+T_COFFEE ALIGNMENT
+CPU TIME:59360
+
+
+
+glu_hpyl  --mslivtrfapsptgylhigglrtaifnylfaranqgkfflriedtdls
+mg39733   --mekirtryapsptgylhvggtrtaifnfllakhfngefiiriedtdte
+scmse1g   hpslpvrtrfapsptgflhlgslrtalynyllarntngqfllrledtdqk
+glu_mlepr pqaakvrvrfcpsptgvphvgmvrtalfnwayarhtggtfvlriedtdad
+glu_pylor ------mlrfapsptgdmhignlraaifnyivakqqykpfliriedtdke
+
+glu_hpyl  rnsieaanaiieafkwvgleydgei--------lyqskrfeiykeyiqkl
+mg39733   rnikeginsqfdnlrwlgviadesvynpgnygpylqsqklavykklafdl
+scmse1g   rliegaeeniyeilkwcninydetp--------ikqserkliydkyvkil
+glu_mlepr rdseesylalldalrwlglnwdegpevggpygpyrqsqrtdiyrevvakl
+glu_pylor rniegkdqeileilklmgiswdkl---------vyqshnidyhremaekl
+
+glu_hpyl  ldedkayycymskeeldalreeqkarketp--rydnryrd-----fkgtp
+mg39733   ieknlayrcfcskeklesdrkqainnhktp--kylghcrnlhskkitnhl
+scmse1g   lssgkayrcfcskerlndlrhsamelkppsmasydrccahlgeeeikskl
+glu_mlepr latgeayyafstpeeven-rhlaagrnpkl--gydnfdrdltdaqfsayl
+glu_pylor lkenkafycyasaeflerekekaknekrpf--rysdewat-----le--k
+
+glu_hpyl  pkgiepvvrikvpqne-vigfndgvkgevkv----ntn--elddfiiars
+mg39733   ekndpftirlkin-neaeyswndlvrgqiti----pgs--altdivilka
+scmse1g   aqgipftvrfksp-er-yptftdllhgqinlqpqvnfndkryddlilvks
+glu_mlepr aegrkpvvrlrmp-de-diswddlvrgtttf----avg--tvpdyvltra
+glu_pylor dkhhapvvrlkap-nh-avsfndaikkevkf----epd--eldsfvllrq
+
+glu_hpyl  dgtptynfvvtiddalmgitdvirgddhlsntpkqivlykal---nfk--
+mg39733   ngvatynfavviddydmeitdvlrgaehisntayqlaiyqal---gfkr-
+scmse1g   dklptyhlanvvddhlmgithvirgeewlpstpkhialynaf---gwa--
+glu_mlepr sgdplytlvnpcddalmkithvlrgedllsstprqvalyqalirigmaer
+glu_pylor dksptynfacacddllykisliirgedhvsntpkqiliqqal---gsn--
+
+glu_hpyl  ip-nffhvpmilne-egqklskrhgatn--vmdyqemgylkealvnflar
+mg39733   ip-rfghlsvivde-sgkklskrdekttqfieqfkqqgylpeallnflal
+scmse1g   cp-kfihipllttv-gdkklskrkgdms--isdlkrqgvlpealinfcal
+glu_mlepr ip-efghfpsvlge-gtkklskrepqsn--lfahrdrgfipegllnylal
+glu_pylor dpivyahlpiildevsgkkmskrdeass--vkwllnqgflpvaianylit
+
+glu_hpyl  lgwsyq-d-----kevfsmqellelfdpkdlnsspscfswhklnwlnahy
+mg39733   lgwhpqyn-----qeffnlkqlienfslsrvvsapaffdikklqwinany
+scmse1g   fgwspprdlaskkhecfsmeeletifnlngltkgnakvddkklwffnkhf
+glu_mlepr lgwaiadd-----hdlfsldemvaafdvvdvnsnparfdqkkadavnaeh
+glu_pylor ignkv--p-----kevfsldeaiewfslenlssspahfnlkylkhlnheh
+
+glu_hpyl  lkn--qsvqellkllkpfsfsdlshln-p-tqldr--lldalkers-q-t
+mg39733   ikq--ltdnayfnfidnyldvkvdylk-d-knrei--sl-lfknqi-t-h
+scmse1g   lqkrilnpstlrelvd-dimpslesiy-ntstisrekvakillncg-g-s
+glu_mlepr irm--ldsedfagrlrdyftthgyhialdpanyea--gf-vaaaqlvqtr
+glu_pylor lkl--ldd-------d--klleltsik-d-knllg--llrlfieec-g-t
+
+glu_hpyl  lkelalkidev--liapve----yeekvfkklnqalvmpllekfkleln-
+mg39733   gvqinelires--fatkigv--enlakkshilfknikl-fleqlakslqg
+scmse1g   lsrindfhdefyyffekpky--ndndavtkflsknesr-hiahllkklgq
+glu_mlepr ivvlgdawdll-kflnddeysidskaaak-eldadagp-vldvacavlds
+glu_pylor llelrekis-l--flep-k----divktye--nedfkerclalfn-alt-
+
+glu_hpyl  kanfndesalenamr-qiieeekikagsfmqplrlallgkgggiglkeal
+mg39733   -leewkaeqikttin-kvgavfnlkgkqlfmpirliftnkehgpdlahii
+scmse1g   lqegtdaqevesmve-tmyyengfsrkvtyqamrfalagchpgakiaami
+glu_mlepr -lvdwttasiedvlkvalieglglkprkvfgpirvaatgalvspplfesl
+glu_pylor smdfqaykdfesfkk-eamrlsqlkgkdffkplrilltgnshgvelplif
+
+glu_hpyl  f-ilgktesvkrie
+mg39733   e-ifdkesainlik
+scmse1g   d-ilgikesnkrls
+glu_mlepr e-llgrarslqrls
+glu_pylor pyiqshhqevlrlk
+
+
+

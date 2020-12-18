@@ -1,0 +1,6 @@
+Clustalw is included as 2 executables
+1) Clustalw
+2) Clustalw_smp
+
+Clustalw_smp is the SMP version of clustalw capable of running on shared-memory machines. 
+It looks for an environment variable called THREADS, by default it is set to 1

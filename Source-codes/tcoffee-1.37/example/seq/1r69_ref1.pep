@@ -1,0 +1,12 @@
+>1r69
+sissrvkskriqlglnqaelaqkvgttqqsieqlengktkrprflpelas
+algvsvdwllngt
+>1au7A
+gmraleqfanefkvrriklgytqtnvgealaavhgsefsqtticrfenlq
+lsfknacklkailskwleeaeqkrrtti
+>1neq
+csnekardwhradviaglkkrklslsalsrqfgyapttlanalerhwpkg
+eqiianaletkpeviwpsr
+>1a04A
+erdvnqltprerdilkliaqglpnkmiarrlditestvkvhvkhmlkkmk
+lksrveaavwvhqerif

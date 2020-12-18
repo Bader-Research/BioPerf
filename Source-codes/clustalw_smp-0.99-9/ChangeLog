@@ -1,0 +1,99 @@
+clustalw-smp 0.99-9:
+
+        * fixed solaris and irix makefiles to fix the floating precision
+          problem (Irix cc will use radical optimizations that shuffle
+          floating point operations if -O3 is used so the safe limit is with
+          O2)
+        * included a python script to run tests on the new clustalw-smp
+        * included sequences to run tests on
+        * included a README.test file to explain how to run the tests
+
+    -- Ognen Duzlevski, <ognen@gene.pbi.nrc.ca>, Sun, Nov 25 2001, 16:03
+
+clustalw-smp 0.99-8:
+
+        * reverted to pth_measure.c and an older prfalign.c for
+          speed/compatibility
+        * passed Matt's tests
+        * added CYGWIN support
+        
+    -- Ognen Duzlevski, <ognen@gene.pbi.nrc.ca>, Tue, Nov 20 2001, 19:00
+
+clustalw-smp 0.99-7:
+
+        * smp version is now clustalw 1.82 compliant
+        * bug fix in pairalign.c due to random trashing of mm_score in
+          parallel() - declared mm_score volatile
+        * everything works finally as expected ;)
+        
+    -- Ognen Duzlevski < ognen@gene.pbi.nrc.ca>, Thu, Nov 15 2001, 20:19
+
+clustalw-smp 0.99-6:
+
+        * various "fixes" thought related to the random mm_score trashing
+          problem
+          
+clustalw-smp 0.99-5:
+
+        * bug fix for prfalign.c pdiff() (roundoff error due to an unknown
+          race condition)
+        * prfscore() code inlined into pdiff_reverse() and pdiff_forward()
+        * rewrote pdiff_reverse(), pdiff_forward() and pdiff() to utilize
+          pool threading (reverted to 0.99-1 with fixups)
+        * removed pth_measure.c and pth_measure.h as they are not needed any
+          more
+        
+    -- Ognen Duzlevski <ognen@gene.pbi.nrc.ca>, Wed, Nov 14 2001, 10:51
+
+clustalw-smp 0.99-4:
+
+        * inlined prfscore into pdiff_reverse() and pdiff_forward (this
+          should save us some time)
+          
+    -- Ognen Duzlevski <ognen@gene.pbi.nrc.ca>, Sat, Nov 10 2001, 12:00
+
+clustalw-smp 0.99-2
+
+        * added pth_measure.c to allow for measuring pthread_create
+          peroformance
+        * reverted to clustalw_smp 0.0.4 prfalign.c (doesnt break on linux
+          IA-64 nor on Alpha. Considered stable.
+        * fixed up new/old prfalign.c to use pth_measure.c
+
+    -- Ognen Duzlevski <ognen@gene.pbi.nrc.ca>, Fri, Nov 9, 2001, 12:00
+
+clustalw-smp 0.99-1
+
+        * a major version leap
+        * profiled the tool with dmalloc, fixed two memory leaks in
+          pairalign.c
+
+    -- Ognen Duzlevski <ognen@gene.pbi.nrc.ca>, Sat, Nov 3, 2001, 12:00
+
+        * rewrote completely pairalign.c. Now the alignments are done by
+          adding jobs to a queue of jobs to be done. There is one queue for
+          each thread.
+        
+        * rewrote prfalign.c to use pooled threads
+    
+    -- Ognen Duzlevski <ognen@gene.pbi.nrc.ca>, Tue, Sep 4, 2001, 12:00
+
+clustalw-smp 0.0.4
+
+        * rewrote pairalign.c to utilize thread waiting for work to be done
+        * rewrote prfalign.c to be OS sensitive
+        
+    -- Ognen Duzlevski <ognen@gene.pbi.nrc.ca>, July 2001
+    
+clustalw-smp 0.0.3
+
+        * rewrote pairalign.c to utilize pooled threads
+        
+    -- Ognen Duzlevski <ognen@gene.pbi.nrc.ca>, June 2001
+    
+clustalw-smp 0.0.1
+
+        * first version of pairalign.c creates threads as needed (results
+          sometimes in a > 1024 threads running in the system
+
+    -- Ognen Duzlevski <ognen@gene.pbi.nrc.ca> May 2001

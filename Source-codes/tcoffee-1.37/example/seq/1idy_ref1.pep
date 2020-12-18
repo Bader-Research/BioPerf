@@ -1,0 +1,14 @@
+>1idy
+mevkktswteeedrilyqahkrlgnrwaeiakllpgrtdnaiknhwnstm
+rrkv
+>1hstA
+shptysemiaaairaeksrggssrqsiqkyikshykvghnadlqiklsir
+rllaagv
+>1tc3C
+rgsalsdteraqldvmkllnvslhemsrkisrsrhcirvylkdpvsygt
+>1aoy
+mrssakqeelvkafkallkeekfssqgeivaalqeqgfdninqskvsrml
+tkfgavrt
+>1jhgA
+tpderealgtrvriieellrgemsqrelknelgagiatitrgsnslkaap
+v

@@ -1,0 +1,12 @@
+>1tgx
+lkcnqlippfwktcpkgknlcykmtmraapmvpvkrgcidvcpkssllik
+ymccntdkc
+>1nbt
+rtclispsstpqtcpngqdicflkaqcdkfcsirgpvieqgcvatcpqfr
+snyrsllccttdnc
+>1fas
+tmcyshtttsrailtncgenscyrksrrhppkmvlgrgcgcppgddylev
+kcctspdkc
+>1drs
+ricynhlgtkppttetcqedscykniwtfdniirrgcgcftprgdmpgpy
+ccesdkc

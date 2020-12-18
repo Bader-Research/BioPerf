@@ -1,0 +1,22 @@
+#!/bin/bash 
+source $HOME/.bioperf
+if [ -z $DATABASES ]; then
+echo $'\n'
+echo You cannot run this script without installing nr  database 
+echo Download and install nr from  "ftp://ftp.ncbi.nih.gov/blast/db/nr.tar.gz"
+echo Then set the DATABASES environment variable to the directory containing nr
+echo $'\n'
+exit
+fi
+if [ -e $DATABASES/nr ]
+then  echo ""
+else
+echo $'\n'  
+echo There is no file named nr in $DATABASES
+echo Please check for nr again in $DATABASES
+echo $'\n'
+exit
+fi
+cd $BIOPERF/Binaries/x86-Binaries/Fasta
+./fasta34_t  $BIOPERF/Inputs/Fasta/fasta/qrhuld.aa $DATABASES/nr > $BIOPERF/Outputs/Fasta/fasta-output
+echo The output has been stored as fasta-output in $BIOPERF/Outputs/Fasta 

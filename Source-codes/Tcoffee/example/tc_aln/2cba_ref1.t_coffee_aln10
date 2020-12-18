@@ -1,0 +1,52 @@
+
+SAGA FORMAT
+alignement  2cba_ref1.t_coffee_aln10 nseq=5 len=306
+T_COFFEE ALIGNMENT
+CPU TIME:17900
+
+
+
+CAH1_HUMAN -dwgydd----k----ngpeq-wsklypiang-nnqspvdikt------s
+CAH4_RAT   -hwcyeiqakepnshcsgpeq-wtgd---ckkn-qqspinivt------s
+CAH6_HUMAN -dwtyse----ga----ldeahwpqhypacgg-qrqspinlqr------t
+CAH_DUNSA  hdynye-----kv----gfd--wtggvcvntgtskqspinietdslaees
+CAH2_CHLRE hslnge--nwe------gkd--gagnpwvcktgrkqspinvpq------y
+
+CAH1_HUMAN e---tkhdts---lkpisvs-yn-p--------a-takeiinvghsfhvn
+CAH4_RAT   k---tklnps---ltpftfvgyd-q--------k-kkwevknnqhsvems
+CAH6_HUMAN k---vrynps---lkglnmtgyetq--------a-gefpmvnnghtvqig
+CAH_DUNSA  erlgtaddtsrlalkgllsssy--q--------l-tsevainleqdmqfs
+CAH2_CHLRE h---vldgkg---sk--iatglqtqwsypdlmsngssvqvinnghtiqvq
+
+CAH1_HUMAN f------------edndn---r--svlkggpfsdsyr----lfqfhfhwg
+CAH4_RAT   l------------g-edi-------yifggdlptqyk----aiqlhlhws
+CAH6_HUMAN l------------ps-tm---r--mtvadg---ivyi----aqqmhfhwg
+CAH_DUNSA  fn----------apdedl---p--qltigg-vvhtfk----pvqihfh--
+CAH2_CHLRE wtydyaghatiaipamrnqsnrivdvlemrpndasdrvtavptqfhfh--
+
+CAH1_HUMAN stn--ehgsehtvdgvkysaelhvahwns--akysslaeaaskadglavi
+CAH4_RAT   ees--nkgsehsidgkhfamemhvvhkkm--ttgdkvq-dsdskdkiavl
+CAH6_HUMAN gasseisgsehtvdgirhvieihivhynskyktydiaq---dapdglavl
+CAH_DUNSA  -----hfasehaidgqlypleahmvma-----s------qndgsdqlavi
+CAH2_CHLRE ------stsehllagkifplelhivhkvt-----dklea-c-kggcfsvt
+
+CAH1_HUMAN gvlmkvg--eanpklqkvldalqaiktkg-krapftn---fdpstllp-s
+CAH4_RAT   afmvevgn-evnegfqplvealsrlskpf-tnstvse---sclqdmlp-e
+CAH6_HUMAN aafvevknypentyysnfishlanikypg-qrttltg---ldvqdmlp-r
+CAH_DUNSA  gimykyg--eedpflkrlqetaqsngeagdknvelnsfsinvardllpes
+CAH2_CHLRE gilfqldngpdnellepifanmptregtf-tnlpagt-t-iklgellp-s
+
+CAH1_HUMAN s--ld-fwtypgslthpplyesvtwiickesisvsseqlaqfrsllsnve
+CAH4_RAT   kkklsayfryqgslttpgcdetviwtvfeepikihkdqflefskklyydq
+CAH6_HUMAN n--lqhyytyhgslttppctenvhwfvladfvklsrtqvwklensl-ldh
+CAH_DUNSA  dl---tyygydgslttpgcdervkwhvfkeartvsvaqlkvfsevtlaah
+CAH2_CHLRE dr---dyvtyegslttppcsegllwhvmtqpqrisfgqwnryrlavgeke
+
+CAH1_HUMAN gdnavp
+CAH4_RAT   -eqkln
+CAH6_HUMAN -rnkt-
+CAH_DUNSA  -peat-
+CAH2_CHLRE -cnste
+
+
+

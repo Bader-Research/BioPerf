@@ -1,0 +1,34 @@
+#!/bin/bash 
+source $HOME/.bioperf
+if [ -z $DATABASES ]; then
+echo $'\n'
+echo You cannot run this script without installing swissprot.aa database 
+echo Download and install swissprot.aa from  "www.bioperf.org/databases"
+echo Then set the DATABASES environment variable to the directory containing swissprot.aa
+echo $'\n'
+exit
+fi
+if [ -e $DATABASES/swissprot.aa ]
+then  echo ""
+else
+echo $'\n'  
+echo There is no file named swissprot.aa in $DATABASES
+echo Please check for swissprot.aa  again in $DATABASES
+echo $'\n'
+exit
+fi
+
+
+
+
+
+cd $BIOPERF/Binaries/x86-Binaries/Blast/
+./blastall -p blastp -i $BIOPERF/Inputs/Blast/blastp/class-A/Ecoli_Long.txt -d $BIOPERF/Inputs/Blast/blastp/class-A/Drosoph/drosoph.aa -M BLOSUM62 -o $BIOPERF/Outputs/Blast/x86-classA-blastp.output
+echo The output has been stored as x86-classA-blastp.script in the director $BIOPERF/Outputs/blastp
+cd $BIOPERF/Binaries/x86-Binaries/Blast/
+./blastall -p blastp -i $BIOPERF/Inputs/Blast/blastp/class-B/mediuminput -d $DATABASES/swissprot.aa -M BLOSUM62 -o $BIOPERF/Outputs/Blast/x86-classB-blastp.output
+echo The output has been stored as x86-classB-blastp.script in the director $BIOPERF/Outputs/blastp
+cd $BIOPERF/Binaries/x86-Binaries/Blast/
+./blastall -p blastp -i $BIOPERF/Inputs/Blast/blastp/class-C/largeinput -d $DATABASES/swissprot.aa -M BLOSUM62 -o $BIOPERF/Outputs/Blast/x86-classC-blastp.output
+echo The output has been stored as x86-classC-blastp.output in the directory $BIOPERF/Outputs/Blast
+

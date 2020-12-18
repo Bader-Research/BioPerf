@@ -1,0 +1,5 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/PowerPc-Binaries/Fasta
+./ssearch34_t -a -b 20 -q -O $BIOPERF/Outputs/Fasta/largeoutput $BIOPERF/Inputs/Fasta/ssearch/class-C/NC_004344.fna $BIOPERF/Inputs/Fasta/ssearch/class-C/NC_004551.fna
+echo The output has been stored as largeoutput in /Outputs/Fasta

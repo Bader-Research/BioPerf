@@ -1,0 +1,202 @@
+
+SAGA FORMAT
+alignement  1qpg_ref5.t_coffee_aln10 nseq=15 len=553
+T_COFFEE ALIGNMENT
+CPU TIME:958838
+
+
+
+pgk_klula  slsskltvkd---l-dvtgkrvfirvdfnvpld--g-k--kitsnqriva
+pgkh_chlre --avkksvgdlhka-dlegkrvfvradlnvpld--k-atlaitddtrira
+pgk_bacme  ---nkktlkd---i-dvkgkrvfcrvdfnvpmk--d-g--kvtdetrira
+pgkc_trybb tlnekksine---c-dlkgkkvlirvdfnvpvk--n-g--kitndyrirs
+pgka_crifa sipikksvdd---iwpvagkrvlirvdfnvpts--s-g--gidddfrirs
+pgkg_tryco nirikktidd---iwpltakrvlvrvdfnvpiq--n-g--hitndyrira
+pgk_ecoli  ---svikmtd---l-dlagkrvfiradlnvpvk--d-g--kvtsdarira
+pgk_theth  ------tlld---l-dpkgkrvlvrvdynvpvq--d-g--kvqdetrile
+pgkc_alceu -------laa---g-glagkrvfiradlnvpqd--aag--aitddtrira
+pgk_zymmo  ---------------dvkgkrvlvredlnvpmd--g-d--rvtddtrlra
+pgk_corgl  avktlkd---llde-gvdgrhvivrsdfnvpln--d-dr-eitdkgriia
+pgk_mycge  nmlnfktlqa---i-dfqnktvvlrsdfnvpmi--n-g--visdserila
+pgk_pyrwo  -----frlrd---f-eyynrtvflrvdlnspms--n-g--kiisdarfra
+pgk_mycle  ripnlkd---llee-gvsgrcvlvrcdlnvplg--d-dg-aitdlgrvta
+pgk_metfe  ------tmdd---f-dysgsrvlvrvdinspvdpht-g--rilddtrmrl
+
+pgk_klula  alptiqyvlekkpkaivlashlgrpn-ge---------------------
+pgkh_chlre avptlkylldngak-vlltshlgrpk-gg---------------------
+pgk_bacme  aiptiqylveqgak-vilashlgrpk-ge---------------------
+pgkc_trybb alptlkkvlteggs-cvlmshlgrpk-gipmaqag-kir-----------
+pgka_crifa aiptirrivdqggi-cilishlgrpt-gvdydtahaeqekrqtpvqlpns
+pgkg_tryco tiptiqriidqggi-cillshlgrpa-gismttavrdvrrryheahfhdn
+pgk_ecoli  slptielalkqgak-vmvtshlgrptege---------------------
+pgk_theth  slptlrhllaggas-lvllshlgrpk-g----------------------
+pgkc_alceu svpaiaaclqagaa-vmvtshlgrpqega---------------------
+pgk_zymmo  aiptvnelaekgak-vlilahfgrpk-gq---------------------
+pgk_corgl  slptlkalseggak-vivmahlgrq--ge---------------------
+pgk_mycge  gldtikflvkknck-ivllshlsrik-sled-------------------
+pgk_pyrwo  vlptikyliesgak-vvvgthqgkpy-s----------------------
+pgk_mycle  svptlkalleagak-ivvaahlgrpk-ng---------------------
+pgk_metfe  hsktlkelvdenak-vailahqsrpg-k----------------------
+
+pgk_klula  --------------------------------------------------
+pgkh_chlre --------------------------------------------------
+pgk_bacme  --------------------------------------------------
+pgkc_trybb -----------------------------------stg------------
+pgka_crifa rgktaffsglrgdakatilawssqrekaatlsnpygsgktavfarlpeee
+pgkg_tryco kgktaffsvlppeekikilaqsslreeathimpgvksgktilfarlpede
+pgk_ecoli  --------------------------------------------------
+pgk_theth  --------------------------------------------------
+pgkc_alceu --------------------------------------------------
+pgk_zymmo  --------------------------------------------------
+pgk_corgl  --------------------------------------------------
+pgk_mycge  --------------------------------------------------
+pgk_pyrwo  --------------------------------------------------
+pgk_mycle  --------------------------------------------------
+pgk_metfe  --------------------------------------------------
+
+pgk_klula  -------------------------vndkyslapvadelsrllqk-pvtf
+pgkh_chlre -------------------------pedkyrltpvvarlsellgk-pvtk
+pgk_bacme  -------------------------vveelrlnavaerlqallgk-dvak
+pgkc_trybb ---------------gvp------gfqqkatlkpvakalselllr-pvtf
+pgka_crifa krrlllrfmsehkeelfpqlg-sagyekefslepvavklaelldq-hvyf
+pgkg_tryco kkqllmqyldekkdnglpqlsvsagyeeqyslrpvavrlaellgq-hvyf
+pgk_ecoli  -------------------------yneefsllpvvnylkdklsn-pvrl
+pgk_theth  -------------------------pdpkyslapvgealrahlpe-arfa
+pgkc_alceu -------------------------pdprhslapvgrrlsellgr-qvpl
+pgk_zymmo  -------------------------pnpemslarikdalagvlgr-pvhf
+pgk_corgl  -------------------------vnekyslapvaealsdelgq-yval
+pgk_mycge  ------------------------klnnkkslkpvaellqqllptvkvqf
+pgk_pyrwo  --------------------------eeystteeharilsellnm-hvey
+pgk_mycle  -------------------------pdpklslepvaaalgeqlgq-nvql
+pgk_metfe  --------------------------rdfttmeehskvlsnildm-pvty
+
+pgk_klula  lhdc----vgeevtnavnnakdgevfllenlrfh----ie-----eegsr
+pgkh_chlre vddc----igpevekavgamkngellllencrfy----ke-----ee---
+pgk_bacme  adea----fgeevkktidgmsegdvlvlenvrfy----pg-----ee---
+pgkc_trybb apdc----l--naadvvskmspgdvvllenvrfy----ke-----eg-sk
+pgka_crifa ghdc----lg--aqadiaklrcgevmllenlrfy----tn-----en-ss
+pgkg_tryco ahdc----m--dakmelsrlkrgnvmllenvrfy----re-----ed-sk
+pgk_ecoli  vkdy----l-----dg-vdvaegelvvlenvrfn----kg-----ek---
+pgk_theth  pfpp----gseearreaealrpgevlllenvrfe----pg-----ee---
+pgkc_alceu lsgw----t-----eggfqvppgqvvllencrmn----tg-----ek---
+pgk_zymmo  indi----kgeaaakavdalnpgavallentrfy----ag-----ee---
+pgk_corgl  aadv----vgedaherangltegdilllenvrfd----pr-----et-sk
+pgk_mycge  sckn----tgaevkqkvqalafgeilllentrycdvndkgeivkles---
+pgk_pyrwo  vedi----fgkyarerikamkpgevivlenlrfs----ae-----ev-kn
+pgk_mycle  vcstdrspvggdalacverltdgdllllqnirfd----pr-----et-sk
+pgk_metfe  vedi----fgcaaresirnmengdiillenvrfy----se-----ev-lk
+
+pgk_klula  kvdgnkvkadkaavtk---freqlssl---advyvndafgtahrahssiv
+pgkh_chlre kn-------ep----e---fakklaan---adlyvndafgtahrahaste
+pgk_bacme  kn-------dp----e---lakafael---advyvndafgaahrahaste
+pgkc_trybb -k-------ak-drea---makilasy---gdvyisdafgtahrdsatmt
+pgka_crifa ---------derkrml---marilasy---advyindafgtahrdsaslt
+pgkg_tryco -k-------ee-erea---makvlasy---gdifvsdafgtahrdsatmt
+pgk_ecoli  kd-------de----t---lskkyaal---cdvfvmdafgtahraqasth
+pgk_theth  kn-------dp----e---lsaryarl---geafvldafgsahrahasvv
+pgkc_alceu kn-------sd----e---laqkmaal---cdvyvndafgtahraeatth
+pgk_zymmo  kn-------dp----a---laaevakl---gdfyvndafsaahrahvste
+pgk_corgl  -d-------ea-ernr---faqelaalaadngafvsdgfgvvhraqtsvy
+pgk_mycge  kn-------dp----e---lakfwasl---geifvndafgtahrkhasna
+pgk_pyrwo  -a-------ti-eecektffvrklsqv---idlvvndafaaahrsqpslv
+pgk_mycle  -v-------dd-erla---lakqlvelvgsagafvsdgfgvvhrrqasvy
+pgk_metfe  -r-------dp-kvqaethlvrklssv---vdyyindafaaahrsqpslv
+
+pgk_klula  gfd--lpnraagfllskelqyfakalenptrpflailggakvadkiqlid
+pgkh_chlre gvtkflkpsvagfllqkeldyldgavsnpkrpfvaivggskvsskitvie
+pgk_bacme  giaqhi-pavagflmekeldvlskalsnperpftaivggakvkdkigvid
+pgkc_trybb gipkilgngaagylmekeisyfakvlgnpprplvaivggakvsdkiqlld
+pgka_crifa giprvlqqgaagylmekeisyfskvlnnpprpllaiiggaklsdkmqvle
+pgkg_tryco gipkvlghgaagylmekeisyfskvlgnpprplvaivggskvsdkiqlld
+pgk_ecoli  gigkfadvacagpllaaeldalgkalkeparpmvaivggskvstkltvld
+pgk_theth  gvarll-payagflmekevralsrllkdperpyavvlggakvsdkigvie
+pgkc_alceu giaryapiacagpllaaeidalgkalgqparplvaivagskvstkltilk
+pgk_zymmo  glahklp-afagramqkelealeaalgkpthpvaavvggakvstkldvlt
+pgk_corgl  diakllp-hyagglveteisvlekiaespeapyvvvlggskvsdkigvie
+pgk_mycge  giakyvakscigflmekelknlsyliqspqkpfvvvlggakvsdklkvve
+pgk_pyrwo  gfarikp-mimgflmekevdaltkayeseekprvyvlggakvddslkvae
+pgk_mycle  dvatllp-hyagilvadeirileqltssakrpyavvlggskvsdklgvie
+pgk_metfe  gfplklp-saagrlmerevktlykiiknvekpcvyilggvkiddsimimk
+
+pgk_klula  nlld--kvdsliigggmaftfkkvlenteigds----iydaagaelvpkl
+pgkh_chlre alme--kcdkiiigggmiftfyka-ralkvgss----lveddkielakkl
+pgk_bacme  hlld--kvdnliiggglsytfika-lghevgks----lleedkielaksf
+pgkc_trybb nmlq--ridylliggamaytflka-qgysigks----kceesklefarsl
+pgka_crifa nlld--cvdslfiggglaytflrs-qgysigts----hfeeafvpfaqal
+pgkg_tryco nmlq--ridylliggamaytflka-qghrigts----mceedrldlarsl
+pgk_ecoli  slsk--iadqlivgggiantfiaa-qghdvgks----lyeadlvdeakrl
+pgk_theth  sllp--ridrlliggamaftflka-lggevgrs----lveedrldlakdl
+pgkc_alceu slad--kvdnlivgggiantfmla-aglkigks----laepdlladarai
+pgk_zymmo  nlvs--kvdhliigggmantflaa-qgvdvgks----lcehelkdtvkgi
+pgk_corgl  alaa--kadkiivgggmcytflaa-qghnvqqs----llqeemkatctdl
+pgk_mycge  nllk--ladniligggmvntflka-kgkatans----lvekelidvakqi
+pgk_pyrwo  nvlrkekadliltgglvgqlftla-kgfdlgrenikflekkgilkyvdwa
+pgk_mycle  slat--kadsivlgggmcftflaa-qgfsvgks----lletemietcrsl
+pgk_metfe  nilkngsadyiltsglvanvflea-sgidikeknrkilyrknykkfikma
+
+pgk_klula  vekakknnvkivlptdfvigdkfsadantkvvtdkegips---gwqgldn
+pgkh_chlre eemakakgvqlllptdvvvadkfdanantqtvp-itaipd---gwmgldi
+pgk_bacme  mekakkngvnfympvdvvvaddfsndaniqvvs-iedips---dweglda
+pgkc_trybb lkkaedrkvqvilpidhvchtefkavdsplit-edqnipe---ghmaldi
+pgka_crifa plagsgrqvrvvlpedhvchahtrpaeapltt-tsanipd---gyagldi
+pgkg_tryco lkkaedrkvqvllpvdhvchtefkavdtpvvt-adadipd---ghmaldi
+pgk_ecoli  ltt-----cnipvpsdvrvatefsetapatlks-vndvka---deqildi
+pgk_theth  lgraealgvrvylpedvvaaerieagvetrvfp-araipv---pymgldi
+pgkc_alceu idimarrgasvpipvdvvcakefsataaatvkd-vkdvad---ddmildi
+pgk_zymmo  faaaektgckihlpsdvvvakefkanppirtip-vsdvaa---demildv
+pgk_corgl  lasvd----kivlpvdlvaasefnkdaekqivd-ldsipe---gwmsldi
+pgk_mycge  ldkd--thnkivlaidqvmgsefkdqtgitldv-sdkiqeqyqsymsldv
+pgk_pyrwo  ekildefypyvrtpvdfaidfkgerveidlls-dekrlfd---eypildi
+pgk_mycle  ldtyad---vlrlpmdivvtekfvadsppqtva-adaipd---glmgldi
+pgk_metfe  kklkdkygekiltpvdvainkngkridvp----id-dipn----fpiydi
+
+pgk_klula  gpesrkafaatvaeaktivwngppgvfefapfakgtealldavvassq-a
+pgkh_chlre gpdsvktfndaladaktvvwngpmgvfefpqvrqrtvsiantlagltp-k
+pgk_bacme  gpktreiyadviknsklviwngpmgvfeldafangtkavaealaea---t
+pgkc_trybb gpktiekyvqtigkcksaiwngpmgvfemvpyskgtfaiakamgrgtheh
+pgka_crifa gpltiqsithlvrqcssviwngplgmfempyyafgtfsiarvvsqssaak
+pgkg_tryco gpktianyvetigkcksaiwngpmgvfemtpyskgtfavakamgdctqkn
+pgk_ecoli  gdasaqelaeilknaktilwngpvgvfefpnfrkgteivanaia-dse--
+pgk_theth  gpktreafaralegartvfwngpmgvfevppfdegtlavgqaiaal---e
+pgkc_alceu gpktaamlaeqlkaagtivwngpvgvfefdqfgngtrvlaqaia-esk--
+pgk_zymmo  gpkavaaltevlkasktlvwngplgafeiepfdkatvalakeaaaltkag
+pgk_corgl  gpesvknfgevlstaktifwngpmgvfefaafsegtrasprpssmqhagn
+pgk_mycge  gsktialfesylktaktifwngplgvfeftnfakgtskigeiiakn---k
+pgk_pyrwo  gsrtvekyreillkariivangpmgvfereefavgtigvfkaige----s
+pgk_mycle  gpesvkrfatllsnastifwngpmgvfefpayaagtrgvaeaiva-vtgk
+pgk_metfe  gmetikiyaekireaktifangpagvfeeqqfsigtedllnaias----s
+
+pgk_klula  gnnviigggdtatvakkygvv-dkishvstgggaslellegkelpgvtfl
+pgkh_chlre gcitiigggdsvaaveqagva-ekmshistgggaslellegkvlpgvaal
+pgk_bacme  dtysvigggdsaaavekfnla-dkmshistgggaslefmegkelpgvval
+pgkc_trybb glmsiigggdsasaaelsgea-krmshvstgggaslellegktlpgvtvl
+pgka_crifa gttsivgggdtasammksgea-ahishistggnaslellegkvlaavavl
+pgkg_tryco glmsiigggdsasaaeqsgea-trmshvstgggaslellegktlpgvail
+pgk_ecoli  -afsiagggdtlaaidlfgia-dkisyistgggaflefvegkvlpavaml
+pgk_theth  gaftvvgggdsvaavnrlglk-erfghvstgggasleflekgtlpglevl
+pgkc_alceu -afsiagggdtlaaiakhgia-drvgyistgggafleflegktlpalavl
+pgk_zymmo  slisvagggdtvaalnhagva-kdfsfvstaggaflewmegkelpgvkal
+pgk_corgl  dafsvvgggdsaasvrvlglnedgfshistgggasleylegkelpgvail
+pgk_mycge  tafsvigggdsaaavkqmqls-dqfsfistgggaslaliggeelvgisdi
+pgk_pyrwo  pafsviggghsiasiykynit--gishistgggamltffageklpvleal
+pgk_mycle  gafsvvgggdsaaamralslpegsvshlstgggasleylegktlpgievl
+pgk_metfe  nafsviagghlaaaaekmgis-nkinhissgggaciaflsgeelpaikvl
+
+pgk_klula  snk
+pgkh_chlre dek
+pgk_bacme  ndk
+pgkc_trybb dek
+pgka_crifa dnk
+pgkg_tryco ddk
+pgk_ecoli  eer
+pgk_theth  e--
+pgkc_alceu aqr
+pgk_zymmo  ea-
+pgk_corgl  aq-
+pgk_mycge  qkn
+pgk_pyrwo  ---
+pgk_mycle  gre
+pgk_metfe  eea
+
+
+

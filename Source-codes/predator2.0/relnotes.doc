@@ -1,0 +1,15 @@
+1. Exacutables for UNIX are no longer supplied
+2. Reading MSF files corrected
+3. Several serious bugs fixed
+4. PREDATOR made 20-40% faster
+5. Bug fixed: with -a and -fFileName options (predict secondary structure for all sequences
+   and write the results to the file FileName) only the last prediction appeared in the
+   output file since it was open for writing. Now it has been changed to appending and all
+   predictions are correctly output.
+
+
+Dmitrij Frishman
+Munich Information Center for Protein Sequences
+Max-Planck-Institute for Biochemistry
+Am Klopferspitz 18a, 82152 Martinsried, Germany
+FRISHMAN@MIPS.BIOCHEM.MPG.DE

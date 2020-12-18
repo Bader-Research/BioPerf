@@ -1,0 +1,70 @@
+
+SAGA FORMAT
+alignement  1mfa_ref4.t_coffee_aln10 nseq=5 len=463
+T_COFFEE ALIGNMENT
+CPU TIME:16100
+
+
+
+1mfa  wifgggtkltvlgqgevqvqqsgtvvarpgasvkmsckasgytftnywmh
+8fabB ---------------avklvqagggvvqpgrslrlsciasgftfsnygmh
+1igtB ---------------evklqesggglvqpggslklscatsgftfsdyymy
+6fabH ---------------evqlqqsgvelvragssvkmsckasgytftsngin
+1fgvH ---------------evqlvesggglvqpggslrlscatsgytfteytmh
+
+1mfa  wikqrpgqglewigaiypgnsatfynhkfraktkltavtstttaymelss
+8fabB wvrqapgkglewvaviwyngsrtyygdsvkgrftisrdnskrtlymqmns
+1igtB wvrqtpekrlewvayisngggstyypdtvkgrftisrdnakntlylqmsr
+6fabH wvkqrpgqglewigynnpgngyiaynekfkgkttltvdkssstaymqlrs
+1fgvH wmrqapgkglewvaginpknggtsyadsvkgrftisvdkskntlylqmns
+
+1mfa  ltsedsavyyctrg---ghgyygdywgqgasltvs---------------
+8fabB lrtedtavyycardpdiltafsfdywgqgvlvtvssastkgpsvfplapt
+1igtB lksedtamyycarhgg---yyamdywgqgttvtvssakttapsvyplapv
+6fabH ltsedsavyfcarseyyggsykfdywgqgttltvssakttppsvyplapg
+1fgvH lraedtavyycarwrgld-vryfdvwgqgtlvtvss--------------
+
+1mfa  --------------------------------------------------
+8fabB a--------algclvkdyfpepvtvswnsgaltsgvhtfpavlqssglys
+1igtB cgdttgssvtlgclvkgyfpepvtltwnsgslssgvhtfpavlqsd-lyt
+6fabH saaqtnsmvtlgclvkgyfpepvtvtwnsgslssgvhtfpavlqsd-lyt
+1fgvH --------------------------------------------------
+
+1mfa  --------------------------------------------------
+8fabB lssvvtvpssslgtqtyicnvnhkpsntkvdkkvepk-------------
+1igtB lsssvtvtsstwpsqsitcnvahpasstkvdkkieprgptikpcppckcp
+6fabH lsssvtvpssprpsetvtcnvahpasstkvdkkivprd------------
+1fgvH --------------------------------------------------
+
+1mfa  --------------------------------------------------
+8fabB --------------------------------------------------
+1igtB apnllggpsvfifppkikdvlmislspivtcvvvdvseddpdvqiswfvn
+6fabH --------------------------------------------------
+1fgvH --------------------------------------------------
+
+1mfa  --------------------------------------------------
+8fabB --------------------------------------------------
+1igtB nvevhtaqtqthredynstlrvvsalpiqhqdwmsgkefkckvnnkdlpa
+6fabH --------------------------------------------------
+1fgvH --------------------------------------------------
+
+1mfa  --------------------------------------------------
+8fabB --------------------------------------------------
+1igtB piertiskpkgsvrapqvyvlpppeeemtkkqvtltcmvtdfmpediyve
+6fabH --------------------------------------------------
+1fgvH --------------------------------------------------
+
+1mfa  --------------------------------------------------
+8fabB --------------------------------------------------
+1igtB wtnngktelnykntepvldsdgsyfmysklrvekknwvernsyscsvvhe
+6fabH --------------------------------------------------
+1fgvH --------------------------------------------------
+
+1mfa  -------------
+8fabB -------------
+1igtB glhnhhttksfsr
+6fabH -------------
+1fgvH -------------
+
+
+

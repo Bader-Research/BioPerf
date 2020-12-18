@@ -1,0 +1,52 @@
+
+SAGA FORMAT
+alignement  kinase_ref1.t_coffee_aln10 nseq=5 len=325
+T_COFFEE ALIGNMENT
+CPU TIME:20398
+
+
+
+kcc2_yeast nyifgrtlgagsfgvvrqarklstnedvaikillkkalqgnnvqlqmlye
+dmk_human  dfeilkvigrgafsevavvkmkqtgqvyamkimnkwdmlkrg-evscfre
+kpro_maize trkfkvelgrgesgtvykgv-leddrhvavkkl-envrqgk----evfqa
+daf1_caeel qirltgrvgsgrfgnvsrg--dyrgeavavkvfn-alde------pafhk
+1csn       hykvgrrigegsfgvifegtnllnnqqvaikfeprrs------dapqlrd
+
+kcc2_yeast elsilq---kls-hpnivsfk-d-wfes--kdkfyivtqlatggelfdri
+dmk_human  erdvlv---ngd-rrwitqlh--fafqde--nylylvmeyyvggdlltll
+kpro_maize elsvig---rin-hmnlvriw--gfcseg--shrllvseyvengslanil
+daf1_caeel eteifetr-mlr-hpnvlryigsdrvdtgfvtelwlvteyhpsgslhdfl
+1csn       eyrtykllagctgipnvyyf-gq---e---glhnvlvidl-lgpsledll
+
+kcc2_yeast lsrgkftevd---aveiivqilgaveymh----------sknvvhrdlkp
+dmk_human  skfgeripaem-arfylae-ivmaidsvhr----------lgyvhrdikp
+kpro_maize fseggnilldwegrfnialgvakglaylhhe-------clewvihcdvkp
+daf1_caeel lentvniet----yynlmrstasglaflhnqiggskesnkpamahrdiks
+1csn       dlcgrkfsvkt-v-amaakqmlarvqsih----------ekslvyrdikp
+
+kcc2_yeast envlyvdk--se-nsplviadfgiakqlk--geed---liyk-----aag
+dmk_human  dnill-dr-----cghirladfgsclklradgtvr---slv------avg
+kpro_maize enill-dq-----afepkitdfglvkllnrggstq---nvsh-----vrg
+daf1_caeel knimv-kn-----dltcaigdlglslskpedaasdiianeny-----kcg
+1csn       dnfli-grpnsknanmiyvvdfgmvkfyrdpvtkq---hipyrekknlsg
+
+kcc2_yeast slgyvapevltqdg---hgk----pc-diwsigvitytllcg-yspfiae
+dmk_human  tpdylspeilqavgggpgtgsygpec-dwwalgvfayemfyg-qtpf---
+kpro_maize tlgyiapewvsslp-------itakv-dvysygvvllelltgtrvse---
+daf1_caeel tvrylapeilnstm--qftvfesyqcadvysfslvmwetlc-----rced
+1csn       tarymsinthlgr---eqsr----rd-dlealghvfmyflrg-slpwqgl
+
+kcc2_yeast svegfmeectasrypv-tfhmpyw---dnisidvkrf---ilkal--rln
+dmk_human  yadstaetygkivhykehlslplvde-g-vpeeardfiqrllcppetrlg
+kpro_maize lvggtdevhsmlrklvrmlsakl--e-g----eeqswidgyl---dskln
+daf1_caeel --gdvlpreaatv-------ipyiewtdrdpqdaqmf-d-vvctr--rlr
+1csn       kaatnkqk--yerigekkqstplrelcagfpeefykymhy---ar--nl-
+
+kcc2_yeast padrpta-telld-d----pwitsk
+dmk_human  ---r-ggagdfrt-hpff-fgldwd
+kpro_maize ---r--pvnyvqa-rtliklavscl
+daf1_caeel pt----e-nplwk-dhpemkhimei
+1csn       --a-fda-tpdydylqgl-fsk-vl
+
+
+

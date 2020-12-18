@@ -1,0 +1,4 @@
+#!/bin/bash
+cd $BIOPERF/Binaries/x86-Binaries/Predator
+./predator $BIOPERF/Inputs/Predator/class-B/eukaryota_100.seq -u -h -a -f$BIOPERF/Outputs/Predator/classB-predator
+echo The output has been stored as classB-predator in $BIOPERF/Outputs/Predator

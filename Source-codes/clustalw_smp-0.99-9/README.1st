@@ -1,0 +1,58 @@
+SMP (0.99-9) version of clustalw 1.82
+Author: Ognen Duzlevski, http://www.aquaos.org/index.php
+2002, Plant Biotechnology Institute, National Research Council of Canada
+
+Do the following:
+
+> tar -xvzf clustalw_smp.tar.gz
+
+or, if your OS does not support the -z flag in tar do:
+
+> gunzip clustalw_smp.tar.gz
+> tar -xvf clustalw_smp.tar
+
+This should create a directory clustalw_smp where the source code is.
+
+The default Makefile calls on gcc with the -O3 optimization flag. If your
+system has its own C compiler, chances are it is better at optimizing than
+gcc is. Provided are makefile.linux, makefile.irix, makefile.solaris and
+makefile.alpha that will make use of various optimization flags passed on to
+their native compilers. In general, if there is gcc on the system, things
+will compile. If you want to be fancy, try using the native compiler.
+
+Sorry, no ./configure yet.
+
+As for libraries, pthreads are required.
+
+Some test sequences are provided in the clustalw_smp/sequences directory.
+You can run clustalw on them with
+
+> ./clustalw -infile=sequences/<sequence_file>
+
+Before you run and do it, set the THREADS environment variable to the number
+of threads you want the software to run with. Recommended is one or two more
+than the number of CPUs available. Use either setenv or export, depending on
+your platform. The software will tell you anyways.
+
+Final comment: there are probably some bugs in the code although I dont
+think so ;). Please test it on different hardware and OSes and if you want
+drop me a line telling me if there is anything you need fixed. Performance
+measurements and "how well/poorly the software scales" measurements are also
+welcome. The software was tested on Compaq OSF/1, Tru64, Linux on Alpha,
+ia64 and x86 hardware, SunOS on Sparc and Irix on SGI machines. It compiles
+and runs but performance might vary. Since the threading library is pthreads
+- the specific platform implementation might be to blame. Or it just might
+be the kernel. Different OSes prefer different threading models. The
+hardware will probably have the largest impact though. x86 boxes are in
+general slower than the "big-iron" from Sun, SGI or Compaq.
+
+Finally, a version supporting Beowulf clusters (using PVM) is on the way. Stay
+tuned for news or send me email and bug me until I release it :). It is in
+testing phase but you know that there is never time to pass the tests ;) - I
+am just a humble student.
+
+Enjoy and send comments and complaints to ogd116@mail.usask.ca
+
+Ognen Duzlevski
+Saskatoon, SK, Canada
+April 22, 2002

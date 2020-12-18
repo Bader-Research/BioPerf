@@ -1,0 +1,114 @@
+
+SAGA FORMAT
+alignement  kinase1_ref4.t_coffee_aln10 nseq=7 len=607
+T_COFFEE ALIGNMENT
+CPU TIME:98520
+
+
+
+kc2a_caeel mppipsr-arvyaevn-----------p----------s---rp------
+kg3b_human msgrprt--tsfaesckpvqqp-safgs----------m--kvs-rdk--
+erk1_human maaaaaq--ggggg--ep-rrt-egvgp----------g---vp------
+mp38_mouse ----msq---------e--r-------p----------t---fy------
+e318801    m-------------------------------------------------
+cdk2_human --------------------------------------------------
+kr1_hsv11  macrkfcrvy--gg--qg-rrkeeavppetkpsrvfphgpfytpaedacl
+
+kc2a_caeel ----------r-------------------------------------ey
+kg3b_human ---------dgskvt---------------------------------tv
+erk1_human ----------g-------------------------------------ev
+mp38_mouse ----------r-------------------------------------q-
+e318801    -------------------------------------------------a
+cdk2_human --------------------------------------------------
+kr1_hsv11  dspppetpkpshttppseaerlchlqeilaqmygnqdypieddpsadaad
+
+kc2a_caeel wdyeahmiewg-q-------------------------------------
+kg3b_human vatpgqgpdr--p-------------------------------------
+erk1_human emvkgqpfdv----------------------------------------
+mp38_mouse elnk-tiwev----------------------------------------
+e318801    ldvksr--------------------------------------------
+cdk2_human --------------------------------------------------
+kr1_hsv11  dvdedapddvaypeeyaeelflpgdatgpligandhipppcgasppgirr
+
+kc2a_caeel --------------------idd-yqlvrklgr-----------------
+kg3b_human --------------------qevsytdtkvign-----------------
+erk1_human --------------------gpr-ytqlqyige-----------------
+mp38_mouse --------------------per-yqnlspvgs-----------------
+e318801    --------------------akr-yekldflge-----------------
+cdk2_human --------------------men-fqkvekige-----------------
+kr1_hsv11  rsrdeigatgftaeeldamdre-aaraisrggkppstmaklvtgmgftih
+
+kc2a_caeel -----gkysevfegfkmstdekvvvkilk-pvkkk-------kikreiki
+kg3b_human -----gsfgvvyqaklcdsgelvaikkvlqdkrfk---------nrelqi
+erk1_human -----gaygmvssaydhvrktrvaikkis-pfehq---tycqrtlreiqi
+mp38_mouse -----gaygsvcaafdtktghrvavkklsrpfqsi---ihakrtyrelrl
+e318801    -----gqfatvykardkntnqivaikkiklghrseakdginrtalreikl
+cdk2_human -----gtygvvykarnkltgevvalkkirldtete---gvpstaireisl
+kr1_hsv11  galtpgsegcvfdsshpdypqrvivk-----------agwytstshearl
+
+kc2a_caeel lenlrggtniitlldvvkdpi--sr-tp--alifehvnnsdfkqly----
+kg3b_human mrkld-hcnivrlryffyss-g-ekkdevylnlvldyvpetvyrvarhys
+erk1_human llrfr-henvigirdilras-tleamrd--vyivqdlmetdlykllk--s
+mp38_mouse lkhmk-henviglldvftparsleefnd--vylvthlmgadlnnivk--c
+e318801    lqels-hpniiglldafghk-s-----n--islvfdfmetdleviik--d
+cdk2_human lkeln-hpnivklldvihte-n-----k--lylvfeflhqdlkkfmd--a
+kr1_hsv11  lrrld-hpailplldlhvvsg------v--tclvlpkyqadlytyls--r
+
+kc2a_caeel ---qtlsdydiryylyellkaldfchsqgimhrdvkphnvmidaekrelr
+kg3b_human rakqtlpviyvklymyqlfrslayihsfgichrdikpqnllldpdtavlk
+erk1_human ---qqlsndhicyflyqilrglkyihsanvlhrdlkpsnllinttc-dlk
+mp38_mouse ---qkltddhvqfliyqilrglkyihsadiihrdlkpsnlavnedc-elk
+e318801    nsl-vltpshikaymlmtlqgleylhqhwilhrdlkpnnllldeng-vlk
+cdk2_human saltgiplpliksylfqllqglafchshrvlhrdlkpqnllinteg-aik
+kr1_hsv11  -rlnplgrpqiaavsrqllsavdyihrqgiihrdiktenifintpe-dic
+
+kc2a_caeel lidwglae-f--yhprqdy----nvrva-sryfkgpellvdyqcydysld
+kg3b_human lcdfgsakqlvrgepnvsy-------ic-sryyrapelifgatdytssid
+erk1_human icdfglaria--dpe-hdhtgflteyva-trwyrapeimlnskgytksid
+mp38_mouse ildfglarht--dde-------mtgyva-trwyrapeimlnwmhynqtvd
+e318801    ladfglaksf--gspnray----thqvv-trwyrapellfgarmygvgvd
+cdk2_human ladfglaraf--gvpvrty----thevv-tlwyrapeillgckyystavd
+kr1_hsv11  lgdfgaacfvq-gsrsspf----pygiagtidtnapevlag-dpytttvd
+
+kc2a_caeel mwslgcmlas-mifrkepff-----hghdnyd-qlvriakvlgtdelyey
+kg3b_human vwsagcvlae-lllgq-pif-----pgdsgvd-qlveiikvlgtpt-req
+erk1_human iwsvgcilae-mlsnr-pif-----pgkhyld-qlnhilgilgsps-qed
+mp38_mouse iwsvgcimae-lltgr-tlf-----pgtdhid-qlklilrlvgtpg-ael
+e318801    mwavgcilae-lllrv-pfl-----pgdsdld-qltrifetlgtpt-eeq
+cdk2_human iwslgcifae-mvtrr-alf-----pgdseid-qlfrifrtlgtpd-evv
+kr1_hsv11  iwsaglvifetavhna-slfsaprgpkrgpcdsqitriirqaqvhv-def
+
+kc2a_caeel iaryhi-dldprfn-----di-lgrhsrkrwerfiha-enqhlvtpeald
+kg3b_human iremn-----pnyt-----efkfpqikahpwtkvfrprtp-----peaia
+erk1_human lnciin-mkarnyl-----q-slpsktkvawaklfpk-sd-----skald
+mp38_mouse lkkiss-esarnyi-----q-slaqmpkmnfanvfig-an-----plavd
+e318801    wpdmcs-lp--dyv---tck-sfpg---iplhhifsa-ag-----ddlld
+cdk2_human wpgvts-mp--dyk-----p-sfpkwarqdfskvvpp-ld-----edgrs
+kr1_hsv11  sphpesrlt-sryrsraagn-nrppytrpawtryyk--md-----idvey
+
+kc2a_caeel fldkllrydhaerltaqeamgheyfrpvve-----ahar----a---ngt
+kg3b_human lcsrlleytptarltpleacahsffdelrdpnvkhpngrdtpal-fnftt
+erk1_human lldrmltfnpnkritveealahpyleqyydpt-depvaee-pft-famel
+mp38_mouse llekmlvldsdkritaaqalahayfaqyhdpd-depvad--pyd-qsfes
+e318801    liqglflfnpcaritatqalkmkyfsnrpgpt-p--gcql-prpncpvet
+cdk2_human llsqmlhydpnkrisakaalahpffqdvtkpv-p--hlrl----------
+kr1_hsv11  lvckaltfdgalrpsaaellclplfqq--k--------------------
+
+kc2a_caeel --eqadg-qgas-----------------------nsassqssdakidga
+kg3b_human qelssnpplatilipphariqaaastptnataasdantgdrgqtnnaasa
+erk1_human ddlpker-lkelifqetarfq-------------------pgvleap---
+mp38_mouse rdllide-wksltydevisfv-------------------pppldqeeme
+e318801    lkeqanp-alaikrkrteale-------------------qgglpkklif
+cdk2_human --------------------------------------------------
+kr1_hsv11  --------------------------------------------------
+
+kc2a_caeel -------
+kg3b_human -sasnst
+erk1_human -------
+mp38_mouse s------
+e318801    -------
+cdk2_human -------
+kr1_hsv11  -------
+
+
+

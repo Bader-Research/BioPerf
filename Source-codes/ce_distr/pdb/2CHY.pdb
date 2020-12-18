@@ -1,0 +1,188 @@
+HEADER    SIGNAL TRANSDUCTION PROTEIN             17-MAY-90   2CHY      2CHY   2
+COMPND    CHE*Y (MUTANT WITH SER 56 REPLACED BY CYS) (/S56C$)           2CHY   3
+SOURCE    (SALMONELLA $TYPHIMURIUM), RECOMBINANT FORM EXPRESSED IN      2CHY   4
+SOURCE   2 (ESCHERICHIA $COLI) STRAIN /HB101$                           2CHY   5
+AUTHOR    J.M.MOTTONEN,A.M.STOCK,J.B.STOCK,C.E.SCHUTT                   2CHYA  1
+REVDAT   2   15-JUL-93 2CHYA   1       AUTHOR                           2CHYA  2
+REVDAT   1   15-JUL-90 2CHY    0                                        2CHY   7
+JRNL        AUTH   A.M.STOCK,J.M.MOTTONEN,J.B.STOCK,C.E.SCHUTT          2CHY   8
+JRNL        TITL   THREE-DIMENSIONAL STRUCTURE OF CHE*Y, THE            2CHY   9
+JRNL        TITL 2 RESPONSE REGULATOR OF BACTERIAL CHEMOTAXIS           2CHY  10
+JRNL        REF    NATURE                        V. 337   745 1989      2CHY  11
+JRNL        REFN   ASTM NATUAS  UK ISSN 0028-0836                  006  2CHY  12
+REMARK   1                                                              2CHY  13
+REMARK   1 REFERENCE 1                                                  2CHY  14
+REMARK   1  AUTH   J.B.STOCK,A.M.STOCK,J.M.MOTTONEN                     2CHY  15
+REMARK   1  TITL   SIGNAL TRANSDUCTION IN BACTERIA                      2CHY  16
+REMARK   1  REF    NATURE                        V. 344   395 1990      2CHY  17
+REMARK   1  REFN   ASTM NATUAS  UK ISSN 0028-0836                  006  2CHY  18
+REMARK   2                                                              2CHY  19
+REMARK   2 RESOLUTION. 2.7 ANGSTROMS.                                   2CHY  20
+REMARK   3                                                              2CHY  21
+REMARK   3 REFINEMENT. BY USE OF THE RESTRAINED LEAST-SQUARES PACKAGE   2CHY  22
+REMARK   3  (*TNT*) OF L. F. TEN EYCK AND D. E. TRONRUD.  THE R-VALUE   2CHY  23
+REMARK   3  IS 0.29.                                                    2CHY  24
+REMARK   4                                                              2CHY  25
+REMARK   4 PLACEMENTS OF RESIDUES 90 - 109 ARE LESS CERTAIN THAN        2CHY  26
+REMARK   4 OTHERS DUE TO WEAK ELECTRON DENSITY IN THIS REGION.          2CHY  27
+REMARK   5                                                              2CHYA  3
+REMARK   5 CORRECTION. CORRECT TYPOGRAPHICAL ERROR ON AUTHOR RECORD.    2CHYA  4
+REMARK   5  15-JUL-93.                                                  2CHYA  5
+SEQRES   1    128  ALA ASP LYS GLU LEU LYS PHE LEU VAL VAL ASP ASP PHE  2CHY  28
+SEQRES   2    128  SER THR MET ARG ARG ILE VAL ARG ASN LEU LEU LYS GLU  2CHY  29
+SEQRES   3    128  LEU GLY PHE ASN ASN VAL GLU GLU ALA GLU ASP GLY VAL  2CHY  30
+SEQRES   4    128  ASP ALA LEU ASN LYS LEU GLN ALA GLY GLY PHE GLY PHE  2CHY  31
+SEQRES   5    128  ILE ILE CYS ASP TRP ASN MET PRO ASN MET ASP GLY LEU  2CHY  32
+SEQRES   6    128  GLU LEU LEU LYS THR ILE ARG ALA ASP SER ALA MET SER  2CHY  33
+SEQRES   7    128  ALA LEU PRO VAL LEU MET VAL THR ALA GLU ALA LYS LYS  2CHY  34
+SEQRES   8    128  GLU ASN ILE ILE ALA ALA ALA GLN ALA GLY ALA SER GLY  2CHY  35
+SEQRES   9    128  TYR VAL VAL LYS PRO PHE THR ALA ALA THR LEU GLU GLU  2CHY  36
+SEQRES  10    128  LYS LEU ASN LYS ILE PHE GLU LYS LEU GLY MET          2CHY  37
+HELIX    1   A SER     15  LYS     26  1                                2CHY  38
+HELIX    1   B VAL     40  GLN     47  1                                2CHY  39
+HELIX    1   C ASP     64  ILE     72  1                                2CHY  40
+HELIX    1   D LYS     92  GLN    100  1                                2CHY  41
+HELIX    1   E THR    115  LYS    126  1                                2CHY  42
+SHEET    1  S1 5 ASN    32  GLU    37  0                                2CHY  43
+SHEET    2  S1 5 LYS     7  ASP    12  1                                2CHY  44
+SHEET    3  S1 5 GLY    52  CYS    56  1                                2CHY  45
+SHEET    4  S1 5 PRO    82  THR    87  1                                2CHY  46
+SHEET    5  S1 5 SER   104  LYS   109  1                                2CHY  47
+CRYST1   45.900   47.200   54.200  90.00  90.00  90.00 P 21 21 21    4  2CHY  48
+ORIGX1      1.000000  0.000000  0.000000        0.00000                 2CHY  49
+ORIGX2      0.000000  1.000000  0.000000        0.00000                 2CHY  50
+ORIGX3      0.000000  0.000000  1.000000        0.00000                 2CHY  51
+SCALE1      0.021786  0.000000  0.000000        0.00000                 2CHY  52
+SCALE2      0.000000  0.021186  0.000000        0.00000                 2CHY  53
+SCALE3      0.000000  0.000000  0.018450        0.00000                 2CHY  54
+ATOM      2  CA  ALA     2       5.044  47.934  21.284  1.00 15.00      2CHY  55
+ATOM      7  CA  ASP     3       5.075  45.342  18.447  1.00 15.00      2CHY  56
+ATOM     15  CA  LYS     4       2.021  43.046  18.210  1.00 15.00      2CHY  57
+ATOM     24  CA  GLU     5       0.121  39.581  18.524  1.00 15.00      2CHY  58
+ATOM     33  CA  LEU     6       2.883  38.496  15.985  1.00 15.00      2CHY  59
+ATOM     41  CA  LYS     7       3.399  34.965  14.753  1.00 15.00      2CHY  60
+ATOM     50  CA  PHE     8       5.842  32.406  16.364  1.00 15.00      2CHY  61
+ATOM     61  CA  LEU     9       7.753  29.670  14.647  1.00 15.00      2CHY  62
+ATOM     69  CA  VAL    10       9.649  27.696  17.078  1.00 15.00      2CHY  63
+ATOM     76  CA  VAL    11      11.678  24.919  15.318  1.00 15.00      2CHY  64
+ATOM     83  CA  ASP    12      14.107  22.455  17.082  1.00 15.00      2CHY  65
+ATOM     91  CA  ASP    13      14.849  18.668  16.737  1.00 15.00      2CHY  66
+ATOM     99  CA  PHE    14      13.615  18.717  20.694  1.00 15.00      2CHY  67
+ATOM    110  CA  SER    15      10.031  18.969  21.541  1.00 15.00      2CHY  68
+ATOM    116  CA  THR    16      10.283  19.611  25.177  1.00 15.00      2CHY  69
+ATOM    123  CA  MET    17      12.682  22.500  24.400  1.00 15.00      2CHY  70
+ATOM    131  CA  ARG    18      10.220  23.873  21.990  1.00 15.00      2CHY  71
+ATOM    142  CA  ARG    19       7.818  23.652  25.260  1.00 15.00      2CHY  72
+ATOM    153  CA  ILE    20      10.411  25.565  27.125  1.00 15.00      2CHY  73
+ATOM    161  CA  VAL    21      10.626  28.509  24.612  1.00 15.00      2CHY  74
+ATOM    168  CA  ARG    22       7.258  28.103  23.773  1.00 15.00      2CHY  75
+ATOM    179  CA  ASN    23       6.023  28.941  27.455  1.00 15.00      2CHY  76
+ATOM    187  CA  LEU    24       8.740  31.681  27.475  1.00 15.00      2CHY  77
+ATOM    195  CA  LEU    25       7.160  33.740  24.763  1.00 15.00      2CHY  78
+ATOM    203  CA  LYS    26       4.055  33.166  26.827  1.00 15.00      2CHY  79
+ATOM    212  CA  GLU    27       5.413  35.078  29.909  1.00 15.00      2CHY  80
+ATOM    221  CA  LEU    28       6.207  38.026  27.352  1.00 15.00      2CHY  81
+ATOM    229  CA  GLY    29       2.777  37.774  26.445  1.00 15.00      2CHY  82
+ATOM    233  CA  PHE    30       3.555  36.118  23.286  1.00 15.00      2CHY  83
+ATOM    244  CA  ASN    31       1.332  35.000  21.165  1.00 15.00      2CHY  84
+ATOM    252  CA  ASN    32       1.486  32.456  18.752  1.00 15.00      2CHY  85
+ATOM    260  CA  VAL    33       4.019  29.858  18.375  1.00 15.00      2CHY  86
+ATOM    267  CA  GLU    34       3.765  27.107  15.870  1.00 15.00      2CHY  87
+ATOM    276  CA  GLU    35       6.705  24.443  15.953  1.00 15.00      2CHY  88
+ATOM    285  CA  ALA    36       8.569  22.724  13.227  1.00 15.00      2CHY  89
+ATOM    290  CA  GLU    37      10.797  19.877  13.828  1.00 15.00      2CHY  90
+ATOM    299  CA  ASP    38      13.493  21.011  11.602  1.00 15.00      2CHY  91
+ATOM    307  CA  GLY    39      14.964  22.841   8.697  1.00 15.00      2CHY  92
+ATOM    311  CA  VAL    40      12.740  21.209   6.132  1.00 15.00      2CHY  93
+ATOM    318  CA  ASP    41       9.708  21.016   8.439  1.00 15.00      2CHY  94
+ATOM    326  CA  ALA    42       9.644  24.724   9.029  1.00 15.00      2CHY  95
+ATOM    331  CA  LEU    43      10.300  25.264   5.311  1.00 15.00      2CHY  96
+ATOM    339  CA  ASN    44       6.829  23.329   4.905  1.00 15.00      2CHY  97
+ATOM    347  CA  LYS    45       5.362  25.695   7.371  1.00 15.00      2CHY  98
+ATOM    356  CA  LEU    46       5.274  28.713   5.066  1.00 15.00      2CHY  99
+ATOM    364  CA  GLN    47       2.987  26.698   2.569  1.00 15.00      2CHY 100
+ATOM    373  CA  ALA    48       0.633  28.600   4.540  1.00 15.00      2CHY 101
+ATOM    378  CA  GLY    49      -0.396  31.542   6.365  1.00 15.00      2CHY 102
+ATOM    382  CA  GLY    50       2.677  33.241   6.736  1.00 15.00      2CHY 103
+ATOM    386  CA  PHE    51       4.368  33.968  10.258  1.00 15.00      2CHY 104
+ATOM    397  CA  GLY    52       6.417  36.783  11.461  1.00 15.00      2CHY 105
+ATOM    401  CA  PHE    53       9.306  35.762  13.529  1.00 15.00      2CHY 106
+ATOM    412  CA  ILE    54      11.314  32.431  13.243  1.00 15.00      2CHY 107
+ATOM    420  CA  ILE    55      12.900  30.995  16.569  1.00 15.00      2CHY 108
+ATOM    428  CA  CYS    56      15.220  28.295  15.134  1.00 15.00      2CHY 109
+ATOM    434  CA  ASP    57      18.431  26.302  16.251  1.00 15.00      2CHY 110
+ATOM    442  CA  TRP    58      21.807  25.946  15.059  1.00 15.00      2CHY 111
+ATOM    456  CA  ASN    59      22.176  22.119  15.326  1.00 15.00      2CHY 112
+ATOM    464  CA  MET    60      19.588  20.337  13.270  1.00 15.00      2CHY 113
+ATOM    472  CA  PRO    61      19.450  17.406  11.125  1.00 15.00      2CHY 114
+ATOM    479  CA  ASN    62      18.147  17.361   7.438  1.00 15.00      2CHY 115
+ATOM    487  CA  MET    63      18.289  21.183   7.383  1.00 15.00      2CHY 116
+ATOM    495  CA  ASP    64      20.247  23.149   9.988  1.00 15.00      2CHY 117
+ATOM    503  CA  GLY    65      20.175  26.906  11.242  1.00 15.00      2CHY 118
+ATOM    507  CA  LEU    66      22.576  28.152   8.560  1.00 15.00      2CHY 119
+ATOM    515  CA  GLU    67      20.369  26.186   5.823  1.00 15.00      2CHY 120
+ATOM    524  CA  LEU    68      16.824  27.788   6.814  1.00 15.00      2CHY 121
+ATOM    532  CA  LEU    69      18.408  31.167   6.927  1.00 15.00      2CHY 122
+ATOM    540  CA  LYS    70      19.893  30.724   3.763  1.00 15.00      2CHY 123
+ATOM    549  CA  THR    71      16.634  29.887   2.056  1.00 15.00      2CHY 124
+ATOM    556  CA  ILE    72      14.376  32.261   4.384  1.00 15.00      2CHY 125
+ATOM    564  CA  ARG    73      16.911  34.898   3.410  1.00 15.00      2CHY 126
+ATOM    575  CA  ALA    74      16.224  33.639  -0.146  1.00 15.00      2CHY 127
+ATOM    580  CA  ASP    75      12.592  33.915  -1.047  1.00 15.00      2CHY 128
+ATOM    588  CA  SER    76      10.333  36.971  -1.435  1.00 15.00      2CHY 129
+ATOM    594  CA  ALA    77       7.329  37.107   0.581  1.00 15.00      2CHY 130
+ATOM    599  CA  MET    78      10.082  35.869   2.990  1.00 15.00      2CHY 131
+ATOM    607  CA  SER    79      13.459  37.735   2.430  1.00 15.00      2CHY 132
+ATOM    613  CA  ALA    80      12.773  39.749   5.584  1.00 15.00      2CHY 133
+ATOM    618  CA  LEU    81      11.415  37.873   8.686  1.00 15.00      2CHY 134
+ATOM    626  CA  PRO    82      13.271  38.223  11.862  1.00 15.00      2CHY 135
+ATOM    633  CA  VAL    83      15.149  35.021  12.976  1.00 15.00      2CHY 136
+ATOM    640  CA  LEU    84      16.810  34.712  16.162  1.00 15.00      2CHY 137
+ATOM    648  CA  MET    85      19.503  31.922  16.414  1.00 15.00      2CHY 138
+ATOM    656  CA  VAL    86      19.836  29.221  19.245  1.00 15.00      2CHY 139
+ATOM    663  CA  THR    87      23.265  27.715  19.912  1.00 15.00      2CHY 140
+ATOM    670  CA  ALA    88      24.446  25.301  22.628  1.00 15.00      2CHY 141
+ATOM    675  CA  GLU    89      27.884  26.889  22.966  1.00 15.00      2CHY 142
+ATOM    684  CA  ALA    90      29.240  29.497  20.779  1.00 15.00      2CHY 143
+ATOM    689  CA  LYS    91      32.153  28.926  18.456  1.00 15.00      2CHY 144
+ATOM    698  CA  LYS    92      33.192  32.313  16.696  1.00 15.00      2CHY 145
+ATOM    707  CA  GLU    93      33.363  31.475  13.069  1.00 15.00      2CHY 146
+ATOM    716  CA  ASN    94      29.818  30.235  13.603  1.00 15.00      2CHY 147
+ATOM    724  CA  ILE    95      28.205  33.576  15.045  1.00 15.00      2CHY 148
+ATOM    732  CA  ILE    96      29.795  35.289  12.050  1.00 15.00      2CHY 149
+ATOM    740  CA  ALA    97      28.754  32.712   9.458  1.00 15.00      2CHY 150
+ATOM    745  CA  ALA    98      25.340  32.970  10.924  1.00 15.00      2CHY 151
+ATOM    750  CA  ALA    99      25.125  36.776  10.953  1.00 15.00      2CHY 152
+ATOM    755  CA  GLN   100      25.162  36.877   7.126  1.00 15.00      2CHY 153
+ATOM    764  CA  ALA   101      21.544  35.925   8.365  1.00 15.00      2CHY 154
+ATOM    769  CA  GLY   102      19.008  37.592   7.593  1.00 15.00      2CHY 155
+ATOM    773  CA  ALA   103      17.958  39.384   9.127  1.00 15.00      2CHY 156
+ATOM    778  CA  SER   104      17.118  39.489  12.934  1.00 15.00      2CHY 157
+ATOM    784  CA  GLY   105      19.505  37.182  13.796  1.00 15.00      2CHY 158
+ATOM    788  CA  TYR   106      20.780  36.850  17.434  1.00 15.00      2CHY 159
+ATOM    800  CA  VAL   107      21.997  34.050  19.047  1.00 15.00      2CHY 160
+ATOM    807  CA  VAL   108      21.138  33.143  22.629  1.00 15.00      2CHY 161
+ATOM    814  CA  LYS   109      22.874  30.188  24.601  1.00 15.00      2CHY 162
+ATOM    823  CA  PRO   110      20.511  27.866  26.998  1.00 15.00      2CHY 163
+ATOM    830  CA  PHE   111      18.596  30.843  28.220  1.00 15.00      2CHY 164
+ATOM    841  CA  THR   112      15.516  32.110  30.368  1.00 15.00      2CHY 165
+ATOM    848  CA  ALA   113      12.705  34.802  30.293  1.00 15.00      2CHY 166
+ATOM    853  CA  ALA   114      14.697  37.788  31.385  1.00 15.00      2CHY 167
+ATOM    858  CA  THR   115      17.172  37.263  28.556  1.00 15.00      2CHY 168
+ATOM    865  CA  LEU   116      15.119  36.365  25.665  1.00 15.00      2CHY 169
+ATOM    873  CA  GLU   117      13.113  39.472  26.495  1.00 15.00      2CHY 170
+ATOM    882  CA  GLU   118      16.044  41.727  25.414  1.00 15.00      2CHY 171
+ATOM    891  CA  LYS   119      16.923  39.634  22.297  1.00 15.00      2CHY 172
+ATOM    900  CA  LEU   120      13.373  39.888  21.229  1.00 15.00      2CHY 173
+ATOM    908  CA  ASN   121      13.676  43.755  22.115  1.00 15.00      2CHY 174
+ATOM    916  CA  LYS   122      17.067  44.413  20.540  1.00 15.00      2CHY 175
+ATOM    925  CA  ILE   123      15.643  42.717  17.280  1.00 15.00      2CHY 176
+ATOM    933  CA  PHE   124      12.807  44.871  17.521  1.00 15.00      2CHY 177
+ATOM    944  CA  GLU   125      15.202  47.681  17.789  1.00 15.00      2CHY 178
+ATOM    953  CA  LYS   126      17.942  46.861  15.319  1.00 15.00      2CHY 179
+ATOM    962  CA  LEU   127      15.125  46.312  12.875  1.00 15.00      2CHY 180
+ATOM    970  CA  GLY   128      12.938  49.402  13.796  1.00 15.00      2CHY 181
+ATOM    974  CA  MET   129       9.931  47.801  15.676  1.00 15.00      2CHY 182
+TER     982      MET   129                                              2CHY 183
+MASTER       18    0    0    5    5    0    0    6  128    1    0   10  2CHYA  6
+END                                                                     2CHY 185

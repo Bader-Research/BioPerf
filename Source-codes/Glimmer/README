@@ -1,0 +1,101 @@
+    This file and all files in this release of the Glimmer system are
+    copyright (c) 1999 and (c) 2000 by Arthur Delcher, Steven Salzberg, 
+    Simon Kasif, and Owen White.  All rights reserved.  Redistribution
+    is not permitted without the express written permission of
+    the authors.
+
+Glimmer 2.0 is described in:
+  A.L. Delcher, D. Harmon, S. Kasif, O. White, and S.L. Salzberg.
+  Improved Microbial Gene Identification with Glimmer.  
+  Nucleic Acids Research, 27 (1999), 4636-4641.
+Please reference this paper if you use the system as part of any
+published research.  Note that Glimmer 1.0 is described in
+  S. Salzberg, A. Delcher, S. Kasif, and O. White.
+  Microbial Gene Identification using Interpolated Markov Models.
+  Nucleic Acids Research, 26:2 (1998), 544-548.
+
+Quickstart: if you just want to run Glimmer 2.0 on your genome
+and you don't want to adjust any parameters (although we don't
+recommend this), you can simply compile this system and run
+it with the included run-glimmer2 script.  E.g.:
+unix-prompt> make
+[various compilation messages appear]
+unix-prompt> run-glimmer2 mygenome
+
+run-glimmer2 will create an Interpolated Markov Model of your genome
+and store it in a binary file called tmp.model.  It will store
+the predicted gene coordinates in g2.coord.  Along the way
+it will extract long ORFs and store them and their coordinates
+in tmp.train and tmp.coord.
+
+Recommended: read the readmes.
+
+Glimmer 1.0 had 4 readme files, and Glimmer 2.0 maintains that
+structure.  The four main programs are:
+  1. long-orfs
+  2. extract
+  3. build-icm
+  4. glimmer2
+There are files called *.readme for each of these programs.  Please
+read these first before emailing the authors with any questions.
+
+Art Delcher, adelcher@tigr.org, was the primary programmer for
+most of the Glimmer 2.0 code, and he can answer most technical
+questions.
+
+CHANGELOG, 7/31/00:
+   - Weak scores are now only invoked with the -w option.  Any weak-score
+     gene is rejected automatically by an overlap with a regular gene.
+   - Weak-scores genes and "voted" genes are now annotated by [Weak] and
+     [Vote] in the final listing.  Voted genes are those which have a
+     significant number of relatively high-scoring subregions.  Voted
+     genes also are rejected automatically by overlaps with regular genes.
+   - Weak scores are computed to be more independent of architecture-dependent
+     floating-point features.  (Previously, 64-bit machines would sometimes
+     generate different results from 32-bit machines.)
+   - Fixed bug in RNABin function that occurred when the gene
+     started on the very last base of the genome.  This function is
+     now not called at all if the Choose_First_Start_Codon option is
+     selected (which is the default).
+   - Fixed problem that occurred on short pieces of genome when one
+     frame (or more) had no stop codons.  
+   - An ignore option (-i) to specify a list of regions in which no predictions
+     will be made, such as ribosomal RNAs.  This feature has not yet been
+     thoroughly tested.
+
+CHANGELOG, 9 December 2002
+   - Raw scores are now printed in the main listing and in []'s in
+     the final list of putatative genes
+   - Add +S option to us a "stricter" independent (intergenic) model
+     that discounts stop codons.  Since only orfs (which have no stop
+     codons) are ever scored, the independent model is at a disadvantage
+     unless it also assumes that it is only scoring orfs.  Thus, with the
+     +S option, the independent score is done codon by codon.
+     The probabilities of codons are intially set to what the
+     previous independent model would be:
+     The probability of a codon "atg", for example is:
+         Pr[a] * Pr[t] * Pr[g]
+     Then each of these is divide by the sum of the probabilities of the
+     non-stop codons.
+   - Add -L option to specify the name of a file containing a list
+     of coordinates.  The genes in these lists are scored separately by
+     the ICM, output, and then the program stops (i.e., no
+     overlapping/voting rules).
+
+CHANGELOG, 5 February 2003
+   - The strict independent (intergenic) model is now the only mode.
+     The +S option is tolerated but has no effect.
+
+CHANGELOG, 18 April 2003 
+   - Compute the optimal length for minimum "long" orfs, so that the 
+     program will return the largest number of orfs possible.  The -g 
+     switch still works if specified, but I don't know why anyone would 
+     want to use that for a training set.  
+   - Change minimum overlap by default to be 0.  This means that genes
+     that overlap even by 1 base will be considered in conflict by Glimmer,
+     and the program will try to adjust their start codons to remove the
+     conflict or else delete one of the genes.
+
+CHANGELOG, 7 October 2003
+   - Fix bug on long-orfs.cc to avoid occasional array out-of-bounds
+     error (detected on Mac OS X).

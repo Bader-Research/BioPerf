@@ -1,0 +1,14 @@
+#define TRUE 1
+#define FALSE 0
+
+/*	globals for match array	*/
+
+#ifndef XTERNAL
+int maxv, max0, max1;		/* best match values */
+int min0, min1;			/* left end of match */
+int minc, maxc;			/* consensus pointers */
+int mins;
+
+char *seqc0, *seqc1;	/* arrays for the consensus sequence */
+int salloc=0;		/* flag for initseq */
+#endif

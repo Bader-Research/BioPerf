@@ -1,0 +1,5 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/PowerPc-Binaries/Blast/
+./blastall -p blastp -i $BIOPERF/Inputs/Blast/blastp/class-A/Ecoli_Long.txt -d $BIOPERF/Inputs/Blast/blastp/class-A/Drosoph/drosoph.aa -M BLOSUM62 -o $BIOPERF/Outputs/Blast/classA-blastp.output
+echo The output has been stored as powerpc-classA-blastp.output in /Outputs/Blast

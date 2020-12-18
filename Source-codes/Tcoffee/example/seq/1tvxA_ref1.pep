@@ -1,0 +1,12 @@
+>1tvxA
+gihpkniqslevigkgthcnqveviatlkdgrkicldpdaprikkivqkk
+lagd
+>1prtF
+pthlyknftvqelalklkgknqefcltafmsgrslvraclsdaghehdtw
+fdtmlgfaisayalksria
+>1sap
+dtskikkvwrvgkmvsftyddngktgrgavsekdapkelldmlaraerek
+k
+>1lt5D
+tqiytindkilsytesmagkremviitfksgetfqvevpgsqhidsqkka
+iermkdtlrityltetki

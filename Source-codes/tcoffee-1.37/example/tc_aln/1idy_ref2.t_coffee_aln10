@@ -1,0 +1,56 @@
+
+SAGA FORMAT
+alignement  1idy_ref2.t_coffee_aln10 nseq=22 len=76
+T_COFFEE ALIGNMENT
+CPU TIME:595878
+
+
+
+1hstA     ---shptysemiaaaira-------------eksrggssrqsiqkyiksh
+h1d_strpu ---shpkysdmiasales-------------lkekkgssrqailkyvkan
+h1b_strpu ---ahpsssemvlaaita-------------lkerggssaqairkyiekn
+h1_tigca  ---thpptsvmvmaaika-------------lkerngsslpaikkyiaan
+h1l_myttr ----kpstlsmivaaita-------------mknrkgssvqairkyilan
+h1_echcr  ---ahppvidmitaaiaa-------------qkerrgssvakiqsyiaak
+h11_caeel ---ahppyintikeaikq-------------lkdrkgaskqailkfisqn
+h1a_pladu ---ahppvatmvvtailg-------------lkerkgssmvaikkyiaan
+h1_dicdi  ---nhptyqvmistaiah-------------ykdrtgssqpaiikyiean
+h1_wheat  ---ahpsyaemvseaiaa-------------lkersgsstiaigkfiedk
+h12_caeel ---ahppfinmikeaikq-------------lkerkgsskiailkyitan
+h1l_yeast ---ssksyreliieglta-------------lkerkgssrpalkkfiken
+h1_pea    ---shptyeemikdaivs-------------lkekngssqyaiakfieek
+h11_glysa ---thppvsemvvnalkt-------------lnekggssviaikkflvat
+h1b_xenla ---sgpsaselivkavss-------------skersgvslaalkkalaag
+b4_xenla  ---shpptlsmvvevlkk-------------nterkgtsvqairtrilsa
+h11_volca ---thppyiemvkdaitt-------------lkerngsslpalkkfienk
+h1_lycpn  ---thppyfqmikealla-------------lnekggsspyavakymedk
+1tc3C     ---rgsalsdteraqldvmk-lln--vslhemsrkisrsrhc--------
+1aoy      m-rssakqeelvkafkal-------------lkeekfssqgeivaalqeq
+1idy      mevkktswteeedrilyq-------------ahkrlgnrwaeiakllpg-
+1jhgA     ----tpderealgtrvriieellrgemsqrelknelgagiatitr-----
+
+1hstA     ykvghna---dlqiklsirrllaagv
+h1d_strpu ftvgdna---nvhikqalkrgvtsgq
+h1b_strpu ytvd--ikkqaifikralitgvekgt
+h1_tigca  ykvd--vvknahfikkalkslvekkk
+h1l_myttr nk-gintshlgsamklafakglksgv
+h1_echcr  yrcd--inalnphirralknqvksga
+h11_caeel yklgdnviqinahhrqalkrgv----
+h1a_pladu yrvd--varlapfirkfirka-----
+h1_dicdi  ynvap--dtfktqlklalkrlvakgt
+h1_wheat  heahlp-anfrkilltqikklvaagk
+h12_caeel ykvgdqltrinsrlraalnkgvaska
+h1l_yeast ypivgsasnfdlyfnnaikkgveagd
+h1_pea    qk-qlp-anfkklllqnlkknvasgk
+h11_glysa ykve--iekllpfikkflkgavlkge
+h1b_xenla g-yd--vdknnsrlklalkalvtkgt
+b4_xenla  hptvd-plrlkfllrtalnkgl----
+h11_volca ygkdihdknfaktlsqvvk----tf-
+h1_lycpn  hkdelp-anfrkilglqlknsaakgk
+1tc3C     -------------irvylkdpvsygt
+1aoy      g-f-dninq--skvsrmltkfgavrt
+1idy      -rt-dna--iknhwnstmrrkv----
+1jhgA     ---------gsnslkaa----p---v
+
+
+

@@ -1,0 +1,43 @@
+ClustalW-smp 0.99-9
+Ognen Duzlevski, <ognen@gene.pbi.nrc.ca>
+
+To get some timings for clustalw-smp vs. clustalw1.82-sequential on your
+machine, do the following:
+
+1. Compile clustalw-smp
+2. download and compile (or find where it resides on your system) clustalw
+1.82-sequential (original).
+3. Make sure you have python 1.5.2+ installed and running on your machine
+4. Do the following on the shell prompt:
+> python stress.py sequence_dir clustalw_smp clustalw1.82 result_file <THREADS>
+
+where:
+
+sequence_dir is the directory where the sequence files are (some sequences
+come bundled with clustalw_smp for testing and timing purposes)
+
+clustalw_smp is the clustalw_smp executable
+clustalw1.82 is the clustalw1.82 executable
+result_file is where the test results will be written
+<THREADS> is an optional parameter to set the number of threads in the pool
+(if you have used EXPORT THREADS=<number> or SETENV THREADS <number> to set
+this variable, this parameter is not needed). It is usually recommended that
+the number of threads should be one more than the nuber of available CPUs in
+the system.
+
+So, if you have clustalw1.82 execuable in /home/clustalw1.82/clustalw and the
+clustalw_smp executable is in /home/clustalw_smp-0.99-9/clustalw, the
+sequences are in /home/clustalw_smp-0.99-9/sequences/ and the stress.py is
+in /home/clustalw_smp-0.99-9/stress.py, issue the following command to run
+the tests:
+
+/home/clustalw_smp-0.99-9> python stress.py ./clustalw
+/home/clustalw1.82/clustalw results 5
+
+This would be a good test for a 4 CPU machine.
+
+If you used the native makefile (native compiler) and you had some results
+fail, use the gcc instead or tinker with the optimization options. If it
+still doesnt work, please send us the .dndiff and .alndiff files, the
+hardware, OS, compiler names and versions as well as the optimization
+options used and we will try to help.

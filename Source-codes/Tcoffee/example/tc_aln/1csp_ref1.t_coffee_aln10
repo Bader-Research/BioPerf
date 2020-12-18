@@ -1,0 +1,22 @@
+
+SAGA FORMAT
+alignement  1csp_ref1.t_coffee_aln10 nseq=5 len=76
+T_COFFEE ALIGNMENT
+CPU TIME:5900
+
+
+
+1csp       ---mlegkvkwfnsekgfgfieve-gqddvfvhfsaiqgeg----fktle
+1mef       msgkmtgivkwfnadkgfgfitpddgskdvfvhfsaiqndg----yksld
+csp7_strcl ---matgtvkwfnaekgfgfiaqdgggpdvfvhysainatg----frsle
+grp2_nicsy -----kgtvkwfsdqkgfgfitpddggedlfvhqsgirseg----frsla
+cbfx_mouse ----vlgtvkwfnvrngygfinrndtkedvfvhqtaikknnprkylrsvg
+
+1csp       egqavsfeivegnrg-pqaanvtkea
+1mef       egqkvsftiesgakg-paagnvtsl-
+csp7_strcl enqvvnfdvthge-g-pqaenvspa-
+grp2_nicsy egetvefevesggdgrtkavdvtgp-
+cbfx_mouse dgetvefdvvegekg-aeaanvtgp-
+
+
+

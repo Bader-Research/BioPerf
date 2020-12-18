@@ -1,0 +1,96 @@
+Using these options:
+  Number of k-means iterations:       100
+  Low-dimensional projection:         15
+  Number of k-means clusters:         20
+  Early threshold:                    0
+  Random seed for k-means init:       1
+  Type of k-means initialization:     1
+  Random seed for projection:         1
+  File to load projected data:        ../output//glimmer.projData
+  File to save labels:                ../output//glimmer.labels
+  File to save weights:               ../output//glimmer.weights
+  File to save simpoints:             ../output//glimmer.simpoints
+  Input data files to process:
+
+Loaded data from projected data file '../output//glimmer.projData' (size: 1574x15)
+  Initialized k-means centers using furthest-first: 20 centers
+iteration 0
+count: 1225	1	1	38	1	27	1	1	1	3	6	2	1	1	5	1	23	231	2	3	
+iteration 1
+count: 1027	1	1	38	1	27	1	1	1	2	6	2	1	1	5	1	75	376	3	4	
+iteration 2
+count: 876	1	1	38	1	27	1	1	1	3	7	2	1	1	4	1	133	468	3	4	
+iteration 3
+count: 813	1	1	38	1	27	1	1	1	3	8	2	1	1	4	1	167	496	3	4	
+iteration 4
+count: 783	1	1	38	1	27	1	1	1	3	10	2	1	1	4	1	188	503	3	4	
+iteration 5
+count: 768	1	1	38	1	27	1	1	1	3	13	2	1	1	4	1	202	501	3	4	
+iteration 6
+count: 756	1	1	38	1	27	1	1	1	3	19	2	1	1	4	1	214	495	3	4	
+iteration 7
+count: 745	1	1	38	1	27	1	1	1	3	23	2	1	1	4	1	223	493	3	4	
+iteration 8
+count: 731	1	1	38	1	27	1	1	1	3	30	2	1	1	4	1	232	491	3	4	
+iteration 9
+count: 713	1	1	38	1	27	1	1	1	3	41	2	1	1	4	1	241	489	3	4	
+iteration 10
+count: 694	1	1	38	1	27	1	1	1	3	56	2	1	1	4	1	244	490	3	4	
+iteration 11
+count: 682	1	1	38	1	27	1	1	1	3	76	2	1	2	4	1	244	481	3	4	
+iteration 12
+count: 672	1	1	38	1	27	1	1	1	3	92	2	1	6	4	1	244	471	3	4	
+iteration 13
+count: 662	1	1	38	1	27	1	1	1	3	120	2	1	7	4	1	242	454	3	4	
+iteration 14
+count: 646	1	1	38	1	27	1	1	1	3	144	2	1	7	4	1	237	451	3	4	
+iteration 15
+count: 639	1	1	38	1	27	1	1	1	3	160	2	1	7	4	1	226	453	3	4	
+iteration 16
+count: 637	1	1	38	1	27	1	1	1	3	168	2	1	7	4	1	215	458	3	4	
+iteration 17
+count: 634	1	1	38	1	27	1	1	1	3	176	2	1	7	4	1	204	464	3	4	
+iteration 18
+count: 623	1	1	38	1	27	1	1	1	3	180	2	1	7	4	1	194	481	3	4	
+iteration 19
+count: 604	1	1	38	1	27	1	1	1	3	191	2	1	7	4	1	188	495	3	4	
+iteration 20
+count: 592	1	1	38	1	27	1	1	1	3	206	2	1	7	4	1	180	500	3	4	
+iteration 21
+count: 579	1	1	38	1	27	1	1	1	3	215	2	1	7	4	1	175	509	3	4	
+iteration 22
+count: 578	1	1	38	1	27	1	1	1	3	224	2	1	7	4	1	170	506	3	4	
+iteration 23
+count: 568	1	1	38	1	27	1	1	1	3	230	2	1	7	4	1	167	513	3	4	
+iteration 24
+count: 564	1	1	38	1	27	1	1	1	3	232	2	1	7	4	1	163	519	3	4	
+iteration 25
+count: 562	1	1	38	1	27	1	1	1	3	234	2	1	7	4	1	158	524	3	4	
+iteration 26
+count: 557	1	1	38	1	27	1	1	1	3	237	2	1	7	4	1	156	528	3	4	
+iteration 27
+count: 553	1	1	38	1	27	1	1	1	3	242	2	1	7	4	1	155	528	3	4	
+iteration 28
+count: 549	1	1	38	1	27	1	1	1	3	247	2	1	7	4	1	155	527	3	4	
+iteration 29
+count: 546	1	1	38	1	27	1	1	1	3	254	2	1	7	4	1	155	523	3	4	
+iteration 30
+count: 542	1	1	38	1	27	1	1	1	3	257	2	1	7	4	1	155	524	3	4	
+iteration 31
+count: 542	1	1	38	1	27	1	1	1	3	259	2	1	7	4	1	155	522	3	4	
+iteration 32
+count: 542	1	1	38	1	27	1	1	1	3	260	2	1	7	4	1	155	521	3	4	
+iteration 33
+count: 541	1	1	38	1	27	1	1	1	3	260	2	1	7	4	1	155	522	3	4	
+iteration 34
+count: 542	1	1	38	1	27	1	1	1	3	260	2	1	7	4	1	154	522	3	4	
+iteration 35
+count: 542	1	1	38	1	27	1	1	1	3	260	2	1	7	4	1	154	522	3	4	
+  BIC score: 107833
+  Distortion: 0.102318
+  Distortions/cluster: 0.0328125 0 0 0.000133431 0 6.66884e-10 0 0 0 0.00041073 0.0195792 0.000603562 0 0.00366762 0.0001864 0 0.0198222 0.0238072 0.000536117 0.000758902 
+  Variance: 6.58417e-05
+  Variances/cluster: 6.06516e-05 0 0 3.60624e-06 0 2.56494e-11 0 0 0 0.000205365 7.55954e-05 0.000603562 0 0.000611271 6.21335e-05 0 0.000129557 4.56952e-05 0.000268058 0.000252967 
+  Saving simpoints to file '../output//glimmer.simpoints'
+  Saving labels and distance from center of each input point to file '../output//glimmer.labels'
+  Saving weights of each cluster to file '../output//glimmer.weights'

@@ -1,0 +1,90 @@
+
+SAGA FORMAT
+alignement  1ivy_ref5.t_coffee_aln10 nseq=7 len=473
+T_COFFEE ALIGNMENT
+CPU TIME:97400
+
+
+
+prtp_mouse pglakqp-sfrqysgylrasd--skh-fhywfvesqndpknspvvlwlng
+yua6_caeel pg-apis-nfkqysgyynvgtkk-nhmlhywfvesqsnpstdpvllwltg
+cbpy_yeast -kilgidpnvtqytgyldvede-dkh-fffwtfesrndpakdpvilwlng
+yby9_yeast psklgid-tvkqwsgymdykd--skh-ffywffesrndpandpiilwlng
+cbpy_picpa pevlkvd-ftkqysgyldvead-dkh-ffywffesrndpqndpiilwlng
+cbpx_arath -ggptvd-dlghhagyyklpksrgas-mfyfffesrnk-kdapvviwltg
+cps1_penja e-t--t-pgvnqysgylsvgs--nmn-mwfwffearnnpqqaplaawfng
+
+prtp_mouse gpgcssldglltehgpfl-iqpdgvtleynpyawnlianvlyiespagvg
+yua6_caeel gpgcsglsalltewgpwn-vntdgatlrtnpyswnknasiltleapagvg
+cbpy_yeast gpgcssltglffelgpss-igpdlkpi-gnpyswnsnatvifldqpvnvg
+yby9_yeast gpgcssftgllfelgpss-igadmkpi-hnpyswnnnasmifleqplgvg
+cbpy_picpa gpgcssltglffelgssr-inenlkpi-fnpyswngnasiiyldqpvnvg
+cbpx_arath gpgcsselavfyengpfk-itsnmsla-wneygwdqvsnllyvdqpvgtg
+cps1_penja gpgcssmiglfqengpchfvngdstps-lnenswnnyanmiyidqpigvg
+
+prtp_mouse fsysddkmyvtnd-tevaennyealkdffrlfpey--kdnklfltgesya
+yua6_caeel ysyatdnniatgd-dqtasenwealvaffnefpqy--kgndfyvtgesyg
+cbpy_yeast fsysgss-gvsnt-vaagkdvynflelffdqfpeyvnkgqdfhiagesya
+yby9_yeast fsygde--kvsst-klagkdayiflelffeafphl--rsndfhiagesya
+cbpy_picpa fsyssss--vsnt-vvagedvyaflqlffqhfpey--qtndfhiagesya
+cbpx_arath fsyttdksdirhdetgvsndlydflqaffaehpkl--akndfyitgesya
+cps1_penja fsygtdd--vtst-vtaapyvwnllqafyaqrpey--esrdfaiftesyg
+
+prtp_mouse giyiptlavlvmqd-p-----------smnlqglavgnglasyeqndnsl
+yua6_caeel giyvptlvqtildr-qsq--------shinikglaigngcvsanegvdsl
+cbpy_yeast ghyipvfaseilsh-kd---------rnfnltsvlignglt-----d-pl
+yby9_yeast ghyipqiaheivvknpe---------rtfnltsvmigngit-----d-pl
+cbpy_picpa ghyipvfadeilsq-kn---------rnfnltsvlignglt-----d-pl
+cbpx_arath ghyipafasrvhkg-nkane-----gvhinlkgfaignglt-----d-pa
+cps1_penja ghygpefasyieqq-naaikagsvtgqnvnivalgvnngwi-----d-st
+
+prtp_mouse vyfayyhgllgnrlwtslqthcc--aqnkcnfydnkd-pecvnnllevsr
+yua6_caeel vnflyhhgvvdqakwehmktscchndtdacpwhsfsefsacge-fveatq
+cbpy_yeast tqynyyepmacge---ggepsvl--pseecsamedsl-erclg-liescy
+yby9_yeast iqadyyepmacgk---ggyhpvl--sseecekmskaa-grcrr-lnklcy
+cbpy_picpa tqyryyepmacge---ggapsvl--padecenmlvtq-dkcls-liqacy
+cbpx_arath lqypaypdyalem---g----li--tqkehdrlekiv-plcel-siklcg
+cps1_penja iqekayidfsynn---syqqiid--sstrdslldayn-nqclp-alqqcs
+
+prtp_mouse ivgksglniynlyap--caggvpgrhryedtlvvqdfgniftrlplkrrf
+yua6_caeel q-tawngglnpynmyadcis----------tsasfrfg---m--eyerrf
+cbpy_yeast d-sqsvwscvpatiy--cnnaqla--------pyqrtg---rnv-ydirk
+yby9_yeast a-sksslpcivatay--cdsalle--------pyintg---lnv-ydirg
+cbpy_picpa d-sqsaftcapaaiy--cnnaqmg--------pyqrtg---knv-ydirk
+cbpx_arath --tdgttsclasylv--cnslfsg--------vmshagg--vny-ydirk
+cps1_penja q-sgstsdctnadsv--cyqnieg--------pisssgd--fdv-ydire
+
+prtp_mouse pealmrsgdkvrldppctn-ttapsnylnnpyvrkalhipeslprwdmcn
+yua6_caeel nkkytpevlgt---vpcld-espvtnylnrqdvrkalgipsslpawsics
+cbpy_yeast dc------eggn---lcyptlqdiddylnqdyvkeavga--evdhyescn
+yby9_yeast pc------ednstdgmcytglryvdqymnfpevqetlgs--dvhnysgcd
+cbpy_picpa ec------dggs---lcykdlefidtylnqkfvqdalga--evdtyescn
+cbpx_arath kc------vg-s---lcyd-fsnmekflnlqsvrkslgvg-did-fvscs
+cps1_penja ps------nd------pypp-ktystylsdptvvkaiga--rtn-yqecp
+
+prtp_mouse flvnlqyrrl-yqsmn--sqylkllssqkyqillyngdvdmacnfmgdew
+yua6_caeel naisygykrqygdmts---rvlnavnnnnlkmmlyngdvdlacnalmgqr
+cbpy_yeast fdinrnflfa-gdwmkpyhtavtdllnqdlpilvyagdkdficnwlgnka
+yby9_yeast ndvftgflft-gdgskpfqqyiaellnhnipvliyagdkdyicnwlgnha
+cbpy_picpa feinrnflfa-gdwmkpyhehvssllnkglpvliyagdkdficnwlgnra
+cbpx_arath tsvyqamlv---dwmrnlevgiptlledgisllvyageydlicnwlgnsr
+cps1_penja ngpynkfast-gdnprsflstlssvvqsginvlvwagdadwicnwlgnye
+
+prtp_mouse fvdslnqkmevqrrpw-lvdyges--geqvagfvkecshitfltikgagh
+yua6_caeel ftdklgltlskkkthftvkgqi----ggyv-tqykg-sqvtfatvrgagh
+cbpy_yeast wtdvlpwkydeefasqkvrnwtasitdev-agevksykhftylrvfnggh
+yby9_yeast wsnelewinkrryqrrmlrpwvsketgee-lgqvknygpftflriydagh
+cbpy_picpa wtdvlpwvdadgfekaevqdwlvn--grk-agefknysnftylrvydagh
+cbpx_arath wvnamewsgktnfgaakevpfivd--gke-agllktyeqlsflkvrdagh
+cps1_penja vanavdfpgnaqfsaldlapytvn--gve-kgqfktvdnfsflkvygagh
+
+prtp_mouse mvptdkpraaftmfsrflnkepy
+yua6_caeel mvptdkpavaehiiqsflfnkaf
+cbpy_yeast mvpfdvpenalsmvnewih----
+yby9_yeast mvpydqpeaslemvnswisgn--
+cbpy_picpa mapydqpenshemvnrwisgd--
+cbpx_arath mvpmdqpkaalkmlkrwmens--
+cps1_penja evpyyqpdtalqafkqiiqkkp-
+
+
+

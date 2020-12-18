@@ -1,0 +1,4 @@
+#!/bin/bash
+cd $BIOPERF/Binaries/x86-Binaries/Predator
+./predator $BIOPERF/Inputs/Predator/class-C/largeinput -u -h -a -f$BIOPERF/Outputs/Predator/classC-predator
+echo The output has been stored as classC-predator in $BIOPERF/Outputs/Predator

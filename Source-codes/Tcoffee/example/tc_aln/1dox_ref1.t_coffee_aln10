@@ -1,0 +1,25 @@
+
+SAGA FORMAT
+alignement  1dox_ref1.t_coffee_aln10 nseq=4 len=109
+T_COFFEE ALIGNMENT
+CPU TIME:4240
+
+
+
+1frr       -ayktvlkt---psgeftldvpegttildaaeeagydlpfscragacssc
+1fxa       atfkvtlineaegtkh-eievpddeyildaaeeqgydlpfscragacstc
+dmpp_psesp --ynvti----eptge-vievedgqtilqaalrqgvwlpfacghgtcatc
+fer_halha  ---------edy--g--tmevaegeyileaaeaqgydwpfscragacanc
+
+1frr       lgkvvsgsvdesegs-f-lddgqmeegfv-ltciaipesdlv----ieth
+1fxa       agklvsgtvdqsdqs-f-ldddqieagyv-ltcvayptsdvv----iqth
+dmpp_psesp kvqvvegevdigeaspfalmdierderkv-laccaiplsdlv----iead
+fer_halha  asivkegeidmdmqq-i-lsdeeveekdvrltcigspaadevkivynakh
+
+1frr       ke--ee---
+1fxa       ke--ed---
+dmpp_psesp vd--a----
+fer_halha  ldylqnrvi
+
+
+

@@ -1,0 +1,34 @@
+
+SAGA FORMAT
+alignement  1csp_ref4.t_coffee_aln10 nseq=7 len=141
+T_COFFEE ALIGNMENT
+CPU TIME:15580
+
+
+
+csp7_strcl -------------------------------------------matgtvk
+grp2_nicsy ---------------------------------------------kgtvk
+cspd_haein -------------------------------------------meigivk
+cbfx_mouse --------------------------------------------vlgtvk
+1csp       -------------------------------------------mlegkvk
+1mjc       sg-----------------------------------------kmtgivk
+1a63       --mnltelkntpvselitlgenmglenlarmrkqdiifailkqhaksged
+
+csp7_strcl wfna------ekgfgfiaqdg-----ggpdvfvhysainatg----frsl
+grp2_nicsy wfsd------qkgfgfitpdd-----ggedlfvhqsgirseg----frsl
+cspd_haein wfnn------akgfgfisaeg-----vdadifahysviemdg----yrsl
+cbfx_mouse wfnv------rngygfinrnd-----tkedvfvhqtaikknnprkylrsv
+1csp       wfns------ekgfgfieve------gqddvfvhfsaiqgeg----fktl
+1mjc       wfna------dkgfgfitpdd-----gskdvfvhfsaiqndg----yksl
+1a63       ifgdgvleilqdgfgflrsadssylagpddiyvspsqirrfn----lrt-
+
+csp7_strcl eenqvvnfdvt---hge-g-pqaenvspa------------
+grp2_nicsy aegetvefeve---sggdgrtkavdvtgpd-----------
+cspd_haein kagqkvqfevl---hsdkg-shatkiipia--dtqe-----
+cbfx_mouse gdgetvefdvv---egekg-aeaanvtgp------------
+1csp       eegqavsfeiv---egnrg-pqaanvtkea-----------
+1mjc       degqkvsftie---sgakg-paagnvtsl------------
+1a63       --gdtisgkirppkegery-fallkvnevnfdkpe-narnk
+
+
+

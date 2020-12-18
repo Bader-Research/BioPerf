@@ -1,0 +1,76 @@
+Using these options:
+  Number of k-means iterations:       100
+  Low-dimensional projection:         15
+  Number of k-means clusters:         20
+  Early threshold:                    0
+  Random seed for k-means init:       2
+  Type of k-means initialization:     2
+  Random seed for projection:         1
+  File to load projected data:        ../output//hmmer.projData
+  File to save labels:                ../output//hmmer.labels
+  File to save weights:               ../output//hmmer.weights
+  File to save simpoints:             ../output//hmmer.simpoints
+  Input data files to process:
+
+Loaded data from projected data file '../output//hmmer.projData' (size: 1000x15)
+  Initialized k-means centers using furthest-first: 20 centers
+iteration 0
+count: 245	2	2	6	4	69	18	44	120	8	2	2	223	31	18	3	1	30	94	78	
+iteration 1
+count: 197	2	2	10	5	80	19	48	115	7	2	2	190	31	46	4	1	26	94	119	
+iteration 2
+count: 178	2	2	11	6	80	18	55	120	6	2	2	174	34	73	5	1	25	78	128	
+iteration 3
+count: 161	2	2	12	6	82	18	56	120	6	2	2	164	36	95	5	1	27	72	131	
+iteration 4
+count: 157	2	2	13	6	83	19	55	122	6	2	2	156	37	107	5	1	29	71	125	
+iteration 5
+count: 161	2	2	14	6	86	21	51	119	6	2	2	151	38	111	5	1	32	73	117	
+iteration 6
+count: 162	2	2	16	6	84	20	50	120	6	2	2	147	43	116	6	1	32	72	111	
+iteration 7
+count: 164	2	2	20	6	89	20	54	118	6	2	2	144	42	121	7	1	28	69	103	
+iteration 8
+count: 166	2	2	22	6	90	20	55	119	6	2	2	143	41	117	9	1	27	74	96	
+iteration 9
+count: 162	2	2	26	6	89	19	58	119	6	2	2	143	43	116	11	1	23	77	93	
+iteration 10
+count: 166	2	2	27	6	89	21	58	119	7	2	2	145	42	116	11	1	23	80	81	
+iteration 11
+count: 170	2	2	27	6	87	22	55	121	7	2	2	142	45	116	11	1	26	83	73	
+iteration 12
+count: 168	2	2	27	6	88	23	54	123	7	2	2	138	45	119	11	1	28	83	71	
+iteration 13
+count: 168	2	2	27	6	89	25	55	122	7	2	2	140	43	119	11	1	29	82	68	
+iteration 14
+count: 167	2	2	27	6	86	25	55	124	7	2	2	138	45	118	12	1	30	83	68	
+iteration 15
+count: 167	2	2	27	6	83	25	57	124	7	2	2	139	48	118	12	1	30	81	67	
+iteration 16
+count: 167	2	2	27	6	83	26	57	124	7	2	2	139	47	118	12	1	30	81	67	
+iteration 17
+count: 167	2	2	27	6	81	26	57	124	7	2	2	139	48	118	13	1	30	81	67	
+iteration 18
+count: 167	2	2	27	6	79	26	57	123	7	2	2	139	51	118	13	1	30	81	67	
+iteration 19
+count: 167	2	2	27	6	78	26	57	124	7	2	2	138	52	118	13	1	30	81	67	
+iteration 20
+count: 167	2	2	27	6	80	26	57	122	7	2	2	138	52	118	13	1	30	81	67	
+iteration 21
+count: 167	2	2	27	6	82	26	57	121	7	2	2	137	52	118	13	1	30	81	67	
+iteration 22
+count: 167	2	2	27	6	83	26	57	123	7	2	2	134	52	118	13	1	30	81	67	
+iteration 23
+count: 165	2	2	27	6	83	26	57	125	7	2	2	134	52	118	13	1	30	81	67	
+iteration 24
+count: 165	2	2	27	6	83	26	57	126	7	2	2	133	52	118	13	1	30	81	67	
+iteration 25
+count: 165	2	2	27	6	83	26	57	126	7	2	2	133	52	118	13	1	30	81	67	
+  BIC score: 89799
+  Distortion: 0.00318501
+  Distortions/cluster: 0.000426895 7.26988e-06 1.24433e-05 0.000106335 3.88756e-05 0.000328349 0.000136031 0.000144394 0.000350845 5.16991e-05 1.1046e-05 3.52746e-06 0.000274629 0.000246553 0.000341135 0.000107662 0 0.000122852 0.000248204 0.000226263 
+  Variance: 3.25001e-06
+  Variances/cluster: 2.60302e-06 7.26988e-06 1.24433e-05 4.08981e-06 7.77513e-06 4.00426e-06 5.44125e-06 2.57846e-06 2.80676e-06 8.61652e-06 1.1046e-05 3.52746e-06 2.08052e-06 4.83436e-06 2.91568e-06 8.97182e-06 0 4.23626e-06 3.10255e-06 3.42823e-06 
+  Saving simpoints to file '../output//hmmer.simpoints'
+  Saving labels and distance from center of each input point to file '../output//hmmer.labels'
+  Saving weights of each cluster to file '../output//hmmer.weights'

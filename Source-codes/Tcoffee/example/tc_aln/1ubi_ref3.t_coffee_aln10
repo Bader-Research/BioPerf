@@ -1,0 +1,79 @@
+
+SAGA FORMAT
+alignement  1ubi_ref3.t_coffee_aln10 nseq=22 len=114
+T_COFFEE ALIGNMENT
+CPU TIME:745920
+
+
+
+1ubi       ----m--qifvkt-ltgkt-itlevepsdtienvk-akiqdkeg------
+ned8_mouse ----m--likvkt-ltgke-ieidieptdkverik-erveekeg------
+ubil_caeel -------mvfvkt-lh-rt-lflevaanedvlsik-qkieaaeg------
+dsk2_yeast ----l--nihiks-gqdk--wevnvapestvlqfk-eainkang------
+bat3_human ----l--evlvkt-ldsqt-rtfivgaqmnvkefk-ehirasvs------
+r23a_human ----v--titlkt-lqqqt-fkirmepdetvkvlk-ekieaekg-----r
+1guaB      ----n--tirvfl-pnkqr-tvvnvrngmslhdclmkalkvrglqpecc-
+kraa_human ----g--tvkvyl-pnkqr-tvvtvrdgmsvydsldkalkvrglnqdcc-
+rmil_chick ----p--ivrvfl-pnkqr-tvvparcgvtvrdslkkalmmrglipecc-
+kraf_drome ----pkillrahl-pnqqr-tsvevisgvrlcdalmkalklrqltpdmc-
+kraf_caeel ----k--mimvhl-pfdqh-srvevrpgetardaiskllkkrnitpqlc-
+1awd       ----y--kvtlkt-psgee--tiecpedtyildaa---eeagldlpyscr
+ferv_anava ----y--qvrlin-kkraiditipvdenttildaa---eqqdielpfscq
+fer2_synp6 ----y--qveviy-qgqsq--tftadsdqsvldsa---qaagvdlpascl
+dmpp_psesp ----y--nvti-e-ptg-e--vievedgqtilqaa---lrqgvwlpfacg
+memc_metca ----h--titavt-edges-lrfecrsdedvitaa---lrqniflmsscr
+rfbi_salty -ms-h--iikif--psn-i--efsgredesildaa---lsagihlehsck
+xylz_psepu ----h--kvatdf-edgvt-rfidantgetvadaa---yrqginlpldcr
+ascd_yerps ----l--nvklh--psg-i--iftsdgtstildaa---ldsnihieysck
+2pia       arent--pftvrlsrsg-t--sfeipanrsilevl---rdanvrvpssce
+vanb_pses9 ----r--afegrlarsg-l--tlqvpaersvaqvl---ddagvciplace
+fer_samni  ----y--kvklit-pdgpq--efecpddvyileha---eelgidipyscr
+
+1ubi       --ippdqqr-lif---agkqledgrtlsd----yniqkes-tlhlvlrlr
+ned8_mouse --ippqqqr-liy---sgkqmndektaad----ykilggs-vlhlvlalr
+ubil_caeel --ipaeeqr-lcy---agrqled----sd----cgidsea-tiyvnlell
+dsk2_yeast --ipvanqr-liy---sgkilkddqtves----yhiqdgh-svhlvks--
+bat3_human --ipsekqr-liy---qgrvlqddkklqe----ynvg-gk-vihlver--
+r23a_human dafpvagqk-liy---agkilsddvpird----yrideknfvvvmvtktk
+1guaB      -------avfrllhehkgk----karldw-nt--da--as-l------i-
+kraa_human -------vvyrli---kgr----ktvtaw-dt--ai--ap-l------d-
+rmil_chick -------avyri---qdge----kkpigw-dt--di--sw-l------t-
+kraf_drome -------evstt---hsgr-----hiipw-ht--di--gt-l------h-
+kraf_caeel -------hvnas---sdpk----qesielsltmeeia-sr-l------p-
+1awd       agacsscag-kve---sgevdqsdqsf---lddaqmgkg-fvltcvaypt
+ferv_anava sgscsscva-kvv---egevdqseqvf---ldeeqmakg-fivlcvsypr
+fer2_synp6 tgvcttcaa-ril---sgevdqpdamg---vgpepakqg-ytllcvaypr
+dmpp_psesp hgtcatckv-qvv---egevdigeaspf-almdierder-kvlaccaipl
+memc_metca eggcatcka-lcs---egdydlkgcsvq-alppeeeeeg-lvllcrtypk
+rfbi_salty agdcgices-dll---agevvdskgni---fg--qgd---kiltccckpk
+xylz_psepu dgacgackc-fae---sgryslgeeyiedalseaeaeqg-yvltcqmrae
+ascd_yerps dgtcgscka-ili---sgevdsaentf---lteedvakg-ailtccskak
+2pia       sgtcgsckt-alc---sgeadhrdmvlrd---dekgt---qimvcvsrak
+vanb_pses9 qgicgtclt-rvl---dgepehrdsfltd---aerarnd-qftpccsrar
+fer_samni  agscsscag-klv---agsvdqsdqsf---lddeqieeg-wvltcvaypk
+
+1ubi       gg------------
+ned8_mouse g-------------
+ubil_caeel g-------------
+dsk2_yeast --------------
+bat3_human --------------
+r23a_human a-------------
+1guaB      gee-lqvdfl----
+kraa_human gee-livev-----
+rmil_chick gee-lhvev-----
+kraf_drome vee-ifvrl-----
+kraf_caeel gne-lwvh------
+1awd       sdvtilthqeaaly
+ferv_anava sdctirthqepyl-
+fer2_synp6 sdlkiethkedel-
+dmpp_psesp sdlvieadvda---
+memc_metca tdlei---------
+rfbi_salty talelnahffpel-
+xylz_psepu sdcvirvpaasdv-
+ascd_yerps sdieldvnyypel-
+2pia       saelvld-l-----
+vanb_pses9 saclvld-------
+fer_samni  sdvti---------
+
+
+

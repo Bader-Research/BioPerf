@@ -1,0 +1,10 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Tcoffee/
+export CLUSTALW_4_TCOFFEE=$BIOPERF/Binaries/x86-Binaries/Clustalw/clustalw
+#export CLUSTALW_4_TCOFFEE
+export LALIGN_4_TCOFFEE=$BIOPERF/Binaries/x86-Binaries/Tcoffee/lalign2list
+#export LALIGN_4_TCOFFEE
+./t_coffee $BIOPERF/Inputs/Tcoffee/class-B/2scuA_1drw
+mv *.aln *.dnd $BIOPERF/Outputs/Tcoffee/
+echo The output has been stored as *.aln and *.dnd in $BIOPERF/Outputs/Tcoffee  

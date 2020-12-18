@@ -1,0 +1,150 @@
+
+SAGA FORMAT
+alignement  1sbp_ref2.t_coffee_aln10 nseq=19 len=349
+T_COFFEE ALIGNMENT
+CPU TIME:1525940
+
+
+
+1gggA      -----lvvatdtafv--pfefkqg------dlyvgfdvdlwa-aiakelk
+yqix_bacsu -----limgtsadyk--pfeykeg------dnivgfdvelak-alakkag
+fliy_ecoli -----llvglegtyp--pfsfqgdd-----gkltgfevefaq-qlakhlg
+yckk_bacsu -----ltvgtegtye--pftyhdkdt----dkltgydvevit-evanslg
+yxem_bacsu -----lhvgatgqsy--pfayken------gkltgfdvevme-avakkid
+hisp_neigo -------vasnaefa--pfesldsk-----gnvegfdvdlmn-amakagn
+path_vibha -----vkvgmsgryf--pftfvkq------dklqgfevdmwd-eigkrnd
+arti_ecoli -----irfateasyp--pfesidan-----nqivgfdvdlaq-alckeid
+arti_haein -----ltfamqpsyp--pfettnak-----geiigfdvdvtn-aicqeiq
+lapt_pasha ------iivmepsyp--pfemteek-----geiigfdvdian-aickemn
+artj_ecoli -----infgvsatyp--pfesigan-----neivgfdidlak-alckqmq
+1lst       alpqtvrigtdttya--pfsskdak-----gefigfdidlgn-emckrmq
+hisj_ecoli aipqnirigtdptya--pfesknsq-----gelvgfdidlak-elckrin
+occt_agrt6 aqeksitiateggya--pwnfsgpg-----gkldgfeidlan-alcekmk
+noct_agrt5 ---ksitiategsya--pynfkdag-----gkligfdidlgn-dlckrmn
+1sbp       kdiqllnvsydptre--lyeqynkafsahwkqetgdnv-----------v
+1wod       -gk--itvfaaasltnamqdiatq-f----kkekgvdvvssf---assst
+1mrp       --d--itvyngqh-keaatavaka-f----eqetgikvtlns---gkseq
+1pot       ---ntlyfynwteyv--ppglleq-f----tketgikviystyesnetmy
+
+1gggA      ldy-elk-p---mdfsgiipalqtknvdl------------------ala
+yqix_bacsu yei-evq-d---mdfnslitalkskqvdl------------------vls
+fliy_ecoli vea-slk-p---tkwdgmlasldskridv------------------vin
+yckk_bacsu lkv-dfk-e---tqwdsmfaglnskrfdv------------------van
+yxem_bacsu mkl-dwk-l---lefsglmgelqtgkldt------------------isn
+hisp_neigo fki-efk-h---qpwdslfpalnngdadi------------------vms
+path_vibha yki-eyv-t---anfsglfglletgridt------------------isn
+arti_ecoli atc-tfs-n---qafdslipslkfrrvea------------------vmg
+arti_haein atc-kfk-s---etfdalipnlkakrfda------------------ais
+lapt_pasha anc-tfh-s---qpfdsliqslkqkqfda------------------ais
+artj_ecoli aec-tft-n---hafdslipslkfrkyda------------------vis
+1lst       vkc-twv-a---sdfdalipslkakkida------------------iis
+hisj_ecoli tqc-tfv-e---npldalipslkakkida------------------ims
+occt_agrt6 akc-qiv-a---qnwdgimpsltgkkyda------------------ima
+noct_agrt5 iec-kfv-e---qawvgiipsltagryda------------------ima
+1sbp       idq-shg-gsg-kqatsvingieadtvtl-alaydvna---------iae
+1wod       lar-qie-ag--apadlfis-adqkwmdy------------------avd
+1mrp       lag-qlkeegdktpadvfyteqtatfadl-sea-glla---------pis
+1pot       aklktyk-d---gaydlvvpsty--yvdkmrke-gmiqkidkskltnfsn
+
+1gggA      --gititderkkai-dfs---dgyyksg-llvmvkannn-----------
+yqix_bacsu --gmtptperkkqv-dfs---dvyytan-hmivskkds------------
+fliy_ecoli --qvtisderkkky-dfs---tpytisg-iqalvkkgne-----------
+yckk_bacsu --qvgktd-renqy-dfs---dkyttsr-avvvtkkdnn-----------
+yxem_bacsu --qvavtderkety-nft---kpyayag-tqivvkkdnt-----------
+hisp_neigo --gvtitddrkqsm-dfs---dpyfeit-qvvlvpkgk------------
+path_vibha --qitmtdarkaky-lfa---dpyvvdg-aqitvrkgnd-----------
+arti_ecoli --gmditperekqv-lft---tpyydns-alfvgqqgk------------
+arti_haein --aiditdarakqv-lfs---dayydss-asyvalkgk------------
+lapt_pasha --gmgiteprkkqv-lfs---epyfpss-aafiakkd-------------
+artj_ecoli --gmditperskqv-sft---tpyyens-avviakkdt------------
+1lst       --slsitdkrqqei-afs---dklyaad-srliaakgs------------
+hisj_ecoli --slsitekrqqei-aft---dklyaad-srlvvakns------------
+occt_agrt6 --amsvtpkrqevi-gfs---ipyaagi-ngfavmgdsklaempglgety
+noct_agrt5 --amgiqparekvi-afs---rpylltp-mtflttadspllktqvaienl
+1sbp       --rgridknwikrlpdds---apyts-t-ivflvrkgnp-----------
+1wod       --kkai-dtatrqt-llg---nslvvva-pkasvqkdftidsktnwts--
+1mrp       --eqtiqqtaqkgv-plapkkdwialsgrsrvvvy-----dhtklsek--
+1pot       ldpdmlnkpfdpnn-dys---ipyiwga-taigvngdav-----------
+
+1gggA      ----dvk--------svkdld---g--kvv-avks----gtgsvdyaka-
+yqix_bacsu ----giq--------slkdlk---g--ktv-gvql----gsiqeekgke-
+fliy_ecoli --g-tik--------taddlk---g--kkv-gvgl----gtnyeewlrq-
+yckk_bacsu ----dik--------seadvk---g--kts-aqsl----tsnynk-lat-
+yxem_bacsu ----dik--------svddlk---g--ktv-aavl----gsnhaknles-
+hisp_neigo --k--vs--------ssddlk---km-nkv-gvvt----ghtgdfsvsk-
+path_vibha ----siq--------gvedla---g--ktv-avnl----gsnfeqllrd-
+arti_ecoli -----yt--------svdqlk---g--kkvrsvqn----gtthqkfimd-
+arti_haein ------a--------tle--s---a--kni-gvqn----gttfqqytva-
+lapt_pasha ------t--------dfa--k---v--kti-gvqn----gttyqhylak-
+artj_ecoli -----yk--------tfadlk---g--kci-gmen----gtthqkyiqd-
+1lst       --p-iqp--------tleslk---g--khv-gvlq----gstqeayand-
+hisj_ecoli --d-iqp--------tveslk---g--krv-gvlq----gttqetfgne-
+occt_agrt6 sldsqadaakkaiadissfln---g--ttv-gvqg----sttastfldk-
+noct_agrt5 pldniapeqkaeldkftkife---g--vkf-gvqa----gtsheafmkq-
+1sbp       --k-qih--------dwndli---k--pgv-svitpnpkssggarwnyl-
+1wod       --l--ln--g-----grlavgdpehvpa-----------gi---------
+1mrp       --d--me--k-----svldyatpkwkgki-gyvst---sgafleqvval-
+1pot       ----dpk----svt-swadlwk--p--eyk-gslll-t-ddarevfqmal
+
+1gggA      -----------nikt--------k-dlr--qfpnid--naymelgtnr-a
+yqix_bacsu -----------lspe--------y-gfktedrnris--dlvqeiksdr-f
+fliy_ecoli -----------nvq-----------gvdvrtydddp--tkyqdlrvgr-i
+yckk_bacsu -----------na----------g--akvegvegma--qalqmiqqgr-v
+yxem_bacsu -----------kdpd--------k-kiniktyetqe--gtlkdvaygr-v
+hisp_neigo -----------llgn--------d-npkiarfenvp--liikelengg-l
+path_vibha -----------ydkd--------g-kiniktydt----giehdvalgr-a
+arti_ecoli -----------k--h--------p-eittvpydsyq--nakldlengr-i
+arti_haein -----------e--t--------k-qyspksyaslq--naildlksgr-i
+lapt_pasha -----------e--k--------k-eynvksyasyq--naildvqngr-i
+artj_ecoli -----------q--h--------p-evktvsydsyq--nafidlkngr-i
+1lst       -----------nwrt--------k-gvdvvayanqd--liysdltagr-l
+hisj_ecoli -----------hwap--------k-gieivsyqgqd--niysdltagr-i
+occt_agrt6 -----------y-fk--------g-svdikeyksve--ehnldltsgr-l
+noct_agrt5 -----------m--m--------p-svqistydtid--nvvmdlkagr-i
+1sbp       aawgyalhhnnndqa-kaedfvkalfknvevldsgargstntfvergi-g
+1wod       -------ya--kealqklgawdt-lspklapaedvr--galalverne-a
+1mrp       -------sk--mkgdkvalnwlkglkengklyakns--valqavenge-v
+1pot       rklgysgnttd--------------------pkeie--aaynelkklmpn
+
+1gggA      davlh-dtpnilyfikta-gng-qfkav-gd--sleaqq----------y
+yqix_bacsu daaii-edivaegyfksn-ddl-qg-fv-ip--dakaee----------a
+fliy_ecoli dailv-drlaaldlvkkt-n-d-tlavt-ge--afsrqe----------s
+yckk_bacsu dmtyn-dklavlnylkts-gnk-nvkia-fe--tgepqs----------t
+yxem_bacsu dayvn-srtvliaqikkt-g-l-plkla-gd--pivyeq----------v
+hisp_neigo dsvvs-dsavianyvknn-pak-gmdfvtlp--dftteh-----------
+path_vibha dafim-drlsalelikkt-g-l-plqla-ge--pfetiq----------n
+arti_ecoli dgvfg-dtavvhewlkdnp----klvvv-gd--kvtdkd------yf-gt
+arti_haein diifg-dtavladmiskep----eiqfi-ge--kvtnkk------yf-gn
+lapt_pasha daifg-dvpvlaemarkhe----gldfv-ge--kinnpn------yf-gd
+artj_ecoli dgvfg-dtavvnewlktnp----qlgva-te--kvtdpq------yf-gt
+1lst       daalq-devaasegflkqpagk-eyafa-gp--svkdkk------yf-gd
+hisj_ecoli daafq-devaagegflkqpvgk-dykfg-gp--svkdek------lf-gv
+occt_agrt6 davla-natvlaaaiek-pemk-gaklv-gp--lfsgge-------f-gv
+noct_agrt5 dasla-svsflkpltdk-pdnk-dlkmf-gp--rmtg-g------lf-gk
+1sbp       dvlia-wenea--llatnelgkdkfeiv-tpsesilaep------tv-sv
+1wod       plgiv----ygsdavask-gv--kvva-t-----f-------------pe
+1mrp       paali-nnyywynlakek-gv--enlk-srl--yfvr-----------hq
+1pot       vaafnsdnpanpy-megev-nl-gmiwn-gs--afvarqagtpidvvwpk
+
+1gggA      --giafpk--gsdelrdkvngalktlrengty----ne-iykkw-fgt-
+yqix_bacsu gsaiafrk--d-seltdkfnkalkemedngel----ek-lkkkw-ftg-
+fliy_ecoli --gvalrk--gnedllkavndaiaemqkdgtl----qa-lsekw-fga-
+yckk_bacsu --yftfrk--gsgevvdqvnkalkemkedgtl----sk-iskkw-fge-
+yxem_bacsu --afpfakddahdklrkkvnkaldelrkdgtl----kk-lseky-fne-
+hisp_neigo -ygiavrk--gdeatvkmlndalekvresgey----dk-iyaky-fak-
+path_vibha --awpfvdnekgrklqaevnkalaemradgtv----ek-isvkw-fga-
+arti_ecoli glgiavrq--gntelqqklntalekvkkdgty----et-iynkw-fqk-
+arti_haein glgiamhk--snkdlaaqlnkglaaikangey----qk-iydkw-itk-
+lapt_pasha glgiathl--knqvlvdqfnaalktikengey----qk-iydkw-mgg-
+artj_ecoli glgiavrp--dnkalleklnnalaaikadgty----qk-isdqw-fpq-
+1lst       gtgvglrk--ddtelkaafdkaltelrqdgty----dk-makky-fdf-
+hisj_ecoli gtgmglrk--ednelrealnkafaemradgty----ek-lakky-fdf-
+occt_agrt6 -vavglrk--edtalkadfdaaikaasedgti----kt-lslkw-fkv-
+noct_agrt5 gvgvgirk--edadlkalfdkaidaaiadgtv----qk-lsqqw-fgy-
+1sbp       vdkvvek------kdtkavaeaylkyly----spegqe-iaakn-fyrp
+1wod       dshkkve-yp-vav-veghnnatvkafydylkgpqaae-ifkrygft--
+1mrp       dpgalvs-ysgaavlkasknqaeaqkfvdflaskkgqealvaarey---
+1pot       e-ggifwmds-laipanaknkegalklinfllrpdvak-qvaet-igy-
+
+
+

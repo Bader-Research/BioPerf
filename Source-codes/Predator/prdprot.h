@@ -1,0 +1,123 @@
+/* Function prototypes */
+
+bool Homologous(int *ISeq, int SeqLen, int *IDbSeq, int DbSeqLen);
+bool LookUp(char *KnownAsn, int *ISeq, int SeqLen, int *IDbSeq, int *IDbStr, int DbSeqLen);
+bool PredatorEXT(char **SeqEXT, char **NamesEXT, char **PredEXT, float **ProbHEXT, float **ProbEEXT, float **ProbCEXT, float **RelEXT, int *LenEXT, int NSeqEXT, int SeqToPredictEXT, bool Info);
+bool ReadDatabase(FILE *fi);
+bool ReadMbr(FILE *fi);
+bool ReadProp(FILE *fi, float **Mat);
+bool ReadRel(FILE *fi, COMMAND *Cmd);
+bool ReadThresholds(FILE *fi);
+bool ReadTrainData(COMMAND *Cmd);
+bool VeryClose(char *Seq1, char *Seq2, int Len1, int Len2);
+bool wrer(char *format, ... );
+
+char AAChar2Bin (char AA);
+char C2_(char SStr);
+char _2C(char SStr);
+char **CharMatrix(int M, int N);
+char *OneToThree(char One);
+
+enum FILETYPE GetFileType(FILE *fi, char *FileName);
+
+float AlignGlobal(char *SeqX, char *SeqY, int LenX, int LenY, float CompMatrix[NAcd][NAcd], float GapI, float GapE, char *AliX, char *AliY);
+float ***FloatCube(int M, int N, int K);
+float **FloatMatrix(int M, int N);
+float HsspCrit(char *Seq1, char *Seq2, int Len);
+float PercentCorrect(char *TestAsn, char *KnownAsn, int Length);
+float PercentId(char *Ali1, char *Ali2);
+
+int AABin2Char (char AA);
+int **IntMatrix(int M, int N);
+int FindOverlappedAlignments(int *Beg1, int *Beg2, int *End1, int *End2, int N, int **Overlap);
+int ReadClustal(SEQ **Seq, FILE *fi);
+int ReadDssp(SEQ **Seq, FILE *fi);
+int ReadFasta(SEQ **Seq, FILE *fi);
+int ReadMSF(SEQ **Seq, FILE *fi);
+int ReadSeq(SEQ **Seq, char *InputFile, float NonRed); /* Update 2.1 */
+int ReadSeqEXT(char **SeqEXT, char **NamesEXT, int *LenEXT, int NSeqEXT, int SeqToPredictEXT, SEQ **Seq);
+int ReadStride(SEQ **Seq, FILE *fi);
+int SplitString(char *Buffer, char **Fields, int MaxField);
+int Uniq(char **List, int ListLength);
+int addnode(int c, int ci, int cj, int i, int j, int K, int cost);
+int calcons(char *aa0, char *aa1, int *res, int *nc, int *nident);
+int diff(char *A, char *B, int M, int N, int tb, int te);
+int no_cross(void);
+
+void *ckalloc(size_t bytes);
+void *myrealloc(void *ptr, size_t bytes);
+void Add(char **Dest, char *Source, char *Alphabet);
+void Align(char *Seq1, int Len1, char *Seq2, int Len2, ALN *Aln,
+           int DelVal, int GapVal, int NAli, int MinAliLength, float Safety);
+void AllocAln(ALN **Aln, int Len1, int Len2, int NAli);
+void AllocProj(PROJ ***Proj, int Len, int NSeq);
+void Assess(SEQ *Seq, COMMAND *Cmd);
+void Borrow(SEQ *Seq1, SEQ *Seq2, ALN *Aln);
+void Char2Int(char *String, int *IString, int Len);
+void Combine(SEQ **Seq, int SeqN, PROJ **Proj, COMMAND *Cmd);
+void Concord(SEQ *Seq, SEQ *Known3D);
+void CorrectAsn(char *Asn, int Length, char SecStrType, char EditChar, int MaxLength);
+void DeallocAln(ALN **Aln, int NAli);
+void DeallocProj(PROJ ***Proj, int Len);
+void Decide(SEQ *Seq, COMMAND *Cmd);
+void DefaultCmd(COMMAND *Cmd);
+void Derive(float **Mat, int N, float *Pred);
+void DoUnlink(int **Overlap, int *AliLen,int N, int *Accepted);
+void FreeCharMatrix(char **Matrix, int M);
+void FreeFloatCube(float ***Cube, int M, int N);
+void FreeFloatMatrix(float **Matrix, int M);
+void FreeIntMatrix(int **Matrix, int M);
+void FreeSeq(SEQ **Seq);
+void Get3D(SEQ **Seq, int NSeq, COMMAND *Cmd);
+void Init1Seq(SEQ **Seq, char *Id, char *De);
+void Init2Seq(SEQ *Seq, float NonRed); /* Update 2.1 */
+void InitAll(void);
+void Int2Char(int *IString, char *String, int Len);
+void LnMat(float **Matrix);
+void MainAlloc(COMMAND **Cmd, SEQ ***Seq);
+void MainDealloc(COMMAND **Cmd, SEQ ***Seq);
+void MakeSymAnti(float **Matrix, int N);
+void MakeSymPar(float **Matrix, int N);
+void Multiple(SEQ **Seq, int NSeq, COMMAND *Cmd);
+void NoDash(SEQ **Seq, int NSeq);
+void NonRed(SEQ **Seq, int NSeq, COMMAND *Cmd);
+void Normalize(void);
+void NormalizeMatrixArtif(float **Matrix, float Min, float Max);
+void NullMatrix(float **Matrix, int N, int M);
+void OutSeq(SEQ **Seq, int NSeq, COMMAND *Cmd);
+void Output(SEQ *Seq, COMMAND *Cmd);
+void OutputEXT(SEQ *Seq, int N, char **PredEXT, float **RelEXT, float **ProbHEXT, float **ProbEEXT, float **ProbCEXT);
+void OutputLong(SEQ *Seq, COMMAND *Cmd);
+void PredictAlp(int *ISeq, int SeqLen, float *Alp);
+void PredictAnti(int *ISeq, int SeqLen, float *Anti);
+void PredictNN(int *ISeq, int SeqLen, float *AlpNN, float *BetaNN, float *CoilNN, char *KnownAsn, COMMAND *Cmd);
+void PredictPar(int *ISeq, int SeqLen, float *Par);
+void PredictSS(SEQ *Seq, int From, int To, char *Name, COMMAND *Cmd);
+void PredictTurn(int *ISeq, int SeqLen, float *OutTurn);
+void PrintAln(ALN *Aln, int Seq1, int Seq2, int AlnN);
+void PrintHelp(char *Msg);
+void PrintProp(SEQ **Seq, int SeqN, PROJ **Proj, COMMAND *Cmd);
+void ProbAndRel(SEQ *Seq);
+void ProcessOptions(char **List, int ListLength, COMMAND *Cmd);
+void Project(PROJ **Proj, ALN *Aln, SEQ *Seq1, SEQ *Seq2, int AlnN, COMMAND *Cmd);
+void Reason(float *Score, int *Structure, int *Position,float *Score_H, float *Score_E, float *Score_C);
+void RdMatrix (char *MatName, float CompMatrix[NAcd][NAcd]);
+void SelectSequences(SEQ **Seq, int NSeq, COMMAND *Cmd);
+void SIM(char *A, char *B, int M, int N, int V[][32], int Q, int R, int nseq, ALN *Aln,
+         int NAli, int MinAliLength, float Safety);
+void StoreHomol(SEQ **Seq);
+void Str2Int(char *String, int *IString, int Len);
+void SumUpFast (char *SeqX, char *SeqY, int LenX, int LenY, float GPI, float GPE, float CompMatrix[NAcd][NAcd], float **Matrix);
+void TakeBestAlpha(float *Pred, int N);
+void TakeBestBeta(float *Pred, int N);
+void traceback (char *SeqX, char *SeqY, int LenX, int LenY, float GapI, float GapE, float **Matrix, char *AliX, char *AliY);
+void Unlink(int *Beg1, int *Beg2, int *End1, int *End2, int *AliLen, int N, int *Accepted);
+void big_pass(char *A, char *B, int M, int N, int K, int nseq);
+void die(char *format, ... );
+void freesq(void);
+void initenv(void);
+void initpam2(void);
+void initseq(int seqsiz);
+void locate(char *A, char *B, int nseq);
+void small_pass(char *A, char *B, int count, int nseq);
+void trick(char *Seq, int Len);

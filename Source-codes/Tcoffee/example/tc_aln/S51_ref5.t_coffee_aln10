@@ -1,0 +1,138 @@
+
+SAGA FORMAT
+alignement  S51_ref5.t_coffee_aln10 nseq=15 len=373
+T_COFFEE ALIGNMENT
+CPU TIME:643140
+
+
+
+RRXA_HUMAN -sanedmpverileaelave----pkt------------e--tyveanm-
+USP_DROME  nsvsrdfsieriieaeqrae----tqc-gdr--a---ltf--lrvgpyst
+7UP1_DROME ---ghsy-lssyislllrae----pyp------------t--sryg--q-
+ESTR_CHICK ----lsltaeqmvsalleae----ppi--vy--s---eydp---------
+ERR2_HUMAN ----akkpltkivsyllvae----pd--kly--a---mp------p----
+HNF4_RAT   -y-edss-lps-inallqae----vls------------q--qitspisg
+VDR_HUMAN  lseeqqriiailldahhktydptysdfcqfrppvrvndgggshpsrpnsr
+NGFI_RAT   pdasptnlltslirahldsg----pntak---------------------
+THA1_HUMAN ptpeewdlihiateahrstn----aq---------g-----shwkq----
+E75A_DROME elddqprllaavlrahlet-----------ce--ftk-----ekvsamrq
+ROR1_HUMAN smaelehlaqniskshlet-----------cq--ylr-----eelqqitw
+RRA1_HUMAN ltpevgeliekvrkahqetf---------------p------alcq----
+PPAR_HUMAN etadlkslakriyeaylknfnmnk-----vkarvilsgka--snnppfvi
+PRGR_CHICK e---ip-fvppmisvlrgie----pev--vy--a---gydn---------
+TLL_DROME  dlsvprvphhpvhqghhgffs---pt--aay--m---nalat--------
+
+RRXA_HUMAN -------------------------------glnp-------------ss
+USP_DROME  --------------------------------vqp-------------d-
+7UP1_DROME -------------------------------cmqp-------------n-
+ESTR_CHICK -------------------------------n-rp-------------fn
+ERR2_HUMAN -------------------------------ddvp-------------eg
+HNF4_RAT   -----------------in------------gdir-------------ak
+VDR_HUMAN  htpsfsgdsssscsdhcitssdmmdsssfsnldlseedsd-dpsvtlels
+NGFI_RAT   ld-y-s-----------kf----------qelvlp-------rfgke---
+THA1_HUMAN rr-kflpd-------------digqspivs---mp-------dgdkvd--
+E75A_DROME ra--rdc-----------------psys-----mptllac-plnpape--
+ROR1_HUMAN ----q---------------------tf-----lqeeien-yqnkqre--
+RRA1_HUMAN lg-kyttn-------------nsse-qrvs---l--------d-------
+PPAR_HUMAN ----hdme--tlc---------maektl-----vaklvangiqnkeve--
+PRGR_CHICK --------------------------------tkp-------------et
+TLL_DROME  ------------------------------ral-p---------p---tp
+
+RRXA_HUMAN pndpvtnicqaadkqlftlvewakriphfselplddqvillragwnelli
+USP_DROME  --gavsalcqvvnkqlfqmveyarmmphfaqvplddqvillkaawielli
+7UP1_DROME nimgidnicelaarllfsavewaknipffpelqvtdqvallrlvwselfv
+ESTR_CHICK easmmtlltnladrelvhminwakrvpgfvdltlhdqvhllecawleilm
+ERR2_HUMAN dikalttlcdladrelvfliswakhipgfsnltlgdqmsllqsawmeili
+HNF4_RAT   riasitdvcesmkeqllvlvewakyipafcelllddqvallrahagehll
+VDR_HUMAN  qlsmlphladlvsysiqkvigfakmipgfrdltsedqivllkssaievim
+NGFI_RAT   dagdvqqfydllsgsldvirkwaekipgfielspgdqdlllesaflelfi
+THA1_HUMAN -leafseftkiitpaitrvvdfakklpmfselpcedqiillkgccmeims
+E75A_DROME -lqseqefsqrfahvirgvidfagmipgfqlltqddkftllkaglfdalf
+ROR1_HUMAN -v-mwqlcaikiteaiqyvvefakridgfmelcqndqivllkagslevvf
+RRA1_HUMAN -idlwdkfselstkciiktvefakqlpgfttltiadqitllkaacldili
+PPAR_HUMAN -vrifhccqctsvetvteltefakaipafanldlndqvtllkygvyeaif
+PRGR_CHICK psslltslnhlcerqllcvvkwskllpgfrnlhiddqitliqyswmslmv
+TLL_DROME  plmaaehiketaaehlfknvnwiksvraftelpmpdqlllleeswkeffi
+
+RRXA_HUMAN asfshrsia-vkdg--------------------------illa-tglhv
+USP_DROME  anvawcsivslddggagggggglghdgsferrspglqpqqlflnq-sfsy
+7UP1_DROME lnasqcsmp-lhva--------------------------pllaaaglha
+ESTR_CHICK iglvwrsme-hpgk--------------------------llfa-pnlll
+ERR2_HUMAN lgivyrslp-yddk--------------------------laya-edyim
+HNF4_RAT   lgatkrsmv-fkdv--------------------------lllg-ndyiv
+VDR_HUMAN  lrsnesftm-ddms--------------------------wtcg-nqdyk
+NGFI_RAT   lrlayrskp-gegk--------------------------lifc-sglvl
+THA1_HUMAN lraavrydp-esdt--------------------------ltls-gemav
+E75A_DROME vrlicmfds-sins--------------------------iicl-ngqvm
+ROR1_HUMAN irmcrafds-qnnt--------------------------vyfd-gkyas
+RRA1_HUMAN lrictrytp-eqdt--------------------------mtfs-dgltl
+PPAR_HUMAN amlssvmnk-dgml--------------------------vayg-ngfit
+PRGR_CHICK famgwrsykhvsgq-------------------------mlyfa-pdlil
+TLL_DROME  lamaqylmp-mnfa--------------------------aqllf-vyes
+
+RRXA_HUMAN hrn-sahs-a-gvgaifdrvltelvskmrdmqmdktelgclraivlfn--
+USP_DROME  hrn-saik-a-gvsaifdrilselsvkmkrlnldrrelsclkaiilyn--
+7UP1_DROME spmaadrv-v-afmdh-irifqeqveklkalhvdsaeysclkaivlft--
+ESTR_CHICK drnq-gkc-vegmvei-fdmllataarfrmmnlqgeefvclksiillns-
+ERR2_HUMAN deeh-srl-v-gllel-yrailqlvrrykklkvekeefvmlkalalan--
+HNF4_RAT   prhc-pel-a-emsrvsirildelvlpfqelqiddneyaclkaiiffd--
+VDR_HUMAN  yrvs-dvtkaghslel-ieplikfqvglkklnlheeehvllmaicivs--
+NGFI_RAT   hrlq-ca--r-gfgdw-idnilafsrslhslgvdvpafaclsalvlit--
+THA1_HUMAN kreq-lkn-g-glgvv-sdaifelgkslsafnlddtevallqavllms--
+E75A_DROME rrda-iqnga-narfl-vdstfnfaermnsmnltdaeiglfcaivlit--
+ROR1_HUMAN -pdv-fksl--gcedf-isfvfefgkslcsmhltedeialfsafvlms--
+RRA1_HUMAN nrtq-mhn-a-gfgpl-tdlvfafanqllplemddaetgllsaiclic--
+PPAR_HUMAN -ref-lkslrkpfcdi-mepkfdfamkfnalelddsdislfvaaiicc--
+PRGR_CHICK neqr-mke-s-sfysl-clsmwqlpqefvrlqvsqeeflcmkallllnt-
+TLL_DROME  e-nanrei-m-gmvtrevhafqevlnqlchlnidsteyeclraislfrks
+
+RRXA_HUMAN ---------------------------pdskglsnpaevealrekvyasl
+USP_DROME  ---------------------------pdirgiksraeiemcrekvyacl
+7UP1_DROME ---------------------------tdacglsdvthieslqeksqcal
+ESTR_CHICK -------------------gvytfl-sstlksleerdyihrvldkitdtl
+ERR2_HUMAN ---------------------------sdsmyienleavqklqdllheal
+HNF4_RAT   ---------------------------pdakglsdpgkikrlrsqvqvsl
+VDR_HUMAN  ---------------------------pdrpgvqdaalieaiqdrlsntl
+NGFI_RAT   ----------------------------drhglqdprrveelqnriascl
+THA1_HUMAN ---------------------------tdrsgllcvdkieksqeayllaf
+E75A_DROME ---------------------------pdrpglrnleliekmysrlkgcl
+ROR1_HUMAN ---------------------------adrswlqekvkieklqqkiqlal
+RRA1_HUMAN ---------------------------gdrqdleqpdrvdmlqeplleal
+PPAR_HUMAN ---------------------------gdrpgllnvghiekmqegivhvl
+PRGR_CHICK ---------------------------ipleglrsqsqfdemrtsyirel
+TLL_DROME  ppsasstedlanssiltgsgspnssasaesrgllesgkvaamhndarsal
+
+RRXA_HUMAN eayckhkype---qpgrf---aklllrlpalrs-iglkclehlfffklig
+USP_DROME  dehcrlehpg---ddgrf---aqlllrlpalrs-islkcqdhlflfrits
+7UP1_DROME eeycrtqypn---qptrf---gklllrlpslrt-vssqvieqlffvrlvg
+ESTR_CHICK ihlmaksglslqqqhrrl---aqlllilshirh-msnkgmehlynmkckn
+ERR2_HUMAN qdyelsqrhe---eprra---gkllltlpllrq-taakavqhfysvklqg
+HNF4_RAT   edyindrqyd---srgrf---gelllllptlqs-itwqmieqiqfiklfg
+VDR_HUMAN  qtyircrhpp-pgshlly---akmiqkladlrs-lneehskqyrcls-fq
+NGFI_RAT   kehmaavagd-pqpascl---srllgklpelrt-lctqglqrifclkled
+THA1_HUMAN ehyvnhrkhn---iphfw---pkllmkvtdlrm-igachasrflhmkvec
+E75A_DROME qyivaqnrpd---qpefl---aklletmpdlrt-lstlhteklvvfrteh
+ROR1_HUMAN qhvlqknhre----dgil---tklickvstlra-lcgrhteklmafkaiy
+RRA1_HUMAN kvyvrkrrps---rphmf---pkmlmkitdlrs-isakgaervitlkmei
+PPAR_HUMAN rlhlqsnhpd---diflf---pkllqkmadlrq-lvtehaqlvqiikkte
+PRGR_CHICK vkaiglrqkgvvansqrfyqltklmdsmhdlvkqlhlfcln-tflqsral
+TLL_DROME  hnyiqrthps---qpmrf---qtllgvvqlmhk-vssftieelffrktig
+
+RRXA_HUMAN ----dtpi-dtflmemle----a
+USP_DROME  ----drpl-eelfleqle----a
+7UP1_DROME ----ktpi-etlirdmll----s
+ESTR_CHICK ----vvpl-ydlllemld----a
+ERR2_HUMAN ----kvpm-hklflemle----a
+HNF4_RAT   ----maki-dnllqemll----g
+VDR_HUMAN  pec-smkl-tplvlevfg----n
+NGFI_RAT   ----lvpp-ppivdkifm----d
+THA1_HUMAN p----telfpplflevfe----d
+E75A_DROME kell-----rqqmwsmedgnnsd
+ROR1_HUMAN pdivrlhf-pplykelft----s
+RRA1_HUMAN p----gsm-ppliqemle----n
+PPAR_HUMAN sda---al-hpllqeiyr----d
+PRGR_CHICK ----svef-pemmsevia----a
+TLL_DROME  ----diti-vrlisdmys----q
+
+
+

@@ -1,0 +1,26 @@
+#!/bin/bash 
+source $HOME/.bioperf
+if [ -z $DATABASES ]; then       
+echo $'\n'
+echo You cannot run this script without installing swissprot database 
+echo Download and install swissprot  from  "www.bioperf.org/databases/"
+echo Then set the DATABASES environment variable to the directory containing swissprot.aa and other index files for the database
+echo $'\n'
+exit
+fi
+if [ -e $DATABASES/swissprot.aa ] 
+then  echo ""
+else
+echo $'\n'  
+echo There is no swissprot database in $DATABASES
+echo Please check for swissprot database  again in $DATABASES
+echo $'\n'
+exit
+fi
+
+
+
+cd $BIOPERF/Binaries/x86-Binaries/Blast/
+./blastall -p blastp -i $BIOPERF/Inputs/Blast/blastp/class-C/largeinput -d $DATABASES/swissprot.aa -M BLOSUM62 -o $BIOPERF/Outputs/Blast/x86-classC-blastp.output
+echo The output has been stored as x86-classC-blastp.output in the directory $BIOPERF/Outputs/Blast
+

@@ -1,0 +1,29 @@
+This file shows how to run predator on the example of the FIS protein and
+related proteins found in the SWISSPROT database by a FASTA search. See
+documentation for details.
+
+1) predator -h 3fis.seq
+
+Sice -u option has not been specified, PREDATOR will find the FIS
+protein in its sequence/structure database and will simply use the
+known assignment as prediction.
+
+2) predator -h 3fis.seq -u
+
+A genuine prediction will be generated for the first sequence in the
+set (3fis) using other sequences.
+
+3) predator -h 3fis.seq -s -u
+
+A genuine prediction will be generated for the first sequence in the
+set (3fis) without using other sequences (single sequence prediction)
+
+
+If PREDATOR has not been installed properly and you just want to try
+it quickly after unpacking, you will have to specify all file paths explicitely:
+
+e.g., for SGI:
+
+../exe/irix.exe -h -b../exe/stride.dat 3fis.seq
+
+

@@ -1,0 +1,50 @@
+
+SAGA FORMAT
+alignement  1eft_ref5.t_coffee_aln10 nseq=9 len=197
+T_COFFEE ALIGNMENT
+CPU TIME:54240
+
+
+
+ef1a_pyrwo vahtkfetphryitiidapghrdfvknmitgasqadaavlvvaatdg---
+ef1a_theac lahrkfetdkyyftlidapghrdfvknmitgtsqadaailvisardge--
+ef1a_halma iahqefstdtydftivdcpghrdfvknmitgasqadnavlvvaaddg---
+ef1a_canal ialwkfetpkyhvtvidapghrdfiknmitgtsqadcailiiaggtgefe
+ef11_xenla islwkfqtnrftitiidapghrdfiknmitgtsqadvallvvsaatgefe
+ef1a_halha iahqefttdeyeftivdcpghrdfvknmitgasqadnavlvvaaddg---
+ef1a_dicdi ialwkfetskyyftiidapghrdfiknmitgtsqadcavlviasptgefe
+ef1s_porpu ialwkfstakfeytvidapghrdfiknmitgtsqadvallvidgnn--fe
+erf2_picpi vgksyfetdkrrytildapghklyisemiggasqadvgvlvissrkgeye
+
+ef1a_pyrwo --vmp--qtkehaflartlgikhiivainkmdmvn------ynqkrfeev
+ef1a_theac -gvme--qtrehaflartlgvpqmvvainkmdatsp----pysekrynev
+ef1a_halma --vqp--qtqehvflartlgigelivavnkmdlvd------ygeseykqv
+ef1a_canal agiskdgqtrehallaytlgvkqlivavnkmds--v----kwdknrfeei
+ef11_xenla agvsrngqtrehallaytmgvkqlivcvnkmdltdp----pyshkrfdev
+ef1a_halha --vap--qtrehvflsrtlgidelivavnkmdvvd------ydeskynev
+ef1a_dicdi agiakngqtrehallaytlgvkqmivainkmdekst----nysqarydei
+ef1s_porpu agiaeggstkehallaytlgvkqlavginkmddvkdkdggpwaqgrynev
+erf2_picpi agferggqsrehailaktqgvnklvvvinkmddptv----nwskeryeec
+
+ef1a_pyrwo kaqvekllkmlgyk----------------------------dfpvipis
+ef1a_theac kadaekllrsigfk----------------------------disfvpis
+ef1a_halma veevkdlltqvrfdse--------------------------nakfipvs
+ef1a_canal iketsnfvkkvgynpk--------------------------tvpfvpis
+ef11_xenla vrnvmvylkkigynpa--------------------------tipfvpvs
+ef1a_halha vsgvkdlfgqvgfnpd--------------------------dakfiats
+ef1a_dicdi vkevssfikkigynpe--------------------------kvafvpis
+ef1s_porpu vdylgpelmkigfkkkdkgdkkkgdkkekkdkkdkgekkyvcsatfvpis
+erf2_picpi ttklamylkgvgyqkg--------------------------dvlfmpvs
+
+ef1a_pyrwo awegenvvkks--dkmpwyn------------gptliealdqipepe
+ef1a_theac gykgdnvtkps--pnmpwyk------------gptllqaldafkvpe
+ef1a_halma afegdniaees--ehtgwyd------------geillealnelpape
+ef1a_canal gwngdnmieps--tncpwykgweketksgkvtgktlleaidaieppt
+ef11_xenla gwtgenissps--qkmgwfkgwkvkrkdgftkgqsllevldalvppv
+ef1a_halha afegdnvsdhs--dntpwyd------------gptllealnglpvpq
+ef1a_dicdi gwngdnmlers--dkmewyk------------gptllealdaivepk
+ef1s_porpu gwtgdnmleks--tnmpwyt------------gptlfevldamkppk
+erf2_picpi gytgaglkervsqkdapwyn------------gpslleyldsmplav
+
+
+

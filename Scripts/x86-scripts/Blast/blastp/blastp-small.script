@@ -1,0 +1,5 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Blast/
+./blastall -p blastp -i $BIOPERF/Inputs/Blast/blastp/class-A/Ecoli_Long.txt -d $BIOPERF/Inputs/Blast/blastp/class-A/Drosoph/drosoph.aa -M BLOSUM62 -o $BIOPERF/Outputs/Blast/x86-classA-blastp.output
+echo The output has been stored as x86-classA-blastp.script in the director $BIOPERF/Outputs/blastp

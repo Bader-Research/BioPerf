@@ -1,0 +1,65 @@
+
+SAGA FORMAT
+alignement  1ac5_ref1.t_coffee_aln10 nseq=4 len=543
+T_COFFEE ALIGNMENT
+CPU TIME:30760
+
+
+
+1ac5       lpsse--eykvayellpglse-vpdpsnipqmhaghiplrsedadeqdss
+1ivy       ----apdqdeiqr--lpglak-qps---frqy-sg--ylkss-----g--
+1ysc       ---------kikd--pkilgi-dpn---vtqy-tg--yldve-----d-e
+CBP3_ORYSA vpsvapgellerrvtlpglpqgvgd---lghh-ag--yyrlp-----nth
+
+1ac5       dleyffwkftnndsng-nvdrpliiwlnggpgcssmdgalvesgpfrvns
+1ivy       skhlhywfv---esqkdpenspvvlwlnggpgcssldglltehgpflvqp
+1ysc       dkhfffwtf---esrndpakdpvilwlnggpgcssltglffelgpssigp
+CBP3_ORYSA darmfyflf---esrgkk-edpvviwltggpgcsselavfyengpftisn
+
+1ac5       dgk-lylnegswiskgdllfidqptgtgfsveqnkdegkidknkfdedle
+1ivy       dgvtleynpyswnlianvlylespagvgfsys---d----dkfyatndte
+1ysc       dlk-pignpyswnsnatvifldqpvnvgfsys--gss------gvsntva
+CBP3_ORYSA nms-lawnkfgwdtisniifvdqptgtgfsys--sdd----rdtrhdetg
+
+1ac5       dvtkhfmdflenyfkifpedltr--kiilsgesyagqyipffanailnhn
+1ivy       vaqsn-fealqdffrlfpeyknn--klfltgesyagiyiptlavlvmq--
+1ysc       agkdv-ynflelffdqfpeyvnkgqdfhiagesyaghyipvfaseilshk
+CBP3_ORYSA vsndl-ysflqvffkkhpefakn--dffitgesyaghyipafasrvhqgn
+
+1ac5       kfskidgdtydlkalligngwidpntqslsylpfamekklidesnpn--f
+1ivy       d------psmnlqglavgnglssyeqndnslvyfayyhgllg----nrlw
+1ysc       drn------fnltsvligngltdpltqynyyepmacgeggepsvlpseec
+CBP3_ORYSA kan--egihinlkgfaigngltdpaiqykaytdyaldmn----likksdy
+
+1ac5       khltnahencqnlinsas-tdeaa--hfsyqecenilnlllsytressqk
+1ivy       s---slqthccsqnk-c---nfyd---nkdlecvtnlqevariv------
+1ysc       samedslerclgliescydsqsvwscvpatiycnnaqlapyqrt------
+CBP3_ORYSA drinkfippcefaiklcg-tngkascmaaymvcnsifssimklv------
+
+1ac5       gtadc-lnmynfnlkdsypscg----------------------------
+1ivy       gns--glniy-----nlyapcaggvpfryekdtvvvqdlgniftrlplkr
+1ysc       g-r----nvy-----dirkdceg---------------------------
+CBP3_ORYSA gtk----nyy-----dvrkeceg---------------------------
+
+1ac5       --------------mnw-pk-disfvskffstpgvidslhldsdkidhwk
+1ivy       mwhqallrsgdkvrmdppct-nttaastylnnpyvrkalnip-eqlpqwd
+1ysc       --------------gnl-cyptlqdiddylnqdyvkeavg---aevdhye
+CBP3_ORYSA ---------------kl-cy-dfsnlekffgdkavkeaig---vgdlefv
+
+1ac5       ectnsvg-tkls-npiskpsihllpg-llesgieivlfngdkdlicnnkg
+1ivy       mcnflvn-lqyr-rlyrs-mnsqylkllssqkyqillyngdvdmacnfmg
+1ysc       scnfdinrnflfagdwmkpyhtavtd-llnqdlpilvyagdkdficnwlg
+CBP3_ORYSA scsttvyqamlt--dwmrnlevgipa-lledginvliyageydlicnwlg
+
+1ac5       vldtidnlkwggikgfsddavsfdwihkskstddseefsgyvkydrnltf
+1ivy       dewfvdslnq---k---mevqrrpwl--vkygdsgeqiagfvkefshiaf
+1ysc       nkawtdvlpwkydeefasqkvr-nwt--asitd---evagevksykhfty
+CBP3_ORYSA nsrwvhsmewsgqkdfvsshes-pfv-----vd-g-aeagvlkshgplsf
+
+1ac5       vsvynashmvpfdkslvsrgivdiysndvmiidnngknvmitt
+1ivy       ltikgaghmvptdkplaaftmfsrfl---nk-----qpy----
+1ysc       lrvfngghmvpfdvpenalsmvnewi---hg----gfsl----
+CBP3_ORYSA lkvhnaghmvpmdqpkaslemlrrft---qg----kl------
+
+
+

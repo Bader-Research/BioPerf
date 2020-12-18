@@ -1,0 +1,30 @@
+
+April 9, 1998
+
+This is the first release of the FASTA3 package of programs for win32
+(Windows95, WinNT) systems.  The programs were compiled using the
+Borland 'C' compiler and only run in 32-bit mode. The programs will
+not work under regular DOS or Win3.1.
+
+The following programs are available:
+
+	fasta3.exe	protein-protein or DNA-DNA database searches
+	ssearch3.exe	Smith-Waterman for prot-prot or DNA-DNA searches
+	fastx3.exe	compare DNA query to protein library with frameshifts
+	fasty3.exe	compare DNA query to protein library with frameshifts
+	tfastx3.exe	compare protein to DNA library with frameshifts
+	tfasty3.exe	compare protein to DNA library with frameshifts
+	tfasta3.exe	compare protein to DNA library in 6 frames
+	prss3.exe	compare unshuffled and shuffled Smith-Waterman scores
+
+The programs have been tested with protein and DNA databases in FASTA
+format, PIR/GCG-text format, and Genbank flatfile format.  The program
+does not work properly with GCG binary format databases, but it seems
+unlikely that Windows users would need these. 
+
+Be certain to use an program that can work with long file names when
+unpacking the program source files.
+
+Please report bugs to:
+
+	wrp@virginia.edu

@@ -1,0 +1,46 @@
+
+SAGA FORMAT
+alignement  4enl_ref1.t_coffee_aln10 nseq=3 len=435
+T_COFFEE ALIGNMENT
+CPU TIME:10060
+
+
+
+4enl  -avskvyarsvydsrgnptv-evelttekgvfrsivpsgastgvhealem
+1mucA -alieridaiivd---lptirphklamhtmqqqtlv----------vlrv
+2mnr  evlitglrtravn---vplaypvhtavgtvgtaplv----------lidl
+
+4enl  rdgdkskwmgkgvlhavknvndviapafvkanidvsdqkavddflisldg
+1mucA rcsdgvegigeattigglayg-yespegikanidahla----paliglaa
+2mnr  atsagv--vghsylfaytpva-lkslkqllddmaamiv---neplapvsl
+
+4enl  tankskl----------ganailgvslaasraaaaeknvplykhladlsk
+1mucA dninaamlkldklakgn-tfaksgiesalldaqgkrlglpvsell-----
+2mnr  eamlakrfclagytgli-rmaaagidmaawdalgkvhetplvkll-----
+
+4enl  sktspyvlpvpflnvlnggshaggalalqefmiaptgaktfaealrigse
+1mucA -----------------gg------rvrdslevawtlas--gdtardiae
+2mnr  -----------------ga------narp-vq-aydshs--ldgvklate
+
+4enl  vyhnlksltkkrygasagnvgdeggvapniqtaeealdlivdaikaaghd
+1mucA arhmleirrhrvfklkiganpveqdlkhvvtikrelgdsasvrvdvnqyw
+2mnr  ravtaaelgfravktkigypaldqdlavvrsirqavgddfgimvdynqsl
+
+4enl  gkvkigldcasseffkdgkydldfknpnsdkskwltgpqladlyhslmkr
+1mucA desqairacq---vlgdngid------------lieqpisrinrggqvrl
+2mnr  dvpaaikrsq---alqqegvt------------wieeptlqhdyeghqri
+
+4enl  ypivsiedpfaeddweawshffktagiqivaddltvtnpkriataiekka
+1mucA nqrtpapimades-iesvedafslaad---------------------ga
+2mnr  qsklnvpvqmgen-wlgpeemfkalsi---------------------ga
+
+4enl  adalllkvnqigtlsesikaaqdsfaagwgvmvsh--rsgetedtfiadl
+1mucA asifalkiaknggpravlrtaqiaeaagigl-yggtmlegsigtlasaha
+2mnr  crlampdamkiggvtgwirasalaqqfgipm-sshlfqeisahllaatpt
+
+4enl  vvglrtgqiktgaparserlaklnqllrieeelgd
+1mucA fltlr--qltwgtelfgpll--lteeivnepp---
+2mnr  ahwle--rldlagsvieptl--tfegg--------
+
+
+

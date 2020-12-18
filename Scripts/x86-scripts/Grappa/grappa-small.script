@@ -1,0 +1,17 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Grappa/
+file=$BIOPERF/Outputs/Grappa/out09fm
+if [ -r $file ]
+then
+echo Deleting previous output file
+rm $file
+fi
+
+#dir2="$BIOPERF/Outputs/Grappa/out09fm"
+#if (-e $dir2) then
+#        rm $BIOPERF/Outputs/Grappa/out09fm
+#    endif
+./grappa -f $BIOPERF/Inputs/Grappa/class-A/camp09_full -o $BIOPERF/Outputs/Grappa/out09fm -m
+
+echo The output has been stored as camp09_full in /home/vipin/final-BioPerf/Outputs/Grappa

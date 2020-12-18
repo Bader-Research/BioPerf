@@ -1,0 +1,60 @@
+//    Copyright (c) 1997-99 by Arthur Delcher, Steven Salzberg, Simon
+//    Kasif, and Owen White.  All rights reserved.  Redistribution
+//    is not permitted without the express written permission of
+//    the authors.
+
+Program  build-icm.c  creates and outputs an interpolated Markov
+model (IMM) as described in the paper
+  A.L. Delcher, D. Harmon, S. Kasif, O. White, and S.L. Salzberg.
+  Improved Microbial Gene Identification with Glimmer.  
+  Nucleic Acids Research, 1999, in press.
+Please reference this paper if you use the system as part of any
+published research.
+
+Input comes from the file named on the command-line.  Format should be
+one string per line.  Each line has an ID string followed by white space
+followed by the sequence itself.  The script run-glimmer2 generates
+an input file in the correct format using the 'extract' program.
+
+The IMM is constructed as follows: For a given context, say
+acgtta, we want to estimate the probability distribution of the
+next character.  We shall do this as a linear combination of the
+observed probability distributions for this context and all of
+its suffixes, i.e., cgtta, gtta, tta, ta, a and empty.  By
+observed distributions I mean the counts of the number of
+occurrences of these strings in the training set.  The linear
+combination is determined by a set of probabilities, lambda, one
+for each context string.  For context acgtta the linear combination
+coefficients are:
+    lambda (acgtta)
+    (1 - lambda (acgtta)) x lambda (cgtta)
+    (1 - lambda (acgtta)) x (1 - lambda (cgtta)) x lambda (gtta)
+    (1 - lambda (acgtta)) x (1 - lambda (cgtta)) x (1 - lambda (gtta)) x lambda (tta)
+                   :
+    (1 - lambda (acgtta)) x (1 - lambda (cgtta)) x (1 - lambda (gtta)) 
+             x (1 - lambda (tta))  x (1 - lambda (ta))  x (1 - lambda (a))
+
+We compute the lambda values for each context as follows:
+  - If the number of observations in the training set is >= the constant
+    SAMPLE_SIZE_BOUND, the lambda for that context is 1.0
+  - Otherwise, do a chi-square test on the observations for this context
+    compared to the distribution predicted for the one-character shorter
+    suffix context.
+    If the chi-square significance < 0.5, set the lambda for this context to 0.0
+    Otherwise set the lambda for this context to:
+       (chi-square significance) x (# observations) / SAMPLE_WEIGHT
+
+To compile the program:
+
+      g++ build-icm.c -lm -o build-icm
+
+  Uses include files  delcher.h  context.h  strarray.h  gene.h
+
+To run the program:
+
+      build-icm <train.seq >train.model
+
+  This will use the training data in train.seq to produce the file
+  train.model, containing your IMM.
+
+

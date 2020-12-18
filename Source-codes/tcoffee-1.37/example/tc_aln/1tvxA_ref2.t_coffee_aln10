@@ -1,0 +1,50 @@
+
+SAGA FORMAT
+alignement  1tvxA_ref2.t_coffee_aln10 nseq=19 len=95
+T_COFFEE ALIGNMENT
+CPU TIME:264640
+
+
+
+1tvxA      --g---ihp-kn--iqslevigkgthcnqveviatlk-dgr---ki-cld
+1plfA      --g---inp-rh--isslevigaglhcpspqliatlk-tgr---ki-cld
+1mgsA      --g---ihp-kn--iqsvnvkspgphcaqteviatlk-ngr---ka-cln
+GRO_RAT    --g---ihf-kn--iqslkvmppgphctqteviatlk-ngr---ea-cld
+AMC2_PIG   --g---ihp-km--isdlqvipagpqcskaeviatlk-ngk---ev-cld
+GRO2_RABIT --g---ihl-kn--iqsvkvttpgphcdqteviaslk-tgq---ev-cln
+PF4L_PIG   --g---ihp-sn--iqsleviragahcakveviatlk-ndk---ki-cld
+mi2b_rat   -pr---vdf-en--iqsltvtppgphctqteviatlk-dgq---ev-cln
+lix_mouse  -pk---inp-kl--ianlevipagpqcptveviaklk-nqk---ev-cld
+emfi_chick skf---ihp-ks--iqdvkltpsgphcknveiiatlk-dgr---ev-cld
+gro1_rabit -qg---ihl-kn--iqnlkvlspgphcaqteviatlk-sgq---ea-crn
+gcp2_human -lr---vnp-kt--igklqvfpagpqcskvevvaslk-ngk---qv-cld
+il8_pig    stp---fhp-kf--ikelrviesgphcenseiivklv-ngk---ev-cld
+mig_mouse  r-g--tihy-ks--lkdlkqfapspncnkteiiatlk-ngd---qt-cld
+inig_rat   eqt---lrp-ra--igkleiipaslscphveiiatmkknne---kr-cln
+1prtF      --p---thlyknftvqelalklkgk--nqefcltafm-sgrslvra-cls
+1sap       -------dt-sk--ikkv--wrvgkmvsft-yddngk-tgr---ga-vse
+1lt5D      -tqiytind-ki--lsytesm-ag---kremviitfk-sge---tfqvev
+1btn       ------------------e------------vpvslk-ea------icev
+
+1tvxA      pdapri----kkivqkk-lagd-----------------------
+1plfA      qqnply----kkiikrl-lks------------------------
+1mgsA      paspiv----kkiiekm-lnsdks-----------n---------
+GRO_RAT    peapmv----qkivqkm-lkgvpk---------------------
+AMC2_PIG   pkapli----kkivqkm-ldsgkk----------kn---------
+GRO2_RABIT ptapvv----kkiidkm-lnkasa-----------n---------
+PF4L_PIG   peapri----kkivqki-medggs----------aa---------
+mi2b_rat   pqaprl----qkiiqkl-l--------------------------
+lix_mouse  peapvi----kkiiqki-lgsd-----------------------
+emfi_chick ptapwv----qlivkal-ma-------------------------
+gro1_rabit paapmv----kkflqkr-ls-------------------------
+gcp2_human peapfl----kkviqki-l--------------------------
+il8_pig    pkekwv----qkvvqif-l--------------------------
+mig_mouse  pdsanv----kklmke-----------------------------
+inig_rat   peseai----ksllk------------------------------
+1prtF      dagheh----dtwfdtm-lgfai-----------sayalksria-
+1sap       kdap------kelldml-ar-----------aerek--------k
+1lt5D      pgsqhidsq-kkaierm--kd----------tlrityltetki--
+1btn       a----ldykkkkhvfklrlsdgneylfqakddeemntwiqaissa
+
+
+

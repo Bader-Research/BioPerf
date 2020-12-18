@@ -1,0 +1,52 @@
+
+SAGA FORMAT
+alignement  S52_ref5.t_coffee_aln10 nseq=5 len=336
+T_COFFEE ALIGNMENT
+CPU TIME:19600
+
+
+
+THA1_HUMAN ptpeewdlihiateahrstn--a--qg-----------------------
+E75A_DROME elddqprllaavlrahletceftkekv-----------------------
+ROR2_HUMAN smaelehlaqniskshletcqylreel-----------------------
+RRA1_HUMAN ltpevgeliekvrkahqetf--p---------------------------
+EAR1_HUMAN peptvedvisqvarahreiftyahdklgsspgnfnanhasgsppattphr
+
+THA1_HUMAN -------------------------shwkqr-------------------
+E75A_DROME -------------------------samrqr-------------------
+ROR2_HUMAN -------------------------qqitwq-------------------
+RRA1_HUMAN --------------------------alcql-------------------
+EAR1_HUMAN wenqgcppapndnntlaaqrhnealnglrqapssypptwppgpahhschq
+
+THA1_HUMAN -----rkflpddi-----gqsp------------ivsm-----pdgd--k
+E75A_DROME -----ardcpsy--smp----------------tllacplnpapelqs--
+ROR2_HUMAN -----t--------flq----------------eeienyqnkq------r
+RRA1_HUMAN -----gkyttnns-----se-----------------q-----rvsl--d
+EAR1_HUMAN snsnghrlcpthvyaapegkapansprqgnsknvllacpmnmyphgrsgr
+
+THA1_HUMAN vdleafseftkiitpaitrvvdfakklpmfselpcedqiillkgccmeim
+E75A_DROME -----eqefsqrfahvirgvidfagmipgfqlltqddkftllkaglfdal
+ROR2_HUMAN ev--mwqlcaikiteaiqyvvefakridgfmelcqndqivllkagslevv
+RRA1_HUMAN i--dlwdkfselstkciiktvefakqlpgfttltiadqitllkaacldil
+EAR1_HUMAN tvqeiwedfsmsftpavrevvefakhipgfrdlsqhdqvtllkagtfevl
+
+THA1_HUMAN slraavrydpesdtltlsgemavkreqlkngglg-vvsdaifelgkslsa
+E75A_DROME fvrlicmfdssinsiiclngqvmrrdaiqnganarflvdstfnfaermns
+ROR2_HUMAN firmcrafdsqnntvyfdgkya-spdvfkslgce-dfisfvfefgkslcs
+RRA1_HUMAN ilrictrytpeqdtmtfsdgltlnrtqmhnagfg-pltdlvfafanqllp
+EAR1_HUMAN mvrfaslfnvkdqtvmflsrttyslqelgamgmg-dllsamfdfseklns
+
+THA1_HUMAN fnlddtevallqavllmstdrsgllcvdkieksqeayllafehyvnhrkh
+E75A_DROME mnltdaeiglfcaivlitpdrpglrnleliekmysrlkgclqyivaqnrp
+ROR2_HUMAN mhltedeialfsafvlmsadrswlqekvkieklqqkiqlalqhvlqkn-h
+RRA1_HUMAN lemddaetgllsaiclicgdrqdleqpdrvdmlqepllealkvyvrkrrp
+EAR1_HUMAN lalteeelglftavvlvsadrsgmensasveqlqetllralralvlknrp
+
+THA1_HUMAN niphfwpkllmkvtdlrmigachasrflhmkvecp-
+E75A_DROME dqpeflaklletmpdlrtlstlhteklvvfrtehke
+ROR2_HUMAN redgiltklickvstlralcgrhteklmafkaiypd
+RRA1_HUMAN srphmfpkmlmkitdlrsisakgaervitlkmeip-
+EAR1_HUMAN letsrftklllklpdlrtlnnmhsekllsfrvdaq-
+
+
+

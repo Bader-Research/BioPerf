@@ -1,0 +1,28 @@
+#!/bin/bash 
+source $HOME/.bioperf
+if [ -z $DATABASES ]; then       
+echo $'\n'
+echo You cannot run this script without installing Pfam database                      
+ echo Download and install Pfam from  "www.bioperf.org/databases/"                      
+echo Then set the DATABASES environment variable to the directory containing Pfam
+echo $'\n'
+exit
+fi
+if [ -e $DATABASES/Pfam ] 
+then  echo ""
+else
+echo $'\n'  
+echo There is no file named Pfam in $DATABASES
+echo Please check for Pfam again in $DATABASES
+echo $'\n'
+exit
+fi
+
+
+
+cd $BIOPERF/Binaries/PowerPc-Binaries/Hmmer/
+./hmmpfam $BIOPERF/Inputs/Hmmer/hmmpfam/class-C/Pfam $BIOPERF/Inputs/Hmmer/hmmpfam/class-C/Q89F91  > $BIOPERF/Outputs/Hmmer/classC-hmmpfam-output
+echo The output has been stored as classC-hmmpfam-output in $BIOPERF/Outputs/Hmmer
+
+
+

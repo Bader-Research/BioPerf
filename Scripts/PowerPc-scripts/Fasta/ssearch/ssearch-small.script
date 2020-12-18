@@ -1,0 +1,5 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/PowerPc-Binaries/Fasta
+./ssearch34_t -a -b 20 -q -O $BIOPERF/Outputs/Fasta/1absearch $BIOPERF/Inputs/Fasta/ssearch/class-A/1abseq.pep $BIOPERF/Inputs/Fasta/ssearch/class-A/1aboA_ref1.pep
+echo The output has been stored as smalloutput in /Outputs/Fasta

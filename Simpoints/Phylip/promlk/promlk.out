@@ -1,0 +1,38 @@
+Using these options:
+  Number of k-means iterations:       100
+  Low-dimensional projection:         15
+  Number of k-means clusters:         30
+  Early threshold:                    0
+  Random seed for k-means init:       4
+  Type of k-means initialization:     4
+  Random seed for projection:         1
+  File to load projected data:        ../output//promlk.projData
+  File to save labels:                ../output//promlk.labels
+  File to save weights:               ../output//promlk.weights
+  File to save simpoints:             ../output//promlk.simpoints
+  Input data files to process:
+
+Loaded data from projected data file '../output//promlk.projData' (size: 1019x15)
+  Initialized k-means centers using furthest-first: 30 centers
+iteration 0
+count: 11	1	54	1	21	30	71	63	37	3	1	47	2	62	60	24	27	44	22	56	33	46	57	53	16	40	52	18	47	20	
+iteration 1
+count: 11	1	48	1	22	28	74	66	38	8	1	42	2	60	58	24	28	45	17	57	36	47	61	55	15	41	49	17	47	20	
+iteration 2
+count: 11	1	46	1	22	27	76	66	38	9	1	42	2	57	58	24	28	46	16	57	37	45	62	58	15	41	49	17	47	20	
+iteration 3
+count: 11	1	45	1	22	27	78	66	38	9	1	40	2	57	58	24	28	46	16	57	37	45	63	58	15	41	49	17	47	20	
+iteration 4
+count: 11	1	45	1	22	27	78	66	38	9	1	38	2	57	58	24	28	46	16	57	39	45	63	58	15	41	49	17	47	20	
+iteration 5
+count: 11	1	45	1	22	27	78	66	38	9	1	37	2	57	58	24	28	46	16	57	40	45	63	58	15	41	49	17	47	20	
+iteration 6
+count: 11	1	45	1	22	27	78	66	38	9	1	37	2	57	58	24	28	46	16	57	40	45	63	58	15	41	49	17	47	20	
+  BIC score: 74896.5
+  Distortion: 0.0240085
+  Distortions/cluster: 0.000833861 0 0.000599853 0 0.00049847 0.000504519 0.00451242 0.00132035 0.00065838 0.00036236 0 0.000476875 2.74269e-07 0.000927788 0.00343558 0.000348713 0.000591774 0.000719801 0.000135043 0.00159784 0.00103982 0.000565517 0.0010878 0.0010586 0.000185588 0.000997131 0.00058693 0.00015577 0.000612108 0.000195306 
+  Variance: 2.42755e-05
+  Variances/cluster: 8.33861e-05 0 1.3633e-05 0 2.37367e-05 1.94046e-05 5.86029e-05 2.03131e-05 1.7794e-05 4.52951e-05 0 1.32465e-05 2.74269e-07 1.65676e-05 6.02734e-05 1.51615e-05 2.19176e-05 1.59956e-05 9.00286e-06 2.85329e-05 2.6662e-05 1.28527e-05 1.75452e-05 1.85719e-05 1.32563e-05 2.49283e-05 1.22277e-05 9.73563e-06 1.33067e-05 1.02793e-05 
+  Saving simpoints to file '../output//promlk.simpoints'
+  Saving labels and distance from center of each input point to file '../output//promlk.labels'
+  Saving weights of each cluster to file '../output//promlk.weights'

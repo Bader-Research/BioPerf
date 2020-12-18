@@ -1,0 +1,153 @@
+
+SAGA FORMAT
+alignement  kinase2_ref5.t_coffee_aln10 nseq=12 len=525
+T_COFFEE ALIGNMENT
+CPU TIME:350100
+
+
+
+1finA      --nfqkvekigegtygvvykar--nkl---t---g--------evvalkk
+kc2a_caeel -ddyqlvrklgrgkysevfegf--kms---t---d--------ekvvvki
+kc21_yeast tkdyeienkvgrgkysevfqgv--kld---s---k--------vkivikm
+kg3b_human evsytdtkvigngsfgvvyqak--lcd---s---g--------elvaikk
+sme1_yeast sdryqlieklgagsfgcvtlakaqfpl---snilgk-------qhdirgt
+erk1_human gprytqlqyigegaygmvssay--dhv---r---k--------trvaikk
+mp38_mouse peryqnlspvgsgaygsvcaaf--dtk---t---g--------hrvavkk
+e318801    akryekldflgegqfatvykar--dkn---t---n--------qivaikk
+cc2c_drome ldnfqraekigegtygivykar--sns---t---g--------qdvalkk
+kr1_hsv11  gmgftihgaltpgsegcvfdss--hpd---y---p--------qrvivka
+cc7_yeast  eneyklidkigegtfssvykak--ditgkitkkfashfwnygsnyvalkk
+yak1_yeast nrkylvldilgqgtfgqvvkcq--nll---t---k--------eilavkv
+
+1finA      ir-ld--t-et-----egvps--------------taireisllkeln--
+kc2a_caeel lk--p--v-kk-----k------------------kikreikilenlr--
+kc21_yeast lk--p--v-kk-----k------------------kikreikiltdlsne
+kg3b_human vl-qd--k---rf-----------------------knrelqimrkld--
+sme1_yeast lmdqpknghqnyitktqgvvaiktmmtklhtlqdytrvreikfilaip--
+erk1_human is--p--f-eh-----qtycq--------------rtlreiqillrfr--
+mp38_mouse ls-rp--f-qs-----iihak--------------rtyrelrllkhmk--
+e318801    ik-lg--h-rseak--dginr--------------talreikllqels--
+cc2c_drome ir-le--g-et-----egvps--------------taireisllknlk--
+kr1_hsv11  g-----------------wyt--s------------tshearllrrld--
+cc7_yeast  i----------------yvts--sp--q-------riynelnllyimt--
+yak1_yeast vk-sr--t-eyl---tqsit-------------------eakilelln-q
+
+1finA      -------------------------------------hpn-ivklldvih
+kc2a_caeel ------------------------------------ggtn-iitlldvvk
+kc21_yeast kvppttlpfqkdqyytnqkedvlkfirpyifdqphnghan-iihlfdiik
+kg3b_human -------------------------------------hcn-ivrlryffy
+sme1_yeast ------------------------------------andh-liqifevfi
+erk1_human -------------------------------------hen-vigirdilr
+mp38_mouse -------------------------------------hen-viglldvft
+e318801    -------------------------------------hpn-iiglldafg
+cc2c_drome -------------------------------------hpn-vvqlfdvvi
+kr1_hsv11  -------------------------------------hpa-ilplldlhv
+cc7_yeast  -------------------------------------gssrvaplcdakr
+yak1_yeast kid------------------------------ptn-khh-flrmydsfv
+
+1finA      ten------k--lylvfeflh-qdlkkfmda--saltgiplpliksylfq
+kc2a_caeel dpis---rtp---alifehvnnsdfkqly-------qtlsdydiryylye
+kc21_yeast dpis---ktp---alvfeyvdnvdfrily-------pkltdleirfymfe
+kg3b_human ssge--kkdevylnlvldyvp-etvyrvarhysrakqtlpviyvklymyq
+sme1_yeast dsen---yq---lhivmecme-qnlyqmmkh--rrrrvfsipslksilsq
+erk1_human ast-leamrd--vyivqdlme-tdlykllks--qq---lsndhicyflyq
+mp38_mouse parsleefnd--vylvthlmg-adlnnivkc--qk---ltddhvqfliyq
+e318801    hks------n--islvfdfme-tdleviikd--nsl-vltpshikaymlm
+cc2c_drome sgn------n--lymifeyln-mdlkklmdk--kk-dvftpqliksymhq
+kr1_hsv11  vsg------v--tclvlpkyq-adlytylsr---rlnplgrpqiaavsrq
+cc7_yeast  vrd------q--viavlpyypheefrtfy-------rdlpikgikkyiwe
+yak1_yeast hkn------h--lclvfells-nnlyellkq--nkfhglsiqlirtfttq
+
+1finA      llqglafchshrvlhrdlkpqnllinte------------g-----aikl
+kc2a_caeel llkaldfchsqgimhrdvkphnvmidae------------k----relrl
+kc21_yeast llkaldychsmgimhrdvkphnvmidhk------------n----kklrl
+kg3b_human lfrslayihsfgichrdikpqnllldpd------------t----avlkl
+sme1_yeast ilaglkhihehnffhrdlkpenilitpstqyfekeymnqigyqdnyvikl
+erk1_human ilrglkyihsanvlhrdlkpsnllintt------------c-----dlki
+mp38_mouse ilrglkyihsadiihrdlkpsnlavned------------c-----elki
+e318801    tlqgleylhqhwilhrdlkpnnlllden------------g-----vlkl
+cc2c_drome ildavgfchtnrilhrdlkpqnllvdta------------g-----kikl
+kr1_hsv11  llsavdyihrqgiihrdiktenifintp------------e-----dicl
+cc7_yeast  llralkfvhskgiihrdikptnflfnle------------l----grgvl
+yak1_yeast ildslcvlkesklihcdlkpenillcap---------------dkpelki
+
+1finA      adfglarafgv--------------------------------p--v---
+kc2a_caeel idwglaefyh---------------------------------p--r---
+kc21_yeast idwglaefyh---------------------------------v--n---
+kg3b_human cdfgsakqlvr--------------------------------g------
+sme1_yeast adfglarhven--------------------------------k------
+erk1_human cdfglariadp--------------------------------e--h---
+mp38_mouse ldfglarhtdd--------------------------------e--m---
+e318801    adfglaksfgs--------------------------------p--n---
+cc2c_drome adfglarafnv--------------------------------p--m---
+kr1_hsv11  gdfgaacfvqg---------------------------------------
+cc7_yeast  vdfglaeaqmdyksmissqndydnyantnhdggysmrnheqfcpcimrnq
+yak1_yeast idfgsscee----------------------------------a--r---
+
+1finA      ------------------------------------------rtythevv
+kc2a_caeel ------------------------------------------qdynvrva
+kc21_yeast ------------------------------------------meynvrva
+kg3b_human ----------------------------------ep--------nvsyic
+sme1_yeast ------------------------------------------npytayvs
+erk1_human ----------------------------------dh-t----gflteyva
+mp38_mouse ---------------------------------------------tgyva
+e318801    ------------------------------------------raythqvv
+cc2c_drome ------------------------------------------raythevv
+kr1_hsv11  ----------------------------------sr-s----spfpygia
+cc7_yeast  yspnshnqtppmvtiqngkvvhlnnvngvdltkgypknetrrikranrag
+yak1_yeast ------------------------------------------tvyt-yiq
+
+1finA      -tlwyrapeillgckyystavdiwslgcifaem-vtrr-alf--p-gds-
+kc2a_caeel -sryfkgpellvdyqcydysldmwslgcmlasm-ifrkepff--h-ghd-
+kc21_yeast -srffkgpellvdyrmydysldlwsfgtmlasm-ifkrepff--h-gts-
+kg3b_human -sryyrapelifgatdytssidvwsagcvlael-llgq-pif--p-gds-
+sme1_yeast -trwyrspeillrsgyyskpldiwafgcvavev-tvfr-alf--p-gan-
+erk1_human -trwyrapeimlnskgytksidiwsvgcilaem-lsnr-pif--p-gkh-
+mp38_mouse -trwyrapeimlnwmhynqtvdiwsvgcimael-ltgr-tlf--p-gtd-
+e318801    -trwyrapellfgarmygvgvdmwavgcilael-llrv-pfl--p-gds-
+cc2c_drome -tlwyrapeillgtkfystgvdiwslgcifsem-imrr-slf--p-gds-
+kr1_hsv11  gtidtnapevlagdp-ytttvdiwsaglvifetavhna-slfsaprgpkr
+cc7_yeast  -trgfrapevlmkcgaqstkidiwsvgvillsl-lgrrfpmf--q-sld-
+yak1_yeast -srfyrapeiilgip-ystsidmwslgcivael-flgi-pif--p-gas-
+
+1finA      -eid-qlfrifrtlgtpd-evvw--pgvts-----mp----------d-y
+kc2a_caeel -nyd-qlvriakvlgtde-lyeyiaryhid-----ld---------pr-f
+kc21_yeast -ntd-qlvkivkvlgtsd-fekyllkyeit-----lp---------re-f
+kg3b_human -gvd-qlveiikvlgtpt-reqi--remn-------p----------n-y
+sme1_yeast -eid-qiwkilevlgtpikrsdfvntnhit-----apppggfwddasn-l
+erk1_human -yld-qlnhilgilgsps-qedl--nciin-----mk--------arn-y
+mp38_mouse -hid-qlklilrlvgtpg-aell--kkiss-----es--------arn-y
+e318801    -dld-qltrifetlgtpt-eeqw--pdmcs-----lp----------d-y
+cc2c_drome -eid-qlyrifrtlstpd-etnw--pgvtq-----lp----------d-f
+kr1_hsv11  gpcdsqitriirqaqvhv-defs-phpesr-----ltsr--yr--sra-a
+cc7_yeast  -dad-sllelctifgwk-elrk-c---aalhglgf-easgliwd-kpngy
+yak1_yeast -eyn-qltriidtlgypp-swmi-dmgknsg--kfmk----------k-l
+
+1finA      kp-------sfpkwar-qdfskvvp-----------pl-dedgrsllsqm
+kc2a_caeel ndi-------lgrhsr-krwerfihaen------qhlvt-pealdfldkl
+kc21_yeast yd--------mdqyir-kpwhrfindgn------khlsgndeiidlidnl
+kg3b_human tef------kfpqika-hpwtkvfrp----------rt-ppeaialcsrl
+sme1_yeast vhklnl---klpyveg-ssldhllss----------sq-lsdlsevvkkc
+erk1_human lq-------slpsktk-vawaklfp-----------ks-dskaldlldrm
+mp38_mouse iq-------slaqmpk-mnfanvfi-----------ga-nplavdllekm
+e318801    vtc--k---sfpg----iplhhifs-----------aa-gddlldliqgl
+cc2c_drome kt-------kfprweg-tnmpq--p-----------it-eheahelimsm
+kr1_hsv11  ---g-n---nrppytr-pawtryyk------------m-didveylvcka
+cc7_yeast  sn-glk-efvydllnk-ectigtfpeysvafetf-gfl-qqelhdrmsie
+yak1_yeast ape-ess--sstqkhrmktieefcreynivekpskqyfkwrklpdiir-n
+
+1finA      l-hydpnkrisakaalahpffqdv-
+kc2a_caeel l-rydhaerltaqeamgheyfrpv-
+kc21_yeast l-rydhqerltakeamghpwfapi-
+kg3b_human l-eytptarltpleacahsffdel-
+sme1_yeast l-rwdpnerataqelcempffent-
+erk1_human l-tfnpnkritveealahpyleqy-
+mp38_mouse l-vldsdkritaaqalahayfaqy-
+e318801    f-lfnpcaritatqalkmkyfsnr-
+cc2c_drome l-cydpnlrisakdalqhayfrnv-
+kr1_hsv11  l-tfdgalrpsaaellclplfqqk-
+cc7_yeast  pqlpdpktnmdavdayelk------
+yak1_yeast y-ryp--ksiqnsqelidqemqnre
+
+
+

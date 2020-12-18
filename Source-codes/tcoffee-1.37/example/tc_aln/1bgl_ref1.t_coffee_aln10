@@ -1,0 +1,115 @@
+
+SAGA FORMAT
+alignement  1bgl_ref1.t_coffee_aln10 nseq=4 len=1013
+T_COFFEE ALIGNMENT
+CPU TIME:124420
+
+
+
+bgal_klepn -tpdfhavlaredwhnqtithlnrlpahpvfaswrdelaardnlpssrrr
+bgal_strtr mtekiqtyln--dpkivsvntvdahsdhkyfesl-eefsege---mklrq
+bga2_ecoli --------mnr--weniqlthenrlaprayffsydsvaqartfatsslfl
+bgal_klula --------lipenlrnpkkvhenrlptrayyydq-----d-------ife
+
+bgal_klepn qldgsgssltpaarlpsmr-vvtqdlpdcrgtpvpsnwqmegydapiytn
+bgal_strtr slngkwkihyaqntnqvlkdfyktefdetdfinvpghlelqgfgspqyvn
+bga2_ecoli plsgqwnfhffdhplqvpeaftselmadwghitvpamwqmeghgklqytd
+bgal_klula slngpwafalfdapldapdnldwetakkwstisvpshwelqkygkpiytn
+
+bgal_klepn vrypidttpprvpednptgcyslhftve-dtwrengqtqiifdgvnsafh
+bgal_strtr tqypwdlrppqvpqsnavasyvkhftln-dalk-dkkvfisfqgvatsif
+bga2_ecoli egfpfpidvpfvpsdnptgayqriftls-dgwq-gkqtlikfdgvetyfe
+bgal_klula vqypipidipnpptvnptgvyartfeldsksie-sfehrlrfegvdncye
+
+bgal_klepn lwcngvwvgysqdsrlpaafdlspflrpgdnrlcvmvmrwsagswledqd
+bgal_strtr vwvngnfvgysedsftpsefeisdylvegdnklavavyrystaswledqd
+bga2_ecoli vyvngqyvgfskgsrltaefdisamvktgdnllcvrvmqwadstyvedqd
+bgal_klula lyvngqyvgfnkgsrngaefdiqkyvsegenlvvvkvfkwsdstyiedqd
+
+bgal_klepn mwrmsgifrsvwllnkpqqrlcdvqltpaldalyrdgtlqatieateaal
+bgal_strtr fwrlygifrdvylyaipkvhvqdlfvkgdydyqtkagqldidlktvgdye
+bga2_ecoli mwwsagifrdvylvgkhlthindftvrtdfdeaycdatlscevvlenlaa
+bgal_klula qwwlsgiyrdvsllklpkahiedvrvtttfvdqyqdaelsvkvdvqgssy
+
+bgal_klepn aglsvgvslwrgee--qfaagrqplgtptvderghyaervdfslavatpa
+bgal_strtr d-kkikyvlsdyegivtegdasvngdge-lsvs------le-nlki-kp-
+bga2_ecoli spvvttltlfdge---rvvhssaid-----hlaiekltsatfaftveqpq
+bgal_klula dhi--nftlyepedgskvydassllneefisfstkkneetafkinvkape
+
+bgal_klepn hwsaetpncyravvtlwrgd-elleaeawdigfrrieiadgllrlngkpl
+bgal_strtr -wsaespklydlilhvlddd-qvvevvpvkvgfrrfeikdklmllngkri
+bga2_ecoli qwsaespylyhlvmtlkdangnvlevvpqrvgfrdikvrdglfwinnryv
+bgal_klula hwtaenptlykyqldligsdgsviqsikhhvgfrqvelkdgnitvngkdi
+
+bgal_klepn lirgvnrhehhhlrgqvvteadmvqdillmkqnnfnavrcshypnaprwy
+bgal_strtr vfkgvnrhefnartgrciteedmlwdikvmkqhninavrtshypnqtrwy
+bga2_ecoli mlhgvnrhdndhrkgravgmdrvekdlqlmkqhninsvrtahypndprfy
+bgal_klula lfrgvnrhdhhprfgravpldfvvrdlilmkkfninavrnshypnhpkvy
+
+bgal_klepn elcnryglyvvdeaniethgmvpmnrlsddpawlpafsarvtrmvqsnrn
+bgal_strtr elcdeyglyvideanlethgtwqwnipasepewlpacldrannmfqrdkn
+bga2_ecoli elcdiyglfvmaetdveshgfadisritddpqwekvyverivrhihaqkn
+bgal_klula dlfdklgfwvideadlethgvqeahylsdnpeyevayldrasqlvlrdvn
+
+bgal_klepn hpciiiwslgnesggggnhealyhwlkrndpsrpvqyegggadttatdii
+bgal_strtr hasviiwscgnesyagkdiadmadyfrsvdntrpvhyegvawcreitdie
+bga2_ecoli hpsiiiwslgnesgygcniramyhaakrlddtrlvhyeed-rdaevvdii
+bgal_klula hpsiiiwslgneacygrnhkamyklikqldptrlvhyegd-lnalsadif
+
+bgal_klepn cpmyarverdqpipavpkwgikkwi-slpgeqrplilceyahamgnslgn
+bgal_strtr srmyakpadieeylttgklvdlssvs-tnkpqkpyisceymhtmgnsggg
+bga2_ecoli stmytrvp------lmnefg-----e-yph-pkpriiceyahamgngpgg
+bgal_klula sfmyptfe------imerwr-knhtdengkfekplilceyghamgngpgs
+
+bgal_klepn fadywqafreyprlqggfiwdwadqairktfadgsvgwayggdfgdkpnd
+bgal_strtr lqlytd-lekypeyqggfiwdfidqaiyktlpngseflsyggdwhdrpsd
+bga2_ecoli lteyqnvfykhdciqghyvwewcdhgiqaqddhgnvwykfggdygdypnn
+bgal_klula lkeyqelfykekfyqggfiwewanhgiefedvstadgyayggdfkeevhd
+
+bgal_klepn rqfcmnglvfpdrtphpslveakhaqqyfqftlsplrvriiseylfrptd
+bgal_strtr yefcgngivfadrtltpklqtvkhlysnikiavdeksvtikndnlfedls
+bga2_ecoli ynfcldgliysdqtpgpglkeykqvvkihardltrgelkvenklwfttld
+bgal_klula gvfimdglcnsehnptpglveykkviepvhikiahgsvtitnkhdfittd
+
+bgal_klepn nevvrwqvqaageplyhgdltlalppegsdeitldslilpegaravwltl
+bgal_strtr aytflarvyedgrkvseseyhfdvkpgeeatfpvnfvveasnseqiye-v
+bga2_ecoli dytlhaevraegeslatqqikldvapnseaqitlp---ql-dareaflni
+bgal_klula hllfid--kdtgktidvp----slkpe--esvtip-----sdt-----ty
+
+bgal_klepn evtqpqatawseaehrvawqqfplpaplgcrrppclpalp-dlivsdevw
+bgal_strtr acvlreatewapkgheivrgqyvvek----istetpvkaplnvvegdfni
+bga2_ecoli tvtkdsrtryseaghpiatyqfplkentaqpvpfapnnar-pltleddrl
+bgal_klula vvakdd-agvlkagheiawgqaelplkvpdfvtetaekaa-kindgkryv
+
+bgal_klepn qiragsqcwtidrrtgllsrwsvggqeqlltplrdqfirapldndigvse
+bgal_strtr giqgqnfsillsraqntlvsakyngvefiekgpklsftraytdndr-gag
+bga2_ecoli sctvrgynftfskmsgkptswqvngeslltrepkinffkpmmidnhk-qe
+bgal_klula svessglhfildkllgkieslkvkgkeskfegssitfwrpptnnde-prd
+
+bgal_klepn veridpnawverwrsaglydleahcvqcdaqr-lanetlvdc--------
+bgal_strtr ypfe--------magwkvagnyskvtdtqiqi-ed-dsvkvtyvhelpgl
+bga2_ecoli yegl--------wqpnhlqimqehlrdfaveq-sdgevliisr-tv---i
+bgal_klula fkn---------wkkynidlmkqnihgvsvekgsngslavvtvnsr---i
+
+bgal_klepn ---rwhylrgeevvivshwrmhftadgtlrlavdgeraetlpplprvglh
+bgal_strtr sdvevkv--tyq----------vdykgrifvtanydgkaglpnfpefgle
+bga2_ecoli appvfdf--gmrctyr------iaadgqvnvalsgerygdyphipcigft
+bgal_klula spvvfyy--gfetvqk--ytifanknlntsmkltgeyqp--pdfprvgye
+
+bgal_klepn fqvadqqapvswlglgphenypdrrssacfarweqplaamttpyifpten
+bgal_strtr faigsqftnlsyygygaeesyrdklpgaylgryetsvektfapylmpqes
+bga2_ecoli mgingeydqvayygrgpgenyadsqqaniidiwrqavdamfenypfpqnn
+bgal_klula fwlgdsyesfewlgrgpgesypdkkesqrfglydskdveefv-ydypqen
+
+bgal_klepn glrcdtqaldwgrwhisghfhfsvqpwstrqlmetdhwhkmqaedgvwit
+bgal_strtr gnhygtreftvsddnhngafefsalrnsteqienarhqyelqesdatwik
+bga2_ecoli gnrqhvrwtaltnrhgngpinfsawhytqenihaaqhcnelqrsdditln
+bgal_klula gnhtdthflnikffqkekpfnfkis--deygvdeaahacdvkrygrhylr
+
+bgal_klepn ldglhmgvggdds
+bgal_strtr vlaaqmgvggddt
+bga2_ecoli ldhqllglgsn--
+bgal_klula ldhaihgvgse--
+
+
+

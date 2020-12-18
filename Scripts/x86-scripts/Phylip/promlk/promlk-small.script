@@ -1,0 +1,29 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Phylip
+file=$BIOPERF/Binaries/x86-Binaries/Phylip/infile
+if [ -r $file ]
+then 
+echo Deleting previous infile in the Binary directory
+rm $file
+ln -s $BIOPERF/Inputs/Phylip/promlk/class-A/test2 $BIOPERF/Binaries/x86-Binaries/Phylip/infile
+else 
+ln -s $BIOPERF/Inputs/Phylip/promlk/class-A/test2 $BIOPERF/Binaries/x86-Binaries/Phylip/infile
+fi
+
+file2=$BIOPERF/Binaries/x86-Binaries/Phylip/outfile
+file3=$BIOPERF/Binaries/x86-Binaries/Phylip/outtree
+
+if [ -r $file2 ] 
+then 
+rm $file2
+fi
+
+if [ -r $file3 ]
+then 
+rm $file3
+fi
+./promlk
+mv $file2  $BIOPERF/Outputs/Phylip/dnapenny-outfile
+mv $file3  $BIOPERF/Outputs/Phylip/dnapenny-outtree
+echo The output has been stored as classA-promlk-outfile and classA-promlk-outtree in $BIOPERF/Outputs/Phylip

@@ -1,0 +1,12 @@
+#!/bin/bash
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/PowerPc-Binaries/Ce/
+if [ -d $BIOPERF/Outputs/Ce/ce.output ] 
+then  echo ""
+else
+echo Making output directory $BIOPERF/Outputs/Ce/ce.output
+mkdir $BIOPERF/Outputs/Ce/ce.output
+fi
+./CE - $BIOPERF/Inputs/Ce/1hba.pdb - $BIOPERF/Inputs/Ce/4hhb.pdb - $BIOPERF/Outputs/Ce/ce.output
+echo The output has been stored as ce.output in $BIOPERF/Outputs/Ce
+

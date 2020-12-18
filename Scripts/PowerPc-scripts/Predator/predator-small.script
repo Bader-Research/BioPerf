@@ -1,0 +1,5 @@
+#!/bin/bash 
+source $HOME/.bioperf 
+cd $BIOPERF/Binaries/PowerPc-Binaries/Predator
+./predator $BIOPERF/Inputs/Predator/class-A/Q89F91 -u -h -a -f$BIOPERF/Outputs/Predator/classA-predator
+echo The output has been stored as classA-predator in /Outputs/Predator

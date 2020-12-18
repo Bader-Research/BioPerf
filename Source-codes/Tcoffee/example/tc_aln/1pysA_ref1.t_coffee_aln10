@@ -1,0 +1,40 @@
+
+SAGA FORMAT
+alignement  1pysA_ref1.t_coffee_aln10 nseq=4 len=282
+T_COFFEE ALIGNMENT
+CPU TIME:10578
+
+
+
+SYFA_THETH rvdvslpgaslfsgglhpitlmerelveifralgyqavegpeveseffnf
+SYFA_HAEIN rvdvslpgrkvetgglhpvtmtinrvtkffselgfsvengpeiesdyynf
+SYFA_BACSU -idvtlpgnpvavggrhpltvvieeiedlfigmgytveegpevetdyynf
+SYFA_MYCGE sldvmlpateftngsnnalyqvidnlveyfksflftinfdseltsisdcf
+
+SYFA_THETH dalnipehhpardmwdtfwltgegfrlegplgeevegrlllrth---tsp
+SYFA_HAEIN dalnipkhhparadhdtfwfn-----------pe----lllrtq---tsg
+SYFA_BACSU eslnlpkehpardmqdsfyit-----------ee----tlmrtq---tsp
+SYFA_MYCGE dllnipkdhssrnesdsfyid-----------kt----sllrthctattl
+
+SYFA_THETH mqvrymvaht-p--pfrivvpgrvfrfeqtdatheavfhqleglvvgegi
+SYFA_HAEIN vqirtmekmq-p--pirimapgrvyrndy-dqthtpmfhqiellyvdkka
+SYFA_BACSU vqtrtmekhe-gkgpvkiicpgkvyrrdnddathshqfmqieglvvdkni
+SYFA_MYCGE kavrtskktnnp--dirvvslgavfrndsddathshqftqldfmwikkgl
+
+SYFA_THETH amahlkgaiyelaqalfgpdskvrfqpvyfpfvepgaqfavw-wp--egg
+SYFA_HAEIN nftelkgllhdflraffeedlqvrfrpsyfpftepsaevdvm----gkng
+SYFA_BACSU smsdlkgtlelvakkmfgqdreirlrpsffpftepsvevdvtcfkcggng
+SYFA_MYCGE slanlkwfinnmithffgentftrfrlshfpftepsfeidircwl-cqng
+
+SYFA_THETH -------kwlelggagmvhpkvfqavdayrerlglppayrgvtgfafglg
+SYFA_HAEIN -------kwlevlgcgmvhpnvlrnv-------gidpne--ysgfavgmg
+SYFA_BACSU csvckgtgwieilgagmvhpnvlkma-------gfdpke--yqgfafgmg
+SYFA_MYCGE csickqtkwieilgagiihpqvmnnm-------gigdt-enitgiaagig
+
+SYFA_THETH verlamlrygipdiryffggrlkfleqfkgvl
+SYFA_HAEIN verltmlrynvtdlrsffendlrflkqfk---
+SYFA_BACSU veriamlkygiddirhfytndvrfisqfk---
+SYFA_MYCGE ierlamlkygiddirdfydnnfkfltqf----
+
+
+

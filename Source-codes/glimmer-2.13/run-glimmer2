@@ -1,0 +1,16 @@
+echo "run Glimmer2"
+clear
+echo "Genome is " $1
+echo "Find non-overlapping orfs in  tmp.coord"
+rm -f tmp.coord
+long-orfs $1 | get-putative >tmp.coord
+echo "Extract training sequences to  tmp.train"
+rm -f tmp.train
+extract $1 tmp.coord >tmp.train
+wc tmp.train
+echo "Build interpolated context model in  tmp.model"
+rm -f tmp.model
+build-icm <tmp.train >tmp.model
+echo "Predict genes with Glimmer2 with coordinates in  g2.coord"
+rm -f g2.coord
+glimmer2 $1 tmp.model | get-putative >g2.coord

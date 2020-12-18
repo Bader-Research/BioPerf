@@ -1,0 +1,60 @@
+
+SAGA FORMAT
+alignement  1ad3_ref1.t_coffee_aln10 nseq=4 len=459
+T_COFFEE ALIGNMENT
+CPU TIME:26978
+
+
+
+dha2_yeast -------vseksqhdddkavvdisergrllniladlierdrdilaaiehl
+dhac_mouse vdkavkaarqafqigspwrtmdasergcllnkladlmerdrlllatmeal
+dha5_yeast vdkavkaaraafd--nvwsktsseqrgiylsnllklieeeqdtlaaletl
+dhal_ecoli idramsaargvfer-gdwslsspakrkavlnkladlmeahaeelalletl
+
+dha2_yeast dngkpfdeaylldlasvlkelrytagwadklh-gtlrfaitip-tfqdlr
+dhac_mouse nggkvfanaylsdlggcikalkycagwadkih-g-----qtipsdgd--i
+dha5_yeast dagkpyhsnakgdlaqilqltryfagsadkfdkg-----atipltfn--k
+dhal_ecoli dtgkpirhslrddipgaarairwyaeaidkvy-g-----evattssh--e
+
+dha2_yeast flrytrhepvgvcgeiipwnipllmyiwkigpalaagntvvlkpeeltpl
+dhac_mouse -ftytrrepigvcgqiipwnfpmlmfiwkigpalscgntvvvkpaeqtpl
+dha5_yeast -faytlkvpfgvvaqivpwnyplamacwklqgalaagntviikpaentsl
+dhal_ecoli -lamivrepvgviaaivpwnfpllltcwklgpalaagnsvilkpsekspl
+
+dha2_yeast taltvatlikeagfppgvvnvvsgygptagaaclshkdndklaftgstlv
+dhac_mouse talhlaslikeagfppgvvnivpgygptagaaisshmdvdkvaftgstqv
+dha5_yeast sllyfatlikkagfppgvvnivpgygslvgqalashmdidkisftgstkv
+dhal_ecoli sairlaglakeaglpdgvlnvvtgfgheagqalsrhndidaiaftgstrt
+
+dha2_yeast gkvvmkaaaksnlkkvtlelggkspmivfid-adldwavenahfgvffnq
+dhac_mouse gklikeaagksnlkrvtlelggkspcivfad-adldiavefahhgvfyhq
+dha5_yeast ggfvleasgqsnlkdvtlecggkspalvfed-adldkaidwiaagifyns
+dhal_ecoli gkqllkdagdsnmkrvwleaggksanivfadcpdlqqaasataagifynq
+
+dha2_yeast gqcciaqsritvhesiydeiverdlekakkq--vlg--npfesdtrygpq
+dhac_mouse gqccvaasrifveesvydefvkrsverakky--vlg--npltpginqgpq
+dha5_yeast gqnctansrvyvqssiydkfvekfketakkewdvagkfdpfdekcivgpv
+dhal_ecoli gqvciagtrllleesiadeflallkqqaqnw--qpg--hpldpattmgtl
+
+dha2_yeast ilkiefdsiprlinsakaegakvlcgggrd--dscvgyyiqptvfadvtd
+dhac_mouse idkeqhdkildliesgkkegaklecgggrw---gnkgffvqptvfsnvtd
+dha5_yeast isstqydriksyiergkreekldmfqtsefpiggakgyfipptiftdvpq
+dhal_ecoli idcahadsvhsfiregeskgqlll--dgrn--a-glaaaigptifvdvdp
+
+dha2_yeast emriakeeifgpvitisrfksvdeaikrvdntkyglaayvftkd--kair
+dhac_mouse emriakeeifgpvqqimkfksvddvikrannttyglaaglftkdldkait
+dha5_yeast tskllqdeifgpvvvvskftnyddalklandtcyglasavftkdvkkahm
+dhal_ecoli naslsreeifgpvlvvtrftseeqalqlandsqyglgaavwtrdlsrahr
+
+dha2_yeast isaalkagtvwvncvhvasyqipfggnknsgmgrelgeygle--------
+dhac_mouse vssalqagvvwvncyimlsaqcpfggfkmsgngrelgehglyeytelktv
+dha5_yeast fardikagtvwinssndedvtvpfggfkmsgigrelgqsgvdtylqtkav
+dhal_ecoli msrrlkagsvfvnnyndgdmtvpfggykqsgngrdkslhalekftelkti
+
+dha2_yeast ---------
+dhac_mouse amkisqkns
+dha5_yeast hinlsldn-
+dhal_ecoli wi-------
+
+
+

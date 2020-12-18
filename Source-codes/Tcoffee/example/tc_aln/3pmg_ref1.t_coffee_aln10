@@ -1,0 +1,70 @@
+
+SAGA FORMAT
+alignement  3pmg_ref1.t_coffee_aln10 nseq=4 len=588
+T_COFFEE ALIGNMENT
+CPU TIME:43220
+
+
+
+pgmu_rabit vkivtvktkaypdqkpgtsglrkrvkvfqsstnyaenfiqsiistvepaq
+pgmu_agrtu --iktikttpyqdqkpgtsglrkkvpvf-aqenyaenfiqsifdalegfe
+parf_parte -------tqpyagqkpgtsglrkkvse-atqpnylenfvqsifntlrkde
+pgm1_yeast llidsvptvaykdqkpgtsglrkktkvfmdephytenfiqatmqsip-ng
+
+pgmu_rabit rqeatlvvggdgrfymkeaiqlivriaaangigrlvigqngilstpavsc
+pgmu_agrtu gq--tlviggdgryynreviqkaikmaaaagfgkvlvgqggilstpaasn
+parf_parte lk-nvlfvggdgryfnrqaifsiirlayandisevhvgqaglmstpassh
+pgm1_yeast segttlvvggdgrfyndvimnkiaavgaangvrklvigqggllstpaash
+
+pgmu_rabit iirkika-----iggiiltashnpggpn-gdfgikfnisnggpapeaitd
+pgmu_agrtu virkyka-----fggivlsashnpggpt-edfgikynignggpapekitd
+parf_parte yirkvnevgnceiggiiltashnpggkhegdfgikfnvrtgapapedftd
+pgm1_yeast iirtyekc--tegggiiltashnpggpe-ndlgikynlpnggpapesvtn
+
+pgmu_rabit kifqisktieeyaic---pdlkvdlgvlgkqqfdlen-kfkpftveivds
+pgmu_agrtu aiyarskvidsykis---daadidldkigsfkvd-------eltvdvidp
+parf_parte qiythttkikeyltvyefdekhinldqigvykfegrtlekshfevkvvdt
+pgm1_yeast aiweaskklthykiik--npfklnlnklgknq------kygpllvdiidp
+
+pgmu_rabit veayatmlrnifdfnalkellsg-pnr--lkiridamhgvvgpyvkkilc
+pgmu_agrtu vadyaalmeelfdfgairsliag-g----fkvvvdsmsavtgpyaveile
+parf_parte vqdytqlmqklfdfdllkglfsn-kd---fsfrfdgmhgvagpyakhifg
+pgm1_yeast akayvqflkeifdfdliksflakrkdqkgwkllfdslngitgpygkaifv
+
+pgmu_rabit eelgapansa-vncvpledfgghhpdpnltyaadlvetmk--s---g--e
+pgmu_agrtu krlgapkgsv-rnatplpdfgghhpdpnlvhakelyddvm--sp--g--e
+parf_parte tllgcskesl-lncdpsedfggghpdpnltyahdlvelldihkkdvgtvk
+pgm1_yeast defglpaeevqlnwhplpdfgglhpdpnltyartlvdrvd--r---e--k
+
+pgmu_rabit hdfgaafdgdgdrnmilgkhgffvnpsdsvaviaanifsipyfqqtgvrg
+pgmu_agrtu pdfgaasdgdgdrnmvvgkg-mfvtpsdslaiiaanaklapgyaa-gisg
+parf_parte pqfgaacdgdadrnmilgr-qffvtpsdslaviaananli--fkn-gllg
+pgm1_yeast iafgaasdgdgdrnmiygygpafvspgdsvaiiaeyapeipyfakqgiyg
+
+pgmu_rabit farsmptsgaldrvanatkialyetptgwkffgnlmdasklslcgeesfg
+pgmu_agrtu iarsmptsaaadrvaeklglgmyetptgwkffgnlmdagkvticgeesfg
+parf_parte aarsmptsgaldkvaakngiklfetptgwkffgnlmdaglinlcgeesfg
+pgm1_yeast larsfptssaidrvaakkglrcyevptgwkffcalfdakklsicgeesfg
+
+pgmu_rabit tgsdhirekdglwavlawlsilatrkq-------svedilkdhwhkfgrn
+pgmu_agrtu tgsnhvrekdglwavlywlnivaarke-------svkdivtkhwaeygrn
+parf_parte tgsnhirekdgiwavlawltilahkkn-tdhfnvtveeivtqywqqfgrn
+pgm1_yeast tgsnhirekdglwaiiawlnilaiyrrnpekehasiktiqdefwneygrt
+
+pgmu_rabit fftrydyeeveaegatkmmkdlealmfdrsfvgkqfsandkvytvekadn
+pgmu_agrtu yysrhdyeevdsdaantlvailrekl--atlpgtsyg-nlk---vaaadd
+parf_parte yysrydyeqvdsagankmmehlktkf--qyfeqlkqg-n-------kadi
+pgm1_yeast fftrydyehieceqaekvvallsefvsrpnvcgshfpa-desltvidcgd
+
+pgmu_rabit feyhdpvdgsvsknqglrlifadgsriifrlsgtgsagatirlyidsyek
+pgmu_agrtu fayhdpvdqsvsknqgirilfeggsrivlrlsgtgtagatlrlyveryep
+parf_parte ydyvdpvdqsvsknqgvrfvfgdgsriifrlsgtgsvgatiriyfeqfeq
+pgm1_yeast fsyrd-ldgsisenqglfvkfsngtkfvlrlsgtgssgatirlyvekytd
+
+pgmu_rabit dnakinqdpqvmlaplisialkvsqlqertgrtaptvi
+pgmu_agrtu daarhgietqsaladlisvadtiagikahtadseptvi
+parf_parte q--qiqhetatalaniiklgleisdiaqftgrneptvi
+pgm1_yeast kkenygqtadvflkpvinsivkflrfkeilgtdeptvr
+
+
+

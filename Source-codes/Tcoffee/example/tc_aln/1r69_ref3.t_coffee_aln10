@@ -1,0 +1,82 @@
+
+SAGA FORMAT
+alignement  1r69_ref3.t_coffee_aln10 nseq=23 len=103
+T_COFFEE ALIGNMENT
+CPU TIME:876140
+
+
+
+1r69       -------sissrvks--kri--qlglnqaelaqkvg---------ttqqs
+rcro_bp434 -------tlserlkk--rri--alkmtqtelatkag---------vkqqs
+rpc2_bpp22 --------mgerira--rrk--klkirqaalgkmvg---------vsnva
+1lmb3      pltqeqledarrlkaiyekkknelglsqesvadkmg---------mgqsg
+sinr_bacli -------migqrikq--yrk--ekgyslselaekag---------vaksy
+1au7A      g-mraleqfanefkv--rri--klgytqtnvgealaavh--gs-efsqtt
+ipou_drome ---releafaerfkq--rri--klgvtqadvgkalanlklpgvgavsqst
+oct3_mouse ---keleqfakllkq--kri--tlgytqadvgltlgvlf--gk-vfsqtt
+hm18_caeel --mneleafaqtfkk--qri--kfgftqgdvgvalgkry--gt-dfsqtt
+po61_mouse --leeirefaknfki--rrl--slgltqtqvgqaltate--gp-aysqsa
+1neq_1     -csnekardwhradviaglkkr--klslsalsrqfg---------yaptt
+nlp_ecoli  --------dwhpadiiaglrkk--gtsmaaesrrng---------lssst
+dbne_bpd10 --tnr--qdwhradivaelrkr--nmslaelgrsnh---------lssst
+nlp_haein  -ktae--qdwhradilaelkkn--gwslrslakegq---------vsynt
+1a04A      --erdvnqltprerdilkliaq--glpnkmiarrld---------itest
+ygek_ecoli ------nqltnreseilqliad--gktnkeianflq---------lsrkt
+yz18_myctu --argwgsltpterdvvrlvse--glsnkdiakrlf---------vsprt
+moar_kleae --------ltakereivgmvre--gasnkliarqld---------islst
+yexn_aersa ------drltrrerqvaelllq--gldteaiaaalg---------igngt
+dctr_rhoca -------slsareaevmalmle--glmnkqiaerlg---------iamrt
+fixj_azoca ---kriaglsqrerqvleclvn--glanktiaydlg---------isprt
+gere_bacsu -------sltkrerevfellvq--dkttkeiaself---------isekt
+uhpa_salty ------dpltkrerqvaeklaq--gmavkeiaaelg---------lspkt
+
+1r69       ieqlengktkrp--r----flpelasalgvsv--dwl-l--ng-------
+rcro_bp434 iqlieagvtkrp--r----flfeiamalncdp--vwl-q--yg-------
+rpc2_bpp22 isqwersete-pnge----nllalskalqcsp--dyl-l--kg-------
+1lmb3      vgalfnginalnayn-----aallakilkvsveefs-----p---s----
+sinr_bacli lssiernlqtnpsiq----flekvsavldvsv--htl-l--n--------
+1au7A      icr-------fenlqlsfknacklkails-----kwleeaeqk----rrt
+ipou_drome icr-------fesltlshnnmialkpilq-----awleeae---------
+oct3_mouse icr-------fealqlslknmcklrplle-----kwveeadn--------
+hm18_caeel isr-------fealnlsfknmcklrpllk-----ewladve---------
+po61_mouse icr-------feklditpksaqklkpvle-----kwlmeae---------
+1neq_1     lanaler--hwpkge------qiianaletkpeviw-----ps-----r-
+nlp_ecoli  lanalsr--pwpkge------miiakalgtdpwviw-----ps-----ry
+dbne_bpd10 lknaldk--rypkae------kiiadalgmtpqdiw-----ps-----ry
+nlp_haein  lktvldk--sypkme------rlvanaigvppeviw-----ag-----rf
+1a04A      vkvhvkh--mlkkmk--------lksrveaav---wvhqer-if------
+ygek_ecoli vethrln--imkkld--------vhsgielikt---alr--mgvcti---
+yz18_myctu vqthlth--vyaklg--------lasrvqlvde---aar--rgsps----
+moar_kleae vkthlrn--ifakte--------vvnrtelvsr-twmpaaqrtlhl----
+yexn_aersa vknhrkh--lygklr--------lgsraelfnl---fln--hli------
+dctr_rhoca vevhrsr--vlakmg--------arniadla-------r--mt-------
+fixj_azoca vevyran--vmtkmk--------aaslpelvrm---all--agvapadda
+gere_bacsu vrnhisn--amqklg--------vkgrsqavve---llr--mgelel---
+uhpa_salty vhvhran--lleklg--------vsndvelahr----mf--dg-w-----
+
+1r69       t--
+rcro_bp434 ---
+rpc2_bpp22 ---
+1lmb3      ---
+sinr_bacli ---
+1au7A      t-i
+ipou_drome ---
+oct3_mouse ---
+hm18_caeel ---
+po61_mouse ---
+1neq_1     ---
+nlp_ecoli  hdp
+dbne_bpd10 ---
+nlp_haein  aer
+1a04A      ---
+ygek_ecoli ---
+yz18_myctu ---
+moar_kleae ---
+yexn_aersa ---
+dctr_rhoca ---
+fixj_azoca tpt
+gere_bacsu ---
+uhpa_salty ---
+
+
+

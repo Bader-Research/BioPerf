@@ -1,0 +1,27 @@
+B
+
+If you follow the steps below, CE should work:
+
+- extract the file  "ce_linux.tar.gz" with 
+	gunzip ce_linux.tar.gz
+	tar -xvf ce_linux.tar
+
+This  will create a directory "ce_dist"
+
+- goto directory ce_distr/pdb/
+
+-copy and extract the file named "pdb.1303.tar.gz" into "ce_distr/pdb/"
+
+-go to the directory "ce_dist".
+
+-now you are ready to run a sample CE query. Try the following line 
+
+	./CE - pdb/1LH1.pdb - pdb/1GDL.pdb - scratch > /dev/null
+
+This runs CE without displaying result. If you say 
+
+	./CE - pdb/1LH1.pdb - pdb/1GDL.pdb - scratch 
+
+then you can see the results. 
+
+-you can run the queries in file "execute" as the benchmark. 

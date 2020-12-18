@@ -1,0 +1,19 @@
+
+
+PREDATOR was initially developed for UNIX and ported to MSDOS using the freely 
+available DJGPP compiler which is a port of the GNU C compiler to MSDOS by 
+DJ Delorie. I thoroughly tested PREDATOR for DOS using Pentium
+PCs under NT, Windows 3.X and WIndows 95 . If you encounter any problems running PREDATOR under
+DOS, please contact me. 
+
+I also easily compiled PREDATOR for Windows 95 and NT (as a console application) using
+the new MS Visual C. This executable is not supplied, but you can create it
+yourself if you have Visual C, or I can supply it.
+
+
+Dmitrij Frishman
+Munich Information Center for Protein Sequences
+Max-Planck-Institute for Biochemistry
+Am Klopferspitz 18a, 82152 Martinsried, Germany
+FRISHMAN@MIPS.BIOCHEM.MPG.DE
+

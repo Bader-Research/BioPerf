@@ -1,0 +1,28 @@
+
+SAGA FORMAT
+alignement  2mhr_ref1.t_coffee_aln10 nseq=5 len=119
+T_COFFEE ALIGNMENT
+CPU TIME:9098
+
+
+
+1hrb       gfpipdpyvwdpsfrtfysiiddehktlfngifhlaid-dnadnlgelrr
+hem1_phago -fdipepyvwdesfrvfydnlddehkglfkgvfncaadmssagnlkhlid
+mp2_nerdi  gfeipepykwdesfqvfyekldeehkqifnaifalcgg-nnagnlkslvd
+hemt_sipcu gfpvpdpfiwdasfktfyddldnqhkqlfqailtqgn-vggatagdnaya
+hemt_linun --kvpepfawnesfatsyknidlehrtlfnglfalsef-ntrdqllacke
+
+1hrb       ctgkhflnqevlmea-sqy-fydehkkehdgfinaldnwkg-----dvkw
+hem1_phago vttthfrneeammda-akyenvvphkqmhkdflaklgglkapldqgtidy
+mp2_nerdi  vtanhfadeeamlkasasygdfdshkkkhedflavirglgapvpqdkiny
+hemt_sipcu clvahflfeeaamqv-akyggygahkaaheeflgkvkggsa-----daay
+hemt_linun vfvmhfrdeqgqmek-anyehfeehrgihegflekmghwkapvaqkdikf
+
+1hrb       akawlvnhiktidfk-kgk
+hem1_phago akdwlvqhikttdfkykgk
+mp2_nerdi  akewlvnhikgtdfgykgk
+hemt_sipcu ckdwltqhiktidfkykgk
+hemt_linun gmewlvnhiptedfkykgk
+
+
+

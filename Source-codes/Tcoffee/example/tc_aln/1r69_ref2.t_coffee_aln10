@@ -1,0 +1,82 @@
+
+SAGA FORMAT
+alignement  1r69_ref2.t_coffee_aln10 nseq=23 len=108
+T_COFFEE ALIGNMENT
+CPU TIME:852280
+
+
+
+1a04A      --erdvnqltp-------rerdilklia--qglpnkmiarrldi------
+narp_ecoli --edpfsvlte-------reldvlhela--qglsnkqiasvlni------
+narp_haein --dnpldsltd-------remgvlrqia--tglsnkqiaaqlfi------
+ygek_ecoli ------nqltn-------reseilqlia--dgktnkeianflql------
+yz18_myctu --argwgsltp-------terdvvrlvs--eglsnkdiakrlfv------
+moar_kleae --------lta-------kereivgmvr--egasnkliarqldi------
+yexn_aersa ------drltr-------rerqvaelll--qgldteaiaaalgi------
+dctr_rhoca -------slsa-------reaevmalml--eglmnkqiaerlgi------
+fixj_azoca ---kriaglsq-------rerqvleclv--nglanktiaydlgi------
+gere_bacsu -------sltk-------rerevfellv--qdkttkeiaselfi------
+uhpa_salty ------dpltk-------rerqvaekla--qgmavkeiaaelgl------
+yxjl_bacsu --eelaepftk-------relevlqqma--yglrnediaeklfv------
+csgd_ecoli --stesallth-------rekeilnklr--igasnneiarslfi------
+agmr_pseae -----lqaltr-------kqllvlermt--kgesnkqiaynldi------
+nodw_braja --kslfetlsp-------reqavmklva--tglmnkqvaaelgl------
+rhlr_pseae --------lsh-------rereilqwta--dgkssgeiaiilsi------
+yhjb_ecoli ---kdlkslsa-------rqreiltmla--agesnkeigralni------
+moxx_parde -------rltg-------reeeilgmit--egmsyrdiadraci------
+yc29_porpu --------ltp-------reksilnlvi--dgltnkeiavildt------
+1r69       -------siss-------rvk--skri--qlglnqaelaqkvgt------
+1au7A      -gmral-----eqfan---ef-kvrri--klgytqtnvgealaavhgsef
+1neq       c-sn-------ekardwhradviaglkk--rklslsalsrqfgy------
+1lmb3      -------pltqeqledarrlkaiyekkknelglsqesvadkmgm------
+
+1a04A      testvkv------hvkhmlkkmklks--rveaav----wvh---qerif-
+narp_ecoli seqtvkv------hirnllrklnvrs--rvaati----lfl---qqr---
+narp_haein seetvkv------hirnllrklnvhs--rvaatv----lff---eq----
+ygek_ecoli srktvet------hrlnimkkldvhs--gielik----tal---rmgvct
+yz18_myctu sprtvqt------hlthvyaklglas--rvqlvd----eaa---rrgsps
+moar_kleae slstvkt------hlrnifaktevvn--rtelvs-rt-wmp-a-aqrtl-
+yexn_aersa gngtvkn------hrkhlygklrlgs--raelfn----lfl---nhli--
+dctr_rhoca amrtvev------hrsrvlakmgarn--iadlar----mt----------
+fixj_azoca sprtvev------yranvmtkmkaas--lpelvr----mal---lagvap
+gere_bacsu sektvrn------hisnamqklgvkg--rsqavv----ell---rmgele
+uhpa_salty spktvhv------hranlleklgvsn--dvelah----r-m---fdgw--
+yxjl_bacsu sestvkt------hvhrilqkcnaqd--rtqavv----fai---rngi--
+csgd_ecoli sentvkt------hlynlfkkiavkn--rtqavs----wan---dn----
+agmr_pseae aettvka------hvsailrklkvhn--rvqail----sag---didfaa
+nodw_braja aeitvki------yrghvmkkmrars--ladlir----mse---tlgisa
+rhlr_pseae sestvnf------hhkniqkkfdapn--ktlaaa----yaa---algl--
+yhjb_ecoli stgtvka------hleslyrrlevkn--rtqaam----mln---iss---
+moxx_parde syktvsn------vslvlkdklgaan--ladlvv-k---gi---ry----
+yc29_porpu sirnvek------yvsrllqktntrn--rtllvk----ysi---knnl--
+1r69       tqqsieqlengktkrprflpelasal--gvs-vd----wll----ngt--
+1au7A      sqtti-c------rfenl--qlsfknacklkailsk--wleeaeqkrrtt
+1neq       apttlan------alerhwpkg-------eqiianaletkp---eviwps
+1lmb3      gqsgvga------lfngi-nalnayn--aallak-ilkvsv---eefs--
+
+1a04A      --------
+narp_ecoli --------
+narp_haein --------
+ygek_ecoli -i------
+yz18_myctu --------
+moar_kleae -h---l--
+yexn_aersa --------
+dctr_rhoca --------
+fixj_azoca -addatpt
+gere_bacsu -l------
+uhpa_salty --------
+yxjl_bacsu --------
+csgd_ecoli --------
+agmr_pseae -y---lrr
+nodw_braja nhteqtqv
+rhlr_pseae --------
+yhjb_ecoli --------
+moxx_parde --------
+yc29_porpu --------
+1r69       --------
+1au7A      -i------
+1neq       ---r----
+1lmb3      ----ps--
+
+
+

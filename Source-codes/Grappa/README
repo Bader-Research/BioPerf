@@ -1,0 +1,164 @@
+This suite of programs implements the approach to phylogeny
+reconstruction from gene orders described in the paper
+   Moret, B.M.E., Wyman, S., Bader, D.A., Warnow, T., and Yan, M.,
+   ``A detailed study of breakpoint analysis,''
+   Proc. 6th Pacific Symp. Biocomputing PSB 2001, Hawaii (2001).
+and the revision
+    Moret, B.M.E., Tang, J., Wang, L.S., and Warnow, T., 
+   "Steps toward accurate reconstruction of phylogenies from gene-order data," 
+    J. Comput. Syst. Sci. 
+   
+In its current state, the program allows one to explore either the
+space of all possible trees on n labelled leaves or the space of all
+such trees that obey (are refinements of) a particular constraint tree.
+
+There are three executables: grappa (the main program),
+			     invdist, and distmat
+
+A simple "make" (using the Gnu make program) will produce all three.
+
+
+grappa:
+*******
+
+Options are as follows:
+
+grappa -f <datafile> [-r <constraintfile>] [-t tspsolver] [-T initsolver] [-n NJsolver] [-K threshold] [-i initmethod] [-o outfile] [-s step] [-N] [-L] [-d] [-S] 
+                     [-B] [-c] [-C] [-P] [-a] [-e] [-m] [-l] [-g]
+
+ -a: a limited branch-and-bound method to prune low-level trees with
+     the circular ordering lower bound
+ -e: EDE correction for inversion distance (refer to the papers for details)
+ -r: constraintfile: only generate trees that are
+     compatible with the parenthesized tree constraint
+ -t: median solver: [1==Greedy, 2==Exact (default),  3==Inversion median by
+     A. Siepel, 4==Inversion median by A. Caprara, 5==SimpleLK, 6==ChainedLK]
+     Note: options 5 and 6 only available if the CONCORDE package is
+     installed (available from Rice U.)
+ -T: median solver for initialization: options as for -t
+ -n: median solver for NJ trees: [1==Greedy, 2==Exact (default), 3==SimpleLK,
+     4==ChainedLK]
+     Note: options 3 and 4 only available if the CONCORDE package is
+     installed (available from Rice U.)
+ -K: threshold on size to use exact rather than LK solver (default 20)
+ -i: initmethod: [1==Random, 2==Nearest-Neighbors (small, default for -t 3
+     or -t 4), 3==Nearest-Neighbors (S/B, default), 4==Nearest-Neighbors
+     (large), 5==Propagate-Nearest, 6==Propagate-Median, 7==Uniform,
+     8==Adjacency-Parsimony]
+ -o: outfile: output filename (default to stdout)
+ -s: step: next tree is <step> away from current (default: 1)
+ -N: do not iterate labellings beyond initialization (default: off)
+ -L: process linear (noncircular) genomes (default: circular)
+ -d: use breakpoint distance (default: inversion distance)
+ -C: condense triples before calling TSP solver (default: OFF)
+ -b: use the following integer as an upper bound in the search
+ -m: tighter circular lower bound, recommended
+ -B: do not use circular ordering lower bound; implied by -S; default: use the bound)
+ -S: skip dist. matrix and NJ computations (for timings); also sets -B; default: compute matrix and NJ
+ -l: use the layered method (see papers); requires significant disk storage
+ -g: for testing only: greedy methods, in development
+
+Dynamic condensing (-C) is recommended for large numbers of genes, as long
+as the evolutionary rate is not too high.
+
+The step option (-s <step>) allows one to sample tree space in an unbiased way.
+
+Initialization routines are:
+     1==Random
+	constructs a genome at random (uniform distribution of permutations
+	and also of signs)
+     2==Nearest-Neighbors (small)
+	sets up a TSP at each internal node to find the median of the
+        three leaves closest to this node; inefficient recomputation of
+	identity of leaves, but fast for up to 20 genomes
+        However, evidences show that this is the best one working with
+        inversion median.
+     3==Nearest-Neighbors (Sankoff/Blanchette)
+	same as 2, except that an internal node, once labeled,
+	is treated as equivalent to a leaf; appears equal in quality
+	to 2 and 4, but runs faster
+     4==Nearest-Neighbors (big)
+        same as 2, but efficient recomputation of identity of leaves
+	(done once at beginning, then stored); preferred over 2 for
+	more than 20 genomes
+     5==Propagate-Nearest
+	identifies centroid of tree, then propagates through postorder
+	traversals of the three subtrees some arbitrarily chosen child
+	up to the root;  at centroid, solves the obvious TSP instance;
+        very fast and very prone to local optima.
+     6==Propagate-Median
+	Same as 5: identifies centroid of tree, then propagates through
+	postorder traversals of the three subtrees a quick-and-dirty
+        approximation to the median of two; at centroid, solves the
+	obvious TSP instance; very fast and very prone to local optima.
+     7==Uniform
+	assigns every internal node the same ancestral genome, namely
+	the identity permutation; yields very poor solutions
+     8==Adjacency-Parsimony
+	sets up a TSP instance at every internal node;
+	each of the three subtrees of an internal node conveys to the node
+	a "vote" for each adjacency: desirable, indifferent, undesirable.
+	In propagating the votes, renormalization takes place, but scores
+	are just added to create the TSP instance, so it can have more than
+	3n nontrivial edges and edge values in the range from 0 to 6.
+	Very slow (quadratic time) and not very good.
+
+Note that, when using the LK solvers to compute medians (options 5 and 6),
+a threshold determines when to switch automatically to the exact solver
+(option 2), because that solver is much faster than the LK solvers on
+small instances.
+A known problem with the LK solvers is that they require a minimum number
+of cities in order to run; if you set the threshold too low, you may force
+them to run with fewer than 4 cities, in which case they will crash.
+Thus we recommend that you never set the threshold lower than 4.
+
+Bounding is done by computing the circular (inversion or breakpoint) distance
+on the leaves of the tree, dividing the result by two, and comparing with
+the best so far; if the lower bound exceeds the upper bound, the tree
+is discarded without scoring.  The tighter version of this bound computed
+with the "-m" option is recommended for all usage.
+
+If a good initial upper bound has been obtained by external means,
+it can be provided to the program through the -b option;
+the program then only prints out trees that match or improve on
+this upper bound. The "-g" option is intended to find an alternative way to
+get the initial uppaer bound, we are still working on it.
+
+By using the GMP (Gnu Multiple Precision) package, you can run a large
+problem (say, with sampling using the -s option) and still be able to
+count the trees, but be warned that GMP arithmetic is very slow.
+Using GMP is a compile-time option, not a command-line option.
+If you do not use GMP, then the tree count can rapidly overflow, giving
+you useless information; when running a complete analysis, we recommend
+that you turn off the tree counting.
+
+The layered approach is effecitve, however, it is not parrallelized and
+can only be used on single processor, with large requirement of hard
+disk capacity.
+
+There are two methods to compute inversion median, should always used
+like the following:
+    grappa -t3 -T3 -f ... (for Siepel's median)
+or
+    grappa -t4 -T4 -f ... (for Caprara's median)
+The initial method for inversion median defaults to Nearest-Neighbor (small)
+(option of "-i2"), not the SNN used in other cases.
+
+invdist:
+********
+
+A symbolic link to grappa, this simply takes the first two
+genomes in the input file and returns their inversion distance.
+The only options used are -f, to specify the file from which to get
+the first two genomes, and -o, to specify the output file (if desired);
+all other command-line options are discarded.
+
+
+distmat:
+********
+
+A symbolic link to grappa, this simply prints the inversion and
+breakpoint distance matrices.
+The only options used are -f, to specify the file from which to get
+the genomes, and -o, to specify the output file (if desired);
+all other command-line options are discarded.

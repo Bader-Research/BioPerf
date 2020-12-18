@@ -1,0 +1,295 @@
+//  Copyright (c) 1997-99 by Arthur Delcher, Steven Salzberg, Simon
+//  Kasif, and Owen White.  All rights reserved.  Redistribution
+//  is not permitted without the express written permission of
+//  the authors.
+
+//  Version 1.02 revised 25 Feb 98 to ignore the independent
+//  (random) model for long orfs.  The default
+//  length for "long" in this case is set to the length at which
+//  exactly 1 orf of this length would be expected per 1 million
+//  bases given the gc content of the genome.  This value also can be
+//  set by command-line option  -q .
+
+//  Version 1.03 revised  8 Feb 99 to make it easier to specify
+//  start and stop codons.
+
+//  Version 1.04 revised  10 May 99 to add  -l  command-line switch
+//  to both  glimmer  and  long-orfs  to regard genome as *NOT*
+//  circular.  Default is to regard it as circular.
+//  Version 2.0 uses a tree-based IMM as described in the references
+//  given in the README file.  It also implements an extensive new
+//  algorithm (see the paper) to adjust the start locations of genes
+//  whose initial coordinates result in an overlap.
+
+//     Version:  2.01  31 Jul 98
+//                 Change probability model
+//                 Simplify wraparounds
+//                 Move start codons to eliminate overlaps
+//                 Discount independent model scores when
+//                    there are no overlaps
+//                 Uses Harmon's model
+
+//     Version:  2.03  9 Dec 2002
+//               Include raw scores in output
+//               Add strict option to use independent intergenic
+//                 model that discounts stop codons
+//               Add option to score each entry from a list of coordinates
+//                 separately, without overlapping/voting rules
+
+//     Version:  2.10  5 Feb 2003
+//               Strict option to use independent intergenic
+//                 model that discounts stop codons is only behaviour
+
+//     Version:  2.11  18 Apr 2003
+//               Change long-orfs to automatically compute the
+//               optimal value of ORF length in order to maximize
+//               the amount of training data.  
+Program  glimmer  takes two inputs:  a sequence file (in FASTA format)
+and a collection of Markov models for genes as produced by the program
+build-icm .  It outputs a list of all open reading frames (orfs) together
+with scores for each as a gene.
+
+The first few lines of output specify the settings of various
+parameter in the program:
+
+ Minimum gene length is the length of the smallest fragment
+   considered to be a gene.  The length is measured from the first base
+   of the start codon to the last base *before* the stop codon.
+   This value can be specified when running the program with the  -g  option.
+
+ Minimum overlap length is a lower bound on the number of bases overlap
+   between 2 genes that is considered a problem.  Overlaps shorter than
+   this are ignored.
+
+ Minimum overlap percent is another lower bound on the number of bases
+   overlap that is considered a problem.  Overlaps shorter than this
+   percentage of *both* genes are ignored.
+
+ Threshold score is the minimum in-frame score for a fragment to be
+   considered a potential gene.
+
+ Use independent scores indicates whether the last column that scores each
+   fragment using independent base probabilities is present.
+
+ Use first start codon indicates whether the first possible start codon
+   is used or not.  If not, the function  Choose_Start  is called to
+   choose the start codon.  Currently it computes hybridization energy
+   between the string  Ribosome_Pattern  and the region in front of
+   the start codon, and if this is above a threshold, that start site
+   is chosen.  The ribosome pattern string can be set by the  -s  option.
+   Presumably function  Choose_Start  should be modified to do something
+   cleverer.
+
+   Currently used start codons are  atg, gtg & ttg .  These can be changed
+   in the function  Is_Start , but corresponding changes should be
+   made in  Choose_Start .
+
+
+The next portion of the output is the result for each orf:
+
+ Column 1 is an ID number for reference purposes.  It is assigned
+   sequentially starting with  1  to all orfs whose  Gene Score  is
+   at least  90 .  I'll make this a command-line option when I decide
+   what letter to use.
+
+ Column 2 is the reading frame of the orf.  Three forward (F1, F2 and F3)
+   and three reverse (R1, R2 and R3).  These correspond with the headings
+   for the scores in columns 9-14.
+
+ Column 3 is the start position of the orf, i.e., the first base *after*
+   the previous stop codon.
+
+ Column 4 is the position of the first base of the first start codon in
+   the orf.  Currently I use atg, ctg, gtg and ttg as start codons.
+
+ Column 5 is the position of the last base *before* the stop codon.  Stop
+   codons are taa, tag, and tga.  Note that for orfs in the reverse
+   reading frames have their start position higher than the end position.
+   The order in which orfs are listed is in increasing order by
+   Max {OrfStart, End}, i.e., the highest numbered position in the orf,
+   except for orfs that "wrap around" the end of the sequence.
+
+ Columns 6 and 7 are the lengths of the orf and gene, respectively, i.e.,
+   1 + |OrfStart - End|  and  1 + |GeneStart - End| .
+
+ Column 8 is the score for the gene region.  It is the probability (as
+   a percent) that the Markov model in the correct frame generated this
+   sequence.  This value matches the value in the corresponding column
+   of frame scores--an orf in reading frame R1 has a Gene Score equal to
+   the value in the R1 column of frame scores for that orf.
+
+ Columns 9-14 are the scores for the gene region in each of the 6 reading
+   frames.  It is the probability (as a percent) that the Markov model in
+   that frame generated this sequence.
+
+ Column 15 is the probability as a percent that the gene sequence was generated
+   by a model of independent probabilities for each base, and represents to
+   some extent the probability that the sequence is "random".
+
+
+When two genes with ID numbers overlap by at least a sufficient
+amount (as determined by  Min_Olap  and  Min_Olap_Percent ), a line
+beginning with  ***  is printed and scores for the overlap region
+are printed.  If the frame of the high score of the overlap
+region matches the frame of the longer gene, then a message is
+printed that the shorter gene is rejected.  Otherwise, a message
+is printed that *both* genes are "suspect".  A suspect or reject
+message for any gene is only printed once, however.
+
+A message is also printed if a gene with an ID number wholly contains another
+gene with an ID number.  The longer "shadows" the shorter.
+
+
+At the end a list of "putative" gene positions is produced.  The first
+column is the ID number, the second is the start position, the third
+is the end position.  For "suspect" genes, a notation in  [] 's follows:
+
+ [Bad Olap  a  b  c]  means that gene number  a  overlapped this one and
+   was shorter but scored higher on the overlap region.   b  is the length
+   of the overlap region and  c  is the score of *this* gene on the overlap
+   region.  There should be a  [Shorter ...]  notation with gene  a
+   giving its score.
+
+ [Shorter  a  b  c]  means that gene number  a  overlapped this one and
+   was longer but scored lower on the overlap region.   b  is the length
+   of the overlap region and  c  is the score of *this* gene on the overlap
+   region.  There should be a  [Bad olap ...]  notation with gene  a
+   giving its score.
+
+ [Shadowed by  a]  means that this gene was completed contained as part
+   of gene  a 's region, but in another frame.
+
+ [Delay by  a  b  c  d]  means that this gene was tentatively rejected
+   because of an overlap with gene  b , but if the start codon is postponed
+   by  a  positions, then this would be a valid gene.  The start position
+   reported for this gene includes the delay.   c  is the length of the overlap
+   region that caused the rejection and  d  is the score in this gene's frame
+   on that overlap region.
+
+ [Weak]  means that this gene did not meet the regular scoring threshold,
+   but if the independent model were ignored, its score would be high
+   enough.  Should only occur if the -w option is used.
+
+ [Vote]  means that this gene did not meet the regular scoring threshold,
+   but sufficiently many of its subranges had high enough scores to
+   indicate it might be a gene.
+
+Note that a gene marked as rejected may appear in this list.  This can
+occur if the gene that caused the rejection was itself rejected.  The
+actual algorithm to produce the list is as follows:
+
+  Consider the genes in decreasing order by length.  If gene  x  is to
+  be rejected because of an overlap with longer gene  y   that has not been
+  rejected, then gene  x  is rejected and does not appear in the list.
+  Otherwise, all notations for gene  x  that are not caused by rejected
+  genes are reported.
+
+I think a "delayed" gene might incorrectly be listed as causing a problem
+by the part of it that was eliminated by the delay.  Probably the remaining
+portion should be reinserted into the sorted list base on its now-shorter
+length, and any notations caused by it should be re-checked to see if
+they're affected by shortening the gene.  Let's save this for the next
+version.
+
+
+
+Specifying Different Start and Stop Codons:
+
+To specify different sets of start and stop codons, modify the file
+gene.h .  Specifically, the functions:
+
+   Is_Forward_Start     Is_Reverse_Start     Is_Start
+   Is_Forward_Stop      Is_Reverse_Stop      Is_Stop
+
+are used to determine what is used for start and stop codons.
+
+Is_Start  and  Is_Stop  do simple string comparisons to specify
+which patterns are used.  To add a new pattern, just add the comparison
+for it.  To remove a pattern, comment out or delete the comparison
+for it.
+
+The other four functions use a bit comparison to determine start and
+stop patterns.  They represent a codon as a 12-bit pattern, with 4 bits
+for each base, one bit for each possible value of the bases, T, G, C
+or A.  Thus the bit pattern  0010 0101 1100  represents the base
+pattern  [C] [A or G] [G or T].  By doing bit operations (& | ~) and
+comparisons, more complicated patterns involving ambiguous reads
+can be tested efficiently.  Simple patterns can be tested as in
+the current code.
+
+For example, to insert an additional start codon of CAT requires 3 changes:
+1. The line
+        || (Codon & 0x218) == Codon
+   should be inserted into  Is_Forward_Start , since 0x218 = 0010 0001 1000
+   represents CAT.
+2. The line
+        || (Codon & 0x184) == Codon
+   should be inserted into  Is_Reverse_Start , since 0x184 = 0001 1000 0100
+   represents ATG, which is the reverse-complement of CAT.  Alternately,
+   the #define constant  ATG_MASK  could be used.
+3. The line
+        || strncmp (S, "cat", 3) == 0
+   should be inserted into  Is_Start .
+If not automatically using the first start codon, some changes might
+also be made to the function  Choose_Start .
+
+
+
+To compile the program:
+
+  Use the Makefile.  It will put the executables in a  bin  subdirectory.
+
+  To compile just this program use:
+
+      g++ glimmer2.c -lm -o glimmer
+
+  Uses include files  delcher.h  context.h  strarray.h  gene.h
+
+
+To run the program:
+
+  First run  build-icm  on a set of sequences to make the Markov models.
+
+      build-icm <train.seq >train.model
+
+  This will produce a file  train.model.  You can call this file anything
+  you like, train.model, myicm, itsrainingtoday, etc.
+
+  Then run  glimmer2
+
+      glimmer2 hflu.seq train.model
+
+  Options can be specified after the 2nd file name
+
+      glimmer2 hflu.seq train.model <options>
+
+  Options are:
+    -f     Use ribosome-binding energy to choose start codon.  This is
+	   not fully tested and likely to be buggy.  Better not to use it.
+    +f     Use first codon in orf as start codon
+    -g n   Set minimum gene length to n
+    -i s   Ignore bases within the coordinates listed in file s. File s
+	   should consist of one base pair per line (no tags), and the ignore
+           region should be a multiple of three bases long.  [Somewhat buggy]
+    -l     Regard the genome as linear (not circular), i.e., do not allow
+           genes to "wrap around" the end of the genome.
+           This option works on both  glimmer  and  long-orfs .
+           The default behavior is to regard the genome as circular.
+    -o n   Set minimum overlap length to n.  Overlaps shorter than this
+           are ignored.
+    -p n   Set minimum overlap percentage to n%.  Overlaps shorter than
+           this percentage of *both* strings are ignored.
+    -q n   If using independent model scores (+r option), it will only
+           apply to orfs shorter than  n .  The default value for  n
+           has an expectation of one orf that length or longer occurring
+           per million bases in a random genome with the same gc content
+    -r     Don't use independent probability score column
+    +r     Use independent probability score column
+    -s s   Use string s as the ribosome binding pattern to find start codons.
+	   Not fully tested and known to have bugs.
+    -t n   Set threshold score for calling as gene to n.  If the in-frame
+           score >= n, then the region is given a number and considered
+           a potential gene.
+    -w n   Use "weak" scores on potential genes at least n bases long.
+           Weak scores ignore the independent model.
+    -X     Allow orfs extending off ends of sequence to be scored

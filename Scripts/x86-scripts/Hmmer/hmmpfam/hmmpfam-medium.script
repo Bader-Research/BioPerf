@@ -1,0 +1,5 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Hmmer/
+./hmmpfam $BIOPERF/Inputs/Hmmer/hmmpfam/class-B/db2000 $BIOPERF/Inputs/Hmmer/hmmpfam/class-B/Q89F91  > $BIOPERF/Outputs/Hmmer/classB-hmmpfam-output
+echo The output has been stored as classB-hmmpfam-output in $BIOPERF/Outputs/Hmmer

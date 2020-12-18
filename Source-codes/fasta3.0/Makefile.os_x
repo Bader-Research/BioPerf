@@ -1,0 +1,62 @@
+#
+# makefile for fasta3, fasta3_t.  Use makefile.pvm for pvcompxx.
+# this file works for DEC Alphas
+#
+# this file supports mmap()'ed databases in BLAST2 format use -DUSE_MMAP
+# for mmap()ed BLAST2 format.
+
+# the -DDEBUG option provides additional debugging information, particularly
+# with -D on the command line.
+
+# use -DBIG_LIB64 to generate 64-bit offsets in map_db .xin files
+
+CC= cc -g -falign-loops=32 -O3 -mcpu=7450 -faltivec -DSW_ALTIVEC
+#CC= cc -g -DDEBUG -faltivec -DSW_ALTIVEC
+#CC= cc -g -Wall -pedantic
+#
+# standard line for normal searching
+CFLAGS= -DSHOWSIM -DM10_CONS -DUNIX -DTIMES -DHZ=100 -DMAX_WORKERS=2 -DTHR_EXIT=pthread_exit -DPROGRESS -DFASTA_HOST='"fasta.bioch.virginia.edu/fasta/cgi"' -DIS_BIG_ENDIAN -DUSE_MMAP -DUSE_FSEEKO -DHAS_INTTYPES -DSAMP_STATS -DPGM_DOC
+
+#CFLAGS= -DSHOWSIM -DM10_CONS -DUNIX -DTIMES -DHZ=60 -DMAX_WORKERS=2 -DTHR_EXIT=pthread_exit -DPROGRESS -DFASTA_HOST='"fasta.bioch.virginia.edu/fasta/cgi"' -DIS_BIG_ENDIAN -DUSE_MMAP -DUSE_FSEEKO -DHAS_INTTYPES -DSAMP_STATS -DPGM_DOC -DSUPERFAMNUM -DSFCHAR="'|'"
+
+# add for MySQL support
+# -I/usr/local/mysql/include -DMYSQL_DB
+
+HFLAGS= -o
+NFLAGS= -o
+
+#for DEC Unix V4.0 
+THR_SUBS = pthr_subs2
+THR_LIBS =
+THR_CC =
+
+#for Sun
+#THR_SUBS = uthr_subs2
+#THR_LIBS = -lthread
+#THR_CC =
+#
+# for SGI with current pthreads
+#THR_SUBS = pthr_subs2
+#THR_LIBS = -lpthreads
+#THR_CC = 
+#
+# for IBM with current pthreads
+#CC= xlc_r -v -g
+#THR_SUBS = ibm_pthr_subs2
+#THR_LIBS = -lpthreads
+#THR_CC =
+
+XDIR = ${HOME}/bin
+#XDIR = /Users/seqprg/bin
+#XDIR = /seqprg/bin
+
+DROPNFA_O = drop_nfa.o
+DROPTFA_O = drop_tfa.o
+DROPGSW_O = dropgsw.o smith_waterman_altivec.o
+DROPRSS_O = dropgsw.o smith_waterman_altivec.o
+
+# provide mysql function
+#include Makefile34m.common_sql
+
+# no mysql
+include Makefile34m.common

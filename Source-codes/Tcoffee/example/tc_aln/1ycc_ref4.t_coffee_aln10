@@ -1,0 +1,60 @@
+
+SAGA FORMAT
+alignement  1ycc_ref4.t_coffee_aln10 nseq=9 len=214
+T_COFFEE ALIGNMENT
+CPU TIME:47700
+
+
+
+1ycc ---tefkagsakkgatlfktrclqchtvek-ggph-------kvgpnlhg
+1ccr asfseappgnpkagekifktkcaqchtvdk-gagh-------kqgpnlng
+1cry --------qdaasgeqvfk-qclvchsigp-gakn-------kvgpvlng
+1hro ----sappgdpvegkhlfhticitchtdik-ga-n-------kvgpslyg
+2c2c -------egdaaagekvsk-kclachtfdq-ggan-------kvgpnlfg
+155c ------negdaakgekefn-kckachmiqapdgtdi-kg--gktgpnlyg
+1c2r --------gdaakgekefn-kcktchsiiapdgteivkg--aktgpnlyg
+1cxa ------qegdpeagakafn-qcqtchvivddsgtti-agrnaktgpnlyg
+1etp -------agdaeagqgkva-vcgachgvdg-nspa-------pnfpklag
+
+1ycc -------------ifgrhsgqaegys-ytdanik---kn----vlwdenn
+1ccr -------------lfgrqsgttpgys-ystadkn---ma----viweent
+1cry -------------lfgrhsgtiegfa-ysdankn---sg----itwteev
+1hro -------------vvgrhsgiepgyn-yseanik---sg----ivwtpdv
+2c2c -------------vfentaahkdnya-ysesytemkakg----ltwtean
+155c -------------vvgrkiaseegfk-ygegilevaeknpd--ltwtean
+1c2r -------------vvgrtagtypefk-ykdsivalgasg----fawteed
+1cxa -------------vvgrtagtqadfkgygegmkeagakg----lawdeeh
+1etp qgeryllkqlqdikagstpgapegvg--rkvlemtgmld--plsdqdled
+
+1ycc mseyltnpkkyip---g-------tkmafg-g------------------
+1ccr lydyllnpkkyip---g-------tkmvfp-g------------------
+1cry freyirdpkakip---g-------tkmifa-g------------------
+1hro lfkyiehpqkivp---g-------tkmgyp-g------------------
+2c2c laayvknpkafvleksgdpk--akskmtfk--------------------
+155c lieyvtdpkplvkkmtddkg--aktkmtfk--------------------
+1c2r iatyvkdpgaflkeklddkk--aktgmafk--------------------
+1cxa fvqyvqdptkflkeytgdak--akgkmtfk--------------------
+1etp iaayfssqkgsvgya--dpalakqgeklfrggkldqgmpactgchapngv
+
+1ycc ---l---kkekd--------------------rnd------litylkkac
+1ccr ---l---kkpqe--------------------rad------lisylkeat
+1cry ---v---kdeqk--------------------vsd------liayikqfn
+1hro ---q---pdpqk--------------------rad------iiayletlk
+2c2c ---l---tkdde--------------------ien------viaylktlk
+155c ---m---gknq----------------------ad------vvaflaqdd
+1c2r ---l---akgg----------------------ed------vaaylasvv
+1cxa ---l---kkead--------------------ahn------iwaylqqva
+1etp gndlagfpklggqhaaytakqltdfregnrtndgdtmimrgvaaklsnkd
+
+1ycc e-------------
+1ccr s-------------
+1cry adgsk---------
+1hro --------------
+2c2c --------------
+155c pda-----------
+1c2r k-------------
+1cxa vrp-----------
+1etp iea--lssyiqglh
+
+
+

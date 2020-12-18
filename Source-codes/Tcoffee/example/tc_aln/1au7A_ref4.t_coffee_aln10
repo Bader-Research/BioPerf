@@ -1,0 +1,31 @@
+
+SAGA FORMAT
+alignement  1au7A_ref4.t_coffee_aln10 nseq=6 len=133
+T_COFFEE ALIGNMENT
+CPU TIME:11060
+
+
+
+1au7A gmraleqfanefkvrriklgytqtnvgealaavhgsefsqtticrfenlq
+2hddA --------------------------------------------------
+1akhA --------------------------------------------------
+1pog  --------------------------------------------------
+1ocp  --------------------------------------------------
+1hdp  --------------------------------------------------
+
+1au7A lsfknacklkailskwleeaeqkrrttisiaakdalerhfgehskpssqe
+2hddA ------------------------rtafsseqlarlkrefnenrylterr
+1akhA ---------------------------ispqarafleevfrrkqslnske
+1pog  -------------------rrrkkrtsietnirvaleksflenqkptsee
+1ocp  -------------metlvqarkrkrtsienrvrwsletmflkcpkpslqq
+1hdp  --------------------rrkkrtsietnvrfaleksflanqkptsee
+
+1au7A imrmaeelnlekevvrvwfcnrrqrekrvk---
+2hddA rqqlsselglneaqikiwfknkrakikks----
+1akhA keevakkcgitplqvrvwfinkrmr---s----
+1pog  itmiadqlnmekevirvwfcnrrqkekridi--
+1ocp  ithianqlglekdvvrvwfcnrrqkgkrss---
+1hdp  illiaeqlhmekevirvwfcnrrqkekrinpcs
+
+
+

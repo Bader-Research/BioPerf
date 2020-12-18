@@ -1,0 +1,56 @@
+Using these options:
+  Number of k-means iterations:       100
+  Low-dimensional projection:         15
+  Number of k-means clusters:         24
+  Early threshold:                    0
+  Random seed for k-means init:       1
+  Type of k-means initialization:     1
+  Random seed for projection:         1
+  File to load projected data:        ../output//predator.projData
+  File to save labels:                ../output//predator.labels
+  File to save weights:               ../output//predator.weights
+  File to save simpoints:             ../output//predator.simpoints
+  Input data files to process:
+
+Loaded data from projected data file '../output//predator.projData' (size: 1231x15)
+  Initialized k-means centers using furthest-first: 24 centers
+iteration 0
+count: 106	307	6	23	235	1	4	1	1	20	1	22	4	6	4	9	1	17	22	19	22	358	1	41	
+iteration 1
+count: 106	300	9	24	284	1	4	1	1	22	1	19	4	22	5	9	1	26	20	18	22	282	1	49	
+iteration 2
+count: 106	299	12	24	302	1	4	1	1	23	1	20	4	69	5	8	1	26	20	18	22	226	1	37	
+iteration 3
+count: 106	299	13	24	294	1	4	1	1	23	1	21	4	93	5	7	1	25	20	19	22	211	1	35	
+iteration 4
+count: 106	298	13	24	278	1	4	1	1	23	1	22	4	106	5	7	1	25	20	19	22	213	1	36	
+iteration 5
+count: 106	296	13	24	269	1	4	1	1	23	1	22	4	117	5	7	1	27	20	19	22	209	1	38	
+iteration 6
+count: 106	296	13	24	263	1	4	1	1	23	1	22	4	126	5	7	1	27	20	19	22	204	1	40	
+iteration 7
+count: 106	296	13	24	247	1	4	1	1	23	1	22	4	133	5	7	1	27	20	19	22	212	1	41	
+iteration 8
+count: 106	296	13	24	235	1	4	1	1	23	1	22	4	137	5	7	1	27	20	19	22	218	1	43	
+iteration 9
+count: 106	296	13	24	223	1	4	1	1	23	1	22	4	138	5	7	1	27	20	19	22	227	1	45	
+iteration 10
+count: 106	296	13	24	215	1	4	1	1	23	1	22	4	140	5	7	1	27	20	19	22	233	1	45	
+iteration 11
+count: 106	296	13	24	210	1	4	1	1	23	1	22	4	140	5	7	1	27	20	19	22	238	1	45	
+iteration 12
+count: 106	296	13	24	209	1	4	1	1	23	1	22	4	143	5	7	1	27	20	19	22	236	1	45	
+iteration 13
+count: 106	296	13	24	207	1	4	1	1	23	1	22	4	142	5	7	1	27	20	19	22	238	1	46	
+iteration 14
+count: 106	296	13	24	206	1	4	1	1	23	1	22	4	142	5	7	1	27	20	19	22	239	1	46	
+iteration 15
+count: 106	296	13	24	206	1	4	1	1	23	1	22	4	142	5	7	1	27	20	19	22	239	1	46	
+  BIC score: 48082.2
+  Distortion: 3.50933
+  Distortions/cluster: 0.0840362 0.045148 0.133861 0.26263 0.237827 0 0.0203937 0 0 0.420463 0 0.295269 0.058025 0.416436 0.0597956 0.0586714 0 0.335567 0.141126 0.167452 0.186225 0.307751 0 0.278651 
+  Variance: 0.00290748
+  Variances/cluster: 0.000800345 0.000153044 0.0111551 0.0114187 0.00116013 0 0.00679791 0 0 0.0191119 0 0.0140604 0.0193417 0.00295345 0.0149489 0.00977856 0 0.0129064 0.00742767 0.00930288 0.00886784 0.00129307 0 0.00619225 
+  Saving simpoints to file '../output//predator.simpoints'
+  Saving labels and distance from center of each input point to file '../output//predator.labels'
+  Saving weights of each cluster to file '../output//predator.weights'

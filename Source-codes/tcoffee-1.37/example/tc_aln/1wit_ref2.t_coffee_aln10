@@ -1,0 +1,79 @@
+
+SAGA FORMAT
+alignement  1wit_ref2.t_coffee_aln10 nseq=22 len=123
+T_COFFEE ALIGNMENT
+CPU TIME:807200
+
+
+
+1wit       -------l-kpkilt---asrkikikagfthnlevdf--igap-dptatw
+cpsf_chick -------l-dcsgka---aentivvvagnkvrldvpi--sgep-aptvtw
+cpss_human ------ki-ilgdld---adntvtviagnklrleipi--sgep-ppkamw
+myms_human ------kn-rarvlgglp--dvvtiqegkalnltcnv--wgdp-ppevsw
+vca1_mouse -------k-ettiwv---spsp-ileegspvnltcss--dgip-apkilw
+1tlk       ------hv-kpyftk---tildmdvvegsaarfdckv--egyp-dpevmw
+cavt_brala k----eks-ipkfsq---vlkdmfvmegsavtffarv--wgip-dpvikw
+dcc_human  -ael-tvlvppwfln---hpsnlyayesmdiefectv--sgkp-vptvnw
+ptpf_human agah-gds-kpvfik---vpedqtglsggvasfvcqa--tgep-kpritw
+mpsf_human ------kn-rgrligglp--dvvtimegktlnltctv--fgnp-dpeviw
+pgbm_mouse ------qa-lpqistp----peirvpagsaavfpcma--sgyp-tpaitw
+iml2_drome ---------kprivy-te--kthldlmgsniqlpcrv--harp-raeitw
+vgr2_mouse -----erm-apmitg---nlenqtttigetievtcpa--sgnp-tphitw
+nca2_xenla ---------ppli-qarqirvnatanmdesvvlscda--dgfp-dpeisw
+axo1_chick ------haq-pdwld---vitdteadigsdlrwscva--sgkp-rpavrw
+nrg_drome  -ylnvqae-pptise-ap--aavstvdgrnvtikcrv--ngsp-kplvkw
+caml_rat   ---------fptn-ss----shlvalqgqslilecia--egfp-tptikw
+cont_mouse -------l-aptfem-npmkkkilaakggrviieckp--kaap-kpkfsw
+lar_drome  ----------peiir---kpqnqgvrvggvasfycaa--rgdp-ppsivw
+2ncm       r--------vlqvdi-vp--sqgeisvgeskfflcqv--agdakdkdisw
+1hnf       ------av-skeitna---l-etwgalgqdinldipsfqmsdd-iddikw
+1vcaA      --------f-k-iet-tp-esrylaqigdsvsltcst--tgce-spffsw
+
+1wit       tvgds--gaala-pellvd-aks-------sttsiffpsak-radsgnyk
+cpsf_chick krgdq--lftategrvhid-sqa-------dlssfviesae-rsdegryc
+cpss_human srgdk--aimegsgrirte-syp-------dsstlvidiae-rddsgvyh
+myms_human lknek--alaqtd-hcnl-kfeag------rtayftingvs-tadsgkyg
+vca1_mouse srqln-----n--gelqpl-s---------enttltfmstk-rddsgiyv
+1tlk       fkddn--pvkes-rhfqi-dydee------gncsltisevc-gdddakyt
+cavt_brala fkdgq--evkqg-pkhei-kfddk------dgtfliirnad-gddvgtyt
+dcc_human  mkngd--vvip-sdyfqiv----g-------gsnlrilgvv-ksdegfyq
+ptpf_human mkkgk--kvss--qrfeviefddg------agsvlriqplrvqrdeaiye
+mpsf_human fkndq--diqlse-hfsv-kveqa------kyvsmtikgvt-sedsgkys
+pgbm_mouse skvdg--dlppd-sr-------le-------nnmlmlpsvr-pedagtyv
+iml2_drome lnnen-keivqg-hrhrvl--a---------ngdlliseik-wedmgnyk
+vgr2_mouse fkdne--tlved-sgivl---rdg------n-rnltirrvr-kedgglyt
+nca2_xenla lkkge--piedgeekisf---ned-------ksemtiyrve-kedeaeys
+axo1_chick lrdgq--plas-qnrievs----g-------g-elrfsklv-ledsgmyq
+nrg_drome  lrasn--wlt-g-grynvq--a---------ngdleiqdvt-fsdagkyt
+caml_rat   lhpsd--pmptd-r-viy---qnh-------nktlqllnvg-eeddgeyt
+cont_mouse skgte--wlvns-sriliw--e---------dgsleinnit-rndggiyt
+lar_drome  rkngk--kvsgtqsrytvleq-pg------gisilriepvragrddapye
+2ncm       fspng-eklspnqqrisv-vwndd------dsstltiynan-iddagiyk
+1hnf       ektsdkkkiaqfr-keke-tfkekdtyklfkngtlkikhlk-tddqdiyk
+1vcaA      rtqid--spl--ngkvt----neg------ttstltmnpvs-fgnehsyl
+
+1wit       lkvknelged--eaifevivq--
+cpsf_chick itvtnpvged--satlhvrv---
+cpss_human inlkneagea--hasikvkv---
+myms_human lvvknkygse--tsdftvsv---
+vca1_mouse cegineagis--rksvelii---
+1tlk       ckavnslgea--tctaellvetm
+cavt_brala cqatnsfgea--fdsarlale--
+dcc_human  cvaeneagna--qtsaqlivp--
+ptpf_human ctatnslgei--ntsaklsv---
+mpsf_human iniknkygge--kidvtvsv---
+pgbm_mouse ctatnrqgkv--kafaylqvpe-
+iml2_drome ciarnvvgkd--tadtfv-yp--
+vgr2_mouse cqacnvlgca--raetlfiie--
+nca2_xenla ciannqagea--eaivllkv---
+axo1_chick cvaenkhgtv--yasaeltvqa-
+nrg_drome  cyaqnkfgei--qadgslvvke-
+caml_rat   claenslgsa--rhayyvtve--
+cont_mouse cfaennrgka--nstgtlvit--
+lar_drome  cvaengvgdav-sadatltiy--
+2ncm       cvvtaedgtqs-eatvnvkifq-
+1hnf       vsiydtkgknvlekifdlkiq--
+1vcaA      ctatcesrkl--ekgiqveiy--
+
+
+

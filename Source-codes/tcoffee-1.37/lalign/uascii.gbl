@@ -1,0 +1,46 @@
+/*	ascii.gbl	ascii translation to amino acids */
+/*	modified 10-Mar-1987 for B, Z	*/
+
+#define NA 124
+#define EL 125
+#define ES 126
+
+#ifndef XTERNAL
+/*      0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15	*/
+int aascii[]={
+	EL,NA,NA,NA,NA,NA,NA,NA,NA,NA,EL,NA,NA,EL,NA,NA,
+	NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+	NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,ES,NA,NA,NA,NA,NA,
+	NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+	ES, 0,20, 4, 3, 6,13, 7, 8, 9,NA,11,10,12, 2,NA,
+	14, 5, 1,15,16,NA,19,17,22,18,21,NA,NA,NA,NA,NA,
+	NA, 0,20, 4, 3, 6,13, 7, 8, 9,NA,11,10,12, 2,NA,
+	14, 5, 1,15,16,NA,19,17,22,18,21,NA,NA,NA,NA,NA};
+
+int *sascii;
+#define AAMASK 127
+
+int nascii[]={
+/*	 0  1  2  3  5  6  7  8  9 10 11 12 13 14 15 15
+	 @  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O
+	 P  Q  R  S  T  U  V  W  X  Y  Z		*/
+	EL,NA,NA,NA,NA,NA,NA,NA,NA,NA,EL,NA,NA,EL,NA,NA,
+	NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+	NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,ES,NA,NA,16,NA,NA,
+	ES,ES,ES,NA,NA,NA,NA,NA,NA,NA,NA,ES,NA,NA,ES,NA,
+	ES, 0,14, 1,11,NA,NA, 2,12,NA,NA,10,NA, 7,15,NA,
+	 5, 6, 5, 9, 3, 4,13, 8,15, 6,NA,NA,NA,NA,NA,NA,
+	NA, 0,14, 1,11,NA,NA, 2,12,NA,NA,10,NA, 7,15,NA,
+	 5, 6, 5, 9, 3, 4,13, 8,15, 6,NA,NA,NA,NA,NA,NA};
+
+#else
+extern int aascii[];
+extern int nascii[];
+extern int *sascii;
+
+#define AAMASK 127
+
+extern int lascii[];
+
+#define LAMASK 15
+#endif

@@ -1,0 +1,10 @@
+#!/bin/bash 
+source $HOME/.bioperf
+#For nucleotide:
+cd $BIOPERF/Binaries/PowerPc-Binaries/Blast
+./blastall -p blastn -i $BIOPERF/Inputs/Blast/blastn/test.txt -d $BIOPERF/Inputs/Blast/blastn/ecoli.nt -M BLOSUM62 -o $BIOPERF/Outputs/Blast/powerpc-blastn-output
+echo The output has been stored as powerpc-blastn-output in $BIOPERF/Outputs/Blast
+
+
+#note:
+#A file whose name is ".ncbirc" should be modified to point to the proper directory of Data and BLASTDB.And this file .ncbirc must be located in the home directory.

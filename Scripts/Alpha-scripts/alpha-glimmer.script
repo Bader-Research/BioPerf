@@ -1,0 +1,25 @@
+#!/bin/bash 
+source $HOME/.bioperf
+if [ -z $SIMDIR ]; then       
+echo $'\n'
+echo It appears that you have not installed sim-outorder executable. 
+echo Download and install the simplesim package "http://www.simplescalar.com/agreement.php3?simplesim-3v0d.tgz"
+echo sim-outorder is part of this package
+echo Set the environment variable SIMDIR to the directory containing sim-outorder
+echo $'\n'
+exit
+fi
+if [ -e $SIMDIR/sim-outorder ] 
+then  echo ""
+else
+echo $'\n'  
+echo There is no file named sim-outorder in $SIMDIR
+echo Please check for sim-outorder again in $SIMDIR
+echo $'\n'
+exit
+fi
+# can use any of the nc_xxxx.fna as the input data set 
+$SIMDIR/sim-outorder $BIOPERF/Alpha-binaries/Glimmer/glimmer2 $BIOPERF/Inputs/Glimmer/class-C/nc_004663.fna $BIOPERF/Inputs/Glimmer/class-C/glimmer.icm  > $BIOPERF/Outputs/Glimmer/glimmer.output
+echo The output has been stored as glimmer.output in $BIOPERF/Outputs/Glimmer
+
+

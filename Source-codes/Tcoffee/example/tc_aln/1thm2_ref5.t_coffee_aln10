@@ -1,0 +1,50 @@
+
+SAGA FORMAT
+alignement  1thm2_ref5.t_coffee_aln10 nseq=7 len=243
+T_COFFEE ALIGNMENT
+CPU TIME:48340
+
+
+
+1thm       qygpqkiqapqawdia------egsgakiaivdtgvqsnhpdlagkvvg-
+1mpt       pwgisrvqapaahnrg-----ltgsgvkvavldtgis-thpdln--irg-
+1af4       pygiplikadkvqaqg-----fkganvkvavldtgiqashpdln--vvg-
+hly_hal17  qyapqqvnceaawdvt-----ygdpgvtisvvdqgiqydhedlegnmdgs
+sube_bacsu qwnlepiqvkqawkag-----ltgknikiavidsgis-phddls--iag-
+sepr_thesp twgldridqrtlpldgrytytatgagvhayvvdtgillshqeftgrigk-
+prtt_serma qwgleaisaefayara-----ytgkgvtigviddail-shpefagklt-r
+
+1thm       ----gwdfvdndstp---qngnghgthcagiaaavtnnstgiagtapkas
+1mpt       ----gasfvpgepst---qdgnghgthvagtiaal-nnsigvlgvapsae
+1af4       ----gasfvageayn---tdgnghgthvagtvaal-dnttgvlgvapsvs
+hly_hal17  vsnygddfvdndgdpypvsasenhgthvggiaaggtnnatghagis-ncs
+sube_bacsu ----gysavsytssy---kddnghgthvagiigak-hngygidgiapeaq
+sepr_thesp ----gydaitpggsa---qdcnghgthvagtiggt-t-----ygvakgvt
+prtt_serma ldngsynfsydkqdn---msfgthgthvagiaaak-rdgsgmhgvaydad
+
+1thm       ilavrvld---nsgsg---------------twtav---ang-ityaadq
+1mpt       lyavkvlg---asgsg---------------svssi---aqg-lewagnn
+1af4       lyavkvln---ssgsg---------------sysgi---vsg-iewattn
+hly_hal17  llsaralg---dgggg---------------sltdi---ada-iqwsadq
+sube_bacsu iyavkald---qngsg---------------dlqsl---lqg-idwsian
+sepr_thesp lhpvrvld---cngsg---------------snssv---iag-ldwvtqn
+prtt_serma iigtklndygnrngreeliqsaarvinnswgirpdirrdakgdiiwlpng
+
+1thm       g--------ak--vislslggt-------------vgnsglqqavnyawn
+1mpt       g--------mh--vanlslgsp-------------spsatleqavnsats
+1af4       g--------md--vinmslgga-------------sgstamkqavdnaya
+hly_hal17  g--------ad--vinmslggg-------------gfsqtlsnaceyayn
+sube_bacsu r--------md--ivnmslgtt-------------sdskilhdavnkaye
+sepr_thesp h--------vkpavinmslggg-------------a-staldtavmnain
+prtt_serma rpdyvawvktd--vinevmrnksnlewgseqpvptgghsama-tllraak
+
+1thm       kgsvvvaaagnagnt----a---pny--payysnaiavastdq
+1mpt       rgvlvvaasgnsgag----s---isy--paryanamavgatdq
+1af4       rgvvvvaaagnsgnsg---stntigy--pakydsviavgavds
+hly_hal17  qgsllvaaagngygn----s---vsy--paaydtvmavsslde
+sube_bacsu qgvllvaasgndgng----kp--vny--paayssvvavsatne
+sepr_thesp agvtvvvaagndnrd----a---cfy-sparvtaaitvgatts
+prtt_serma hgklivfsagnynnynipeaqkslpyafpevlnnylivtnlsn
+
+
+

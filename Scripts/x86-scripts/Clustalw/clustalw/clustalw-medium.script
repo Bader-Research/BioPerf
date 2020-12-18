@@ -1,0 +1,6 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/x86-Binaries/Clustalw
+./clustalw -batch -infile=$BIOPERF/Inputs/Clustalw/class-B/1290.seq
+mv $BIOPERF/Inputs/Clustalw/class-B/1290.aln $BIOPERF/Inputs/Clustalw/class-B/1290.dnd  $BIOPERF/Outputs/Clustalw/
+echo The output has been stored as 1290.dnd and 1290.aln has been stored in $BIOPERF/Outputs/Clustalw 

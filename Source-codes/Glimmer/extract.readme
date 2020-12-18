@@ -1,0 +1,55 @@
+//    Copyright (c) 1997 by Arthur Delcher, Steven Salzberg, Simon
+//    Kasif, and Owen White.  All rights reserved.  Redistribution
+//    is not permitted without the express written permission of
+//    the authors.
+
+Program extract takes a FASTA format sequence file and a file
+with a list of start/stop positions in that file  (e.g., as produced
+by the  long-orfs  program) and extracts and outputs the
+specified sequences.
+
+The first command-line argument is the name of the sequence file,
+which must be in FASTA format.
+
+The second command-line argument is the name of the coordinate file.
+It must contain a list of pairs of positions in the first file, one
+per line.  The format of each entry is:
+  <IDstring>  <start position>  <stop position>
+This file should contain no other information, so if you're using
+the output of  glimmer  or  long-orfs , you'll have to cut off
+header lines.
+
+The output of the program goes to the standard output and has one
+line for each line in the coordinate file.  Each line contains
+the  IDstring , followed by white space, followed by the substring
+of the sequence file specified by the coordinate pair.  Specifically,
+the substring starts at the first position of the pair and ends at
+the second position (inclusive).  If the first position is bigger
+than the second, then the DNA reverse complement of each position
+is generated.  Start/stop pairs that "wrap around" the end of the
+genome are allowed.
+
+There are two optional command-line arguments:
+
+  -skip  makes the output omit the first 3 characters of each sequence,
+         i.e., it skips over the start codon.  This was the default
+         behaviour of the previous version of the program.
+
+  -l n   makes the output omit an sequences shorter than  n  characters.
+          n  includes the 3 skipped characters if the  -skip  switch
+         is one.
+
+To compile the program:
+
+      g++ extract.c -lm -o extract
+
+  Uses include file  delcher.h
+
+
+To run the program:
+
+      extract genome.seq list.coord <options>
+
+  where  genome.seq  is a genome sequence in FASTA format and
+   list.coord  is a list of start/stop pairs
+

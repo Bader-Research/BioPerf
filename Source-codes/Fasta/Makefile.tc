@@ -1,0 +1,213 @@
+#
+# makefile for fasta3, fasta3_t.  Use makefile.pvm for pvcompxx.
+
+# MSDOS Borland C commands
+#CC= bcc -mm -w-rvl -w-pro -3 -O
+CC= bcc32 -WC -w-rvl -w-pro -3 -O
+#CFLAGS= -IC:\bc5\include -DFAR_PTR -DALLOCN0 -DMSDOS 
+CFLAGS=-IC:\bc5\include -DBIGMEM -DALLOCN0 -DMSDOS -DGAP_OPEN
+#CL= bcc -mm
+CL= bcc32 -WC
+LFLAGS= -LC:\bc5\lib
+NRAND= nrand
+HZ=100
+
+
+XDIR = /seqprg/slib/bin
+
+SPROGS = fasta34.exe ssearch34.exe fastx34.exe tfastx34.exe fasty34.exe tfasty34.exe fasts34.exe tfasts34.exe prss34.exe prfx34.exe
+
+PROGS = $(SPROGS)
+
+all : $(PROGS)
+
+sall: $(SPROGS)
+
+clean-up:
+	del *.obj $(PROGS)
+
+install:
+	cp $(PROGS) $(XDIR)
+
+fasta34.exe : comp_lib.obj compacc.obj showbest.obj showalig.obj htime.obj apam.obj doinit.obj init_fa.obj scaleswn.obj karlin.obj drop_nfa.obj getseq.obj lgetlib.obj regetlib.obj c_dispn.obj lib_sel.obj url_subs.obj nrand.obj getopt.obj
+	$(CL) $(LFLAGS) -efasta34.exe comp_lib.obj showalig.obj init_fa.obj drop_nfa.obj getseq.obj  @fasta3.rsp -lm
+
+fastx34.exe : comp_lib.obj compacc.obj showbest.obj showalig.obj htime.obj apam.obj doinit.obj initfx.obj scaleswn.obj karlin.obj drop_fx.obj getseq.obj lgetlib.obj regetlib.obj c_dispn.obj lib_sel.obj faatran.obj url_subs.obj nrand.obj getopt.obj
+	$(CL) $(LFLAGS) -efastx34.exe comp_lib.obj showalig.obj initfx.obj drop_fx.obj faatran.obj getseq.obj  @fasta3.rsp -lm
+
+fasty34.exe : comp_lib.obj compacc.obj showbest.obj showalig.obj htime.obj apam.obj doinit.obj initfx.obj scaleswn.obj karlin.obj drop_fz.obj getseq.obj lgetlib.obj regetlib.obj c_dispn.obj lib_sel.obj faatran.obj url_subs.obj nrand.obj
+	$(CL) $(LFLAGS) -efasty34.exe comp_lib.obj showalig.obj initfx.obj drop_fz.obj faatran.obj getseq.obj  @fasta3.rsp -lm
+
+tfastx34.exe : comp_lib.obj compacc.obj showbest.obj showalig.obj htime.obj apam.obj doinit.obj inittfx.obj getseq.obj lgetlib.obj scaleswn.obj karlin.obj tdropfx.obj c_dispn.obj lib_sel.obj faatran.obj url_subs.obj nrand.obj
+	$(CL) $(LFLAGS) -etfastx34.exe comp_lib.obj showalig.obj inittfx.obj tdropfx.obj faatran.obj getseq.obj @fasta3.rsp -lm
+
+tfasty34.exe : comp_lib.obj compacc.obj showbest.obj showalig.obj htime.obj apam.obj doinit.obj inittfx.obj getseq.obj lgetlib.obj scaleswn.obj karlin.obj tdropfz.obj c_dispn.obj lib_sel.obj faatran.obj url_subs.obj nrand.obj
+	$(CL) $(LFLAGS) -etfasty34.exe comp_lib.obj showalig.obj inittfx.obj tdropfz.obj faatran.obj getseq.obj @fasta3.rsp -lm
+
+ssearch34.exe : comp_lib.obj compacc.obj showbest.obj showalig.obj htime.obj apam.obj doinit.obj initsw.obj getseq.obj scaleswn.obj karlin.obj dropgsw.obj getseq.obj lgetlib.obj regetlib.obj c_dispn.obj lib_sel.obj url_subs.obj nrand.obj
+	$(CL) $(LFLAGS) -essearch34.exe comp_lib.obj showalig.obj initsw.obj dropgsw.obj getseq.obj getseq.obj @fasta3.rsp -lm
+
+fasts34.exe : comp_lib.obj compacc.obj showbest.obj showalig.obj htime.obj apam.obj doinit.obj init_fs.obj getseq.obj dropfs2.obj scaleswt.obj karlin.obj tatsta_s.obj last_tat.obj getseq.obj lgetlib.obj regetlib.obj c_dispn.obj lib_sel.obj url_subs.obj nrand.obj getopt.obj
+	$(CL) $(LFLAGS) -efasts34.exe comp_lib.obj showalig.obj init_fs.obj dropfs2.obj getseq.obj @fasts3.rsp -lm
+
+tfasts34.exe : comp_lib.obj compacc.obj showbest.obj showalig.obj htime.obj apam.obj doinit.obj inittfs.obj getseq.obj droptfs2.obj scaleswt.obj karlin.obj tatsttfs.obj last_tat.obj getseq.obj lgetlib.obj regetlib.obj c_dispn.obj lib_sel.obj url_subs.obj nrand.obj faatran.obj getopt.obj
+	$(CL) $(LFLAGS) -etfasts34.exe comp_lib.obj showalig.obj inittfs.obj droptfs2.obj getseq.obj faatran.obj @tfasts3.rsp -lm
+
+prss34.exe : rcomplib.obj compacc.obj htime.obj apam.obj doinit.obj init_rss.obj getseq.obj scaleswn.obj karlin.obj dropgsw.obj llgetaa.obj showrss.obj lib_sel.obj nrand.obj getopt.obj
+	$(CL) $(LFLAGS) -eprss34.exe rcomplib.obj init_rss.obj dropgsw.obj llgetaa.obj nrand.obj @prss3.rsp -lm
+
+prfx34.exe : rcomplib.obj compacc.obj htime.obj apam.obj doinit.obj init_rfx.obj getseq.obj scaleswn.obj karlin.obj drop_fx.obj llgetaa.obj faatran.obj showrss.obj lib_sel.obj nrand.obj getopt.obj
+	$(CL) $(LFLAGS) -eprfx34.exe rcomplib.obj init_rfx.obj drop_fx.obj faatran.obj llgetaa.obj  nrand.obj @prss3.rsp -lm
+
+comp_lib.obj : comp_lib.c mw.h structs.h defs.h param.h
+	$(CC) $(CFLAGS) -DPGM_DOC -ocomp_lib.obj -c comp_lib.c
+
+rcomplib.obj : comp_lib.c mw.h structs.h defs.h param.h
+	$(CC) $(CFLAGS) -DPRSS -orcomplib.obj -c comp_lib.c
+
+htime.obj : htime.c
+	$(CC) $(CFLAGS) -c htime.c
+
+hxgetaa.obj : hxgetaa.c altlib.h upam.h uascii.h
+	$(CC) $(CFLAGS) -c hxgetaa.c
+
+initsw.obj : initsw.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -c initsw.c
+
+init_rss.obj : initsw.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -c -DPRSS -oinit_rss.obj initsw.c 
+
+init_rfx.obj : initfa.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -c -DFASTX -DPRSS -oinit_rfx.obj initfa.c 
+
+init_fa.obj : initfa.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -DFASTA -oinit_fa.obj -c initfa.c
+
+init_ff.obj : initfa.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -DFASTF -oinit_ff.obj -c initfa.c
+
+init_tf.obj : initfa.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -DTFASTF -oinit_tf.obj -c initfa.c
+
+init_fs.obj : initfa.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -DFASTS -oinit_fs.obj -c initfa.c
+
+inittfs.obj : initfa.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -DTFAST -DTFASTS -oinittfs.obj -c initfa.c
+
+init_tfa.obj : initfa.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -DTFASTA -oinit_tfa.obj -c initfa.c
+
+initfx.obj : initfa.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -DFASTX -oinitfx.obj -c initfa.c
+
+inittfx.obj : initfa.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -DTFASTX -DTFAST -oinittfx.obj -c initfa.c
+
+doinit.obj : doinit.c defs.h param.h upam.h structs.h
+	$(CC) $(CFLAGS) -c doinit.c
+
+compacc.obj : compacc.c upam.h uascii.h param.h structs.h mw.h defs.h
+	$(CC) $(CFLAGS) -c compacc.c
+
+showbest.obj : mshowbest.c mw.h defs.h param.h structs.h mm_file.h
+	$(CC) $(CFLAGS) -oshowbest.obj -c mshowbest.c
+
+showrss.obj : showrss.c mw.h defs.h param.h structs.h
+	$(CC) $(CFLAGS) -c showrss.c
+
+showalig.obj : mshowalign.c mw.h defs.h structs.h param.h
+	$(CC) $(CFLAGS) -oshowalig.obj -c mshowalign.c
+
+c_dispn.obj : c_dispn.c defs.h structs.h param.h 
+	$(CC) $(CFLAGS) -c c_dispn.c
+
+lib_sel.obj : lib_sel.c defs.h structs.h
+	$(CC) $(CFLAGS) -c lib_sel.c
+
+scaleswn.obj : scaleswn.c defs.h mw.h alt_parms.h
+	$(CC) $(CFLAGS) -c scaleswn.c
+
+scaleswt.obj : scaleswt.c defs.h mw.h alt_parms.h
+	$(CC) $(CFLAGS) -c scaleswt.c
+
+tatsta_s.obj : tatstats.c defs.h mw.h alt_parms.h tatstats.h
+	$(CC) $(CFLAGS) -DFASTS -otatsta_s.obj -c tatstats.c
+
+tatsttfs.obj : tatstats.c defs.h mw.h alt_parms.h tatstats.h
+	$(CC) $(CFLAGS) -DTFAST -DFASTS -otatsttfs.obj -c tatstats.c
+
+karlin.obj : karlin.c param.h
+	$(CC) $(CFLAGS) -c karlin.c
+
+scaleswg.obj : scaleswg.c defs.h mw.h alt_parms.h
+	$(CC) $(CFLAGS) -c scaleswg.c
+
+drop_nfa.obj : dropnfa.c param.h defs.h
+	$(CC) $(CFLAGS) -odrop_nfa.obj -c dropnfa.c
+
+drop_ff.obj : dropffa.c mw.h param.h defs.h
+	$(CC) $(CFLAGS) -odrop_ff.obj -c dropffa.c
+
+drop_tff.obj : dropffa.c mw.h param.h defs.h
+	$(CC) $(CFLAGS) -DTFASTF -odrop_tff.obj -c dropffa.c
+
+drop_tfa.obj : dropnfa.c mw.h upam.h param.h defs.h
+	$(CC) $(CFLAGS) -DTFASTA -odrop_tfa.obj -c dropnfa.c
+
+drop_fx.obj : dropfx.c mw.h upam.h param.h defs.h
+	$(CC) $(CFLAGS) -DFASTX -odrop_fx.obj -c dropfx.c
+
+dropfs2.obj : dropfs2.c mw.h upam.h param.h defs.h tatstats.h
+	$(CC) $(CFLAGS) -DFASTS  -c dropfs2.c
+
+droptfs2.obj : dropfs2.c mw.h upam.h param.h defs.h tatstats.h
+	$(CC) $(CFLAGS) -DTFAST -DFASTS -c -odroptfs2.obj dropfs2.c
+
+tdropfx.obj : dropfx.c mw.h upam.h param.h defs.h
+	$(CC) $(CFLAGS) -DTFASTX -otdropfx.obj -c dropfx.c
+
+drop_fz.obj : dropfz2.c mw.h upam.h param.h defs.h aamap.h
+	$(CC) $(CFLAGS) -DFASTX -odrop_fz.obj -c dropfz2.c
+
+tdropfz.obj : dropfz2.c mw.h upam.h param.h defs.h aamap.h
+	$(CC) $(CFLAGS) -DTFASTX -otdropfz.obj -c dropfz2.c
+
+dropnsw.obj : dropnsw.c mw.h upam.h param.h structs.h
+	$(CC) $(CFLAGS) -c dropnsw.c
+
+dropgsw.obj : dropgsw.c mw.h upam.h param.h structs.h
+	$(CC) $(CFLAGS) -c dropgsw.c
+
+dropnw.obj : dropnw.c mw.h upam.h param.h structs.h
+	$(CC) $(CFLAGS) -c dropnw.c
+
+llgetaa.obj : llgetaa.c altlib.h upam.h uascii.h
+	$(CC) $(CFLAGS) -DNOLIB -c llgetaa.c
+
+lgetlib.obj : nmgetlib.c altlib.h upam.h uascii.h
+	$(CC) $(CFLAGS) -olgetlib.obj  -c nmgetlib.c
+
+regetlib.obj : re_getlib.c mw.h mm_file.h
+	$(CC) $(CFLAGS) -oregetlib.obj -c re_getlib.c
+
+getseq.obj : getseq.c defs.h uascii.h structs.h upam.h 
+	$(CC) $(CFLAGS) -c getseq.c
+
+ncbl_lib.obj : ncbl_lib.c ncbl_head.h
+	$(CC) $(CFLAGS) -c ncbl_lib.c
+
+faatran.obj : faatran.c upam.h uascii.h
+	$(CC) $(CFLAGS) -c faatran.c
+
+url_subs.obj : url_subs.c structs.h param.h
+	$(CC) $(CFLAGS) -c url_subs.c
+
+nrand48.obj : nrand48.c
+	$(CC) $(CFLAGS) -c nrand48.c
+
+nrand.obj : nrand.c
+	$(CC) $(CFLAGS) -c nrand.c
+
+getopt.obj : getopt.c
+	$(CC) $(CFLAGS) -c getopt.c

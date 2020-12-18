@@ -1,0 +1,52 @@
+
+SAGA FORMAT
+alignement  1tis_ref1.t_coffee_aln10 nseq=5 len=314
+T_COFFEE ALIGNMENT
+CPU TIME:21358
+
+
+
+tysy_bpt4  mkqyqdlikdifengyetddrtgtgtialfg-sklrwdltkg-fpavttk
+tysy_ecoli mkqylelmqkvldegtqkndrtgtgtlsifg-hqmrfnlqdg-fplvttk
+drts_toxgo --qyldliadiinngrtmddrtgvgviskfg-ctmrysl-dqafpllttk
+tysy_cryne --qyldlirriinvgevrpdrtgtgtvalfappsfrfsladntlpllttk
+drts_leiam -rqylelidrimktgiakedrtgvgtlslfg-aqmrfslrdnrlpllttk
+
+tysy_bpt4  klawkaciaeliwflsgstnvndlrliqhdsliqgktvwdenyenqakd-
+tysy_ecoli rchlrsiihellwflqgdtniayl----hennv---tiwd-----ewade
+drts_toxgo rvfwkgvleellwfirgdtnanhl----sekgv---kiwdknvtreflds
+tysy_cryne rvflrgviaellwfvsgctdakml----ssqgv---giwdgngskeflek
+drts_leiam rvfwrgvceellwflrgetnaqll----adkdi---hiwdgngsreflds
+
+tysy_bpt4  --lgyhs-gelgpiygkqwrdfg-------------gvdqiievidrikk
+tysy_ecoli -------ngdlgpvygkqwrawptp--------dgrhidqittvlnqlkn
+drts_toxgo rnlphrevgdigpgygfqwrhfgaaykdmhtdytgqgvdqlknviqmlrt
+tysy_cryne vglghrregdlgpvygfqwrhfgaeytdadgdykgkgvdqlqrvidtikn
+drts_leiam rgltentemdlgpvygfqwrhfgaeyrgleanydgegvdqikfivetika
+
+tysy_bpt4  lpndrrqivsawnpaelkymalppchmfyqfnvrn---------gyldlq
+tysy_ecoli dpdsrriivsawnvgeldkmalapchaffqfyvadg---------klscq
+drts_toxgo nptdrrmlmtawnpaaldemalppchllcqfyvndq-------k-elsci
+tysy_cryne nptdrriilsawnpkdlplmalppchmfcqffvslppadspgskpklscl
+drts_leiam npndrrllftawnpcalhkmalppchllaqfyvnte-------kselscm
+
+tysy_bpt4  wyqrsvdvflglpfniasyatlvhivakmcnlipgdlifsggnthiymnh
+tysy_ecoli lyqrscdvflglpfniasyallvhmmaqqcdlevgdfvwtggdthlysnh
+drts_toxgo myqrscdvglgvpfniasyslltlmvahvcnlkpkefihfmgnthvytnh
+tysy_cryne myqrscdlglgvpfniasyallthmialitdtephefilqmgdahvyrdh
+drts_leiam lyqrscdmglgvpfniasyalltiliakatglrpgelvhtlgdahvyrsh
+
+tysy_bpt4  veqckeilrrepkelcelvisglpykfrylstkeqlkyvlklrpkdfvln
+tysy_ecoli mdqthlqlsreprplpklii------------krkpesifdyrfedfeie
+drts_toxgo vealkeqlrreprpfpivn----------ilnkerikeiddftaedfevv
+tysy_cryne veplktqlereprdfpklkw---------arskeeigdidgfkvedfvve
+drts_leiam idalkaqlervphafptlv------------fkeerqfledyelmdmevi
+
+tysy_bpt4  nyvshppikgkmav
+tysy_ecoli gydphpgikapva-
+drts_toxgo gyvphgriqmema-
+tysy_cryne gykpwgkidmkms-
+drts_leiam dyvphppikmema-
+
+
+

@@ -1,0 +1,15 @@
+>1clf
+aykiadscvscgacasecpvnaisqgdsifvidadtcidcgncanvcpvg
+apvqe
+>1fca
+ayvineaciscgacepecpvdaisqggsryvidadtcidcgacagvcpvd
+apvqa
+>1blu
+almitdecincdvcepecpngaisqgdetyviepslctecvghyetsqcv
+evcpvdciikdps
+>FER_BACSC
+ayvitepcigtkdascvevcpvdcihegedqyyidpdvcidcgaceavcp
+vsaiyhedf
+>FER_BUTME
+aykitdeciacgscadqcpveaisegsiyeidealctdcgacadqcpvea
+ivped

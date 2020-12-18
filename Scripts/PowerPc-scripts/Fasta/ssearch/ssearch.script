@@ -1,0 +1,9 @@
+#!/bin/bash 
+source $HOME/.bioperf
+cd $BIOPERF/Binaries/PowerPc-Binaries/Fasta
+./ssearch34_t -a -b 20 -q -O $BIOPERF/Outputs/Fasta/1absearch $BIOPERF/Inputs/Fasta/ssearch/class-A/1abseq.pep $BIOPERF/Inputs/Fasta/ssearch/class-A/1aboA_ref1.pep
+echo The output has been stored as smalloutput in /Outputs/Fasta
+./ssearch34_t -a -b 20 -q -O $BIOPERF/Outputs/Fasta/mediumoutput $BIOPERF/Inputs/Fasta/ssearch/class-B/NC_003903.fna $BIOPERF/Inputs/Fasta/ssearch/class-B/NC_005824.fna
+echo The output has been stored as mediumoutput in /Outputs/Fasta
+./ssearch34_t -a -b 20 -q -O $BIOPERF/Outputs/Fasta/largeoutput $BIOPERF/Inputs/Fasta/ssearch/class-C/NC_004344.fna $BIOPERF/Inputs/Fasta/ssearch/class-C/NC_004551.fna
+echo The output has been stored as largeoutput in /Outputs/Fasta

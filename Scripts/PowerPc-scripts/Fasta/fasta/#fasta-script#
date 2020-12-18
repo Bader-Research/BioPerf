@@ -1,0 +1,27 @@
+#!/bin/bash 
+source $HOME/.bioperf
+#!/bin/bash 
+source $HOME/.bioperf
+if [ -z $DATABAS ]; then       
+echo $'\n'
+echo It appears that you have not installed sim-outorder executable. 
+echo Download and install the simplesim package "http://www.simplescalar.com/agreement.php3?simplesim-3v0d.tgz"
+echo Please install sim-outorder.
+echo Set the environment variable SIMDIR to the directory containing sim-outorder
+echo $'\n'
+exit
+fi
+if [ -e $SIMDIR/sim-outorder ] 
+then  echo hello
+else
+echo $'\n'  
+echo There is no file named sim-outorder in $SIMDIR
+echo Please check for sim-outorder again in $SIMDIR
+echo $'\n'
+exit
+fi
+
+cd $BIOPERF/Binaries/PowerPc-Binaries/Fasta
+./fasta34_t  $BIOPERF/Inputs/Fasta/fasta/qrhuld.aa $DATABASES/nr > $BIOPERF/Outputs/Fasta/fasta-output
+ 
+echo The output has been stored as fasta-output in /Outputs/Fasta

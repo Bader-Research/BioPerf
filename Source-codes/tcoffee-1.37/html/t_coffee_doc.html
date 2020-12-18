@@ -1,0 +1,5319 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<TITLE>
+</TITLE>
+<META NAME="GENERATOR" CONTENT="StarOffice/5.1 (Linux)">
+<META NAME="AUTHOR" CONTENT=" ">
+<META NAME="CREATED" CONTENT="20000112;15514300">
+<META NAME="CHANGEDBY" CONTENT=" ">
+<META NAME="CHANGED" CONTENT="20000113;14470100">
+<STYLE>
+<!-- 		@page { size: 8.5in 10.96in; margin-right: 1.25in; margin-top: 1in; margin-bottom: 0.49in } 		P { margin-bottom: 0in; font-family: "Times New Roman", serif; font-size: 12pt; text-align: justify; widows: 0; orphans: 0 } 		H1 { margin-bottom: 0.04in; font-family: "Arial", sans-serif; font-size: 14pt; widows: 0; orphans: 0 } 		H2 { margin-bottom: 0.04in; font-family: "Arial", sans-serif; font-size: 12pt; font-style: italic; widows: 0; orphans: 0 } 		H3 { margin-top: 0in; margin-bottom: 0in; font-family: "Times New Roman", serif; font-size: 12pt; font-weight: medium; text-align: justify; widows: 0; orphans: 0 } 		H4 { margin-left: 0.08in; margin-bottom: 0.04in; font-family: "Arial", sans-serif; widows: 0; orphans: 0 } 	-->
+</STYLE>
+</HEAD>
+<BODY bgcolor=white>
+<P ALIGN=JUSTIFY>
+<B>
+June, 2001
+</B>
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; margin-bottom: 0.08in; page-break-after: avoid">
+<BR>
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; margin-bottom: 0.08in; page-break-after: avoid">
+<BR>
+<BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-top: 0.17in; margin-bottom: 0.08in; page-break-after: avoid">
+<FONT FACE="helvetica, sans-serif">
+<FONT SIZE=6 STYLE="font-size: 22pt">
+<B>
+T-COFFEE (1.35)
+</B>
+</FONT>
+</FONT>
+</P>
+<P ALIGN=CENTER>
+<FONT SIZE=6 STYLE="font-size: 22pt">
+<B>
+MOCCA
+</B>
+</FONT>
+</P>
+<P ALIGN=CENTER STYLE="margin-top: 0.17in; margin-bottom: 0.08in; page-break-after: avoid">
+<BR>
+<BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-top: 0.17in; margin-bottom: 0.08in; page-break-after: avoid">
+<FONT FACE="helvetica, sans-serif">
+<FONT SIZE=6 STYLE="font-size: 22pt">
+<B>
+User Documentation and F.A.Q.
+</B>
+</FONT>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; margin-bottom: 0.08in; page-break-after: avoid">
+<BR>
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.17in; margin-bottom: 0.08in; page-break-after: avoid">
+<BR>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+<FONT SIZE=3>
+<B>
+Cedric Notredame (cedric.notredame@igs.cnrs-mrs.fr)
+</B>
+</FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="page-break-before: always">
+<B>
+WARNING
+</B>
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+This program comes with no warranty. The code should not be modified and/or redistributed without the permission of the authors.
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+lalign2list is a modified version of the code by Huang and Miller, it is distributed thanks to the permission given by the authors. It should not be redistributed without their permission.
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+<B>
+ADDRESS
+</B>
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+Please send comments, bug reports to:
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 1in; text-indent: 0.5in">
+cedric.notredame@igs.cnrs-mrs.fr
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+<B>
+DESCRIPTION
+</B>
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+<B>
+T-Coffee 
+</B>
+is a package for making multiple protein sequence alignments. The current implementation makes use of several facilities taken from publicly available packages.
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+	-The tree reading/computing routines are taken from the ClustalW Package, courtesy of Julie Thompson, Des Higgins and Toby Gibson (Thompson, Higgins, Gibson, 1994, 4673-4680,vol. 22, Nucleic Acid Research).
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P ALIGN=LEFT>
+	-The implementation of the algorithm for aligning two sequences in linear space is taken from Myers and Miller, in CABIOS, 1988, 11-17, vol. 1), and adapted from the ClustalW package.
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-top: 0.17in; margin-bottom: 0.08in; page-break-before: always; page-break-after: avoid">
+<FONT FACE="helvetica, sans-serif">
+<FONT SIZE=4 STYLE="font-size: 16pt">
+<B>
+<A NAME="Table of Contents">
+Table of Contents
+</A>
+</B>
+</FONT>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A HREF="#INTRODUCTION">INTRODUCTION</A>	6
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A HREF="#INSTALLATION">INSTALLATION</A>	7
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A HREF="#QUICK START">QUICK START</A>	9
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A HREF="#OVERVIEW">OVERVIEW</A>	10
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A HREF="#RECENT MODIFICATIONS">RECENT MODIFICATIONS</A>	11
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A HREF="#T-COFFEE REFERENCE MANUAL">T-COFFEE REFERENCE MANUAL</A>	12
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#INPUT">INPUT</A>	12
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#No Flag">No Flag</A>	12
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-infile">-infile</A>	12
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-type">-type</A>	12
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-parameters">-parameters</A>	12
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-t_coffee_defaults">-t_coffee_defaults</A>	13
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-dali_defaults">-dali_defaults</A>	13
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#ALIGNMENT COMPUTATION">ALIGNMENT COMPUTATION</A>	14
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-in">-in</A>	14
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-profile">-profile</A>	15
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-profile">-profile</A>1	16
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-profile">-profile</A>2	16
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-do_normalise">-do_normalise</A>	16
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-extend">-extend</A>	16
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-dp_mode">-dp_mode</A>	16
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-ktuple">-ktuple</A>	17
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-ndiag">-ndiag</A>	17
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-diag_mode">-diag_mode</A>	17
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-sim_matrix">-sim_matrix</A>	18
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-matrix">-matrix</A>	18
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-gapopen">-gapopen</A>	18
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-gapext">-gapext</A>	18
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-cosmetic_penalty">-cosmetic_penalty</A>	18
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-tg_mode">-tg_mode</A>	19
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-weight">-weight</A>	19
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-seq_weight">-seq_weight</A>	20
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-seq_to_align">-seq_to_align</A>	20
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#USING THE STRUCTURE IN THE ALIGNMENT">USING THE STRUCTURE IN THE ALIGNMENT</A>.	20
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#MOCA: LOCAL MULTIPLE ALIGNMENTS">MOCA: LOCAL MULTIPLE ALIGNMENTS</A>	21
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-domain">-domain</A>	21
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-start">-start</A>	22
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-len">-len</A>	22
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-scale">-scale</A>	22
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-domain">-domain</A>_interactive	22
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#TREE COMPUTATION AND OUTPUT">TREE COMPUTATION AND OUTPUT</A>	23
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-newtree">-newtree</A>	23
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-usetree">-usetree</A>	23
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-tree_mode">-tree_mode</A>	24
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-quicktree">-quicktree</A>	24
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#ALIGNMENT OUTPUT: Formats and File names">ALIGNMENT OUTPUT: Formats and File names</A>	24
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-File names">-File names</A>	24
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-outfile">-outfile</A>	24
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-output">-output</A>	25
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-evaluate_mode">-evaluate_mode</A>	25
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-case">-case</A>	25
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-cpu">-cpu</A>	26
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-out_lib">-out_lib</A>	26
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-outseqweight">-outseqweight</A>	26
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-outorder">-outorder</A>	26
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-seqnos">-seqnos</A>	26
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-clean_aln">-clean_aln</A>	26
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-clean_threshold">-clean_threshold</A>	27
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-clean_iteration">-clean_iteration</A>	27
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-clean_evaluation_mode">-clean_evaluation_mode</A>	27
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#GENERIC OUTPUT">GENERIC OUTPUT</A>	27
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-run_name">-run_name</A>	27
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-quiet">-quiet</A>	28
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-align">-align</A>	28
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#-convert">-convert</A>	28
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A HREF="#USING NEW AND EXISTING METHODS">USING NEW AND EXISTING METHODS</A>	29
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Methods With An Established  T-Coffee Interface">Methods With An Established  T-Coffee Interface</A>	29
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Methods Without An Established T-Coffee Interface">Methods Without An Established T-Coffee Interface</A>.	31
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Generate Your Own Libraries">Generate Your Own Libraries</A>	31
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Making a New Method File">Making a New Method File</A>	31
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A NAME="FAQ">
+FAQ
+</A>
+	33
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#ABNORMAL TERMINATIONS and WRONG RESULTS">ABNORMAL TERMINATIONS and WRONG RESULTS</A>.	33
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: The program keeps crashing when I give my sequences">Q: The program keeps crashing when I give my sequences</A>	33
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: The default alignment is not good enough">Q: The default alignment is not good enough</A>	33
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: The alignment contains obvious mistakes">Q: The alignment contains obvious mistakes</A>	33
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: The program is crashing">Q: The program is crashing</A>	33
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I am running out of memory">Q: I am running out of memory</A>	33
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#INPUT">INPUT</A>/OUPUT And PARAMETRIZATION	33
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: How many ways to pass parameters to t_coffee">Q: How many ways to pass parameters to t_coffee</A>?	33
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: How can I change the default output format">Q: How can I change the default output format</A>?	34
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: My sequences are slightly different between all the alignments">Q: My sequences are slightly different between all the alignments</A>.	34
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: Is it possible to pipe stuff out of t_coffee">Q: Is it possible to pipe stuff out of t_coffee</A>?	34
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: Is it possible to pipe stuff into t_coffee">Q: Is it possible to pipe stuff into t_coffee</A>?	34
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: Can I read my parameters from a file">Q: Can I read my parameters from a file</A>?	35
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I want to  decide myself on the name of the output files">Q: I want to  decide myself on the name of the output files</A>!!!	35
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I want to use the sequences in an alignment file">Q: I want to use the sequences in an alignment file</A>	35
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I only want to produce a library">Q: I only want to produce a library</A>	35
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I want to concatenate two libraries">Q: I want to concatenate two libraries</A>	35
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: What happens to the gaps when an alignment is fed to T-Coffee">Q: What happens to the gaps when an alignment is fed to T-Coffee</A>	36
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I do not want to align ALL the sequences">Q: I do not want to align ALL the sequences</A>.	36
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I cannot print the html graphic display">Q: I cannot print the html graphic display</A>!!!	36
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I want to output an html file and a regular file">Q: I want to output an html file and a regular file</A>	36
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I would like to output more than one alignment format at the same time">Q: I would like to output more than one alignment format at the same time</A>	37
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#ALIGNMENT COMPUTATION">ALIGNMENT COMPUTATION</A> 	37
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I do not want to compute the alignment">Q: I do not want to compute the alignment</A>.	37
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I would like to force some residues to be aligned">Q: I would like to force some residues to be aligned</A>.	37
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I would like to use structural alignments">Q: I would like to use structural alignments</A>.	37
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I want to build my own libraries">Q: I want to build my own libraries</A>.	37
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I want to use my own tree">Q: I want to use my own tree</A>!!!!	38
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I want to align coding DNA">Q: I want to align coding DNA</A>	38
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: There are duplicates or quasi-duplicates in my set">Q: There are duplicates or quasi-duplicates in my set</A>	38
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#ALIGNMENT EVALUATION">ALIGNMENT EVALUATION</A>	38
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: How good is my alignment">Q: How good is my alignment</A>?	38
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: What is that reliability story">Q: What is that reliability story</A>?	38
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: Can I evaluate alignments NOT produced with T-Coffee">Q: Can I evaluate alignments NOT produced with T-Coffee</A>?	38
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: I am aligning sequences with long regions of very good overlapp">Q: I am aligning sequences with long regions of very good overlapp</A>	39
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Q: T-Coffee is changing the names of my sequences">Q: T-Coffee is changing the names of my sequences</A>!!!!	39
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A HREF="#MAKING A T-COFFEE SERVER">MAKING A T-COFFEE SERVER</A>	40
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Common Problems">Common Problems</A>	40
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Output of the .dnd file">Output of the .dnd file</A>.	40
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Permissions">Permissions</A>	40
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.5in; text-indent: 0in">
+<FONT SIZE=2 STYLE="font-size: 9pt">
+<A HREF="#Other Programs">Other Programs</A>	40
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+ <A HREF="#FORMATS">FORMATS</A>	41
+</B>
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Parameter files">Parameter files</A>	41
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Sequence Name Handling">Sequence Name Handling</A>	41
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Automatic Format Recognition">Automatic Format Recognition</A>	41
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Structures">Structures</A>	41
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Sequences">Sequences</A>	42
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Alignments">Alignments</A>	42
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Libraries">Libraries</A>	42
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Substitution matrices">Substitution matrices</A>.	43
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.17in; text-indent: 0in">
+<FONT SIZE=2>
+<A HREF="#Sequences">Sequences</A> Weights	44
+</FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-top: 0.08in; margin-bottom: 0.08in">
+<FONT SIZE=2>
+<B>
+<A HREF="#KNOWN PROBLEMS">KNOWN PROBLEMS</A>	45
+</B>
+</FONT>
+</P>
+<H1 ALIGN=CENTER STYLE="page-break-before: always"><A NAME="INTRODUCTION">INTRODUCTION</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+T-Coffee is a multiple sequence alignment program. Multiple sequence alignment programs are meant to align a set of sequences previously gathered using other programs such as blast, fasta, sw ...
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The main characteristic of T-Coffee is that it will allow you to combine results obtained with several alignment methods. For instance if you have an alignment coming from ClustalW, an other alignment coming from Dialign, and a structural alignment of some of your sequences, T-Coffee will combine all that information and produce a new multiple sequence having the best agreement with all these methods.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT>
+By default, T-Coffee will compare all your sequences two by two, producing a global alignment and a series of local alignments (using lalign). The program will then combine all these alignments into a multiple alignment.  
+</P>
+<P ALIGN=LEFT STYLE="page-break-before: always">
+<BR>
+</P>
+<H1 ALIGN=CENTER><A NAME="INSTALLATION">INSTALLATION</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<H2><BR>
+<BR></H2>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+1
+</B>
+-decompress distribution.tar.z
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<B>
+uncompress distribution.tar.Z
+</B>
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+or
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<B>
+gunzip distribution.tar.gz
+</B>
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+2
+</B>
+-untar distribution.tar
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<B>
+tar 
+</B>
+-
+<B>
+xvf distribution.tar
+</B>
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+3
+</B>
+-This will create the distribution directory with the following structure:
+</P>
+<P STYLE="margin-left: 1.2in">
+distribution/bin
+</P>
+<P STYLE="margin-left: 1.2in">
+distribution/doc/t_coffee_doc.ps,
+</P>
+<P STYLE="margin-left: 1.2in">
+ t_coffee_doc.pdf, t_coffee_paper.tar in pdf
+<B>
+</B>
+</P>
+<P STYLE="margin-left: 1.2in">
+distribution/t_coffee_source
+</P>
+<P STYLE="margin-left: 1.2in">
+distribution/lalign
+</P>
+<P STYLE="margin-left: 1.2in">
+distribution/example
+</P>
+<P STYLE="margin-left: 1.2in">
+distribution/html
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+4
+</B>
+-Install ClustalW (check before if it is not already installed). You can obtain ClustalW from the E.B.I. Web server (www.ebi.ac.uk) or from the LBM in Strasbourg.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+5
+</B>
+-Indicate the address and the name of ClustalW on your system:
+</P>
+<P STYLE="margin-left: 1.2in">
+-either edit the file define_header.h, in the section PROGRAM PATH
+</P>
+<P STYLE="margin-left: 1.25in; text-indent: 0.25in">
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+#define CLUSTALW_4_TCOFFEE &quot;path/name_of_clustalw&quot;
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.2in">
+-or set the global variable CLUSTALW_4_TCOFFEE to &quot;path/name_of_clustalw&quot;:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+setenv CLUSTALW_4_TCOFFEE &quot;path/name_of_clustalw&quot;
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note:
+</B>
+ to be permanent, this last change must be set in your login file.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+6-
+</B>
+go into the main directory and type:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<B>
+./install
+</B>
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+7-
+</B>
+<SPAN STYLE="font-weight: medium">
+ 'Installation of t_coffee Successful' must appear on your screen to indicate a proper completion.
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+8
+</B>
+-add the bin folder to your path, for instance:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<B>
+set path = ($path . &lt;address of the t_coffee bin folder&gt;) 
+</B>
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note
+</B>
+ This 
+<B>
+must
+</B>
+ be added to your login file. An alternative is to move all the binary files into your own bin.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H1 ALIGN=CENTER STYLE="page-break-before: always"><A NAME="QUICK START">QUICK START</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=JUSTIFY>
+<U>
+<B>
+T-COFFEE:
+</B>
+</U>
+</P>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<P ALIGN=LEFT>
+Write your sequences in the same file (Swiss-prot, Fasta or Pir) and type.  
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee &lt;your sequences&gt; 
+</I>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P ALIGN=LEFT>
+This will output two files:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<I>
+&lt;your sequences&gt;.
+</I>
+<B>
+aln
+</B>
+</P>
+<P STYLE="margin-left: 1.2in">
+A multiple alignment in a format similar to ClustalW, that can be read by most programs.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<I>
+&lt;your sequences&gt;.
+</I>
+<B>
+dnd
+</B>
+</P>
+<P STYLE="margin-left: 1.2in">
+A dendrogram in phylip format
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P ALIGN=LEFT>
+<U>
+<B>
+MOCCA
+</B>
+</U>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P ALIGN=LEFT>
+Write your sequences in the same file (Swiss-prot, Fasta or Pir) and type.  
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+mocca &lt;your sequences&gt; 
+</I>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P ALIGN=LEFT>
+This will output one files (
+<I>
+&lt;your sequences&gt;.mocca_lib) 
+</I>
+and start an interactive menu. If you run again mocca, it will start looking for that file and read it, or will generate it if it does not exist.
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<H1 ALIGN=CENTER STYLE="page-break-before: always"><A NAME="OVERVIEW">OVERVIEW</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+T-Coffee is a versatile tool for making multiple sequence alignments. Its aim is to combine heterogeneous sources of information. The current implementation has been especially designed for combining local and global alignments, respectively from ClustalW and Lalign. It can also be used to combine a series of alternative multiple sequence alignments of the same sequences.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Efforts have been made to ensure full compatibility between ClustalW and T-COFFEE. For instance, this means that a script using ClustalW is likely to work alike using T-Coffee.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The first step in the T-Coffee process is the gathering of the pairwise alignments. A collection of such alignments is called a library. Once the libraries have been computed, they can be pooled, extended and used to compute a multiple sequence alignment.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Mocca is a special mode of T-Coffee that allows you to extract a series of repeats from a single sequence or a set of sequences.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<H1 ALIGN=CENTER STYLE="page-break-before: always"><A NAME="RECENT MODIFICATIONS">RECENT MODIFICATIONS</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+For a detailed log of the modifications, please refer to the todo.txt file that is in the folder documentation.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+-the ability to use various default parameter files (<A HREF="#-t_coffee_defaults">-t_coffee_defaults</A>, -dali_defaults)
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+-the ability to use align profiles <A HREF="#-profile">-profile</A>[01/03/01]  
+</P>
+<P STYLE="margin-left: 0.45in; text-indent: -0.2in">
+-the ability to 'clean' the unaligned bits of the alignment <A HREF="#-clean_aln">-clean_aln</A>[01/03/01]  
+</P>
+<P STYLE="margin-left: 0.45in; text-indent: -0.2in">
+-a sequence weighting scheme (see <A HREF="#-seq_weight">-seq_weight</A>, -outseqweight)[16/11/00]
+</P>
+<P STYLE="margin-left: 0.45in; text-indent: -0.2in">
+-a new method for aligning cDNA (see method: fast_cdna_pair) [12/11/00]
+</P>
+<P STYLE="margin-left: 0.45in; text-indent: -0.2in">
+-a new flag for choosing the evaluation mode (<A HREF="#-evaluate_mode">-evaluate_mode</A>) [15/09/00]
+</P>
+<P ALIGN=LEFT>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; page-break-before: always">
+<BR>
+</P>
+<H1 ALIGN=CENTER><A NAME="T-COFFEE REFERENCE MANUAL">T-COFFEE REFERENCE MANUAL</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+T_coffee is the main module. It aims at producing multiple sequence alignments from a set of sequences. It can be used for the following tasks:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.2in">
+-Making a multiple alignment.
+</P>
+<P STYLE="margin-left: 1.2in">
+-Evaluating a multiple alignment.
+</P>
+<P STYLE="margin-left: 1.2in">
+-Reformatting sequences and alignments.
+</P>
+<P STYLE="margin-left: 1.2in">
+-Reconciliation of slightly different sequence.
+</P>
+<P STYLE="margin-left: 1.2in">
+-Extracting repeats (Mocca)
+</P>
+<P STYLE="margin-left: 1.2in">
+-cleaning cDNAs.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="INPUT">INPUT</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="No Flag">No Flag</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+if no flag is used
+<B>
+</B>
+<I>
+&lt;your sequence&gt; 
+</I>
+must be the first argument. See format for further information.
+</P>
+<P STYLE="margin-left: 1.75in; font-weight: medium">
+<I>
+t_coffee &lt;your sequences&gt;
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal; font-weight: medium">
+ In such a context, <A HREF="#-run_name">-run_name</A> is set to &lt;your_sequence&gt;  
+</P>
+<H4><A NAME="-infile">-infile</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+For compatibility with ClustalW, it is also possible to indicate the sequences with the flag infile:  
+</P>
+<P STYLE="margin-left: 1.75in; font-weight: medium">
+<I>
+t_coffee <A HREF="#-infile">-infile</A>=&lt;your sequences&gt;
+</I>
+</P>
+<P STYLE="margin-left: 1.75in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+In such a context, <A HREF="#-infile">-infile</A> is set to &lt;your sequences&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+Note that valid formats for the sequence include alignments. Gaps are automatically reset.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<BR>
+</P>
+<H4><A NAME="-type">-type</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage
+</B>
+: <A HREF="#-type">-type</A>=[DNA, PROTEIN]
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default
+</B>
+: <A HREF="#-type">-type</A>=&lt;automatically set&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Sets the type of the sequences. If omitted, the type is guessed automatically. This flag is compatible with ClustalW
+</P>
+<H4><A NAME="-parameters">-parameters</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in; font-style: normal">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal; font-weight: medium">
+ Indicates a file containing extra parameters. Parameters read that way superseed all the other parameters of the command line. For instance:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in; font-style: normal">
+<FONT FACE="courier, monospace">
+Parameter.file:
+</FONT>
+</P>
+<P STYLE="margin-left: 1.75in; font-style: normal">
+<FONT FACE="courier, monospace">
+</FONT>
+</P>
+<P STYLE="margin-left: 1.75in; font-style: normal">
+<FONT FACE="courier, monospace">
+	<A HREF="#-in">-in</A> sequences.pep fast_pair
+</FONT>
+</P>
+<P STYLE="margin-left: 1.75in; font-style: normal">
+<FONT FACE="courier, monospace">
+	<A HREF="#-output">-output</A> msf_aln
+</FONT>
+</P>
+<P STYLE="margin-left: 1.75in; font-style: normal">
+<FONT FACE="courier, monospace">
+</FONT>
+</P>
+<P STYLE="margin-left: 1.75in; font-style: normal">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Please, Note that this parameter file can ONLY contain valid parameters. Comments are not allowed. Parameters passed this way will be checked like normal parameters.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Used with:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee <A HREF="#-parameters">-parameters</A>=parameter.file
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Will cause t_coffee to apply the fast_pair method only to the sequences contained in sequences.pep. If you wish, you can also pipe these arguments into t_coffee, by naming the parameter file stdin:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<SPAN STYLE="font-weight: medium">
+&lt;your script&gt; | t_coffee
+</SPAN>
+ <A HREF="#-parameters">-parameters</A>=stdin 
+</I>
+</P>
+<P STYLE="margin-left: 1.2in; font-style: normal; font-weight: medium">
+ for instance:
+</P>
+<P STYLE="margin-left: 1.75in; font-weight: medium">
+<I>
+echo 'sequences.pep' | t_coffee
+</I>
+</P>
+<P STYLE="margin-left: 1.75in; font-weight: medium">
+<BR>
+</P>
+<H4><A NAME="-t_coffee_defaults">-t_coffee_defaults</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage
+</B>
+: <A HREF="#-t_coffee_defaults">-t_coffee_defaults</A>=&lt;file_name&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default
+</B>
+: not used.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag tells the program to use some default parameter file for t_coffee. The format of that file is the same as the one used with -aparameters, the name of that file can be indicated in three different ways:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+1 
+<I>
+<A HREF="#-t_coffee_defaults">-t_coffee_defaults</A>=myfile
+</I>
+   will cause the default parameters to be read from myfile
+<I>
+.
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+2 
+<I>
+<A HREF="#-t_coffee_defaults">-t_coffee_defaults</A>
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+If TCOFFEE_DEFAULTS is set to a filename, that file will be used, otherwise the program will try to use ~/.t_coffee_defaults.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+Order:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+	<A HREF="#-parameters">-parameters</A> &gt; prompt parameters &gt; -t_coffee_defaults &gt; -dali_defaults
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<BR>
+</P>
+<H4><A NAME="-dali_defaults">-dali_defaults</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage
+</B>
+: <A HREF="#-dali_defaults">-dali_defaults</A>=&lt;file_name&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<B>
+Default
+</B>
+: not used.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<A HREF="#-dali_defaults">-dali_defaults</A> indicates that t_coffee will use the default dali parameters (hard coded). If a file is indicated as well ( -dali_default=file_name) the parameters indicated in this file will be used instead. The format is the same as the one indicated before.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<BR>
+</P>
+<H2><A NAME="ALIGNMENT COMPUTATION">ALIGNMENT COMPUTATION</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<H4><A NAME="-in">-in</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage: 
+</B>
+<A HREF="#-in">-in</A>=[&lt;P,S,A,L,M,X&gt;&lt;name&gt;,]
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default
+</B>
+: <A HREF="#-in">-in</A>=Mlalign_id_pair,Mclustalw_pair
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Five types of parameters may be expected:
+</P>
+<P STYLE="margin-left: 1.2in">
+P for pdb structure,
+</P>
+<P STYLE="margin-left: 1.2in">
+S for sequence,
+</P>
+<P STYLE="margin-left: 1.2in">
+M for method,
+</P>
+<P STYLE="margin-left: 1.2in">
+L for library,
+</P>
+<P STYLE="margin-left: 1.2in">
+A for (multiple)<A HREF="#Alignments">Alignments</A>
+</P>
+<P STYLE="margin-left: 1.2in">
+X for substitution matrices.
+</P>
+<P STYLE="margin-left: 1.2in">
+R for profiles (guven in a legal mult. Aln. Format)
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+For instance:
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-in">-in</A>=Ssequences1.seq,Aalignment1.aln,Aalignment2.msf,Mlalign_id_pair,Llibrary.lib
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ Will trigger the following chain of events:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<SPAN STYLE="font-weight: medium">
+1-<A HREF="#Sequences">Sequences</A> will be gathered in all the sequence, alignments and library files. Format recognition is automatic. These sequences will be pooled together
+</SPAN>
+. Duplicates will be removed. For instance in the above case, the total set of sequences will be made of sequences contained in sequences1.seq, alignment1.aln, alignment2.msf and library.lib, plus the sequences initially gathered  by <A HREF="#-infile">-infile</A>.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<SPAN STYLE="font-weight: medium">
+2-
+</SPAN>
+alignments alignment1.aln and alignment2.msf will be read and turned into libraries. Another library will be produced by applying the method lalign_id_pair to the set of sequences previously obtained (1). The final library used for the alignment will be the combination of all this information.  
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The identifiers (S, M, X... ) may be omitted. But it is safer to use them, since the program may sometimes be wrong in guessing some file format.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note as well the following rules:
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+1-The order in which sequences, methods, alignments and libraries are fed in is irrelevant.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+2-There is no need for each element (A, S, L) to contain the same sequences.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+3-Each file must contain only one copy of each sequence.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+4-If two files (for instance two alignments) contain different versions of the same sequence due to indel, a new sequence will be reconstructed and used instead:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+aln 1:
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+hgab1 	AAAAABAAAAA
+</P>
+<P STYLE="margin-left: 1.75in">
+</P>
+<P STYLE="margin-left: 1.75in">
+aln2:
+</P>
+<P STYLE="margin-left: 1.75in">
+hgab1	AAAAAAAAAACCC
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+	will cause the program to reconstruct the following sequence  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.75in">
+hgab1	AAAAABAAAAA
+<B>
+CCC 
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+This can be useful if you are trying to combine several runs of blast, or structural information where residues may have been deleted. However substitutions are forbidden. If two sequences with the same name cannot be reconcilliated, they will cause the program to exit with an information message.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+4-The method describer can either be built in (clustalw_aln, clustalw_pair, lalign_id_pair) or be a file describing the method to be used. The exact syntax is provided in part 4 of this manual.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<SPAN STYLE="font-weight: medium">
+5-If the method is a substitution matrix (X) then no other type of information should be provided.
+</SPAN>
+<B>
+</B>
+<SPAN STYLE="font-weight: medium">
+For instance:
+</SPAN>
+</P>
+<P STYLE="margin-left: 1.2in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<SPAN STYLE="font-weight: medium">
+t_coffee &lt;your sequences&gt; <A HREF="#-in">-in</A>=
+</SPAN>
+Xpam250mt  <A HREF="#-gapopen">-gapopen</A>=-10  -gapext=-1
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+means that a progressive alignment will be carried out on the sequences in seqfile. The procedure is very similar to Pileup. In this context, appropriate gap penalties should be provided. The matrices are in the file source/matrices.h. Add-Hoc matrices can also be provided by the user (see the matrices format section at the end of this manual).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-profile">-profile</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage: 
+</B>
+<A HREF="#-profile">-profile</A>=[&lt;name&gt;,] maximum of 200 profiles.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default
+</B>
+: no default
+</P>
+<P STYLE="margin-left: 0.25in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+This flag allows to input alignment and treat them as a single sequences. That way , it is possible to make a multiple alignment of profiles. In the current implementation, the profiles are replaced with a consencus sequence and treated as normal sequences by the rest of the T-Coffee strategy.
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+In the future we plan to have a better way of handling profiles, but in the meantime, this solution is reasonnably effective for protein families that have a reasonnable level of conservation.  
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+If your profile contains two distant sub-groups you may prefer spliting it in two more homogenous multiple alignments.
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+When provided with the <A HREF="#-in">-in</A> flag, profiles should be preceded with the letter R.
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+<BR>
+</P>
+<H4><A NAME="-profile1">-profile1</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage: 
+</B>
+<A HREF="#-profile">-profile</A>1=[&lt;name&gt;] , one name only
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default
+</B>
+: no default
+</P>
+<P STYLE="margin-left: 0.25in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+This option is similar to the previous one and was provided for compatibility with ClustalW.
+</P>
+<H4><A NAME="-profile2">-profile2</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage: 
+</B>
+<A HREF="#-profile">-profile</A>2=[&lt;name&gt;] , one name only
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default
+</B>
+: no default
+</P>
+<P STYLE="margin-left: 0.25in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+This option is similar to the previous one and was provided for compatibility with ClustalW.
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+<BR>
+</P>
+<H4><A NAME="-do_normalise">-do_normalise</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<A HREF="#-do_normalise">-do_normalise</A>=&lt;0 or a positive value&gt;
+<B>
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+<A HREF="#-do_normalise">-do_normalise</A>
+</SPAN>
+=1000
+</P>
+<P STYLE="margin-left: 0.25in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; font-weight: medium">
+When using a value different from 0, this flag sets the score of the highest scoring pair to 1000.  
+</P>
+<H4><A NAME="-extend">-extend</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<A HREF="#-extend">-extend</A>=&lt;0,1 or a positive value&gt;
+<B>
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:-
+</B>
+extend=1
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in">
+When turned on, this flag indicates that the library extension should be carried out when performing the multiple alignment. If extend is set to 0, the extension is not made, if it is set to 1, the extension is made on all the pairs in the library. If the extension is set to another positive value, the extension is only carried out on pairs having a weight value superior to the specified limit.
+</P>
+<H4><A NAME="-dp_mode">-dp_mode</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-dp_mode">-dp_mode</A>=&lt;string&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+ <A HREF="#-dp_mode">-dp_mode</A>=cfast_fair_wise
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ Indicates the type of dynamic programming used by the program:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<SPAN STYLE="font-weight: medium">
+<I>
+gotoh_pair_wise
+</I>
+: implementation of the gotoh algorithm (quadratic in memory and time)
+</SPAN>
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<SPAN STYLE="font-weight: medium">
+<I>
+myers_miller_pair_wise
+</I>
+: implementation of the Myers and Miller dynamic programming algorithm ( quadratic in time and linear in space). This algorithm is recommended for very long sequences. It is about 2 time slower than gotoh. It only accepts 
+<I>
+tg_mode=1.
+</I>
+</SPAN>
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<SPAN STYLE="font-weight: medium">
+<I>
+fasta_pair_wise: 
+</I>
+<SPAN STYLE="font-style: normal">
+implementation of the fasta algorithm. The sequence is hashed, looking for 
+</SPAN>
+<I>
+ktuples
+</I>
+<SPAN STYLE="font-style: normal">
+ words. Dynamic programming is only carried out on the 
+</SPAN>
+<I>
+ndiag
+</I>
+<SPAN STYLE="font-style: normal">
+ best scoring diagonals. This is much faster but less accurate than the two previous.
+</SPAN>
+</SPAN>
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<SPAN STYLE="font-weight: medium">
+<I>
+cfasta_pair_wise
+</I>
+<SPAN STYLE="font-style: normal">
+: c stands for checked. It is the same algorithm. The dynamic programming is made on the 
+</SPAN>
+<I>
+ndiag
+</I>
+<SPAN STYLE="font-style: normal">
+ best diagonals, and then on the 2*ndiags, and so on until the scores converge. Complexity will depend on the level of divergence of the sequences, but will usually be L*log(L), with an accuracy comparable to the two first mode ( this was checked on BaliBase).
+</SPAN>
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal; font-weight: medium">
+<BR>
+</P>
+<H4><A NAME="-ktuple">-ktuple</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-ktuple">-ktuple</A>=&lt;value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+ <A HREF="#-ktuple">-ktuple</A>=
+</SPAN>
+1 or 2
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ Indicates the ktuple size for cfasta_pair_wise dp_mode and fasta_pair_wise. It is set to 1 for proteins, and 2 for DNA. The alphabet used for protein is not the 20 letter code, but a mildly degenerated version, where some residues are grouped under one letter, based on physicochemical properties:
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+rk, de, qh, vilm, fy (the other residues are not degenerated).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ This alphabet is set with the flag <A HREF="#-sim_matrix">-sim_matrix</A>=vasiliky.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<H4><A NAME="-ndiag">-ndiag</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-ndiag">-ndiag</A>=&lt;value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+ <A HREF="#-ndiag">-ndiag</A>=0
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ Indicates the number of diagonals used by the fasta_pair_wise algorithm. When set to 0, n_diag=Log ( length of the smallest sequence).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<H4><A NAME="-diag_mode">-diag_mode</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-diag_mode">-diag_mode</A>=&lt;value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+ <A HREF="#-diag_mode">-diag_mode</A>=0
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ Indicates the manner in which diagonals are scored during the fasta hashing.  
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+0 indicates that the score of a diagonal is equal to the sum of the scores of the exact matches it contains.  
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+1 indicates that this score is set equal to the score of the best uninterrupted segment
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ 1 can be useful when dealing with fragments of sequences.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<H4><A NAME="-sim_matrix">-sim_matrix</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-sim_matrix">-sim_matrix</A>=&lt;string&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+ <A HREF="#-sim_matrix">-sim_matrix</A>=vasiliky
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ Indicates the manner in which the amino acid is being degenerated when hashing. All the substitution matrix are acceptable. Categories will be defined as sub-group of residues all having a positive substitution score (they can overlap).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ If you wish to keep the non degenerated amino acid alphabet, use <A HREF="#-sim_matrix">-sim_matrix</A>=idmat
+</P>
+<H4><BR>
+<BR></H4>
+<H4><A NAME="-matrix">-matrix</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in">
+This flag is provided for compatibility with ClustalW. Setting 
+<I>
+<A HREF="#-matrix">-matrix</A>=blosum
+</I>
+ is equivalent to 
+<I>
+<A HREF="#-in">-in</A>=Xblosum62mt
+</I>
+,  
+<I>
+<A HREF="#-matrix">-matrix</A>=pam
+</I>
+ is equivalent to 
+<I>
+in=Xpam250mt
+</I>
+. Apart from this, the rules are similar to those applying when declaring a matrix with the <A HREF="#-in">-in</A>=X flag.
+</P>
+<H4><A NAME="-gapopen">-gapopen</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-gapopen">-gapopen</A>=&lt;value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+ <A HREF="#-gapopen">-gapopen</A>=0
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ Indicates the penalty applied for opening a gap. The penalty must be negative. If you provide a positive value, it will automatically be turned into a negative number. We recommend a value of 10 with pam matrices, and a value of 0 when a library is used.
+</P>
+<H4><A NAME="-gapext">-gapext</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-gapext">-gapext</A>=&lt;value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+ <A HREF="#-gapext">-gapext</A>=0
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ Indicates the penalty applied for extending a gap.
+</P>
+<H4><A NAME="-cosmetic_penalty">-cosmetic_penalty</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-cosmetic_penalty">-cosmetic_penalty</A>=&lt;value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+ <A HREF="#-cosmetic_penalty">-cosmetic_penalty</A>=100
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+ Indicates the penalty applied for opening a gap. This penalty is set to a very low value. It will only have an influence on the portions of the alignment that are unalignable. It will not make them more correct, but only more pleasing to the eye ( i.e. Avoid stretches of lonely residues).
+</P>
+<P STYLE="margin-left: 0.25in">
+The cosmetic penalty is automatically turned off if a substitution matrix is used rather than a library.
+</P>
+<P STYLE="margin-left: 0.25in">
+<BR>
+</P>
+<H4><A NAME="-tg_mode">-tg_mode</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-tg_mode">-tg_mode</A>=&lt;0, 1, or 2&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<SPAN STYLE="font-weight: medium">
+ <A HREF="#-tg_mode">-tg_mode</A>=1
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+0: indicates that terminal gaps must be panelized with a gapopen and a gapext penalty.
+</P>
+<P STYLE="margin-left: 1.2in">
+1: indicates that terminal gaps must be penalized only with a gapext penalty
+</P>
+<P STYLE="margin-left: 1.2in">
+2: indicates that terminal gaps must not be penalized.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<H4><A NAME="-weight">-weight</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+  <A HREF="#-weight">-weight</A>=&lt;winsimN, sim or sim_&lt;matrix_name or matrix_file&gt; or integer value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-weight">-weight</A>=sim
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Weight defines the way alignments are weighted when turned into a library.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<I>
+winsimN 
+</I>
+<SPAN STYLE="font-style: normal">
+indicates that the weight assigned to a given pair will be equal to the percent identity within a window of 2N+1 len centerd on that pair. For instance winsim10 defines a window of 10 residues around the pair being considered.
+</SPAN>
+</P>
+<P STYLE="margin-left: 1.2in; font-style: normal">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<I>
+sim
+</I>
+ indicates that the weight equals the average identity within the match residues.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<I>
+sim_matrix_name
+</I>
+ indicates the average identity with two residues regarded as identical when their substitution value is positive. The valid matrices names are in 
+<I>
+matrices.h (pam250mt) .
+</I>
+Matrices not found in this header are considered to be filenames. See the format section for matrices. For instance, 
+<I>
+<A HREF="#-weight">-weight</A>=sim_pam250mt
+</I>
+ indicates that the grouping used for similarity will be the set of classes with positive substitutions. Other groups include  
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+sim_clustalw_col 
+</I>
+( categories of clustalw marked with :)
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+sim_clustalw_dot
+</I>
+ ( categories of clustalw marked with .)
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<I>
+Value 
+</I>
+indicates that all the pairs found in the alignments must be given the same weight equal to value. This is useful when the alignment one wishes to turn into a library must be given a pre-specified score (for instance if they come from a structure super-imposition program). Value is an integer:
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-weight">-weight</A>=1000
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note
+</B>
+: Weight only affects methods that return an alignment to T-Coffee, such as ClustalW. On the contrary, the version of Lalign we use here returns a library where weights have already been applied and are therefore insensitive to the <A HREF="#-weight">-weight</A> flag.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-seq_weight">-seq_weight</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-seq_weight">-seq_weight</A>=&lt;t_coffee or &lt;file_name&gt;&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+ <A HREF="#-seq_weight">-seq_weight</A>=t_coffee
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+These are the individual weights assigned to each sequence. The t_coffee weights try to compensate the bias in consistency caused by redundancy in the sequences.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	sim(A,B)=%similarity between A and B, between 0 and 1.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	weight(A)=1/sum(sim(A,X)^3)
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Weights are normalized so that their sum equals the number of sequences, they are applied onto the primary library in the following manner:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	res_score(Ax,By)=Min(weight(A), weight(B))*res_score(Ax, By)
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+These are very simple weights. Their main goal is to prevent a single sequence present in many copies to dominate the alignment.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note:
+</B>
+ the library output by -out_lib is the un<A HREF="#-weight">-weight</A>ed  library.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note:
+</B>
+ Weights can be output using the <A HREF="#-outseqweight">-outseqweight</A> flag.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note: 
+</B>
+<SPAN STYLE="font-weight: medium">
+You can provide your own set of weights (see the format section). <A HREF="#Sequences">Sequences</A> whose weight is not provided will be set to 1.
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-weight: medium">
+<BR>
+</P>
+<H4><A NAME="-seq_to_align">-seq_to_align</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="text-indent: 0.25in">
+<B>
+Usage: 
+</B>
+<A HREF="#-seq_to_align">-seq_to_align</A>=&lt;file_name&gt;
+</P>
+<P STYLE="text-indent: 0.25in">
+<B>
+Default
+</B>
+: No file (align all the sequences).
+</P>
+<P STYLE="text-indent: 0.25in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+You may not wish to align all the sequences brought in by the 
+<B>
+<A HREF="#-in">-in</A>
+</B>
+ flag. Supplying the seq_to_align flag allows for this, the file is simply a list of names in Fasta format:
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+&gt;sequence1
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+&gt;sequence2
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+&gt;sequence3
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+However, note that library extension will be carried out on all the sequences.
+</P>
+<H3><<A NAME="BR">BR</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A>></H3>
+<H2><A NAME="USING THE STRUCTURE IN THE ALIGNMENT">USING THE STRUCTURE IN THE ALIGNMENT</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A>.</H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+It is possible to use t_coffee to compute multiple structural alignments. To do so, ensure that you have the perl script extract_from_pdb installed as well as sap.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee <A HREF="#-in">-in</A> struc1.pdb struc2.pdb struc3.pdb sap_pair
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Will combine the pairwise alignments produced by SAP.  There are currently two methods that can be interfaced with t_coffee:
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+sap_pair: that uses the sap algorithm.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+By default, the computation will be made only on the first chain contained in the pdb file. If your structure is an NMR structure, you are advised to provide the program with one structure only.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If you wish to align only a portion of the structure, you should extract it yourself from the pdb file, using extract_from_pdb.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+You can provide t_coffee with a mixture of sequences and structure. When comparing two sequences, it will automatically switch to the 'fast_pair' mode if both pdb structures are not available.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The pdb structure must be in the directory where computation is made. If these structures live somewhere else on your disk, copy them or alias them locally.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="MOCA: LOCAL MULTIPLE ALIGNMENTS">MOCA: LOCAL MULTIPLE ALIGNMENTS</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+It is possible to compute multiple local alignments, using the moca routine. MOCA is a routine that allows extracting all the local alignments that show some similarity with another predefined fragment.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+'mocca' is a perl script that calls t-coffee and provides it with the appropriate parameters.
+</P>
+<H4><A NAME="-domain">-domain</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-domain">-domain</A>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+ not set
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag indicates that t_coffee will run using the domain mode. All the sequences will be concatenated, and the resulting sequence will be compared to itself using lalign_rs_s_pair mode (lalign of the sequence against itself using keeping the lalign raw score). This step is the most computer intensive, and it is advisable to save the resulting file.
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee <A HREF="#-in">-in</A> &lt;your sequences&gt; lalign_rs_s_pair -out_lib=&lt;lib name&gt;  -domain -start=100 -len=50 
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Will use the fragment 100-150 on the concatenated sequences, as a template for the extracted repeats. The extraction will only be made once. The library will be placed in the file &lt;lib name&gt;.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If you want, you can test other coordinates for the repeat, such as  
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee <A HREF="#-in">-in</A> &lt;your lib&gt; -domain -start=100 -len=60 
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This run will use the fragment 100-160, and will be much faster because it does not  need to recompute the lalign library.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-start">-start</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-start">-start</A>=&lt;int value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+ not set
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag indicates the starting position of the portion of sequence that will be used as a template for the repeat extraction. The value assumes that all the sequences have been concatenated, and is given on the resulting sequence.
+</P>
+<H4><A NAME="-len">-len</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-len">-len</A>=&lt;int value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+ not set
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag indicates the length of the portion of sequence that will be used as a template.
+</P>
+<H4><A NAME="-scale">-scale</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-scale">-scale</A>=&lt;int value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default: <A HREF="#-scale">-scale</A>=-100
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag indicates the value of the threshold for extracting the repeats. The actual threshold is equal to:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	motif_len*scale
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+In order to increase the sensibility, you can increase the scale ( i.e. -50).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-domain_interactive">-domain_interactive</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-domain">-domain</A>_interactive
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+ not set
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This will generate an interactive domain extraction session:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee <A HREF="#-in">-in</A> &lt;your lib&gt; -domain -start=100 -len=60 
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_212_262    211 SKLAYVTFESGR--SALVIQTLANGAVRQV-ASFPRHNGAPAFSPDGSKLAFA  261
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_165_218    164 TRIAYVVQTNGGQFPYELRVSDYDGYNQFVVHRSPQPLMSPAWSPDGSKLAYV  217
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_256_306    255 SKLAFALSKTGS--LNLYVMDLASGQIRQV-TDGRSNNTEPTWFPDSQNLAFT  305
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_307_350    306 -------DQAGR--PQVYKVNINGGAPQRI-TWEGSQNQDADVSSDGKFMVMV  349
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_351_393    350 -------SNGGQ--QHIAKQDLATGGV-QV-LSSTFLDETPSLAPNGTMVIYS  392
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+                        1           *             *    :          .   .:.  :      53
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        MENU: Type Letter Flag[number] and Return: ex |10
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        |x      --&gt;Set     the START to x
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        &gt;x      --&gt;Set     the LEN   to x
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        Cx      --&gt;Set     the sCale to x
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        Sname   --&gt;Save    the  Alignment 
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        Bx      --&gt;Save    Goes back x it 
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        return  --&gt;Compute the  Alignment
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        X       --&gt;eXit
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+[ITERATION   1] [START=211] [LEN= 50] [SCALE=-100]      YOUR CHOICE:
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+For instance, to set the length of the domain to 40, type:  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+[ITERATION   1] [START=211] [LEN= 50] [SCALE=-100]      YOUR CHOICE:&gt;40[return]
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+[return]
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Which will generate:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_212_252    211 SKLAYVTFESGRSALVIQTLANGAVRQVASFPRHNGAPAF  251
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_256_296    255 SKLAFALSKTGSLNLYVMDLASGQIRQVTDGRSNNTEPTW  295
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_300_340    299 QNLAFTSDQAGRPQVYKVNINGGAPQRITWEGSQNQDADV  339
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_344_383    343 KFMVMVSSNGGQQHIAKQDLATGGV-QVLSSTFLDETPSL  382
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+TOLB_ECOLI_387_427    386 TMVIYSSSQGMGSVLNLVSTDGRFKARLPATDGQVKFPAW  426
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+                        1   :     :     :           ::         .     40
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        MENU: Type Letter Flag[number] and Return: ex |10
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        |x      --&gt;Set     the START to x
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        &gt;x      --&gt;Set     the LEN   to x
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        Cx      --&gt;Set     the sCale to x
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        Sname   --&gt;Save    the  Alignment 
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        Bx      --&gt;Save    Goes back x it 
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        return  --&gt;Compute the  Alignment
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+        X       --&gt;eXit
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1 STYLE="font-size: 8pt">
+[ITERATION   3] [START=211] [LEN= 40] [SCALE=-100]      YOUR CHOICE: 
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If you want to indicate the coordinates, relative to a specific sequence, type:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	|&lt;seq_name&gt;:start
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Type S&lt;your name&gt; to save the current alignment, and extract a new motif.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Type X when you are done.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="TREE COMPUTATION AND OUTPUT">TREE COMPUTATION AND OUTPUT</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<H4><A NAME="-newtree">-newtree</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-newtree">-newtree</A>=&lt;tree file&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+ No file specified
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Format:
+</B>
+ Phylips tree format
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Indicates the name of the new tree to compute. The default will be &lt;sequence_name&gt;.dnd, or &lt;run_name.dnd&gt;.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-usetree">-usetree</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-usetree">-usetree</A>=&lt;tree file&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+ No file specified
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Format:
+</B>
+ Phylips tree format
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag indicates that rather than computing a new dendrogram, t_coffee can use a pre-computed one. The tree files are in phylips format and compatible with ClustalW. In most cases, using a pre-computed tree will halve the computation time required by t_coffee. It is also possible to use trees output by ClustalW or Phylips.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-tree_mode">-tree_mode</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-tree_mode">-tree_mode</A>=&lt;slow, fast, very_fast&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default: 
+</B>
+<SPAN STYLE="font-weight: medium">
+very_fast
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag indicates the method used for computing the dendrogram.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+Slow
+</B>
+: the chosen dp_mode using the extended library,  
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+fast
+</B>
+:   The fasta dp_mode using the extended library.
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+very_fast:
+</B>
+ The fasta dp_mode using pam250mt.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<H4><A NAME="-quicktree">-quicktree</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-quicktree">-quicktree</A>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag is kept for compatibility with ClustalW. It indicates that:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-tree_mode">-tree_mode</A>=very_fast. 
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="ALIGNMENT OUTPUT: Formats and File names">ALIGNMENT OUTPUT: Formats and File names</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<H4><A NAME="-File names">-File names</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+stdin
+</B>
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+stdout
+</B>
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+stderr
+</B>
+</P>
+<P STYLE="margin-left: 1.2in; font-style: normal">
+<B>
+no
+</B>
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+/dev/null
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<I>
+stdout
+</I>
+, 
+<I>
+stderr
+</I>
+ and 
+<I>
+stdin 
+</I>
+are valid filenames. They cause the corresponding file to be output in stderr or stdout, for an input file, stdin causes the program to requests the corresponding file through pipe. No causes a suppression of the output, as does /dev/null.
+</P>
+<H4><A NAME="-outfile">-outfile</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="text-indent: 0.25in">
+<B>
+Usage:  -
+</B>
+outfile=&lt;out_aln file,default,no&gt;
+</P>
+<P STYLE="text-indent: 0.25in">
+<B>
+Default
+</B>
+:-out_aln=default
+</P>
+<P STYLE="text-indent: 0.25in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Indicates the name of the alignment output by t_coffee. If the default is used, the alignment is named 
+<I>
+&lt;your sequences&gt;.aln
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-output">-output</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<A HREF="#-output">-output</A>=&lt;format1,format2,...&gt;  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-output">-output</A>=clustalw
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Indicates the format used for outputting the <A HREF="#-outfile">-outfile</A>.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Supported formats are:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.2in">
+clustalw_aln, clustalw: ClustalW format.
+</P>
+<P STYLE="margin-left: 1.2in">
+gcg, msf_aln      	: Msf alignment.
+</P>
+<P STYLE="margin-left: 1.2in">
+pir_aln			: pir alignment.
+</P>
+<P STYLE="margin-left: 1.2in">
+fasta_aln		: fasta alignment.
+</P>
+<P STYLE="margin-left: 1.2in">
+phylip			: Phylip format.
+</P>
+<P STYLE="margin-left: 1.2in">
+pir_seq			: pir sequences (no gap).
+</P>
+<P STYLE="margin-left: 1.2in">
+fasta_seq		: fasta sequences (no gap).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+As well as:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+score_html	: causes the output to be a reliability plot in HTML
+</P>
+<P STYLE="margin-left: 1.2in">
+score_pdf	: idem in PDF (if ps2pdf is installed on your system).
+</P>
+<P STYLE="margin-left: 1.2in">
+score_ps	: idem in postscript.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+More than one format can be indicated:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-output">-output</A>=clustalw,gcg, score_html
+</I>
+</P>
+<H4><A NAME="-evaluate_mode">-evaluate_mode</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Usage: <A HREF="#-evaluate_mode">-evaluate_mode</A>=&lt;mode&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Default: <A HREF="#-evaluate_mode">-evaluate_mode</A>=t_coffee_fast
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag indicates the mode used to normalize the t_coffee score when computing the reliability score.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+t_coffee_fast: use an estimation of the maximum extended score (the same for every position.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+t_coffee_non_extended: the score of each residue is the ratio between the sum of its non extended scores with the column and the sum of all its possible non extended scores.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+t_coffee_slow: for each residue, normalize the score with the proper maximum extended score. This computation takes as much time as the computation of the alignment.
+</P>
+<H4><A NAME="-case">-case</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<A HREF="#-case">-case</A>=&lt;upper or lower&gt;  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-case">-case</A>=&lt;upper&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Triggers the choice of the case for the output.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-cpu">-cpu</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<A HREF="#-cpu">-cpu</A>=&lt;value&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-cpu">-cpu</A>=0
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Indicates the cpu time (micro seconds) that must be added to the t_coffee computation time.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<H4><A NAME="-out_lib">-out_lib</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  -
+</B>
+out_lib=&lt;name of the library,default,no&gt;  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-out_lib">-out_lib</A>=default
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Sets the name of the library output. Default implies &lt;run_name&gt;.tc_lib
+</P>
+<H4><A NAME="-outseqweight">-outseqweight</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage: 
+</B>
+<A HREF="#-outseqweight">-outseqweight</A>=&lt;name of the file containing the weights applied&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default: 
+</B>
+<A HREF="#-outseqweight">-outseqweight</A>=no
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-outorder">-outorder</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  -
+</B>
+outorder=&lt;input or aligned&gt;  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-outorder">-outorder</A>=input
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Sets the name of the library output. Default implies &lt;run_name&gt;.tc_lib
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-seqnos">-seqnos</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<SPAN STYLE="font-weight: medium">
+<A HREF="#-seqnos">-seqnos</A>
+</SPAN>
+=&lt;on or off&gt; 
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-seqnos">-seqnos</A>=off
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Causes the output alignment to contain residue numbers at the end of each line:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+T-COFFEE
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<FONT FACE="courier, monospace">
+<I>
+seq1 aaa---aaaa--------aa 9
+</I>
+</FONT>
+</P>
+<P STYLE="margin-left: 1.75in">
+<FONT FACE="courier, monospace">
+<I>
+seq2 a-----aa-----------a 4
+</I>
+</FONT>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<FONT FACE="courier, monospace">
+<I>
+seq1 a-----------------a 11
+</I>
+</FONT>
+</P>
+<P STYLE="margin-left: 1.75in">
+<FONT FACE="courier, monospace">
+<I>
+seq2 aaaaaaaaaaaaaaaaaaa 19
+</I>
+</FONT>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+	...
+</I>
+</P>
+<H4><A NAME="-clean_aln">-clean_aln</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<SPAN STYLE="font-weight: medium">
+<A HREF="#-clean_aln">-clean_aln</A> 
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-clean_aln">-clean_aln</A>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag causes T-Coffee to post-process the multiple alignment. Residues that have a reliability score smaller or equal to <A HREF="#-clean_threshold">-clean_threshold</A> (as given by an evaluation that uses -clean_evaluate_mode)  are realigned to the rest of the alignment. Residues with a score higher than the threshold constitute a rigid framework that cannot be altered.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The cleanning algorithm is greedy. It starts from the top left segment of low constitency residues and works its way left to right, top to bottom along the alignment. You can require this operation to be carried out for several cycles using the <A HREF="#-clean_iteration">-clean_iteration</A>s flag.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The rationale behind this operation is mostly cosmetic. In order to ensure a decent looking alignment, the gop is set to -20 and the gep to -1. There is no penalty for terminal gaps, and the matrix is blosum62mt.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note1
+</B>
+: Gaps are always considered to have a reliability score of 0.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-clean_threshold">-clean_threshold</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<SPAN STYLE="font-weight: medium">
+<A HREF="#-clean_threshold">-clean_threshold</A>=&lt;value between 0 and 9&gt; 
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-clean_aln">-clean_aln</A>=1
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+See <A HREF="#-clean_aln">-clean_aln</A> for details.
+</P>
+<H4><A NAME="-clean_iteration">-clean_iteration</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<SPAN STYLE="font-weight: medium">
+<A HREF="#-clean_iteration">-clean_iteration</A>=&lt;value between 1 and &gt; 
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-clean_iteration">-clean_iteration</A>=1
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+See <A HREF="#-clean_aln">-clean_aln</A> for details.
+</P>
+<H4><A NAME="-clean_evaluation_mode">-clean_evaluation_mode</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<SPAN STYLE="font-weight: medium">
+<A HREF="#-clean_iteration">-clean_iteration</A>=&lt;evaluation_mode &gt; 
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-clean_iteration">-clean_iteration</A>=t_coffee_non_extended
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in">
+Indicates the mode used for the evaluation that will indicate the segments that should be realigned. See -evaluation_mode for the list of accepetd modes.
+</P>
+<P STYLE="margin-left: 0.25in">
+<BR>
+</P>
+<H2><A NAME="GENERIC OUTPUT">GENERIC OUTPUT</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<H4><A NAME="-run_name">-run_name</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:  
+</B>
+<A HREF="#-run_name">-run_name</A>=&lt;your run name&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default: 
+</B>
+no default set
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This flag causes the prefix 
+<I>
+&lt;your sequences&gt;
+</I>
+ to be replaced by 
+<I>
+&lt;your run name&gt;
+</I>
+ when renaming the default files.
+</P>
+<P>
+<BR>
+</P>
+<H4><A NAME="-quiet">-quiet</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Usage:
+</B>
+ <A HREF="#-quiet">-quiet</A>=&lt;stderr,stdout or file name or nothing.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Default:
+</B>
+<A HREF="#-quiet">-quiet</A>=stderr
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in">
+Redirects the standard output to either a file. <A HREF="#-quiet">-quiet</A> on its own redirect the output to /dev/null.
+</P>
+<P STYLE="margin-left: 0.25in">
+<BR>
+</P>
+<H4><A NAME="-align">-align</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Indicates that the program must produce the alignment. This flag is here for compatibility with ClustalW.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="-convert">-convert</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Indicates that the program must not compute the alignment but simply convert all the sequences, alignments and libraries into the format indicated with <A HREF="#-output">-output</A>. This flag can also be used if you simply want to compute a library ( i.e. You have an alignment and you want to turn it into a library).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<H1 ALIGN=CENTER STYLE="page-break-before: always"><A NAME="USING NEW AND EXISTING METHODS">USING NEW AND EXISTING METHODS</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<H2><A NAME="Methods With An Established  T-Coffee Interface">Methods With An Established  T-Coffee Interface</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Some packages already have an interface with t_coffee, these include:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	align_pdb: 	ALIGN_PDB_4_TCOFFEE
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	sap:		SAP_4_TCOFFEE
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	lalign2list:	LALIGN_4_TCOFFEE
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	clustalw:	CLUSTALW_4_TCOFFEE
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If these programs are installed on your system and you want t_coffee to use a specific version:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+setenv CLUSTALW_4_TCOFFEE &lt;path to your version&gt;
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Built in methods methods can be requested using the following names:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+fast_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Makes a global fasta style pairwise alignment. For proteins, matrix=blosum62mt, gep=-1, gop=-10, ktup=2. For DNA, matrix=idmat (id=10), gep=-1, gop=-20, ktup=5. Each pair of residue is given a score function of the weighting mode defined by <A HREF="#-weight">-weight</A>.  
+</P>
+<P STYLE="margin-left: 1.2in">
+slow_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Identical to fast pair, but does a full dynamic programming, using the myers and miller algorithm. This method is recommended if your sequences are distantly related.
+</P>
+<P STYLE="margin-left: 1.2in">
+ifast_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Makes a global fasta alignmnet using the previously computed pairs as a library. `i` stands for iterative. Each pair of residue is given a score function of the weighting mode defined by <A HREF="#-weight">-weight</A>.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+align_pdb_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Uses the align_pdb routine to align two structures. The pairwise scores are those returnes by the align_pdb program. If a structure is missing, fast_pair is used instead. Each pair of residue is given a score function defined by align_pdb.
+</P>
+<P STYLE="margin-left: 1.2in">
+sap_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Uses sap to align two structures. Each pair of residue is given a score function defined by sap. You must have sap installed on your system to use this method.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+clustalw_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Uses clustalw (default parameters) to align two sequences. Each pair of residue is given a score function of the weighting mode defined by <A HREF="#-weight">-weight</A>.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+clustalw_aln
+</P>
+<P STYLE="margin-left: 1.75in">
+Makes a multiple alignment using ClustalW and adds it to the library. Each pair of residue is given a score function of the weighting mode defined by <A HREF="#-weight">-weight</A>.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+lalign_rs_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Uses the output of lalign2list. Each pair of residue is given a score equal to the lalign raw score it comes from.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+lalign_id_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Same as lalign_rs_pir, but using the level of identity as a weight.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+lalign_id_m_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Same as above, but does the alignment both way (m stands for miror).
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+lalign_s_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Same as above but does also the self comparison (s stands for self). This is needed when extracting repeats. The weights used that way are based on identity.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+lalign_rs_s_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+Same as above but does also the self comparison (s stands for self). This is needed when extracting repeats. The weights used that way are based on identity.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+Matrix
+</P>
+<P STYLE="margin-left: 1.75in">
+Amy matrix can be requested. Simply indicate as a method the name of the matrix preceded with an X (i.e. Xpam250mt). If you indicate such a matrix, all the other methods will simply be ignored.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+fast_cdna_pair
+</P>
+<P STYLE="margin-left: 1.75in">
+This method computes the pairwise alignment of two cDNA sequences. It is a fast_pair alignment that only takes into account the amino-acid similarity and uses different penalties for amino-acid insertions and frameshifts.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+This alignment is turned into a library where matched nucleotides receive a score equql to the average level of identity at the amino-acid level.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+This mode is intended to clean cDNA obtained from ESTs, or to align pseudo-genes.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+To request a method, see the <A HREF="#-in">-in</A> flag. For instance, if you wish to request the use of fast_pair and lalign_id_pair (the current default):
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee <A HREF="#-in">-in</A> &lt;your sequences&gt; Mfast_pair Mlalign_id_pair
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The order is irrelevant.
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<H2><A NAME="Methods Without An Established T-Coffee Interface">Methods Without An Established T-Coffee Interface</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A>.</H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If the method you wish to use is not supported, the simplest solution is to generate yourself the pairwise/multiple alignments, in fasta, ClustalW, msf or Pir format and feed them into t_coffee using the 
+<I>
+<A HREF="#-in">-in</A>
+</I>
+ flag:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-in">-in</A> Aalignment1 Aalignment2&#133;..
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note1
+</B>
+ This method forces you to use the same weighting scheme for each alignment and the rest of the libraries generated on the fly. This weighting scheme is based on pairwise sequence identity.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note2
+</B>
+ <A HREF="#Alignments">Alignments</A> do not need to contain all the sequences or the same sequences, nor do they need to have the same starts and ends. However, names must be consistent.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note3 
+</B>
+<SPAN STYLE="font-weight: medium">
+Default methods are reset when you explicitely use <A HREF="#-in">-in</A>, if you wish to keep using fast_pair and lalign_id_pair, you need to indicate these methods explicitely:
+</SPAN>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-in">-in</A> .......... Mfast_pair, Mlalign_id_pair 
+</I>
+</P>
+<H2><A NAME="Generate Your Own Libraries">Generate Your Own Libraries</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This is suitable if you have local alignments, or very detailed information about your potential residue pairs, or if you want to use a very specific weighting scheme. You will need to generate your own libraries, using the format described in the last section.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note1
+</B>
+ You can have up to 200 libraries. They do not need to contain the same sequences.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="Making a New Method File">Making a New Method File</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If you have a method available (e.g. pileup), write a perl script that will contain your favorite parameters, and some input/output facilities so that the script can be ran using:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<B>
+Your_pileup_script.perl <A HREF="#-in">-in</A> sequence_file -out aln.
+</B>
+</I>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+In and Out must be legal formats (see last section). You will also need to provide a configuration file for the method:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+EXECUTABLE 	S	Your_pileup_script.perl
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+ALN_MODE		S	pairwise or multiple
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+IN_FLAG		S	<A HREF="#-in">-in</A>
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+OUT_FLAG		S	-out
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+DEFAULT		S	list of default parameters
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Save this file as pileup_aln_method and use the <A HREF="#-in">-in</A> flag:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<SPAN STYLE="font-weight: medium">
+<A HREF="#-in">-in</A>=Mpileup_aln_method
+</SPAN>
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Your script will be called by t_coffee as follows:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+pileup.script &lt;list of default parameters&gt; <A HREF="#-in">-in</A>=&lt;tmp seq&gt; -out=&lt;tmp aln&gt;
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The following file indicates some of the parameters that can be passed to t_coffee when executing. Lines starting with a '*' sign will be ignored.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*********************************************************************************************
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*       Master File for Incorporating new methods in T-Coffee
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*       Cedric Notredame 23/02/01
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*********************************************************************************************
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*EXECUTABLE
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*name of the executable
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+EXECUTABLE      S       clustalw
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*ALN_MODE
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*       pairwise   -&gt;Half Everything Vs Everything excepty self   [(n2-n)/2 pw aln]
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*       m_pairwise -&gt;     Everything Vs Everything excepty self   [n2-n     pw aln]
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*       s_pairwise -&gt;Half Everything Vs Everything including self [n2-(n2-n)/2 pw aln
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*       multiple   -&gt;All the sequences in one go
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+ALN_MODE        S       pairwise
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*OUT_MODE
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*mode of the outout: 
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*     aln -&gt; alignmnent File
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*     list-&gt; List file (librairie)
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*     fL -&gt; Internal Function returning a List (Librairie)
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*     fA -&gt; Internal Function returning an Alignmnent
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+OUT_MODE        S        aln
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*IN_FLAG
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*flag indicating the name of the in-coming sequences
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*IN_FLAG S no_name -&gt;no flag
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+IN_FLAG         S       -INFILE=
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*OUT_FLAG
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*flag indicating the name of the out-coming data
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*OUT_FLAG S no_name -&gt;no flag
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+OUT_FLAG        S       -OUTFILE=
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*DEFAULT
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*list of the default fixed parameters sent to the EXECUTABLE 
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+DEFAULT         S       -OUTORDER=<A HREF="#INPUT">INPUT</A> -NEWTREE=core -align -gapopen=-15
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT FACE="courier, monospace">
+<FONT SIZE=1>
+*The script passes to the system is in the following order
+</FONT>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<FONT SIZE=1>
+*&lt;EXECUTABLE&gt; &lt;IN_FLAG&gt; &lt;OUT_FLAG&gt; &lt;DEFAULT&gt;
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H1 ALIGN=CENTER STYLE="page-break-before: always"><A NAME="Frequently Asked Questions">Frequently Asked Questions</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P ALIGN=JUSTIFY>
+<BR>
+</P>
+<H2><A NAME="ABNORMAL TERMINATIONS and WRONG RESULTS">ABNORMAL TERMINATIONS and WRONG RESULTS</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A>.</H2>
+<H4><A NAME="Q: The program keeps crashing when I give my sequences">Q: The program keeps crashing when I give my sequences</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: This may be a format problem. Try to reformat your sequences using any utility (readseq...). We recommend the Fasta format. If the problem persists, contact us.
+</P>
+<H4><A NAME="Q: The default alignment is not good enough">Q: The default alignment is not good enough</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: see next question
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: The alignment contains obvious mistakes">Q: The alignment contains obvious mistakes</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: This happens with most multiple alignment procedures. However, wrong alignments are sometimes caused by a bugs or an implementation mistake. Please report the most unexpected results to the authors.
+</P>
+<H4><A NAME="Q: The program is crashing">Q: The program is crashing</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: If you get the message:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+FAILED TO ALLOCATE REQUIRED MEMORY
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+See the next question.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If the program crashes for some other reason, please check wether you are using the right syntax and if the problem persists get in touch with the authors.
+</P>
+<H4><A NAME="Q: I am running out of memory">Q: I am running out of memory</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: You can use a more accurate, slower and less memory hungry dynamic programming mode called myers_miller_pair_wise. Simply indicate the flag:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-dp_mode">-dp_mode</A>=myers_miller_pair_wise
+</I>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+To use an amount of memory as small as possible use the following settings:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee  &lt;your sequences&gt; <A HREF="#-in">-in</A>=slow_pair,lalign_id_pair -tree_mode=slow -dp_mode=myers_miller_pair_wise
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If you keep running out of memory, you may want to stop using local information:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee  &lt;your sequences&gt; <A HREF="#-in">-in</A>=slow_pair -tree_mode=slow
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-dp_mode">-dp_mode</A>=myers_miller_pair_wise
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.08in">
+Alternatively, to keep the alignment as good as possible, you may prefer working on a smaller test set, and/or remove low complexity regions.
+</P>
+<P STYLE="margin-left: 0.08in">
+<BR>
+</P>
+<H2><A NAME="INPUT/OUPUT And PARAMETRIZATION">INPUT/OUPUT And PARAMETRIZATION</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<H4><A NAME="Q: How many ways to pass parameters to t_coffee">Q: How many ways to pass parameters to t_coffee</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>?</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: There are five layers of parameters in t_coffee, the lower layer are the hard coded defaults, then come -dali_defaults, then -t_coffee_defaults, then the prompt, then <A HREF="#-parameters">-parameters</A>. <A HREF="#-parameters">-parameters</A> superseeds ALL the others (i.e. It is the strongest).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+<I>
+t_coffee -t_coffee_defaults -in=&lt;my file&gt; lalign_id_pair <A HREF="#-parameters">-parameters</A>=&lt;param_file&gt;
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If TCOFFEE_DEFAULTS is not set, the file ~/.t_coffee_defaults will be read (if it exists).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The prompt ( -in=my_file,lalign_id_pair) will superseed any previously set value, and finally the values read in <A HREF="#-parameters">-parameters</A> will superseed any previously set value.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The spirit is the following:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+1-If for whatever reason you are not happy with the t_coffee defaults, put yours in ~/.t_coffee default or any file indicated by TCOFFEE_DEFAULTS. This will be set 'forever'.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+2-If for a given task there is a set of parameters you need to use often (but not ALWAYS), put them in a file with a specific name that you will name <A HREF="#-parameters">-parameters</A>.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+3- The flag <A HREF="#-dali_defaults">-dali_defaults</A> is meant for compatibility with DALI and it triggers some hard coded defaults.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Remember:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+parameters &gt; command_line &gt; t_coffee_defaults &gt; dali_defaults &gt; hard coded defaults
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+and t_coffee_default can be set with TCOFFEE_DEFAULTS
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: How can I change the default output format">Q: How can I change the default output format</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>?</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A:See the <A HREF="#-output">-output</A> option, common output formats are:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-output">-output</A>=msf
+</I>
+</P>
+<H4><A NAME="Q: My sequences are slightly different between all the alignments">Q: My sequences are slightly different between all the alignments</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>.</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A:It does not matter. T-Coffee will reconstruct a set of sequences that incorporates all the residues potentially missing in some of the sequences ( see flag <A HREF="#-in">-in</A>).
+</P>
+<H4><A NAME="Q: Is it possible to pipe stuff out of t_coffee">Q: Is it possible to pipe stuff out of t_coffee</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>?</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: If instead of a name, you indicate stderr or stdout, the output will be redirected accordingly. For instance
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee &lt;your sequences&gt; <A HREF="#-outfile">-outfile</A>=stdout -out_lib=stdout
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+will output the tree (in new hampshire format) and the alignment to stdout.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<H4><A NAME="Q: Is it possible to pipe stuff into t_coffee">Q: Is it possible to pipe stuff into t_coffee</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>?</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: If as a file name, you specify stdin, the content of this file will be expected throught pipe:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+cat &lt;your sequence file&gt; | t_coffee <A HREF="#-infile">-infile</A>=stdin
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+will be equivalent to
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee &lt;your sequence file&gt;
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If you do not give any argument to t_coffee, they will be expected to come from pipe:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+your script | t_coffee <A HREF="#-parameters">-parameters</A>=stdin
+</I>
+</P>
+<P STYLE="margin-left: 1.2in">
+For instance:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+echo '&lt;your sequence file&gt; <A HREF="#-in">-in</A> clustalw_pair | t_coffee 
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<H4><A NAME="Q: Can I read my parameters from a file">Q: Can I read my parameters from a file</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>?</H4>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in; text-indent: 0in">
+A: see the <A HREF="#-parameters">-parameters</A> flag that allows you to put your parameters in a file and to re-use them.  
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: I want to  decide myself on the name of the output files">Q: I want to  decide myself on the name of the output files</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>!!!</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: Use the 
+<I>
+<A HREF="#-run_name">-run_name</A>
+</I>
+ flag.
+</P>
+<H4><A NAME="Q: I want to use the sequences in an alignment file">Q: I want to use the sequences in an alignment file</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: Simply fed your alignment, any way you like, but do not forget to append the prefix S for sequence:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-in">-in</A>=Syour_alignment.aln
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+or
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-infile">-infile</A>=Syour_alignment.aln
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in; text-indent: 0in">
+This means that the gaps will be reset and that the alignment you provide will not be considered as an alignment, but as a set of sequences.
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: I only want to produce a library">Q: I only want to produce a library</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: use the <A HREF="#-convert">-convert</A> flag
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee &lt;your sequences&gt; <A HREF="#-in">-in</A> &lt;method...&gt; -out_lib &lt;your name&gt; -convert
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+You must not omit <A HREF="#-out_lib">-out_lib</A>, otherwise no library will be output.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: I want to concatenate two libraries">Q: I want to concatenate two libraries</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: You cannot concatenate these files on their own. You will have to use t_coffee. Assume you want to combine tc_lib1.tc_lib and tc_lib2.tc_lib.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee <A HREF="#-in">-in</A> Ltc_lib1.tc_lib Ltc_lib2.tc_lib -convert -out_lib=tot_lib.tc_lib
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+You can also make an alias with:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+alias concatenate_library t_coffee -convert -out_lib =stdout <A HREF="#-in">-in</A>
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+and concatenating will become:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+concatenate_library tc_lib1.tc_lib tc_lib2.tc_lib &gt; tot_lib.tc_lib
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<H4><A NAME="Q: What happens to the gaps when an alignment is fed to T-Coffee">Q: What happens to the gaps when an alignment is fed to T-Coffee</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: when you feed in an alignment with <A HREF="#-infile">-infile</A>, it is regarded as a set of sequences, and gaps are removed. When you feed it throught -in, if you say nothing, it  is recognized as an alignment and used to build the library. If you indicate it with the S identifier:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-in">-in</A> Smy_alignment.aln
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in; text-indent: 0in">
+It will be seen as a sequence file, even if it has an alignment format (gaps will be removed).
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: I do not want to align ALL the sequences">Q: I do not want to align ALL the sequences</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>.</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: Use the <A HREF="#-seq_to_align">-seq_to_align</A> flag. All the sequences will be USED for computing the librrary, but only a subset will be aligned, using information contained in ALL the sequences.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: I cannot print the html graphic display">Q: I cannot print the html graphic display</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>!!!</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: This is a problem that has to do with your browser. Instead of requesting the score_html output, request the score_ps output that can be read using ghostview:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-output">-output</A>=score_ps 
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+or	
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-output">-output</A>=score_pdf
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Note that the latest versions of Internet Explorer and Netscape now allow the user to print the HTML display. Do not forget to request Background printing.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: I want to output an html file and a regular file">Q: I want to output an html file and a regular file</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: see the next question
+</P>
+<H4><A NAME="Q: I would like to output more than one alignment format at the same time">Q: I would like to output more than one alignment format at the same time</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: The flag <A HREF="#-output">-output</A> accepts more than one parameter. For instance,
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-output">-output</A>=clustalw,score_html,score_ps, msf
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in; text-indent: 0in">
+will output four alignment files in the corresponding formats. <A HREF="#Alignments">Alignments</A>' names will have the format name as an extension.
+</P>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="ALIGNMENT COMPUTATION">ALIGNMENT COMPUTATION</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A>  </H2>
+<H4><A NAME="Q: I do not want to compute the alignment">Q: I do not want to compute the alignment</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>.</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A:use the <A HREF="#-convert">-convert</A> flag
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee your_seq.aln -convert <A HREF="#-output">-output</A>=gcg
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+will read the .aln and will turn it into a .msf alignment.
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<H4><A NAME="Q: I would like to force some residues to be aligned">Q: I would like to force some residues to be aligned</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>.</H4>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in">
+See 
+<I>
+I want to build my own libraries.
+</I>
+</P>
+<H4><A NAME="Q: I would like to use structural alignments">Q: I would like to use structural alignments</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>.</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+See the section Using structures in Multiple Sequence <A HREF="#Alignments">Alignments</A>, or see the question
+<I>
+ I want to build my own libraries.
+</I>
+</P>
+<H4><A NAME="Q: I want to build my own libraries">Q: I want to build my own libraries</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>.</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: Turn your alignment into a library, forcing the residues to have a very good weight, using structure:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<P STYLE="margin-left: 1.75in">
+<FONT SIZE=3>
+<I>
+t_coffee alignment -convert <A HREF="#-weight">-weight</A>=10000 -out_lib=good_lib.tc_lib
+</I>
+</FONT>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The value 10000 is simply a high value that should make it more likely for the substitution found in your alignment to reoccur in the final alignment. This will produce the library good_lib.tc_lib that you can later use when aligning all the sequences:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee Sall_the_sequences.pep Lgood_lib.tc_lib
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+will output all_the_sequences.aln
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If you only want some of these residues to be aligned, or want to give them individual weights, you will have to edit the library file yourself. A value of N*N * 1000 (N being the number of sequences) usually ensure the respect of a constraint.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: I want to use my own tree">Q: I want to use my own tree</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>!!!!</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: Use the 
+<I>
+<A HREF="#-usetree">-usetree</A>=&lt;your own tree&gt;
+</I>
+ flag.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: I want to align coding DNA">Q: I want to align coding DNA</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: use the fasta_cdna_pair method that compares two cDNA using the best reading frame and taking frameshifts into account.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: There are duplicates or quasi-duplicates in my set">Q: There are duplicates or quasi-duplicates in my set</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: If you can remove them, this will make the program run faster, otherwise, the t_coffee scoring scheme should be able to avoid over<A HREF="#-weight">-weight</A>ing of sur-represented sequences.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="ALIGNMENT EVALUATION">ALIGNMENT EVALUATION</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<H4><A NAME="Q: How good is my alignment">Q: How good is my alignment</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>?</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: see 
+<I>
+what is the reliability story?
+</I>
+</P>
+<H4><A NAME="Q: What is that reliability story">Q: What is that reliability story</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>?</H4>
+<P ALIGN=LEFT STYLE="margin-left: 0.25in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: T-Coffee can provide you with a measure of consistency among all the methods used. You can produce such an output using:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee your_seq.pep <A HREF="#-output">-output</A>=score_html
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+This will compute your_seq.score_html that you can view using netscape. An alternative is to use score_ps or score_pdf that can be viewed using ghostview or acroread, score_ascii will give you an alignment that can be parsed as a text file.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Q: Can I evaluate alignments NOT produced with T-Coffee">Q: Can I evaluate alignments NOT produced with T-Coffee</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>?</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: Yes. You may have an alignment produced from any source you like. To evaluate it do:
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee your_alignment  <A HREF="#-in">-in</A>=your_library -score -output=score_html
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If you have no library available, the library will be computed on the fly (this can take some time, depending on the size of your sample). To monitor the progress in a situation where the default library is being built, use:
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+t_coffee your_alignment -score <A HREF="#-output">-output</A>=score_html -quiet=stdout
+</I>
+</P>
+<H4><BR>
+<BR></H4>
+<H4><A NAME="Q: I am aligning sequences with long regions of very good overlapp">Q: I am aligning sequences with long regions of very good overlapp</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: Increase the ktuple size ( up to 4 or 5 for DNA) and up to 3 for proteins.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+<A HREF="#-ktuple">-ktuple</A>=3
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in; font-style: normal">
+This will speed up the program. It can be very useful, especially when aligning ESTs.  
+</P>
+<H4><A NAME="Q: T-Coffee is changing the names of my sequences">Q: T-Coffee is changing the names of my sequences</A> <A HREF="#FAQ">[faq]</A> <A HREF="t_coffee.html">[form]</A>!!!!</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A: T-Coffee' handling of names is consistent with Clustalw, see <A HREF="#Sequence Name Handling">Sequence Name Handling</A> in the Format section.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H1 ALIGN=CENTER STYLE="page-break-before: always"><A NAME="MAKING A T-COFFEE SERVER">MAKING A T-COFFEE SERVER</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+In the html directory, you will find a tcoffee.html. It is an interface to tcoffee4html.cgi, a perl script able to run t_coffee. In order to install this, put tcoffee.html in your public_html directory and put tcoffee4html.cgi in your cgi-bin. Edit the top of both files: The 'Customize' part in the cgi and the &lt;form &gt; tag in the html. Successful implementation will depend on various parameters, such as your web server, file permissions and so on.  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Pleas, consider these files as a source of inspiration rather than a ready-made solution.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="Common Problems">Common Problems</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Output of the .dnd file">Output of the .dnd file</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A>.</H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+A common source of error when running a server: T-Coffee MUST output the .dnd file because it re-reads it to carry out the progressive alignment. By default T-Coffee outputs this file in the directory where the process is running. If the T-Coffee process does not have permission to write in that directory, the computation will abort...
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+To avoid this, simply specify the name of the output tree:  
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	<A HREF="#-newtree">-newtree</A>=&lt;writable file (usually in /tmp)&gt;
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Chose the name so that two processes may not over-write each other dnd file.  
+</P>
+<H4><A NAME="Permissions">Permissions</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+The t_coffee process MUST be allowed to write in some scratch area, even when it is ran by Mr nobody... Make sure the /tmp/ partition is not protected.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H4><A NAME="Other Programs">Other Programs</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H4>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+T-Coffee may call various programs while it runs (lalign2list by defaults). Make sure your process knows where to find these executables.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT>
+Help about the use of the Html version is available on line.
+</P>
+<P ALIGN=LEFT STYLE="page-break-before: always">
+<BR>
+</P>
+<H1 ALIGN=CENTER> <A NAME="FORMATS">FORMATS</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<H2><A NAME="Parameter files">Parameter files</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Parameter files used with <A HREF="#-parameters">-parameters</A>, -t_coffee_defaults, -dali_defaults... Must contain a valid parameter string where line breaks are allowed. These files cannot contain any comment, the recommended format is one parameter per line:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	&lt;parameter name&gt;=&lt;value1&gt;,&lt;value2&gt;....
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+	&lt;parameter name&gt;=.....
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+</P>
+<H2><A NAME="Sequence Name Handling">Sequence Name Handling</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Sequence name handling is meant to be fully consistent with ClustalW (Version 1.75). This implies that in some cases the names of your sequences may be edited when coming out of the program. four rules apply:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+1-Names that do contain spaces, for instance:
+</P>
+<P STYLE="margin-left: 1.2in">
+	&gt;seq1 human_myc
+</P>
+<P STYLE="margin-left: 1.2in">
+will be turned into
+</P>
+<P STYLE="margin-left: 1.2in">
+	&gt;seq1
+</P>
+<P STYLE="margin-left: 1.2in">
+it is your responsibility to make sure that the names you provide are not ambiguous after such an editing. This editing is consistent with Clustalw (Version 1.75)
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+2-Some non alphabetical characters are replaced with underscores. These are: ';:()'
+</P>
+<P STYLE="margin-left: 1.2in">
+Other characters are legal and will be kept unchanged. This editing is meant to keep in line with Clustalw (Version 1.75).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+3-One character is not legal: '&gt;'.
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+4-Name length must be below 100 characters.
+</P>
+<H2><A NAME="Automatic Format Recognition">Automatic Format Recognition</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Most common formats are automatically recognized by t_coffee. See <A HREF="#-in">-in</A> and the next section for more details. If your format is not recognized, use readseq or clustalw to switch to another format. We recommend Fasta.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="Structures">Structures</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+PDB format is recognized by T-Coffee, only if the extract_from_pdb is also installed (that Perl module comes along with the t_coffee distribution). extract_from_pdb is a small module that can be used on its own to extract information from pdb files.
+</P>
+<H2><A NAME="Sequences">Sequences</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<A HREF="#Sequences">Sequences</A> can come in the following formats: fasta, pir, swiss-prot, clustal aln, msf aln and t_coffee aln. These formats are the one automatically recognized. Please replace the '*' sign sometimes used for stop codons with an X.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="Alignments">Alignments</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<A HREF="#Alignments">Alignments</A> can come in the following formats: msf, ClustalW, Fasta, Pir and t_coffee. The t_coffee format is very similar to the ClustalW format, but slightly more flexible. Any interleaved format with sequence name on each line will be correctly parsed:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;empy line&gt; 	[Facultative]n
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;line of text&gt; 	[Required]
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;line of text&gt;			[Facultative]n
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;empty line&gt;			[Required]
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;empty line&gt;			[Facultative]n
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;seq1 name&gt;&lt;space&gt;&lt;seq1&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;seq2 name&gt;&lt;space&gt;&lt;seq2&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;seq3 name&gt;&lt;space&gt;&lt;seq3&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;empty line&gt;			[Required]
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;empty line&gt;			[Facultative]n
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;seq1 name&gt;&lt;space&gt;&lt;seq1&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;seq2 name&gt;&lt;space&gt;&lt;seq2&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;seq3 name&gt;&lt;space&gt;&lt;seq3&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;empty line&gt;			[Required]
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;empty line&gt;			[Facultative]n
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+An empty line is a line that does NOT contain amino-acid. A line that contains the ClustalW annotation (.:*) is empty.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Spaces are forbidden in the name. When the alignment is being read, non character signs are ignored in the sequence field (such as numbers, annotation&#133;).
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="Libraries">Libraries</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;nseq&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;seq1 name&gt; &lt;seq1 length&gt; &lt;seq1&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;seq2 name&gt; &lt;seq2 length&gt; &lt;seq2&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;seq3 name&gt; &lt;seq3 length&gt; &lt;seq3&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+!Comment
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+(!Comment)n
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+#1 2
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+&lt;x=residue x of seq 1&gt; &lt;y=residue y of seq 2&gt;
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+12 13 99  
+<FONT SIZE=2>
+(this indicates that residue 12 of seq 0 has a match score of 99 with residue 13 of seq1)
+</FONT>
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+12 14 70
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+15 16 56
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+#1 3
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+12 13 99  
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+12 14 70
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+15 16 56
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+<B>
+CPU
+</B>
+ &lt;cpu time required for the compuation of the list=x&gt; (OPTIONAL)
+</P>
+<P STYLE="margin-left: 0.5in; text-indent: 0in">
+! 
+<B>
+SEQ_1_TO_N 
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note 1: 
+</B>
+<SPAN STYLE="font-weight: medium">
+There is a space between the ! And SEQ_1_TO_N
+</SPAN>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note 2
+</B>
+: The last line (! SEQ_1_TO_N) indicates that:
+</P>
+<P STYLE="margin-left: 1.2in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+<A HREF="#Sequences">Sequences</A>
+</B>
+ are numbered from  
+<B>
+1 to N
+</B>
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+Residues 
+</B>
+are numbered from     
+<B>
+1 to N
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If  this line is omitted, the following numbering will be expected and assumed:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+<A HREF="#Sequences">Sequences</A>
+</B>
+ are numbered from 
+<B>
+0 to N-1
+</B>
+</P>
+<P STYLE="margin-left: 1.2in">
+<B>
+Residues 
+</B>
+are numbered from 
+<B>
+1 to N
+</B>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<B>
+Note 3: 
+</B>
+the residues do not need to be sorted, and neither do the sequences. The same pair can appear several times in the library. For instance:
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+#0 1
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+12 13 99
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+#0 2
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+15 16 99 
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+#0 1
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+12 14 70
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+would be legal.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="Substitution matrices">Substitution matrices</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A>.</H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+If the required substitution matrix is not available, write your own in a file using the following format:
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+$
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+v1
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+v2 v3
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+v4 v5 v6
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+..
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+$
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+v1, v2... are integers, possibly negatives.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+the order of the amino acids is: ABCDEFGHIKLMNQRSTVWXYZ, which means that v1 is the substitution value for A vs A, v2 for A vs B, v3 for B vs B, v4 for A vs C and so on.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<H2><A NAME="Sequences Weights">Sequences Weights</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H2>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+Create your own weight file, using the <A HREF="#-seq_weight">-seq_weight</A> flag:
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+seq_name1 v1
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+seq_name2 v2
+</I>
+</P>
+<P STYLE="margin-left: 1.75in">
+<I>
+...
+</I>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+No duplicate. <A HREF="#Sequences">Sequences</A> not included in the set of sequences provided to t_coffee will be ignored. Order is free. V1 is a float. Unweighted sequences will see their weight set to 0.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P ALIGN=LEFT>
+<BR>
+</P>
+<H1 ALIGN=CENTER STYLE="page-break-before: always"><A NAME="KNOWN PROBLEMS">KNOWN PROBLEMS</A> <A HREF="#Table of Contents">[toc]</A> <A HREF="t_coffee.html">[form]</A></H1>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+1- The implementation of lalign used here is not symmetrical (i.e. the output obtained with seq1 vs seq2 is not identical to the output obtained with seq2 vs seq1). This means that sometimes, when the sequences are very divergent, t-coffee can become sensitive to the order in which the sequences are presented. To avoid this, it is possible to replace the method 
+<I>
+lalign_id_pair
+</I>
+ with 
+<I>
+lalign_id_m_pair
+</I>
+, that does lalign both way (seq1 vs seq2 
+<U>
+and
+</U>
+ seq2 vs seq1) and pools the results.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+2-Nucleotides sequences with long stretches of Ns will cause problems to lalign, especially when using Mocca. To avoid any problem, filter these nucleotides out  before running mocca.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+3-Stop codons are sometimes coded with '*' in protein sequences. This will cause the program to abort. Please replace the '*' signs with an X.
+</P>
+<P STYLE="margin-left: 0.25in; text-indent: 0in">
+<BR>
+</P>
+<DIV TYPE=FOOTER>
+<P ALIGN=CENTER>
+<SDFIELD TYPE=PAGE SUBTYPE=RANDOM FORMAT=PAGE>
+43
+</SDFIELD>
+</P>
+</DIV>
+</BODY>
+</HTML>

@@ -1,0 +1,170 @@
+
+SAGA FORMAT
+alignement  1cpt_ref2.t_coffee_aln10 nseq=15 len=488
+T_COFFEE ALIGNMENT
+CPU TIME:915780
+
+
+
+1cpt       eviy-pafkwlrde-qplamah--iegydpmwiatkhadvmqigkqpglf
+1oxa       -dw-ystyaelret-apvtpvr---flgqdawlvtgydeakaalsdlrls
+cpxe_strgo --qlpdgyaqlrdtpgplhrvt--lydgrqawvvtkheaarkllgdprls
+cpxh_strgr -----agyaplreg-rplsrvt--lfdgrpvwavtghalarrlladprls
+cp55_fusox -----aefaklrat-npvsqvk--lfdgslawlvtkhkdvcfvatsekls
+cpxf_strgo -dpap-dvteaart-epvtrat--lwdgsscwlvtrhqdvravlgdprfs
+fas1_rhofa -npt-eelaqvrdr-dgvipvg--elygapaflvcryedvrrifadsnrf
+bioi_bacsu -npy-sfydtlrav-hpiykgs---flkypgwyvtgyeetaailkdarfk
+y08q_myctu -npw-pmyralrdh-dpvhhvvppqrpeydyyvlsrhadvwsaardhqtf
+cpxg_strsq -gpp-aemqalrhk-apvtrta--fadgrpgwlvtgysaaravlsdsrft
+cpxq_sacer -----dwlgtmrek-qpvwq------drygvwhvfrhadvqtvlrdtatf
+cpxk_sacer -dr-hnryarmre--epvqrir--tvngldawlitryedvkqalldpria
+cpxm_bacsu -fpf-piydklrre-spvrydp--l---rdcwdvfkyddvqfvlknpklf
+1phd       -gv-qeawavlqesnvp--dlvwt-rcngghwiatrgqlireayedyrhf
+2hpdA      -kpv-qalmkiadelgeifkfe---apgrvtrylssqrlikeacdesrfd
+
+1cpt       snaegseilydq----nneafmrsisggcphvidsltsmdppthtayrgl
+1oxa       sdpkkkypgvevefpaylgfped-vrny---fatnmgtsdppthtrlrkl
+cpxe_strgo snrtd--dnfpa----tsprfea-vres---p-qafigldppehgtrrrm
+cpxh_strgr tdrsh--pdfpv----paerfag-aqrr---r-vallgvddpehntqrrm
+cp55_fusox kvr--trqgfpe----lsasgkq-aaka---k-ptfvdmdppehmhqrsm
+cpxf_strgo adahr--tgfpf----ltaggre-iigt---n-ptflrmddpeharlrrm
+fas1_rhofa snaht--pmfai--psggdviedelaam---ragnligldppdhtrlrhi
+bioi_bacsu vr---t--plpe----sstkyqd-lshv---qnqmmlfqnqpdhrrlrtl
+y08q_myctu ssaq----gltvny----gelem-iglh---dtppmvmqdppvhtefrkl
+cpxg_strsq arge-----------------re--------h-pavpraatledercrrl
+cpxq_sacer ssd-----------p--trvieg-aspt----pgmiheidppehralrkv
+cpxk_sacer kdfgrtqqiiekrladaerr-pg-fspd---lgphmlntdppdhtrlrkl
+cpxm_bacsu ss----------------kr--g--iq-----tesiltmdppkhtklral
+1phd       ssec----pf-i--pr---ea-geaydfip------tsmdppeqrqfral
+2hpdA      knlsqal---kf---v--rdfagd----glftswtheknwkkah----ni
+
+1cpt       tlnwfqpasirkleenirriaqasvqrlld--fd---gecdfmtdca-ly
+1oxa       vsqeftvrrveamrprveqitaelldevgd--sg----vvdivdrfa-hp
+cpxe_strgo tiseftvkrikgmrpeveevvhgfldemla--ag---ptadlvsqfa-lp
+cpxh_strgr liptfsvkrigalrpriqetvdrlldamer--qg---ppaelvsafa-lp
+cp55_fusox veptftpeavknlqpyiqrtvddlleqmkq--kgcangpvdlvkefa-lp
+cpxf_strgo ltadfivkkveamrpevqrladdlvdrmtt--gr---tsadlvtefa-lp
+fas1_rhofa laaefsvhrlsrlqpriaeivdsaldgleq--ag---qpadlmdrya-lp
+bioi_bacsu asgaftprttesyqpyiietvhhlldqvqg--k----kkmevisdfa-fp
+y08q_myctu vsrgftprqvetveptvrkfvverleklra--n----gggdivtelf-kp
+cpxg_strsq iagqftarrmrqltgrterivrehldameh--mg---spadlvehfa-lp
+cpxq_sacer vssaftprtisdleprirdvtrsllad-----ag---esfdlvdvla-fp
+cpxk_sacer vvkaftarrveglrprieqitddlldrlag--rs----evdlidefa-fp
+cpxm_bacsu vsraftpkavkqletrikdvtafllqearq--k----stidiiedfa-gp
+1phd       anqvvgmpvvdklenriqelacslieslrp--qg----qcnftedya-ep
+2hpdA      llpsfsqqamkgyhammvdiavqlvqkwerlnad---ehievpedmtrlt
+
+1cpt       y-------------------plhvvmtalgvpeddeplmlkl-tqdffgv
+1oxa       l-------------------pikvicellgvdeaargafgrw-sseilvm
+cpxe_strgo v-------------------psmvicrllgvpyadheffqda-skrlvq-
+cpxh_strgr v-------------------psmvicallgvpyadhaffeer-sqrllr-
+cp55_fusox v-------------------psyiiytllgvpfndleyltqq-nairtng
+cpxf_strgo l-------------------pslviclllgvpyedhaffqer-srvllt-
+fas1_rhofa v-------------------sllvlcellgvpyadrdelrdr-tarlld-
+bioi_bacsu l-------------------asfvianiigvpeedreqlkew-aasliqt
+y08q_myctu l-------------------psmvvahylgvpeedwtqfdgw-tqaivaa
+cpxg_strsq v-------------------pslviaellgvpppdrehfqhd-tlrwgg-
+cpxq_sacer l-------------------pvtivaellglppmdheqfgdw-sgalvdi
+cpxk_sacer l-------------------pitviselmgvedsrrddfrsw-tnvlvd-
+cpxm_bacsu l-------------------pviiiaemlgapiedrhlikty-sdvlvag
+1phd       f-------------------pirifmllaglpeediphlkyl-tdqmtrp
+2hpdA      ldtiglcgfnyrfnsfyrdqphpfitsmvraldeamnklqranpdd----
+
+1cpt       e---aa-----rrfhe----tiatfydyfngftvdrrs--cpkddvmsll
+1oxa       -dpera-----eqrgq----aarevvnfildlverrrt--epgddllsal
+cpxe_strgo -s-tda-----qsalt----arndlagyldglitqfqt--epgaglvgal
+cpxh_strgr -g-pga-----ddvnr----ardeleeylgalidrkra--epgdglldel
+cp55_fusox --ssta-----reasa----anqelldylailveqrlv--epkddiiskl
+cpxf_strgo -lrstp-----eevra----aqdelleylarlartkre--rpddaiisrl
+fas1_rhofa -lsasa-----eqrav----aqredrrymatlvtraqe--qpgddllgil
+bioi_bacsu idftrsr----kalte-gnimavqamayfkeliqkrkr--hpqqdmisml
+y08q_myctu n---avdgatt-gald----avgsmmayftglierrrt--epaddaishl
+cpxg_strsq -fgrst-----eevte----afvslggqlqrlvrlkrt--epgddllsgl
+cpxq_sacer qmddptdpalaeriad----vlnpltaylkarcaerra--dpgddlisrl
+cpxk_sacer -g-sqp-----eaqaq----asvamveylteliakkrt--epgddlltal
+cpxm_bacsu ak-dssdkavadmvhnrrd-ghaflsdyfrdilskrra--epkedlmtml
+1phd       ---dgs-----mtfae----akealydylipiieqrrq--kpgtdaisiv
+2hpdA      --payd--enkrqfqe----dikvmndlvdkiiadrkasgeqsddllthm
+
+1cpt       anskl-d--gnyiddkyinayyvaiataghdttssssggaiiglsrnpeq
+1oxa       isvqd-dddgr-lsadeltsialvlllagfeasvsligigtylllthpdq
+cpxe_strgo vadql-an-g-eidreelistamllliaghettasmtslsvitlldhpeq
+cpxh_strgr ihrdh-pd-g-pvdreqlvafavilliaghettanmislgtftllshpeq
+cp55_fusox cteqv-kp-g-nidksdavqiaflllvagnatmvnmialgvatlaqhpdq
+cpxf_strgo var------g-elddtqiatmgrlllvaghettanmtalstlvllrnpdq
+fas1_rhofa ar-ki-g---dnlstdelisiislimlgghettasmiglsvlallhhpeq
+bioi_bacsu lkgre-kd---klteeeaastcillaiaghettvnlisnsvlcllqhpeq
+y08q_myctu vaagvgad-gdtagtlsilaftftmvtggndtvtgmlggsmpllhrrpdq
+cpxg_strsq iaa---dp---altdeelasiaflllvaghgttahqialgaflllehpdq
+cpxq_sacer vlaev-d--gralddeeaanfstalllaghitttvllgnivrtldehpah
+cpxk_sacer leave-d--gdrlsegeliamvflllvaghettvnligncvlsllgnpdq
+cpxm_bacsu lqaei-d--geylteeqligfcilllvagnetttnlianavryltedsvv
+1phd       angqv-n--grpitsdeakrmcglllvggldtvvnflsfsmeflakspeh
+2hpdA      lngkd-petgeplddeniryqiitfliaghettsgllsfalyflvknphv
+
+1cpt       l--alaks-----dpal----------iprlvdeavrwtapvk-sfmrta
+1oxa       l--alvra-----dpsa----------lpnaveeilryiappe-tttrfa
+cpxe_strgo y--aalra-----drsl----------vpgaveellrylaiadiaggrva
+cpxh_strgr l--aalra-----ggts----------tavvveellrflsiae-glqrla
+cp55_fusox l--aqlka-----npsl----------apqfveelcryhtasalaikrta
+cpxf_strgo l--arlra-----epal----------vkgaveellryltivhngvpria
+fas1_rhofa a--ammie-----dpnc----------vnsgieellrwlsvahsqpprma
+bioi_bacsu l--lklre-----npdl----------igtaveeclryesptqm-tarva
+y08q_myctu r--rllld-----dpeg----------ipdaveellrltspvq-glartt
+cpxg_strsq l--aalra-----dpal----------tesaveellrhlsvvhhgptraa
+cpxq_sacer w--daaae-----dpar----------ipaiveevlryrppfp-qmqrtt
+cpxk_sacer l--aalrn-----dpsl----------lpgaieetlryespvangtfrht
+cpxm_bacsu q--qqvrq-----ntdn----------vanvieetlryyspvq-aigrva
+1phd       r--qelie-----rper----------ipaaceellrrfslvad--gril
+2hpdA      lqkaaeeaarvlvdpvpsykqvkqlkyvgmvlnealrlwptap-afslya
+
+1cpt       ladtevrg-qnikrgdrimlsypsanrdeevfsn------pd--efdit-
+1oxa       aeeveigg-vaipqystvlvangaanrdpsqfpd------ph--rfdvt-
+cpxe_strgo tadieveg-hliragegvivvnsianrdgtvyed------pd--aldih-
+cpxh_strgr tedmevdg-atirkgegvvfstslinrdadvfpr------ae--tldwd-
+cp55_fusox kedvmigd-klvranegiiasnqsanrdeevfen------pd--efnmn-
+cpxf_strgo tedvligg-rtiaagegvlcmissanrdaevfpg------gd--dldva-
+fas1_rhofa vtevqiag-vtipagsfvipsllaanrdsnltdr------pd--dldit-
+bioi_bacsu sedidicg-vtirqgeqvylllgaanrdpsiftn------pd--vfdit-
+y08q_myctu trdvtigd-ttipagrrvlllygsanrderqyg-------pdaaeldvt-
+cpxg_strsq lqdadieg-tpvkagevvvvslgaanrdparfer------pd--avdvt-
+cpxq_sacer tkatevag-vpipadvmvntwvlsanrdsdahdd------pd--rfdpsa
+cpxk_sacer aeavrfgd-vvipegelvwvalgaanrdgerfed------pd--rfdit-
+cpxm_bacsu tedtelgg-vfikkgssviswiasanrdedkfck------pd--cfkid-
+1phd       tsdyefhg-vqlkkgdqillpqmlsglderenac------pm--hvdfs-
+2hpdA      kedtvlggeyplekgdelmvlipqlhrdktiwgddveefrpe--rfenp-
+
+1cpt       --r--fpnrhl--gfgwgahmclgqhlaklemkiffeellpklksvels-
+1oxa       --r--dtrghl--sfgqgihfcmgrplaklegevalralfgrfpalslg-
+cpxe_strgo --r--sarhhl--afgfgvhqclgqnlarlelevilnalmdrvptlrla-
+cpxh_strgr --r--parhhl--afgfgvhqclgqnlaraeldiamrtlferlpglrla-
+cp55_fusox --rkwppqdpl--gfgfgdhrciaehlakaelttvfstlyqkfpdlkva-
+cpxf_strgo --r--darrhv--afgfgvhqclgqplarvelqiaietllrrlpdlrla-
+fas1_rhofa --r--gvaghl--afghgvhfclghslarmtlrtavpavlrrfpdlals-
+bioi_bacsu --r--spnphl--sfghghhvclgsslarleaqiaintllqrmpslnla-
+y08q_myctu --r--cprnil--tfshgahhclgaaaarmqcrvaltellarcpdfeva-
+cpxg_strsq --r--edtghl--afghgmhqclgrqlarielrvaltallerfphlrla-
+cpxq_sacer qvr--paprts--sfghgvhfclaaplarlenrvaleeiiarfgrltvd-
+cpxk_sacer --r--ettghv--afghgihfcvgaalarleaqiavgrllerfpdlrma-
+cpxm_bacsu --r--psyphl--sfgfgihfclgaplarleanialssllsmsacieka-
+1phd       --r--qkvsht--tfghgshlclgqhlarreiivtlkewltripdfsia-
+2hpdA      --s--aipqhafkpfgngqracigqqfalheatlvlgmmlkhfdfedhtn
+
+1cpt       --gpp----rlva-tnfvggp--knvpirftka-----
+1oxa       --ida-ddvvwrr-slllrgi--dhlpvrldg------
+cpxe_strgo --vpv-eqlvlrp-gttiqgv--nelpv----------
+cpxh_strgr --vpa-heirhkp-gdtiqgl--ldlpv----------
+cp55_fusox --vpl-gkinytp-lnrdvgi--vdlpv----------
+cpxf_strgo --vph-eeipfrg-dmaiygv--hslpi----------
+fas1_rhofa ---ps-hdvrlrs-asivlgl--eelql----------
+bioi_bacsu --d---fewryrp-lfgfral--eelpvtfe-------
+y08q_myctu ----e-srivwsg-gsyvrrp--lsvpfrv--------
+cpxg_strsq --cpa-aeiplrh-dmqvyga--drlpv----------
+cpxq_sacer ----r-dderlrhfeqivlgt--rhlpv----------
+cpxk_sacer --asp-ddlrwrf-svlmrgl--eklpvr---------
+cpxm_bacsu --ahd-ekleaip-spfvfgv--krlpvri--------
+1phd       ---pg-aqiqh--ksgivsgv--qalplvwdpattkav
+2hpdA      yeldiketltlkp-egfvvkakskkiplgg--------
+
+
+

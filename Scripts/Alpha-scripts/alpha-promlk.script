@@ -1,0 +1,53 @@
+#!/bin/bash 
+source $HOME/.bioperf
+if [ -z $SIMDIR ]; then       
+echo $'\n'
+echo It appears that you have not installed sim-outorder executable. 
+echo Download and install the simplesim package "http://www.simplescalar.com/agreement.php3?simplesim-3v0d.tgz"
+echo sim-outorder is part of this package
+echo Set the environment variable SIMDIR to the directory containing sim-outorder
+echo $'\n'
+exit
+fi
+if [ -e $SIMDIR/sim-outorder ] 
+then  echo ""
+else
+echo $'\n'  
+echo There is no file named sim-outorder in $SIMDIR
+echo Please check for sim-outorder again in $SIMDIR
+echo $'\n'
+exit
+fi
+cd $BIOPERF/Binaries/Alpha-Binaries/Phylip
+file=$BIOPERF/Binaries/Alpha-Binaries/Phylip/infile
+if [ -r $file ]
+then 
+echo Deleting previous infile in the Binary directory
+rm $file
+ln -s $BIOPERF/Inputs/Phylip/promlk/class-C/eukaryo.dna $BIOPERF/Binaries/Alpha-Binaries/Phylip/infile
+else 
+ln -s $BIOPERF/Inputs/Phylip/promlk/class-C/eukaryo.dna $BIOPERF/Binaries/Alpha-Binaries/Phylip/infile
+fi
+
+file2=$BIOPERF/Binaries/Alpha-Binaries/Phylip/outfile
+file3=$BIOPERF/Binaries/Alpha-Binaries/Phylip/outtree
+
+if [ -r $file2 ] 
+then 
+rm $file2
+fi
+
+if [ -r $file3 ]
+then 
+rm $file3
+fi
+./promlk 
+mv $file2  $BIOPERF/Outputs/Phylip/promlk-outfile
+mv $file3  $BIOPERF/Outputs/Phylip/promlk-outtree
+echo The output has been stored as promlk-outfile and promlk-outtree in $BIOPERF/Outputs/Phylip
+#Notes:
+#1.Please make sure to delete outfile and outtree before repeating the program. Otherwise,the program will not run again successfully.
+#2.Please check ./phylip-3.6/exe/infile.dnapenny to assure it to point to the correct path of infile.dnapenny.
+# IMPORTANT: after each run, one should remove the result files "outfile" and "outtree". Otherwise,
+# the  program will not be able to correctly run next time.
+

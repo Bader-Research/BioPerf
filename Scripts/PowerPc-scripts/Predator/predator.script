@@ -1,0 +1,9 @@
+#!/bin/bash 
+source $HOME/.bioperf 
+cd $BIOPERF/Binaries/PowerPc-Binaries/Predator
+./predator $BIOPERF/Inputs/Predator/class-A/Q89F91 -u -h -a -f$BIOPERF/Outputs/Predator/classA-predator
+echo The output has been stored as classA-predator in /Outputs/Predator
+./predator $BIOPERF/Inputs/Predator/class-B/eukaryota_100.seq -u -h -a -f$BIOPERF/Outputs/Predator/classB-predator
+echo The output has been stored as classB-predator in /Outputs/Predator
+./predator $BIOPERF/Inputs/Predator/class-C/largeinput -u -h -a -f$BIOPERF/Outputs/Predator/classC-predator
+echo The output has been stored as classC-predator in /Outputs/Predator
