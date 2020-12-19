@@ -65,8 +65,7 @@ The BioPerf suite (available from [**www.bioperf.org**](http://www.bioperf.org/)
 *   **PHYLIP** (dnapenny, promlk)
 *   **TCOFFEE** (tcoffee)
 
-## **BioPerf Input Datasets  
-**
+## **BioPerf Input Datasets**
 
 <table border="1" <caption="">
 
@@ -304,7 +303,7 @@ The installation directory of BioPerf contain the following directories:
 
 *   <big><tt>Binaries</tt></big> : Directory containing pre-compiled x86, PowerPC and Alpha binaries, these binaries are contained in separate sub-directories, Alpha-binaries, x86-binaries (Linux) and PowerPC-binaries (Mac OS). x86 and the PowerPC binaries are included for all the executables, while Alpha binaries are not fully included for all the codes. The subdirectories for each of the platform further have directories for each of the packages.  
 
-*   <big><tt>Inputs</tt></big> : Directory containing all the inputs for each of the executables. There are sub-directories for each of the packages, the inputs for each executable are further categorized into class-A, class-B and class-C based on the sizes of the inputs. Some of the input directories have only one class of input, in which case there are no further subdirectories. The larger databases Swissprot (71MB), NR (1.46 GB) and Pfam (633 MB) are not included in the Inputs directory and have to be separately downloaded. Incase an attempt is made to run a script for a executable which uses any of these databases, the scripts will look for the databases on the host machine in a directory represented by the environment variable <big><tt>$DATABASES</tt></big>. The databases can be downloaded from this website; if the databases are not found, the script will fail. If the databases are downloaded, then the user needs to set an environment variable <big><tt>$DATABASES</tt></big> to the directory where these databases have been downloaded. The run script will then be able to run.  
+*   <big><tt>Inputs</tt></big> : Directory containing all the inputs for each of the executables. There are sub-directories for each of the packages, the inputs for each executable are further categorized into class-A, class-B and class-C based on the sizes of the inputs. Some of the input directories have only one class of input, in which case there are no further subdirectories. This directory is large and available via a separate [Dropbox download](https://www.dropbox.com/s/mhfh1f9h75eeuiv/BioPerf-Inputs.tar.gz?dl=0). In case an attempt is made to run a script for a executable which uses any of these databases, the scripts will look for the databases on the host machine in a directory represented by the environment variable <big><tt>$DATABASES</tt></big>. The databases can be downloaded from this website; if the databases are not found, the script will fail. If the databases are downloaded, then the user needs to set an environment variable <big><tt>$DATABASES</tt></big> to the directory where these databases have been downloaded. The run script will then be able to run.  
 
 *   <big><tt>Outputs</tt></big> : All the scripts in BioPerf are set up to store their output in this directory. The Outputs directory itself has sub-directories by the name of each of the packages.  
 
